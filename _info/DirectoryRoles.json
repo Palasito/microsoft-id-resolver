@@ -1,0 +1,667 @@
+[
+  {
+    "id": "62e90394-69f5-4237-9190-012177145e10",
+    "displayName": "Global Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "10dae51f-b6af-4016-8d66-8c2a99b929b3",
+    "displayName": "Guest User",
+    "source": "Graph"
+  },
+  {
+    "id": "2af84b1e-32c8-42b7-82bc-daa82404023b",
+    "displayName": "Restricted Guest User",
+    "source": "Graph"
+  },
+  {
+    "id": "95e79109-95c0-4d8e-aee3-d01accf2d47b",
+    "displayName": "Guest Inviter",
+    "source": "Graph"
+  },
+  {
+    "id": "fe930be7-5e62-47db-91af-98c3a49a38b1",
+    "displayName": "User Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "729827e3-9c14-49f7-bb1b-9608f156bbb8",
+    "displayName": "Helpdesk Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "f023fd81-a637-4b56-95fd-791ac0226033",
+    "displayName": "Service Support Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "b0f54661-2d74-4c50-afa3-1ec803f12efe",
+    "displayName": "Billing Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "a0b1b346-4d3e-4e8b-98f8-753987be4970",
+    "displayName": "User",
+    "source": "Graph"
+  },
+  {
+    "id": "4ba39ca4-527c-499a-b93d-d9b492c50246",
+    "displayName": "Partner Tier1 Support",
+    "source": "Graph"
+  },
+  {
+    "id": "e00e864a-17c5-4a4b-9c06-f5b95a8d5bd8",
+    "displayName": "Partner Tier2 Support",
+    "source": "Graph"
+  },
+  {
+    "id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b",
+    "displayName": "Directory Readers",
+    "source": "Graph"
+  },
+  {
+    "id": "9360feb5-f418-4baa-8175-e2a00bac4301",
+    "displayName": "Directory Writers",
+    "source": "Graph"
+  },
+  {
+    "id": "29232cdf-9323-42fd-ade2-1d097af3e4de",
+    "displayName": "Exchange Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "f28a1f50-f6e7-4571-818b-6a12f2af6b6c",
+    "displayName": "SharePoint Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "75941009-915a-4869-abe7-691bff18279e",
+    "displayName": "Skype for Business Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "d405c6df-0af8-4e3b-95e4-4d06e542189e",
+    "displayName": "Device Users",
+    "source": "Graph"
+  },
+  {
+    "id": "9f06204d-73c1-4d4c-880a-6edb90606fd8",
+    "displayName": "Azure AD Joined Device Local Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "9c094953-4995-41c8-84c8-3ebb9b32c93f",
+    "displayName": "Device Join",
+    "source": "Graph"
+  },
+  {
+    "id": "c34f683f-4d5a-4403-affd-6615e00e3a7f",
+    "displayName": "Workplace Device Join",
+    "source": "Graph"
+  },
+  {
+    "id": "17315797-102d-40b4-93e0-432062caca18",
+    "displayName": "Compliance Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "d29b2b05-8046-44ba-8758-1e26182fcf32",
+    "displayName": "Directory Synchronization Accounts",
+    "source": "Graph"
+  },
+  {
+    "id": "2b499bcd-da44-4968-8aec-78e1674fa64d",
+    "displayName": "Device Managers",
+    "source": "Graph"
+  },
+  {
+    "id": "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3",
+    "displayName": "Application Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "cf1c38e5-3621-4004-a7cb-879624dced7c",
+    "displayName": "Application Developer",
+    "source": "Graph"
+  },
+  {
+    "id": "5d6b6bb7-de71-4623-b4af-96380a352509",
+    "displayName": "Security Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "194ae4cb-b126-40b2-bd5b-6091b380977d",
+    "displayName": "Security Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e8611ab8-c189-46e8-94e1-60213ab1f814",
+    "displayName": "Privileged Role Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "3a2c62db-5318-420d-8d74-23affee5d9d5",
+    "displayName": "Intune Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "158c047a-c907-4556-b7ef-446551a6b5f7",
+    "displayName": "Cloud Application Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "5c4f9dcd-47dc-4cf7-8c9a-9e4207cbfc91",
+    "displayName": "Customer LockBox Access Approver",
+    "source": "Graph"
+  },
+  {
+    "id": "44367163-eba1-44c3-98af-f5787879f96a",
+    "displayName": "Dynamics 365 Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "a9ea8996-122f-4c74-9520-8edcd192826c",
+    "displayName": "Fabric Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "b1be1c3e-b65d-4f19-8427-f6fa0d97feb9",
+    "displayName": "Conditional Access Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "4a5d8f65-41da-4de4-8968-e035b65339cf",
+    "displayName": "Reports Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "790c1fb9-7f7d-4f88-86a1-ef1f95c05c1b",
+    "displayName": "Message Center Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "7495fdc4-34c4-4d15-a289-98788ce399fd",
+    "displayName": "Azure Information Protection Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "38a96431-2bdf-4b4c-8b6e-5d3d8abac1a4",
+    "displayName": "Desktop Analytics Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "4d6ac14f-3453-41d0-bef9-a3e0c569773a",
+    "displayName": "License Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "7698a772-787b-4ac8-901f-60d6b08affd2",
+    "displayName": "Cloud Device Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "c4e39bd9-1100-46d3-8c65-fb160da0071f",
+    "displayName": "Authentication Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "7be44c8a-adaf-4e2a-84d6-ab2649e08a13",
+    "displayName": "Privileged Authentication Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "baf37b3a-610e-45da-9e62-d9d1e5e8914b",
+    "displayName": "Teams Communications Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "f70938a0-fc10-4177-9e90-2178f8765737",
+    "displayName": "Teams Communications Support Engineer",
+    "source": "Graph"
+  },
+  {
+    "id": "fcf91098-03e3-41a9-b5ba-6f0ec8188a12",
+    "displayName": "Teams Communications Support Specialist",
+    "source": "Graph"
+  },
+  {
+    "id": "69091246-20e8-4a56-aa4d-066075b2a7a8",
+    "displayName": "Teams Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "eb1f4a8d-243a-41f0-9fbd-c7cdf6c5ef7c",
+    "displayName": "Insights Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "ac16e43d-7b2d-40e0-ac05-243ff356ab5b",
+    "displayName": "Message Center Privacy Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "6e591065-9bad-43ed-90f3-e9424366d2f0",
+    "displayName": "External ID User Flow Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "0f971eea-41eb-4569-a71e-57bb8a3eff1e",
+    "displayName": "External ID User Flow Attribute Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "aaf43236-0c0d-4d5f-883a-6955382ac081",
+    "displayName": "B2C IEF Keyset Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "3edaf663-341e-4475-9f94-5c398ef6c070",
+    "displayName": "B2C IEF Policy Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "be2f45a1-457d-42af-a067-6ec1fa63bc45",
+    "displayName": "External Identity Provider Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e6d1a23a-da11-4be4-9570-befc86d067a7",
+    "displayName": "Compliance Data Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "5f2222b1-57c3-48ba-8ad5-d4759f1fde6f",
+    "displayName": "Security Operator",
+    "source": "Graph"
+  },
+  {
+    "id": "74ef975b-6605-40af-a5d2-b9539d836353",
+    "displayName": "Kaizala Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "f2ef992c-3afb-46b9-b7cf-a126ee74c451",
+    "displayName": "Global Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "0964bb5e-9bdb-4d7b-ac29-58e794862a40",
+    "displayName": "Search Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "8835291a-918c-4fd7-a9ce-faa49f0cf7d9",
+    "displayName": "Search Editor",
+    "source": "Graph"
+  },
+  {
+    "id": "966707d0-3269-4727-9be2-8c3a10f19b9d",
+    "displayName": "Password Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "644ef478-e28f-4e28-b9dc-3fdde9aa0b1f",
+    "displayName": "Printer Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e8cef6f1-e4bd-4ea8-bc07-4b8d950f4477",
+    "displayName": "Printer Technician",
+    "source": "Graph"
+  },
+  {
+    "id": "0526716b-113d-4c15-b2c8-68e3c22b9f80",
+    "displayName": "Authentication Policy Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "fdd7a751-b60b-444a-984c-02652fe8fa1c",
+    "displayName": "Groups Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "11648597-926c-4cf3-9c36-bcebb0ba8dcc",
+    "displayName": "Power Platform Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e3973bdf-4987-49ae-837a-ba8e231c7286",
+    "displayName": "Azure DevOps Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "8ac3fc64-6eca-42ea-9e69-59f4c7b60eb2",
+    "displayName": "Hybrid Identity Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "2b745bdf-0803-4d80-aa65-822c4493daac",
+    "displayName": "Office Apps Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "d37c8bed-0711-4417-ba38-b4abe66ce4c2",
+    "displayName": "Network Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "31e939ad-9672-4796-9c2e-873181342d2d",
+    "displayName": "Insights Business Leader",
+    "source": "Graph"
+  },
+  {
+    "id": "3d762c5a-1b6c-493f-843e-55a3b42923d4",
+    "displayName": "Teams Devices Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "c430b396-e693-46cc-96f3-db01bf8bb62a",
+    "displayName": "Attack Simulation Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "9c6df0f2-1e7c-4dc3-b195-66dfbd24aa8f",
+    "displayName": "Attack Payload Author",
+    "source": "Graph"
+  },
+  {
+    "id": "75934031-6c7e-415a-99d7-48dbd49e875e",
+    "displayName": "Usage Summary Reports Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "b5a8dcf3-09d5-43a9-a639-8e29ef291470",
+    "displayName": "Knowledge Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "744ec460-397e-42ad-a462-8b3f9747a02c",
+    "displayName": "Knowledge Manager",
+    "source": "Graph"
+  },
+  {
+    "id": "8329153b-31d0-4727-b945-745eb3bc5f31",
+    "displayName": "Domain Name Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "d2562ede-74db-457e-a7b6-544e236ebb61",
+    "displayName": "AI Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "8424c6f0-a189-499e-bbd0-26c1753c96d4",
+    "displayName": "Attribute Definition Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "58a13ea3-c632-46ae-9ee0-9c0d43cd7f3d",
+    "displayName": "Attribute Assignment Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "1d336d2c-4ae8-42ef-9711-b3604ce3fc2c",
+    "displayName": "Attribute Definition Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "ffd52fa5-98dc-465c-991d-fc073eb59f8f",
+    "displayName": "Attribute Assignment Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "31392ffb-586c-42d1-9346-e59415a2cc4e",
+    "displayName": "Exchange Recipient Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "45d8d3c5-c802-45c6-b32a-1d70b5e1e86e",
+    "displayName": "Identity Governance Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "892c5842-a9a6-463a-8041-72aa08ca3cf6",
+    "displayName": "Cloud App Security Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "32696413-001a-46ae-978c-ce0f6b3620d2",
+    "displayName": "Windows Update Deployment Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "11451d60-acb2-45eb-a7d6-43d0f0125c13",
+    "displayName": "Windows 365 Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "3f1acade-1e04-4fbc-9b69-f0302cd84aef",
+    "displayName": "Edge Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "810a2642-a034-447f-a5e8-41beaa378541",
+    "displayName": "Yammer Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "25a516ed-2fa0-40ea-a2d0-12923a21473a",
+    "displayName": "Authentication Extensibility Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e300d9e7-4a2b-4295-9eff-f1c78b36cc98",
+    "displayName": "Virtual Visits Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "25df335f-86eb-4119-b717-0ff02de207e9",
+    "displayName": "Insights Analyst",
+    "source": "Graph"
+  },
+  {
+    "id": "1501b917-7653-4ff9-a4b5-203eaf33784f",
+    "displayName": "Microsoft Hardware Warranty Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "281fe777-fb20-4fbb-b7a3-ccebce5b0d96",
+    "displayName": "Microsoft Hardware Warranty Specialist",
+    "source": "Graph"
+  },
+  {
+    "id": "112ca1a2-15ad-4102-995e-45b0bc479a6a",
+    "displayName": "Tenant Creator",
+    "source": "Graph"
+  },
+  {
+    "id": "59d46f88-662b-457b-bceb-5c3809e5908f",
+    "displayName": "Lifecycle Workflows Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "92b086b3-e367-4ef2-b869-1de128fb986e",
+    "displayName": "Viva Goals Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "27460883-1df1-4691-b032-3b79643e5e63",
+    "displayName": "User Experience Success Manager",
+    "source": "Graph"
+  },
+  {
+    "id": "af78dc32-cf4d-46f9-ba4e-4428526346b5",
+    "displayName": "Permissions Management Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "507f53e4-4e52-4077-abd3-d2e1558b6ea2",
+    "displayName": "Organizational Messages Writer",
+    "source": "Graph"
+  },
+  {
+    "id": "ac434307-12b9-4fa1-a708-88bf58caabc1",
+    "displayName": "Global Secure Access Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "87761b17-1ed2-4af3-9acd-92a150038160",
+    "displayName": "Viva Pulse Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "dd13091a-6207-4fc0-82ba-3641e056ab95",
+    "displayName": "Extended Directory User Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "5b784334-f94b-471a-a387-e7219fc49ca2",
+    "displayName": "Attribute Log Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "9c99539d-8186-4804-835f-fd51ef9e2dcd",
+    "displayName": "Attribute Log Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "1076ac91-f3d9-41a7-a339-dcdf5f480acc",
+    "displayName": "Teams Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "aa38014f-0993-46e9-9b45-30501a20909d",
+    "displayName": "Teams Telephony Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "963797fb-eb3b-4cde-8ce3-5878b3f32a3f",
+    "displayName": "Dynamics 365 Business Central Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "8c8b803f-96e1-4129-9349-20738d9f9652",
+    "displayName": "Microsoft 365 Migration Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "1a7d78b6-429f-476b-b8eb-35fb715fffd4",
+    "displayName": "SharePoint Embedded Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "92ed04bf-c94a-4b82-9729-b799a7a4c178",
+    "displayName": "Organizational Branding Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e48398e2-f4bb-4074-8f31-4586725e205b",
+    "displayName": "Organizational Messages Approver",
+    "source": "Graph"
+  },
+  {
+    "id": "ee67aa9c-e510-4759-b906-227085a7fd4d",
+    "displayName": "Microsoft Graph Data Connect Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "1707125e-0aa2-4d4d-8655-a7c786c76a25",
+    "displayName": "Microsoft 365 Backup Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "a92aed5d-d78a-4d16-b381-09adb37eb3b0",
+    "displayName": "On Premises Directory Sync Account",
+    "source": "Graph"
+  },
+  {
+    "id": "422218e4-db15-4ef9-bbe0-8afb41546d79",
+    "displayName": "Attribute Provisioning Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "ecb2c6bf-0ab6-418e-bd87-7986f8d63bbe",
+    "displayName": "Attribute Provisioning Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "843318fb-79a6-4168-9e6f-aa9a07481cc4",
+    "displayName": "Global Secure Access Log Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "9d70768a-0cbc-4b4c-aea3-2e124b2477f4",
+    "displayName": "Organizational Data Source Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "024906de-61e5-49c8-8572-40335f1e0e10",
+    "displayName": "People Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "2ea5ce4c-b2d8-4668-bd81-3680bd2d227a",
+    "displayName": "IoT Device Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "0ec3f692-38d6-4d14-9e69-0377ca7797ad",
+    "displayName": "Viva Glint Tenant Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "78b0ccd1-afc2-4f92-9116-b41aedd09592",
+    "displayName": "Places Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "9d3e04ba-3ee4-4d1b-a3a7-9aef423a09be",
+    "displayName": "SharePoint Backup Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "49eb8f75-97e9-4e37-9b2b-6c3ebfcffa31",
+    "displayName": "Exchange Backup Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e93e3737-fa85-474a-aee4-7d3fb86510f3",
+    "displayName": "Dragon Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "99009c4a-3b3f-4957-82a9-9d35e12db77e",
+    "displayName": "SharePoint Advanced Management Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "adb2368d-a9be-41b5-8667-d96778e081b0",
+    "displayName": "Agent ID Developer",
+    "source": "Graph"
+  },
+  {
+    "id": "6b942400-691f-4bf0-9d12-d8a254a2baf5",
+    "displayName": "Agent Registry Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "db506228-d27e-4b7d-95e5-295956d6615f",
+    "displayName": "Agent ID Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e07494ad-1654-4dd2-922e-6f81a71bf00f",
+    "displayName": "Purview Workload Content Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "02d5655b-c1cf-4e5f-98da-5fb919085bf6",
+    "displayName": "Purview Workload Content Writer",
+    "source": "Graph"
+  },
+  {
+    "id": "3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a",
+    "displayName": "Purview Workload Content Administrator",
+    "source": "Graph"
+  }
+]

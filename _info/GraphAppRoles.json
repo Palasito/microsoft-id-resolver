@@ -11774,72 +11774,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Send SCEP challenges to Intune for certificate request validation. ",
-    "DisplayName": "SCEP challenge validation",
-    "Id": "39d724e8-6a34-4930-9a36-364082c35716",
+    "Description": "Allows the app to send partner compliance policies and its Azure AD Group assignment to Microsoft Intune without a signed-in user.",
+    "DisplayName": "Manage partner compliance policies with Microsoft Intune.",
+    "Id": "3857e233-c379-404e-85e9-bdbf3a62b28f",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "scep_challenge_provider",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read PFX certificate requests and send certificates to Microsoft Intune.",
-    "DisplayName": "PFX certificate management",
-    "Id": "907d16c7-7591-49a4-b523-6fd42e5f2c7e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "pfx_cert_provider",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow the telecom expense management app to send and receive device telecom and Wi-Fi data usage information, including phone number, with Intune to help analyze and manage data usage costs of corporate-owned devices.",
-    "DisplayName": "Send and receive device telecom and Wi-Fi data usage information with Microsoft Intune",
-    "Id": "7828b294-fdcc-4ed6-a45a-854364afb21d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "send_data_usage",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow this app to send device risk and threat information to Intune to help determine device compliance with corporate security policy.",
-    "DisplayName": "Send device threat information to Microsoft Intune",
-    "Id": "a5438881-186a-48f0-bc41-a93ae8a195fe",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "update_device_health",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow this app to receive information about devices (such as compliance and enrollment state) that are managed by Intune.",
-    "DisplayName": "Get device state and compliance information from Microsoft Intune",
-    "Id": "7ec88bad-30c7-4928-a005-4455362cfd98",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "get_device_compliance",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Send device attributes to Microsoft Intune.  \r\n",
-    "DisplayName": "Send device attributes to Microsoft Intune",
-    "Id": "7b3c62c0-bbe4-4ceb-971b-ecc50a191b3e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "update_device_attributes",
+    "Value": "manage_partner_compliance_policy",
     "AdditionalProperties": {}
   },
   {
@@ -11858,12 +11798,72 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to send partner compliance policies and its Azure AD Group assignment to Microsoft Intune without a signed-in user.",
-    "DisplayName": "Manage partner compliance policies with Microsoft Intune.",
-    "Id": "3857e233-c379-404e-85e9-bdbf3a62b28f",
+    "Description": "Send device attributes to Microsoft Intune.  \r\n",
+    "DisplayName": "Send device attributes to Microsoft Intune",
+    "Id": "7b3c62c0-bbe4-4ceb-971b-ecc50a191b3e",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "manage_partner_compliance_policy",
+    "Value": "update_device_attributes",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow this app to receive information about devices (such as compliance and enrollment state) that are managed by Intune.",
+    "DisplayName": "Get device state and compliance information from Microsoft Intune",
+    "Id": "7ec88bad-30c7-4928-a005-4455362cfd98",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "get_device_compliance",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow this app to send device risk and threat information to Intune to help determine device compliance with corporate security policy.",
+    "DisplayName": "Send device threat information to Microsoft Intune",
+    "Id": "a5438881-186a-48f0-bc41-a93ae8a195fe",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "update_device_health",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the telecom expense management app to send and receive device telecom and Wi-Fi data usage information, including phone number, with Intune to help analyze and manage data usage costs of corporate-owned devices.",
+    "DisplayName": "Send and receive device telecom and Wi-Fi data usage information with Microsoft Intune",
+    "Id": "7828b294-fdcc-4ed6-a45a-854364afb21d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "send_data_usage",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read PFX certificate requests and send certificates to Microsoft Intune.",
+    "DisplayName": "PFX certificate management",
+    "Id": "907d16c7-7591-49a4-b523-6fd42e5f2c7e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "pfx_cert_provider",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Send SCEP challenges to Intune for certificate request validation. ",
+    "DisplayName": "SCEP challenge validation",
+    "Id": "39d724e8-6a34-4930-9a36-364082c35716",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "scep_challenge_provider",
     "AdditionalProperties": {}
   },
   {

@@ -11208,6 +11208,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app read and write access to connected services for the user",
+    "AdminConsentDisplayName": "Read and write access to connected services for the user",
+    "Id": "f6ce1383-15a3-4547-a2cd-0b6fa8804df8",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app read and write access to connected services for the user",
+    "UserConsentDisplayName": "Read and write access to connected services for the user",
+    "Value": "DiscoveryConnectedServices.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app read and write access to a list of user’s most recently used documents and locations",
+    "AdminConsentDisplayName": "Read and write access to a list of most recently used documents and locations for the user",
+    "Id": "b7d2228a-50ac-4639-bc0d-6c91c3e5bac5",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app read and write access to a list of user’s most recently used documents and locations",
+    "UserConsentDisplayName": "Read and write access to a list of most recently used documents and locations for the user",
+    "Value": "MRU.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow app to submit jobs to eDiscovery.",
     "AdminConsentDisplayName": "eDiscovery.Jobs.Write",
     "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",

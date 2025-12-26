@@ -933,6 +933,8 @@
 "a0f3e90e-0c99-4c7d-bfaf-69531a09579c","deploymenttask.read","DeploymentTask.Read","allows access to read DeploymentTask and UpdatePolicy"
 "6b0a3177-0946-453c-95bf-1d7b1886f0e4","User.Read","Read user profiles","Allows the app to read a set of the current user’s profile properties in your company or school. Includes display name, photo, and email address."
 "c39ef2d1-04ce-46dc-8b5f-e9a5c60f0fc9","user_impersonation","Access Azure SQL DB and Data Warehouse","Access Azure SQL DB and Data Warehouse"
+"f6ce1383-15a3-4547-a2cd-0b6fa8804df8","DiscoveryConnectedServices.ReadWrite","Read and write access to connected services for the user","Allows the app read and write access to connected services for the user"
+"b7d2228a-50ac-4639-bc0d-6c91c3e5bac5","MRU.ReadWrite","Read and write access to a list of most recently used documents and locations for the user","Allows the app read and write access to a list of user’s most recently used documents and locations"
 "5faac7a2-ab08-4049-aece-ab2b4de5f59e","eDiscovery.Jobs.Write","eDiscovery.Jobs.Write","Allow app to submit jobs to eDiscovery."
 "0f062bc7-6f95-469a-810f-d846e6cbba44","eDiscovery.Jobs.Read","eDiscovery.Jobs.Read","Allow app to read properties of jobs submitted to eDiscovery."
 "3105f1e2-2f5e-4dbc-b276-a29474e18597","Connector.Read","Connector.Read","This allows user to access compliance connector APIs"

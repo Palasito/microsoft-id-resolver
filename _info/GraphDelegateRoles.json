@@ -18072,6 +18072,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app access to Microsoft 365 Modern Support Connector as signed in user",
+    "AdminConsentDisplayName": "M365Connector.Access_As_User",
+    "Id": "d51d8889-53eb-4fc7-950f-aae89cd9e5fe",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app access to Microsoft 365 Modern Support Connector as signed in user",
+    "UserConsentDisplayName": "Microsoft 365 Modern Support Connector",
+    "Value": "M365Connector.Access_As_User",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Microsoft Stream is a fully managed SaaS service for enterprise customers in which users can upload, share and view videos.",
     "AdminConsentDisplayName": "Access Microsoft Stream as a signed-in user",
     "Id": "2185b81d-ed0a-4219-9b20-d8fa6bd53097",

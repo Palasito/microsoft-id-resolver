@@ -1510,6 +1510,7 @@
 "697b92ae-2cd0-4ace-8537-b65431001e9c","shellinfo.read","ShellInfo.Read","Allows the caller to query for information to render the Office365 navbar"
 "5184a2ce-115e-4318-9526-df3e39c2e839","EndUser.Access","EndUser.Access","For IW service test"
 "42ac4dc0-0862-4f71-89ed-85c8dca034a4","user.read","user.read","Allows reading basic user details"
+"d51d8889-53eb-4fc7-950f-aae89cd9e5fe","M365Connector.Access_As_User","M365Connector.Access_As_User","Allows the app access to Microsoft 365 Modern Support Connector as signed in user"
 "2185b81d-ed0a-4219-9b20-d8fa6bd53097","access_microsoftstream_service","Access Microsoft Stream as a signed-in user","Microsoft Stream is a fully managed SaaS service for enterprise customers in which users can upload, share and view videos."
 "9ed60762-c537-4e50-8984-4b1db3d922ce","TeamsExtension.ManageCalls","Manage calls in Teams Phone Extensibility","Start, join, forward, transfer, or leave Teams Phone Extensibility calls."
 "de8ec1df-066a-4817-bc5d-9a985b986262","Teams.ManageCalls","Manage calls in Teams","Start, join, forward, transfer, or leave Teams calls and update call properties."

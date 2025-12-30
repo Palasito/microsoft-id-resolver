@@ -13599,6 +13599,18 @@
     "AllowedMemberTypes": [
       "User"
     ],
+    "Description": "Role to access EDU Copilot Add On",
+    "DisplayName": "EDUcopilotAddon",
+    "Id": "81a179ff-cbe9-48ea-a228-4bcdfaa47e21",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EDUcopilotAddon",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
     "Description": "Role to access ABS Golden Tenant",
     "DisplayName": "ABS Golden Tenant",
     "Id": "9ebca522-71de-407e-8f7c-320eb0380e52",

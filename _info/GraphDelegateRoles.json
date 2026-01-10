@@ -19164,6 +19164,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to access Azure Growth Signup APIs acting as signed-in users",
+    "AdminConsentDisplayName": "Azure Growth Signup",
+    "Id": "df5e5f31-cc73-4a31-9291-89348976337e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to access Signup APIs acting as signed-in users",
+    "UserConsentDisplayName": "Azure Growth Signup",
+    "Value": "azuregrowth.api.signup",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow the application to access Windows Defender ATP for Flow on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Access Windows Defender ATP for Flow",
     "Id": "9e2855ff-4070-4100-8757-d80fe756217e",

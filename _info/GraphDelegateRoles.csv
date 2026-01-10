@@ -1601,5 +1601,6 @@
 "5779d743-8ea2-49be-9c85-251b6d7549b9","Transactions.Read","Transactions.Read","This allows users read only access to transactions."
 "71d14425-03c0-45db-8541-f3fe1f6bdc36","Read","Read","This allows read only access to all migration items."
 "1a7925b5-f871-417a-9b8b-303f9f29fa10","user_impersonation","user_impersonation","Consent for Azure Machine Learning Service"
+"df5e5f31-cc73-4a31-9291-89348976337e","azuregrowth.api.signup","Azure Growth Signup","Allows the application to access Azure Growth Signup APIs acting as signed-in users"
 "9e2855ff-4070-4100-8757-d80fe756217e","user_impersonation","Access Windows Defender ATP for Flow","Allow the application to access Windows Defender ATP for Flow on behalf of the signed-in user."
 "d2967e2a-6f0e-4f3b-874f-793beaa9b6e3","user_impersonation","Access Modern Workplace Tools","Allow the application to access Modern Workplace Tools on behalf of the signed-in user."

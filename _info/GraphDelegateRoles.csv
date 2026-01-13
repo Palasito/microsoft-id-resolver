@@ -1332,15 +1332,15 @@
 "9af00aa9-a362-40d2-bb42-7ef349af67d4","organizationsettings.readwrite","OrganizationSettings.ReadWrite","This allows access to read and write Organization Settings."
 "67a10836-5c70-4e46-87b1-15b75194beed","OrganizationSettings.ReadWrite","OrganizationSettings.ReadWrite","This allows access to read and write Organization Settings."
 "dba71b3d-90a6-4853-be6c-cee31058795a","PraiseEligibility.Read","PraiseEligibility.Read","permission to read for praise elegibility"
-"5bdeff8b-73d9-4b8a-9e9b-d44c6105f9b4","Contacts.ReadWrite","Read/write Skype user contacts and groups","Allows the app to read and write Skype user contacts and groups
-"
-"4d48dea7-b534-4bca-9d76-5f8a7a8edae8","Conversations.Receive","Receive conversation invites (preview)","Allows the app to receive instant messages, audio, video, and desktop sharing invitations on-behalf of the signed-in user
-"
-"208afe8f-9dfa-4f72-a755-6b810d61f42f","User.ReadWrite","Read/write Skype user information (preview)","Allows the app to read and update presence, photo, location, note, call forwarding settings of the signed-in user
+"44e84b5a-52a3-4b41-975c-6c960414004a","Conversations.Initiate","Initiate conversations and join meetings","Allows the app to initiate instant messages, audio, video, and desktop sharing conversations; and join meetings on-behalf of the signed-in user
 "
 "d0c8f2ea-8f80-4289-8e78-4bc821cde1bc","Meetings.ReadWrite","Create Skype Meetings","Allows the app to create Skype meetings on-behalf of the signed-in user
 "
-"44e84b5a-52a3-4b41-975c-6c960414004a","Conversations.Initiate","Initiate conversations and join meetings","Allows the app to initiate instant messages, audio, video, and desktop sharing conversations; and join meetings on-behalf of the signed-in user
+"208afe8f-9dfa-4f72-a755-6b810d61f42f","User.ReadWrite","Read/write Skype user information (preview)","Allows the app to read and update presence, photo, location, note, call forwarding settings of the signed-in user
+"
+"4d48dea7-b534-4bca-9d76-5f8a7a8edae8","Conversations.Receive","Receive conversation invites (preview)","Allows the app to receive instant messages, audio, video, and desktop sharing invitations on-behalf of the signed-in user
+"
+"5bdeff8b-73d9-4b8a-9e9b-d44c6105f9b4","Contacts.ReadWrite","Read/write Skype user contacts and groups","Allows the app to read and write Skype user contacts and groups
 "
 "e91d3cc8-ed3b-4bda-893f-3f6d758e3cc2","AgentData.ReadWrite","Access agent data","This allows to read/write agent data."
 "41094075-9dad-400e-a0bd-54e686782033","user_impersonation","Access Azure Resource Manager as organization users","Allows the application to access Azure Resource Manager acting as users in the organization."

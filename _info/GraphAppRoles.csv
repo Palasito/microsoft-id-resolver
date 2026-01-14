@@ -917,6 +917,7 @@
 "06761e8b-0d27-430c-9d46-bfacea52f6a7","Alchemy.PowerLift.OutlookMac.Read","Read access to Alchemy PL Outlook Mac data","Read access to Alchemy PL Outlook Mac data"
 "54317c04-6fa3-4040-b319-321b8e565614","Alchemy.PowerLift.OutlookMobile.Read","Read access to Alchemy PL Outlook Mobile data","Read access to Alchemy PL Outlook Mobile data"
 "3d79c929-50e8-47d2-b1b7-924e5a5a157c","Alchemy.PowerLift.Authenticator.Read","Read access to Alchemy PL Authenticator data","Read access to Alchemy PL Authenticator data"
+"19f99fa8-134e-4c3f-a9f7-5180eaa6e011","PrintBadges.Read","Read users' badge details","Allows the application to read users' badge details without a signed-in user."
 "2b1bdd6b-9a0f-47c6-a806-b3e20cfd07a8","Printers.Read","Read printers.","Allows the application to read printers without a signed-in user."
 "b695614a-52ec-4835-9e13-bdf5ff4c7448","PrintJob.Read","Read the metadata and payload of users' print jobs.","Allows the application to read the metadata and payload of users' print jobs without a signed-in user."
 "11f87dac-027f-4d76-bd29-1ea1536b93da","PrintJob.ReadWriteBasic","Read and write the metadata of users' print jobs.","Allows the application to read and write the metadata of users' print jobs without a signed-in user."

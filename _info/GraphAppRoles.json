@@ -11026,6 +11026,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to read users' badge details without a signed-in user.",
+    "DisplayName": "Read users' badge details",
+    "Id": "19f99fa8-134e-4c3f-a9f7-5180eaa6e011",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PrintBadges.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to read printers without a signed-in user.",
     "DisplayName": "Read printers.",
     "Id": "2b1bdd6b-9a0f-47c6-a806-b3e20cfd07a8",

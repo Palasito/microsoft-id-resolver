@@ -13611,7 +13611,7 @@
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Role for app in a day mediume/heavy users ",
+    "Description": "Role for app in a day mediume/heavy users",
     "DisplayName": "App In A Day Medium-Heavy Users",
     "Id": "7f7f3470-f7c6-498a-afc2-9dbb17d48efc",
     "IsEnabled": true,

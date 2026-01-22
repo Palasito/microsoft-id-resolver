@@ -1135,7 +1135,7 @@ The app user cannot create new notes, modify existing notes, or view notes under
 "71d14425-03c0-45db-8541-f3fe1f6bdc36","Read","Read","This allows read only access to all migration items."
 "2dd1a339-84bc-4c89-8097-df493bf1205c","OCE.API.Access","MEC OCE API Access Role","This will allow clients to call MEC's OCE API"
 "732149af-bb52-4df0-b209-9e28189b2528","MEC.API.Access","MEC API Access Role","This will allow clients to call MEC API"
-"7f7f3470-f7c6-498a-afc2-9dbb17d48efc","AppInADayMediumHeavyUsers","App In A Day Medium-Heavy Users","Role for app in a day mediume/heavy users "
+"7f7f3470-f7c6-498a-afc2-9dbb17d48efc","AppInADayMediumHeavyUsers","App In A Day Medium-Heavy Users","Role for app in a day mediume/heavy users"
 "1f8c56cc-c1af-442a-abea-a7ac05679c3d","AppInADayLightUsers","App In A Day Light Users","Role for app in a day light users"
 "2e436c8f-5665-41cb-9fa0-d620946d8380","Lighthouse","Lighthouse Role","Role to access light house experience from CDX"
 "b7cd9976-1f2b-4f3c-b015-e77555de8fb8","MCAPAccessRole","MCAPAccessRole","Role to access mcap api"

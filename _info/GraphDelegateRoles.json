@@ -1668,6 +1668,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the client application to create and execute sessions that user has access to",
+    "AdminConsentDisplayName": "Sessions.ReadWrite.All",
+    "Id": "2843164f-ca31-473a-9198-ceaeb95e59b1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the client application to create and execute sessions that user has access to",
+    "UserConsentDisplayName": "Sessions.ReadWrite.All",
+    "Value": "Sessions.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write all deployments and policies.",
     "AdminConsentDisplayName": "Read and write access to all deployments and policies.",
     "Id": "3fab587f-736d-457e-822a-b3f1427a1296",
@@ -18093,6 +18105,18 @@
     "UserConsentDescription": "Microsoft Stream is a fully managed SaaS service for enterprise customers in which users can upload, share and view videos.",
     "UserConsentDisplayName": "Access Microsoft Stream as a signed-in user",
     "Value": "access_microsoftstream_service",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to create conversation threads and reply on existing threads for the SRE agents that user has access to",
+    "AdminConsentDisplayName": "Create conversation threads with SRE agents and reply on existing conversation threads",
+    "Id": "c41153e1-cb8a-4a26-ac7e-e6457e0716cf",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to create conversation threads and reply on existing threads for the SRE agents that user has access to",
+    "UserConsentDisplayName": "Create conversation threads with SRE agents and reply on existing conversation threads",
+    "Value": "Threads.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

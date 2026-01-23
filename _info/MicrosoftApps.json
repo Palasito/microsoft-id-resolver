@@ -666,6 +666,12 @@
     "source": "Graph"
   },
   {
+    "appId": "2c7dd73f-7a21-485b-b97d-a2508fa152c3",
+    "displayName": "Azure ContainerApps Sessions",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
     "displayName": "Microsoft Teams Web Client",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -746,6 +752,12 @@
   {
     "appId": "2b479c68-8d9b-4e27-9d85-5d74803de734",
     "displayName": "Virtual Visits App",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "1459b1f6-7a5b-4300-93a2-44b4a651759f",
+    "displayName": "Azure Container Apps Arc - Control Plane",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -890,6 +902,12 @@
   {
     "appId": "f6b60513-f290-450e-a2f3-9930de61c5e7",
     "displayName": "Microsoft Azure Log Search Alerts",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "55ebbb62-3b9c-49fd-9b87-9595226dd4ac",
+    "displayName": "Microsoft Azure Legion ",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -2418,6 +2436,12 @@
     "source": "Graph"
   },
   {
+    "appId": "6104ad52-755e-428b-9fb5-5fdf4d2c4d53",
+    "displayName": "Azure ContainerApps Auth",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "7cd684f4-8a78-49b0-91ec-6a35d38739ba",
     "displayName": "Azure Logic Apps",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2516,6 +2540,12 @@
   {
     "appId": "f416c5fc-9ac4-4f66-a8e5-cb203139cbe4",
     "displayName": "OCPS Admin Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "409eb69a-5e20-4e1e-a8bf-c23300057950",
+    "displayName": "Azure Container Apps Arc - Data Plane",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -3380,6 +3410,12 @@
   {
     "appId": "b5a60e17-278b-4c92-a4e2-b9262e66bb28",
     "displayName": "Azure MFA StrongAuthenticationService",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "59f0a04a-b322-4310-adc9-39ac41e9631e",
+    "displayName": "Azure SRE Agent",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },

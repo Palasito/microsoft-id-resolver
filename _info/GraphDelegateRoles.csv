@@ -39,6 +39,7 @@
 "ff7ac806-f9c8-40b6-b133-f3412d436c54","User.Read.All","User.Read.All","Scope to read user content for reuse scenarios via this app (shredder service)"
 "96d4258f-9187-4e6c-b031-724e789b9323","shredder.files.read","Shredder.Files.Read","Permission to read files via shredder service"
 "030ecff8-f6dd-4406-a014-0cce6836cf54","access_as_user","Office can act as the user","Enable Office to call the add-in's web APIs with the same rights as the current user."
+"1a8d204a-10fb-4da1-a303-17497f914fbc","Conversations.Access","Access Sherlock Conversations API as organization users","Allows the application to access Sherlock Conversations API acting as users in the organization."
 "b80e6cec-e423-411f-8c98-7fe5a25ca7cf","M365ContentExplorer.Read.All","M365ContentExplorer.Read.All","This allows user to read M365ContentExplorer"
 "739f66f6-655e-48e4-b5bd-2bbeb6077954","Purview.DataAccess.All","Purview.DataAccess.All","Purview.DataAccess.All"
 "384a8502-84c5-41d9-a875-7834b77c8005","RbacAccessCheck.read","RbacAccessCheck.read","This Allows User to read the Rbac Roles"

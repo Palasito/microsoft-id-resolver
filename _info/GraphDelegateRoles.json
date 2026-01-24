@@ -480,6 +480,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to access Sherlock Conversations API acting as users in the organization.",
+    "AdminConsentDisplayName": "Access Sherlock Conversations API as organization users",
+    "Id": "1a8d204a-10fb-4da1-a303-17497f914fbc",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to access Sherlock Conversations API as you.",
+    "UserConsentDisplayName": "Access Sherlock Conversations API as you",
+    "Value": "Conversations.Access",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "This allows user to read M365ContentExplorer",
     "AdminConsentDisplayName": "M365ContentExplorer.Read.All",
     "Id": "b80e6cec-e423-411f-8c98-7fe5a25ca7cf",

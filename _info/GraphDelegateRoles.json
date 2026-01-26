@@ -15468,6 +15468,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "this allows to read user profile",
+    "AdminConsentDisplayName": "user.read",
+    "Id": "34a47c2f-cd0d-47b4-a93c-2c41130c671c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "this allows to read user profile",
+    "UserConsentDisplayName": "user.read",
+    "Value": "user.read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "This permission is required to create Action Packages",
     "AdminConsentDisplayName": "ActionPackage.ReadWrite.All",
     "Id": "1cf92f38-2850-4dbf-8f1d-fadd7532d7b7",

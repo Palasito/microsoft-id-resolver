@@ -1288,6 +1288,7 @@
 "db8caea5-91dd-44ad-b07e-9421e18e6892","Tables.ReadWrite.All","Read and write tables and rows","Allows the app to read, create, update, and delete tables and table rows on behalf of the signed-in user."
 "fbd29bb8-d4d8-4bfd-b2b6-7a22d9ca1b68","Table.Realtime.All","Table.Realtime.All","Allow the app to setup SignalR connection and get Realtime notification messages of a table"
 "59ef67ea-d35f-4c6d-b1ce-95468f134ccb","Model.ReadWrite.All","Read and Write all Models","The app can view and write to all models for the signed in user and models that the user has access to."
+"34a47c2f-cd0d-47b4-a93c-2c41130c671c","user.read","user.read","this allows to read user profile"
 "1cf92f38-2850-4dbf-8f1d-fadd7532d7b7","ActionPackage.ReadWrite.All","ActionPackage.ReadWrite.All","This permission is required to create Action Packages"
 "e323f13a-1fcc-49cc-883f-c6da13ae0542","MicrosoftTunnelGatewayEnrollment","MicrosoftTunnelGatewayEnrollment","Allows Intune Admins to enroll a Microsoft Tunnel Gateway Agent"
 "1cebfa2a-fb4d-419e-b5f9-839b4383e05a","user_impersonation","Access Partner Center","Allow the application to access Partner Center on behalf of the signed-in user."

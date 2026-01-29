@@ -1506,6 +1506,12 @@
     "source": "Graph"
   },
   {
+    "appId": "75d4238e-b142-4d2d-aed9-232b830b8706",
+    "displayName": "Viva Skills",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "8f41dc7c-542c-4bdd-8eb3-e60543f607ca",
     "displayName": "Microsoft Device Directory Service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

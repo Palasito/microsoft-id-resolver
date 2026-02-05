@@ -13395,6 +13395,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Address Customer Master Reader",
+    "DisplayName": "AddressCustomerMasterReader",
+    "Id": "1cbc9fa5-af3f-44ad-9455-35ef4dd212aa",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AddressCustomerMasterReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Customer Reader",
     "DisplayName": "CustomerReader",
     "Id": "a589c920-4000-431e-8a26-3c849e60d9e8",

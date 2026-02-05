@@ -15636,6 +15636,54 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to read print badge collections on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read print badge collections.",
+    "Id": "23b75ee2-e239-4146-92a4-e86346ffe4ad",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read print badge collections on your behalf.",
+    "UserConsentDisplayName": "Read print badge collections.",
+    "Value": "PrintBadgeCollections.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read and update print badge collections on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write print badge collections.",
+    "Id": "d6c2f65a-47e8-40e8-88c6-6fb221d28b8d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read and write print badge collections on your behalf.",
+    "UserConsentDisplayName": "Read and write print badge collections.",
+    "Value": "PrintBadgeCollections.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read print badges on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read print badges.",
+    "Id": "5ab706f2-4ce1-4c50-a91c-80c9d82f1a65",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read print badges on your behalf.",
+    "UserConsentDisplayName": "Read print badges.",
+    "Value": "PrintBadges.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read and update print badges on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write print badges.",
+    "Id": "b0251562-fe60-48c3-a11c-b2a82962956a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read and write print badges on your behalf.",
+    "UserConsentDisplayName": "Read and write print badges.",
+    "Value": "PrintBadges.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to create (register), read, update and delete users' print connectors on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Create (register), read, update and delete users' print connectors.",
     "Id": "6c7c7cbe-f3f8-48fb-b096-39b9ef6f7620",

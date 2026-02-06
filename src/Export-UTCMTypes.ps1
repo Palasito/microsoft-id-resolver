@@ -16,7 +16,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $false)]
-    [string]$OutputPath = ".\utcm-resource-types.json",
+    [string]$OutputPath = ".\_info\utcm-resource-types.json",
     
     [Parameter(Mandatory = $false)]
     [switch]$ExportToJson,

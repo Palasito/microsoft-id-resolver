@@ -54,7 +54,8 @@ jobs:
 
             # Run export
             ./src/Export-MicrosoftApps.ps1
-            ./src/Export-GraphPermissions.ps1        
+            ./src/Export-GraphPermissions.ps1
+            ./src/Export-UTCMTypes.ps1        
         
       - name: Update repo
         run: |

@@ -1,0 +1,4841 @@
+{
+  "Resources": [
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#accountprotectionlocalusergroupmembershippolicy-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "accountprotectionlocalusergroupmembershippolicy",
+      "PrefixedName": "microsoft.intune.accountprotectionlocalusergroupmembershippolicy",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#accountProtectionLocalUserGroupMembershipPolicy-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "accountProtectionLocalUserGroupMembershipPolicy",
+      "PrefixedName": "microsoft.intune.accountProtectionLocalUserGroupMembershipPolicy",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#accountprotectionpolicy-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "accountprotectionpolicy",
+      "PrefixedName": "microsoft.intune.accountprotectionpolicy",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#accountProtectionPolicy-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "accountProtectionPolicy",
+      "PrefixedName": "microsoft.intune.accountProtectionPolicy",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#antiviruspolicywindows10settingcatalog-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "antiviruspolicywindows10settingcatalog",
+      "PrefixedName": "microsoft.intune.antiviruspolicywindows10settingcatalog",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#antivirusPolicyWindows10SettingCatalog-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "antivirusPolicyWindows10SettingCatalog",
+      "PrefixedName": "microsoft.intune.antivirusPolicyWindows10SettingCatalog",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#appconfigurationpolicy-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "appconfigurationpolicy",
+      "PrefixedName": "microsoft.intune.appconfigurationpolicy",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#appConfigurationPolicy-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "appConfigurationPolicy",
+      "PrefixedName": "microsoft.intune.appConfigurationPolicy",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#applicationcontrolpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "applicationcontrolpolicywindows10",
+      "PrefixedName": "microsoft.intune.applicationcontrolpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#applicationControlPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "applicationControlPolicyWindows10",
+      "PrefixedName": "microsoft.intune.applicationControlPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#appProtectionPolicyAndroid-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "appProtectionPolicyAndroid",
+      "PrefixedName": "microsoft.intune.appProtectionPolicyAndroid",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#appprotectionpolicyandroid-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "appprotectionpolicyandroid",
+      "PrefixedName": "microsoft.intune.appprotectionpolicyandroid",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#appProtectionPolicyiOS-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "appProtectionPolicyiOS",
+      "PrefixedName": "microsoft.intune.appProtectionPolicyiOS",
+      "LastUpdated": "2026-02-06T10:46:30Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#appprotectionpolicyios-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "appprotectionpolicyios",
+      "PrefixedName": "microsoft.intune.appprotectionpolicyios",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#attackSurfaceReductionRulesPolicyWindows10ConfigManager-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "attackSurfaceReductionRulesPolicyWindows10ConfigManager",
+      "PrefixedName": "microsoft.intune.attackSurfaceReductionRulesPolicyWindows10ConfigManager",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#attacksurfacereductionrulespolicywindows10configmanager-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "attacksurfacereductionrulespolicywindows10configmanager",
+      "PrefixedName": "microsoft.intune.attacksurfacereductionrulespolicywindows10configmanager",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceAndAppManagementAssignmentFilter-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceAndAppManagementAssignmentFilter",
+      "PrefixedName": "microsoft.intune.deviceAndAppManagementAssignmentFilter",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceandappmanagementassignmentfilter-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceandappmanagementassignmentfilter",
+      "PrefixedName": "microsoft.intune.deviceandappmanagementassignmentfilter",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCategory-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementManagedDevices.Read.All",
+        "DeviceManagementManagedDevices.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementManagedDevices.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementManagedDevices.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCategory",
+      "PrefixedName": "microsoft.intune.deviceCategory",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecategory-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementManagedDevices.Read.All",
+        "DeviceManagementManagedDevices.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementManagedDevices.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementManagedDevices.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecategory",
+      "PrefixedName": "microsoft.intune.devicecategory",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecleanuprule-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementManagedDevices.Read.All",
+        "DeviceManagementManagedDevices.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementManagedDevices.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementManagedDevices.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecleanuprule",
+      "PrefixedName": "microsoft.intune.devicecleanuprule",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCleanupRule-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementManagedDevices.Read.All",
+        "DeviceManagementManagedDevices.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementManagedDevices.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementManagedDevices.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCleanupRule",
+      "PrefixedName": "microsoft.intune.deviceCleanupRule",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCompliancePolicyAndroid-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCompliancePolicyAndroid",
+      "PrefixedName": "microsoft.intune.deviceCompliancePolicyAndroid",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecompliancepolicyandroid-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecompliancepolicyandroid",
+      "PrefixedName": "microsoft.intune.devicecompliancepolicyandroid",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCompliancePolicyAndroidDeviceOwner-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCompliancePolicyAndroidDeviceOwner",
+      "PrefixedName": "microsoft.intune.deviceCompliancePolicyAndroidDeviceOwner",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecompliancepolicyandroiddeviceowner-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecompliancepolicyandroiddeviceowner",
+      "PrefixedName": "microsoft.intune.devicecompliancepolicyandroiddeviceowner",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCompliancePolicyAndroidWorkProfile-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCompliancePolicyAndroidWorkProfile",
+      "PrefixedName": "microsoft.intune.deviceCompliancePolicyAndroidWorkProfile",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecompliancepolicyandroidworkprofile-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecompliancepolicyandroidworkprofile",
+      "PrefixedName": "microsoft.intune.devicecompliancepolicyandroidworkprofile",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecompliancepolicyios-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecompliancepolicyios",
+      "PrefixedName": "microsoft.intune.devicecompliancepolicyios",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCompliancePolicyiOS-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCompliancePolicyiOS",
+      "PrefixedName": "microsoft.intune.deviceCompliancePolicyiOS",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecompliancepolicymacos-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecompliancepolicymacos",
+      "PrefixedName": "microsoft.intune.devicecompliancepolicymacos",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCompliancePolicymacOS-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCompliancePolicymacOS",
+      "PrefixedName": "microsoft.intune.deviceCompliancePolicymacOS",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#devicecompliancepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "DeviceManagementScripts.Read.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All",
+            "DeviceManagementScripts.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "devicecompliancepolicywindows10",
+      "PrefixedName": "microsoft.intune.devicecompliancepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceCompliancePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "DeviceManagementScripts.Read.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All",
+            "DeviceManagementScripts.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceCompliancePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceCompliancePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationadministrativetemplatepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationadministrativetemplatepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationadministrativetemplatepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationAdministrativeTemplatePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationAdministrativeTemplatePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationAdministrativeTemplatePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationcustompolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationcustompolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationcustompolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationCustomPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationCustomPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationCustomPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationdefenderforendpointonboardingpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationdefenderforendpointonboardingpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationdefenderforendpointonboardingpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationDefenderForEndpointOnboardingPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationDefenderForEndpointOnboardingPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationDefenderForEndpointOnboardingPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationdeliveryoptimizationpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationdeliveryoptimizationpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationdeliveryoptimizationpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationDeliveryOptimizationPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationDeliveryOptimizationPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationDeliveryOptimizationPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationdomainjoinpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationdomainjoinpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationdomainjoinpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationDomainJoinPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationDomainJoinPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationDomainJoinPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationemailprofilepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationemailprofilepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationemailprofilepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationEmailProfilePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationEmailProfilePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationEmailProfilePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationendpointprotectionpolicywindows10-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationendpointprotectionpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationendpointprotectionpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationEndpointProtectionPolicyWindows10-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationEndpointProtectionPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationEndpointProtectionPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationfirmwareinterfacepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationfirmwareinterfacepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationfirmwareinterfacepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationFirmwareInterfacePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationFirmwareInterfacePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationFirmwareInterfacePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationHealthMonitoringConfigurationPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationHealthMonitoringConfigurationPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationHealthMonitoringConfigurationPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationhealthmonitoringconfigurationpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationhealthmonitoringconfigurationpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationhealthmonitoringconfigurationpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationIdentityProtectionPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationIdentityProtectionPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationIdentityProtectionPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationidentityprotectionpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationidentityprotectionpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationidentityprotectionpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationImportedPfxCertificatePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationImportedPfxCertificatePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationImportedPfxCertificatePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationimportedpfxcertificatepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationimportedpfxcertificatepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationimportedpfxcertificatepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:31Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationkioskpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationkioskpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationkioskpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationKioskPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationKioskPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationKioskPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationnetworkboundarypolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationnetworkboundarypolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationnetworkboundarypolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationNetworkBoundaryPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationNetworkBoundaryPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationNetworkBoundaryPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPkcsCertificatePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPkcsCertificatePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPkcsCertificatePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpkcscertificatepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpkcscertificatepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpkcscertificatepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPolicyAndroidDeviceAdministrator-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPolicyAndroidDeviceAdministrator",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPolicyAndroidDeviceAdministrator",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpolicyandroiddeviceadministrator-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpolicyandroiddeviceadministrator",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroiddeviceadministrator",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPolicyAndroidDeviceOwner-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPolicyAndroidDeviceOwner",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPolicyAndroidDeviceOwner",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpolicyandroiddeviceowner-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpolicyandroiddeviceowner",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroiddeviceowner",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPolicyAndroidOpenSourceProject-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPolicyAndroidOpenSourceProject",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPolicyAndroidOpenSourceProject",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpolicyandroidopensourceproject-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpolicyandroidopensourceproject",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroidopensourceproject",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPolicyAndroidWorkProfile-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPolicyAndroidWorkProfile",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPolicyAndroidWorkProfile",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpolicyandroidworkprofile-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpolicyandroidworkprofile",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroidworkprofile",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPolicyiOS-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPolicyiOS",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPolicyiOS",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpolicyios-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpolicyios",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpolicyios",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPolicymacOS-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPolicymacOS",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPolicymacOS",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpolicymacos-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpolicymacos",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpolicymacos",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationPolicyWindows10-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationpolicywindows10-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationscepcertificatepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationscepcertificatepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationscepcertificatepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationScepCertificatePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationScepCertificatePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationScepCertificatePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationsecureassessmentpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationsecureassessmentpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationsecureassessmentpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationSecureAssessmentPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationSecureAssessmentPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationSecureAssessmentPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationsharedmultidevicepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationsharedmultidevicepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationsharedmultidevicepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationSharedMultiDevicePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationSharedMultiDevicePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationSharedMultiDevicePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationTrustedCertificatePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationTrustedCertificatePolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationTrustedCertificatePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationtrustedcertificatepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationtrustedcertificatepolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationtrustedcertificatepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationvpnpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationvpnpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationvpnpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationVpnPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationVpnPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationVpnPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationWindowsTeamPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationWindowsTeamPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationWindowsTeamPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationwindowsteampolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationwindowsteampolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationwindowsteampolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceconfigurationwirednetworkpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceconfigurationwirednetworkpolicywindows10",
+      "PrefixedName": "microsoft.intune.deviceconfigurationwirednetworkpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceConfigurationWiredNetworkPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceConfigurationWiredNetworkPolicyWindows10",
+      "PrefixedName": "microsoft.intune.deviceConfigurationWiredNetworkPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceEnrollmentLimitRestriction-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceEnrollmentLimitRestriction",
+      "PrefixedName": "microsoft.intune.deviceEnrollmentLimitRestriction",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceenrollmentlimitrestriction-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceenrollmentlimitrestriction",
+      "PrefixedName": "microsoft.intune.deviceenrollmentlimitrestriction",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceenrollmentplatformrestriction-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceenrollmentplatformrestriction",
+      "PrefixedName": "microsoft.intune.deviceenrollmentplatformrestriction",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceEnrollmentPlatformRestriction-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceEnrollmentPlatformRestriction",
+      "PrefixedName": "microsoft.intune.deviceEnrollmentPlatformRestriction",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceEnrollmentStatusPageWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All",
+            "DeviceManagementServiceConfig.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All",
+            "DeviceManagementServiceConfig.ReadWrite.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceEnrollmentStatusPageWindows10",
+      "PrefixedName": "microsoft.intune.deviceEnrollmentStatusPageWindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#deviceenrollmentstatuspagewindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All",
+            "DeviceManagementServiceConfig.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All",
+            "DeviceManagementServiceConfig.ReadWrite.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "deviceenrollmentstatuspagewindows10",
+      "PrefixedName": "microsoft.intune.deviceenrollmentstatuspagewindows10",
+      "LastUpdated": "2026-02-06T10:46:32Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#endpointDetectionAndResponsePolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "endpointDetectionAndResponsePolicyWindows10",
+      "PrefixedName": "microsoft.intune.endpointDetectionAndResponsePolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#endpointdetectionandresponsepolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "endpointdetectionandresponsepolicywindows10",
+      "PrefixedName": "microsoft.intune.endpointdetectionandresponsepolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#exploitProtectionPolicyWindows10SettingCatalog-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "exploitProtectionPolicyWindows10SettingCatalog",
+      "PrefixedName": "microsoft.intune.exploitProtectionPolicyWindows10SettingCatalog",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#exploitprotectionpolicywindows10settingcatalog-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "exploitprotectionpolicywindows10settingcatalog",
+      "PrefixedName": "microsoft.intune.exploitprotectionpolicywindows10settingcatalog",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#policysets-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "policysets",
+      "PrefixedName": "microsoft.intune.policysets",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#policySets-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "policySets",
+      "PrefixedName": "microsoft.intune.policySets",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#roleAssignment-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementRBAC.Read.All",
+        "DeviceManagementRBAC.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementRBAC.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementRBAC.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "roleAssignment",
+      "PrefixedName": "microsoft.intune.roleAssignment",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#roleassignment-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementRBAC.Read.All",
+        "DeviceManagementRBAC.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementRBAC.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementRBAC.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "roleassignment",
+      "PrefixedName": "microsoft.intune.roleassignment",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#roleDefinition-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementRBAC.Read.All",
+        "DeviceManagementRBAC.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementRBAC.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementRBAC.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "roleDefinition",
+      "PrefixedName": "microsoft.intune.roleDefinition",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#roledefinition-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementRBAC.Read.All",
+        "DeviceManagementRBAC.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementRBAC.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementRBAC.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "roledefinition",
+      "PrefixedName": "microsoft.intune.roledefinition",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#settingCatalogAsrRulesPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "settingCatalogAsrRulesPolicyWindows10",
+      "PrefixedName": "microsoft.intune.settingCatalogAsrRulesPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#settingcatalogasrrulespolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "settingcatalogasrrulespolicywindows10",
+      "PrefixedName": "microsoft.intune.settingcatalogasrrulespolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#settingcatalogcustompolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "settingcatalogcustompolicywindows10",
+      "PrefixedName": "microsoft.intune.settingcatalogcustompolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#settingCatalogCustomPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "settingCatalogCustomPolicyWindows10",
+      "PrefixedName": "microsoft.intune.settingCatalogCustomPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicyAndroidDeviceAdministrator-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicyAndroidDeviceAdministrator",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicyAndroidDeviceAdministrator",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicyandroiddeviceadministrator-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicyandroiddeviceadministrator",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroiddeviceadministrator",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicyAndroidEnterpriseDeviceOwner-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicyAndroidEnterpriseDeviceOwner",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicyAndroidEnterpriseDeviceOwner",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicyandroidenterprisedeviceowner-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicyandroidenterprisedeviceowner",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidenterprisedeviceowner",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicyAndroidEnterpriseWorkProfile-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicyAndroidEnterpriseWorkProfile",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicyAndroidEnterpriseWorkProfile",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicyandroidenterpriseworkprofile-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicyandroidenterpriseworkprofile",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidenterpriseworkprofile",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicyAndroidForWork-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicyAndroidForWork",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicyAndroidForWork",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicyandroidforwork-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicyandroidforwork",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidforwork",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicyAndroidOpenSourceProject-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicyAndroidOpenSourceProject",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicyAndroidOpenSourceProject",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicyandroidopensourceproject-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicyandroidopensourceproject",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidopensourceproject",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicyiOS-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicyiOS",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicyiOS",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicyios-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicyios",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicyios",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicymacOS-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicymacOS",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicymacOS",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicymacos-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicymacos",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicymacos",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wificonfigurationpolicywindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wificonfigurationpolicywindows10",
+      "PrefixedName": "microsoft.intune.wificonfigurationpolicywindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#wifiConfigurationPolicyWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "wifiConfigurationPolicyWindows10",
+      "PrefixedName": "microsoft.intune.wifiConfigurationPolicyWindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsAutopilotDeploymentProfileAzureADHybridJoined-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsAutopilotDeploymentProfileAzureADHybridJoined",
+      "PrefixedName": "microsoft.intune.windowsAutopilotDeploymentProfileAzureADHybridJoined",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsautopilotdeploymentprofileazureadhybridjoined-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsautopilotdeploymentprofileazureadhybridjoined",
+      "PrefixedName": "microsoft.intune.windowsautopilotdeploymentprofileazureadhybridjoined",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsAutopilotDeploymentProfileAzureADJoined-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsAutopilotDeploymentProfileAzureADJoined",
+      "PrefixedName": "microsoft.intune.windowsAutopilotDeploymentProfileAzureADJoined",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsautopilotdeploymentprofileazureadjoined-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementServiceConfig.Read.All",
+        "DeviceManagementServiceConfig.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementServiceConfig.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsautopilotdeploymentprofileazureadjoined",
+      "PrefixedName": "microsoft.intune.windowsautopilotdeploymentprofileazureadjoined",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsInformationProtectionPolicyWindows10MdmEnrolled-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsInformationProtectionPolicyWindows10MdmEnrolled",
+      "PrefixedName": "microsoft.intune.windowsInformationProtectionPolicyWindows10MdmEnrolled",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsinformationprotectionpolicywindows10mdmenrolled-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementApps.Read.All",
+        "DeviceManagementApps.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementApps.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsinformationprotectionpolicywindows10mdmenrolled",
+      "PrefixedName": "microsoft.intune.windowsinformationprotectionpolicywindows10mdmenrolled",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsUpdateForBusinessFeatureUpdateProfileWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsUpdateForBusinessFeatureUpdateProfileWindows10",
+      "PrefixedName": "microsoft.intune.windowsUpdateForBusinessFeatureUpdateProfileWindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsupdateforbusinessfeatureupdateprofilewindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsupdateforbusinessfeatureupdateprofilewindows10",
+      "PrefixedName": "microsoft.intune.windowsupdateforbusinessfeatureupdateprofilewindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsupdateforbusinessringupdateprofilewindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsupdateforbusinessringupdateprofilewindows10",
+      "PrefixedName": "microsoft.intune.windowsupdateforbusinessringupdateprofilewindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources#windowsUpdateForBusinessRingUpdateProfileWindows10-resource-type",
+      "ApplicationPermissions": [
+        "DeviceManagementConfiguration.Read.All",
+        "DeviceManagementConfiguration.ReadWrite.All",
+        "Group.Read.All"
+      ],
+      "OperationPermissions": [
+        {
+          "Operation": "Read",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.Read.All"
+          ]
+        },
+        {
+          "Operation": "Update",
+          "Permissions": [
+            "Group.Read.All",
+            "DeviceManagementConfiguration.ReadWrite.All"
+          ]
+        }
+      ],
+      "ResourceType": "intune",
+      "OriginalName": "windowsUpdateForBusinessRingUpdateProfileWindows10",
+      "PrefixedName": "microsoft.intune.windowsUpdateForBusinessRingUpdateProfileWindows10",
+      "LastUpdated": "2026-02-06T10:46:33Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#accepteddomain-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "accepteddomain",
+      "PrefixedName": "microsoft.exchange.accepteddomain",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#acceptedDomain-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "acceptedDomain",
+      "PrefixedName": "microsoft.exchange.acceptedDomain",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#activesyncdeviceaccessrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "activesyncdeviceaccessrule",
+      "PrefixedName": "microsoft.exchange.activesyncdeviceaccessrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#activeSyncDeviceAccessRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "activeSyncDeviceAccessRule",
+      "PrefixedName": "microsoft.exchange.activeSyncDeviceAccessRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#antiPhishPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "antiPhishPolicy",
+      "PrefixedName": "microsoft.exchange.antiPhishPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#antiphishpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "antiphishpolicy",
+      "PrefixedName": "microsoft.exchange.antiphishpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#antiphishrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "antiphishrule",
+      "PrefixedName": "microsoft.exchange.antiphishrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#antiPhishRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "antiPhishRule",
+      "PrefixedName": "microsoft.exchange.antiPhishRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#applicationAccessPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "applicationAccessPolicy",
+      "PrefixedName": "microsoft.exchange.applicationAccessPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#applicationaccesspolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "applicationaccesspolicy",
+      "PrefixedName": "microsoft.exchange.applicationaccesspolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#atpPolicyForO365-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "atpPolicyForO365",
+      "PrefixedName": "microsoft.exchange.atpPolicyForO365",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#atppolicyforo365-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "atppolicyforo365",
+      "PrefixedName": "microsoft.exchange.atppolicyforo365",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#authenticationPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "authenticationPolicy",
+      "PrefixedName": "microsoft.exchange.authenticationPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#authenticationpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "authenticationpolicy",
+      "PrefixedName": "microsoft.exchange.authenticationpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#authenticationPolicyAssignment-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "authenticationPolicyAssignment",
+      "PrefixedName": "microsoft.exchange.authenticationPolicyAssignment",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#authenticationpolicyassignment-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "authenticationpolicyassignment",
+      "PrefixedName": "microsoft.exchange.authenticationpolicyassignment",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#availabilityaddressspace-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "availabilityaddressspace",
+      "PrefixedName": "microsoft.exchange.availabilityaddressspace",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#availabilityAddressSpace-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "availabilityAddressSpace",
+      "PrefixedName": "microsoft.exchange.availabilityAddressSpace",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#availabilityConfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "availabilityConfig",
+      "PrefixedName": "microsoft.exchange.availabilityConfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#availabilityconfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "availabilityconfig",
+      "PrefixedName": "microsoft.exchange.availabilityconfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#calendarProcessing-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "calendarProcessing",
+      "PrefixedName": "microsoft.exchange.calendarProcessing",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#calendarprocessing-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "calendarprocessing",
+      "PrefixedName": "microsoft.exchange.calendarprocessing",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#casmailboxplan-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "casmailboxplan",
+      "PrefixedName": "microsoft.exchange.casmailboxplan",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#casMailboxPlan-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "casMailboxPlan",
+      "PrefixedName": "microsoft.exchange.casMailboxPlan",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#casmailboxsettings-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "casmailboxsettings",
+      "PrefixedName": "microsoft.exchange.casmailboxsettings",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#casMailboxSettings-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "casMailboxSettings",
+      "PrefixedName": "microsoft.exchange.casMailboxSettings",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#dataClassification-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "dataClassification",
+      "PrefixedName": "microsoft.exchange.dataClassification",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#dataclassification-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "dataclassification",
+      "PrefixedName": "microsoft.exchange.dataclassification",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#dataencryptionpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "dataencryptionpolicy",
+      "PrefixedName": "microsoft.exchange.dataencryptionpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#dataEncryptionPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "dataEncryptionPolicy",
+      "PrefixedName": "microsoft.exchange.dataEncryptionPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#distributiongroup-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "distributiongroup",
+      "PrefixedName": "microsoft.exchange.distributiongroup",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#distributionGroup-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "distributionGroup",
+      "PrefixedName": "microsoft.exchange.distributionGroup",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#dkimSigningConfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "dkimSigningConfig",
+      "PrefixedName": "microsoft.exchange.dkimSigningConfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#dkimsigningconfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "dkimsigningconfig",
+      "PrefixedName": "microsoft.exchange.dkimsigningconfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#emailAddressPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "emailAddressPolicy",
+      "PrefixedName": "microsoft.exchange.emailAddressPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#emailaddresspolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "emailaddresspolicy",
+      "PrefixedName": "microsoft.exchange.emailaddresspolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#groupSettings-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "groupSettings",
+      "PrefixedName": "microsoft.exchange.groupSettings",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#groupsettings-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "groupsettings",
+      "PrefixedName": "microsoft.exchange.groupsettings",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedConnectionFilterPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedConnectionFilterPolicy",
+      "PrefixedName": "microsoft.exchange.hostedConnectionFilterPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedconnectionfilterpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedconnectionfilterpolicy",
+      "PrefixedName": "microsoft.exchange.hostedconnectionfilterpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedcontentfilterpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedcontentfilterpolicy",
+      "PrefixedName": "microsoft.exchange.hostedcontentfilterpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedContentFilterPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedContentFilterPolicy",
+      "PrefixedName": "microsoft.exchange.hostedContentFilterPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedContentFilterRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedContentFilterRule",
+      "PrefixedName": "microsoft.exchange.hostedContentFilterRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedcontentfilterrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedcontentfilterrule",
+      "PrefixedName": "microsoft.exchange.hostedcontentfilterrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedOutboundSpamFilterPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedOutboundSpamFilterPolicy",
+      "PrefixedName": "microsoft.exchange.hostedOutboundSpamFilterPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedoutboundspamfilterpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedoutboundspamfilterpolicy",
+      "PrefixedName": "microsoft.exchange.hostedoutboundspamfilterpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedOutboundSpamFilterRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedOutboundSpamFilterRule",
+      "PrefixedName": "microsoft.exchange.hostedOutboundSpamFilterRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#hostedoutboundspamfilterrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "hostedoutboundspamfilterrule",
+      "PrefixedName": "microsoft.exchange.hostedoutboundspamfilterrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#inboundConnector-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "inboundConnector",
+      "PrefixedName": "microsoft.exchange.inboundConnector",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#inboundconnector-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "inboundconnector",
+      "PrefixedName": "microsoft.exchange.inboundconnector",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#intraOrganizationConnector-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "intraOrganizationConnector",
+      "PrefixedName": "microsoft.exchange.intraOrganizationConnector",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#intraorganizationconnector-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "intraorganizationconnector",
+      "PrefixedName": "microsoft.exchange.intraorganizationconnector",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#irmconfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "irmconfiguration",
+      "PrefixedName": "microsoft.exchange.irmconfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#irmConfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "irmConfiguration",
+      "PrefixedName": "microsoft.exchange.irmConfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#journalRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "journalRule",
+      "PrefixedName": "microsoft.exchange.journalRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#journalrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "journalrule",
+      "PrefixedName": "microsoft.exchange.journalrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxAutoReplyConfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxAutoReplyConfiguration",
+      "PrefixedName": "microsoft.exchange.mailboxAutoReplyConfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxautoreplyconfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxautoreplyconfiguration",
+      "PrefixedName": "microsoft.exchange.mailboxautoreplyconfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxCalendarFolder-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxCalendarFolder",
+      "PrefixedName": "microsoft.exchange.mailboxCalendarFolder",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxcalendarfolder-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxcalendarfolder",
+      "PrefixedName": "microsoft.exchange.mailboxcalendarfolder",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxpermission-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxpermission",
+      "PrefixedName": "microsoft.exchange.mailboxpermission",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxPermission-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxPermission",
+      "PrefixedName": "microsoft.exchange.mailboxPermission",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxPlan-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxPlan",
+      "PrefixedName": "microsoft.exchange.mailboxPlan",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxplan-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxplan",
+      "PrefixedName": "microsoft.exchange.mailboxplan",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxSettings-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxSettings",
+      "PrefixedName": "microsoft.exchange.mailboxSettings",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailboxsettings-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailboxsettings",
+      "PrefixedName": "microsoft.exchange.mailboxsettings",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailContact-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailContact",
+      "PrefixedName": "microsoft.exchange.mailContact",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailcontact-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailcontact",
+      "PrefixedName": "microsoft.exchange.mailcontact",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailTips-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailTips",
+      "PrefixedName": "microsoft.exchange.mailTips",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mailtips-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mailtips",
+      "PrefixedName": "microsoft.exchange.mailtips",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#malwareFilterPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "malwareFilterPolicy",
+      "PrefixedName": "microsoft.exchange.malwareFilterPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#malwarefilterpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "malwarefilterpolicy",
+      "PrefixedName": "microsoft.exchange.malwarefilterpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#malwarefilterrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "malwarefilterrule",
+      "PrefixedName": "microsoft.exchange.malwarefilterrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#malwareFilterRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "malwareFilterRule",
+      "PrefixedName": "microsoft.exchange.malwareFilterRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#managementrole-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "managementrole",
+      "PrefixedName": "microsoft.exchange.managementrole",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#managementRole-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "managementRole",
+      "PrefixedName": "microsoft.exchange.managementRole",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#managementRoleAssignment-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "managementRoleAssignment",
+      "PrefixedName": "microsoft.exchange.managementRoleAssignment",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#managementroleassignment-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "managementroleassignment",
+      "PrefixedName": "microsoft.exchange.managementroleassignment",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#messageclassification-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "messageclassification",
+      "PrefixedName": "microsoft.exchange.messageclassification",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#messageClassification-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "messageClassification",
+      "PrefixedName": "microsoft.exchange.messageClassification",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mobiledevicemailboxpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mobiledevicemailboxpolicy",
+      "PrefixedName": "microsoft.exchange.mobiledevicemailboxpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#mobileDeviceMailboxPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "mobileDeviceMailboxPolicy",
+      "PrefixedName": "microsoft.exchange.mobileDeviceMailboxPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#omeconfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "omeconfiguration",
+      "PrefixedName": "microsoft.exchange.omeconfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#omeConfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "omeConfiguration",
+      "PrefixedName": "microsoft.exchange.omeConfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#onPremisesOrganization-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "onPremisesOrganization",
+      "PrefixedName": "microsoft.exchange.onPremisesOrganization",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#onpremisesorganization-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "onpremisesorganization",
+      "PrefixedName": "microsoft.exchange.onpremisesorganization",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#organizationconfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "organizationconfig",
+      "PrefixedName": "microsoft.exchange.organizationconfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#organizationConfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "organizationConfig",
+      "PrefixedName": "microsoft.exchange.organizationConfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#organizationrelationship-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "organizationrelationship",
+      "PrefixedName": "microsoft.exchange.organizationrelationship",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#organizationRelationship-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "organizationRelationship",
+      "PrefixedName": "microsoft.exchange.organizationRelationship",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#outboundconnector-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "outboundconnector",
+      "PrefixedName": "microsoft.exchange.outboundconnector",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#outboundConnector-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "outboundConnector",
+      "PrefixedName": "microsoft.exchange.outboundConnector",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#owamailboxpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "owamailboxpolicy",
+      "PrefixedName": "microsoft.exchange.owamailboxpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#owaMailboxPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "owaMailboxPolicy",
+      "PrefixedName": "microsoft.exchange.owaMailboxPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#partnerapplication-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "partnerapplication",
+      "PrefixedName": "microsoft.exchange.partnerapplication",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#partnerApplication-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "partnerApplication",
+      "PrefixedName": "microsoft.exchange.partnerApplication",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#perimeterConfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "perimeterConfiguration",
+      "PrefixedName": "microsoft.exchange.perimeterConfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#perimeterconfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "perimeterconfiguration",
+      "PrefixedName": "microsoft.exchange.perimeterconfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#place-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "place",
+      "PrefixedName": "microsoft.exchange.place",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#policyTipConfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "policyTipConfig",
+      "PrefixedName": "microsoft.exchange.policyTipConfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#policytipconfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "policytipconfig",
+      "PrefixedName": "microsoft.exchange.policytipconfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#quarantinePolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "quarantinePolicy",
+      "PrefixedName": "microsoft.exchange.quarantinePolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#quarantinepolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "quarantinepolicy",
+      "PrefixedName": "microsoft.exchange.quarantinepolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#recipientPermission-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "recipientPermission",
+      "PrefixedName": "microsoft.exchange.recipientPermission",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#recipientpermission-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "recipientpermission",
+      "PrefixedName": "microsoft.exchange.recipientpermission",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#remotedomain-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "remotedomain",
+      "PrefixedName": "microsoft.exchange.remotedomain",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#remoteDomain-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "remoteDomain",
+      "PrefixedName": "microsoft.exchange.remoteDomain",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#reportSubmissionPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "reportSubmissionPolicy",
+      "PrefixedName": "microsoft.exchange.reportSubmissionPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#reportsubmissionpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "reportsubmissionpolicy",
+      "PrefixedName": "microsoft.exchange.reportsubmissionpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#reportSubmissionRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "reportSubmissionRule",
+      "PrefixedName": "microsoft.exchange.reportSubmissionRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#reportsubmissionrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "reportsubmissionrule",
+      "PrefixedName": "microsoft.exchange.reportsubmissionrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#resourceConfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "resourceConfiguration",
+      "PrefixedName": "microsoft.exchange.resourceConfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#resourceconfiguration-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "resourceconfiguration",
+      "PrefixedName": "microsoft.exchange.resourceconfiguration",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#roleAssignmentPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "roleAssignmentPolicy",
+      "PrefixedName": "microsoft.exchange.roleAssignmentPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#roleassignmentpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "roleassignmentpolicy",
+      "PrefixedName": "microsoft.exchange.roleassignmentpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#roleGroup-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "roleGroup",
+      "PrefixedName": "microsoft.exchange.roleGroup",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#rolegroup-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "rolegroup",
+      "PrefixedName": "microsoft.exchange.rolegroup",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safeAttachmentPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safeAttachmentPolicy",
+      "PrefixedName": "microsoft.exchange.safeAttachmentPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safeattachmentpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safeattachmentpolicy",
+      "PrefixedName": "microsoft.exchange.safeattachmentpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safeAttachmentRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safeAttachmentRule",
+      "PrefixedName": "microsoft.exchange.safeAttachmentRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safeattachmentrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safeattachmentrule",
+      "PrefixedName": "microsoft.exchange.safeattachmentrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safelinkspolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safelinkspolicy",
+      "PrefixedName": "microsoft.exchange.safelinkspolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safeLinksPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safeLinksPolicy",
+      "PrefixedName": "microsoft.exchange.safeLinksPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safeLinksRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safeLinksRule",
+      "PrefixedName": "microsoft.exchange.safeLinksRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#safelinksrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "safelinksrule",
+      "PrefixedName": "microsoft.exchange.safelinksrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#sharedMailbox-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "sharedMailbox",
+      "PrefixedName": "microsoft.exchange.sharedMailbox",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#sharedmailbox-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "sharedmailbox",
+      "PrefixedName": "microsoft.exchange.sharedmailbox",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#sharingPolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "sharingPolicy",
+      "PrefixedName": "microsoft.exchange.sharingPolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#sharingpolicy-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "sharingpolicy",
+      "PrefixedName": "microsoft.exchange.sharingpolicy",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#transportConfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "transportConfig",
+      "PrefixedName": "microsoft.exchange.transportConfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#transportconfig-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "transportconfig",
+      "PrefixedName": "microsoft.exchange.transportconfig",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#transportrule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "transportrule",
+      "PrefixedName": "microsoft.exchange.transportrule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    },
+    {
+      "AnchorUrl": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources#transportRule-resource-type",
+      "ApplicationPermissions": [],
+      "OperationPermissions": [],
+      "ResourceType": "exchange",
+      "OriginalName": "transportRule",
+      "PrefixedName": "microsoft.exchange.transportRule",
+      "LastUpdated": "2026-02-06T10:46:34Z"
+    }
+  ],
+  "ResourceTypes": [
+    {
+      "Count": 136,
+      "Url": "https://learn.microsoft.com/en-us/graph/utcm-intune-resources",
+      "ResourceType": "intune"
+    },
+    {
+      "Count": 133,
+      "Url": "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources",
+      "ResourceType": "exchange"
+    }
+  ],
+  "GeneratedDate": "2026-02-06T10:46:34Z",
+  "TotalResources": 269
+}

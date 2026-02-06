@@ -34,6 +34,18 @@ $ResourceUrls = @(
     @{
         Url  = "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources"
         Type = "exchange"
+    },
+    @{
+        Url  = "https://learn.microsoft.com/en-us/graph/utcm-entra-resources"
+        Type = "entra"
+    },
+    @{
+        Url  = "https://learn.microsoft.com/en-us/graph/utcm-securityandcompliance-resources"
+        Type = "securityandcompliance"
+    },
+    @{
+        Url  = "https://learn.microsoft.com/en-us/graph/utcm-teams-resources"
+        Type = "teams"
     }
     # Add more resource types here as needed:
     # @{

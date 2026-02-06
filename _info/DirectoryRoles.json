@@ -645,6 +645,11 @@
     "source": "Graph"
   },
   {
+    "id": "0b00bede-4072-4d22-b441-e7df02a1ef63",
+    "displayName": "Authentication Extensibility Password Administrator",
+    "source": "Graph"
+  },
+  {
     "id": "6b942400-691f-4bf0-9d12-d8a254a2baf5",
     "displayName": "Agent Registry Administrator",
     "source": "Graph"

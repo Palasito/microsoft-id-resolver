@@ -122,8 +122,8 @@ function Get-ResourceTypesFromPage {
             }
         }
         
-        # Remove duplicates and sort
-        $uniqueResourceTypes = $resourceTypes | Select-Object -Unique | Sort-Object
+        # Remove duplicates (case-insensitive) and sort
+        $uniqueResourceTypes = $resourceTypes | Sort-Object -Unique -Property @{Expression={$_.ToLower()}}
         
         Write-Host "Found $($uniqueResourceTypes.Count) unique resource types for $ResourceType" -ForegroundColor Green
         
@@ -139,7 +139,7 @@ function Get-ResourceTypesFromPage {
                 OriginalName           = $resource
                 PrefixedName           = $prefixedResource
                 ResourceType           = $ResourceType
-                AnchorUrl              = "$Url#$resource-resource-type"
+                AnchorUrl              = "$Url#$($resource.ToLower())-resource-type"
                 LastUpdated            = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
             }
             

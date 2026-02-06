@@ -16,11 +16,14 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $false)]
-    [string]$OutputPath = ".\_info\utcm-resource-types.json",
-    
+    [string]$OutputPath = ".\_info",
+
+    [Parameter(Mandatory = $false)]
+    [string]$FileName = "utcm-resource-types.json",
+
     [Parameter(Mandatory = $false)]
     [switch]$ExportToJson,
-    
+
     [Parameter(Mandatory = $false)]
     [switch]$ExportToCsv
 )
@@ -446,7 +449,9 @@ $jsonOutput = @{
     ResourceTypes  = $summary
     Resources      = $allResources
 } | ConvertTo-Json -Depth 10
-    
+
+$OutputPath = Join-Path $OutputPath $FileName
+
 $jsonOutput | Out-File -FilePath $OutputPath -Encoding UTF8 -Force
 Write-Host "Results exported to: $OutputPath" -ForegroundColor Green
 

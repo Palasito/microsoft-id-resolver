@@ -57,6 +57,135 @@ $ResourceUrls = @(
     # }
 )
 
+# Function to convert camelCase/PascalCase to friendly display name
+function ConvertTo-FriendlyName {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Name
+    )
+    
+    # Check if the string is all lowercase (no camelCase)
+    $hasUpperCase = $Name -cmatch '[A-Z]'
+    
+    if (-not $hasUpperCase) {
+        # All lowercase - use heuristic word boundary detection
+        # Insert spaces before common word patterns
+        $friendlyName = $Name
+        
+        # Common technology terms and patterns
+        $friendlyName = $friendlyName -replace 'policy', ' Policy'
+        $friendlyName = $friendlyName -replace 'configuration', ' Configuration'
+        $friendlyName = $friendlyName -replace 'protection', ' Protection'
+        $friendlyName = $friendlyName -replace 'device', ' Device'
+        $friendlyName = $friendlyName -replace 'windows', ' Windows'
+        $friendlyName = $friendlyName -replace 'android', ' Android'
+        $friendlyName = $friendlyName -replace 'account', ' Account'
+        $friendlyName = $friendlyName -replace 'antivirus', ' Antivirus'
+        $friendlyName = $friendlyName -replace 'application', ' Application'
+        $friendlyName = $friendlyName -replace 'control', ' Control'
+        $friendlyName = $friendlyName -replace 'surface', ' Surface'
+        $friendlyName = $friendlyName -replace 'reduction', ' Reduction'
+        $friendlyName = $friendlyName -replace 'rules', ' Rules'
+        $friendlyName = $friendlyName -replace 'compliance', ' Compliance'
+        $friendlyName = $friendlyName -replace 'catalog', ' Catalog'
+        $friendlyName = $friendlyName -replace 'setting', ' Setting'
+        $friendlyName = $friendlyName -replace 'template', ' Template'
+        $friendlyName = $friendlyName -replace 'administrative', ' Administrative'
+        $friendlyName = $friendlyName -replace 'custom', ' Custom'
+        $friendlyName = $friendlyName -replace 'defender', ' Defender'
+        $friendlyName = $friendlyName -replace 'endpoint', ' Endpoint'
+        $friendlyName = $friendlyName -replace 'onboarding', ' Onboarding'
+        $friendlyName = $friendlyName -replace 'delivery', ' Delivery'
+        $friendlyName = $friendlyName -replace 'optimization', ' Optimization'
+        $friendlyName = $friendlyName -replace 'domain', ' Domain'
+        $friendlyName = $friendlyName -replace 'join', ' Join'
+        $friendlyName = $friendlyName -replace 'email', ' Email'
+        $friendlyName = $friendlyName -replace 'profile', ' Profile'
+        $friendlyName = $friendlyName -replace 'firmware', ' Firmware'
+        $friendlyName = $friendlyName -replace 'interface', ' Interface'
+        $friendlyName = $friendlyName -replace 'health', ' Health'
+        $friendlyName = $friendlyName -replace 'monitoring', ' Monitoring'
+        $friendlyName = $friendlyName -replace 'identity', ' Identity'
+        $friendlyName = $friendlyName -replace 'imported', ' Imported'
+        $friendlyName = $friendlyName -replace 'certificate', ' Certificate'
+        $friendlyName = $friendlyName -replace 'kiosk', ' Kiosk'
+        $friendlyName = $friendlyName -replace 'network', ' Network'
+        $friendlyName = $friendlyName -replace 'boundary', ' Boundary'
+        $friendlyName = $friendlyName -replace 'trusted', ' Trusted'
+        $friendlyName = $friendlyName -replace 'wired', ' Wired'
+        $friendlyName = $friendlyName -replace 'enrollment', ' Enrollment'
+        $friendlyName = $friendlyName -replace 'limit', ' Limit'
+        $friendlyName = $friendlyName -replace 'restriction', ' Restriction'
+        $friendlyName = $friendlyName -replace 'platform', ' Platform'
+        $friendlyName = $friendlyName -replace 'status', ' Status'
+        $friendlyName = $friendlyName -replace 'page', ' Page'
+        $friendlyName = $friendlyName -replace 'detection', ' Detection'
+        $friendlyName = $friendlyName -replace 'response', ' Response'
+        $friendlyName = $friendlyName -replace 'exploit', ' Exploit'
+        $friendlyName = $friendlyName -replace 'cleanup', ' Cleanup'
+        $friendlyName = $friendlyName -replace 'rule', ' Rule'
+        $friendlyName = $friendlyName -replace 'local', ' Local'
+        $friendlyName = $friendlyName -replace 'user', ' User'
+        $friendlyName = $friendlyName -replace 'group', ' Group'
+        $friendlyName = $friendlyName -replace 'membership', ' Membership'
+        $friendlyName = $friendlyName -replace 'category', ' Category'
+        
+        # Clean up multiple spaces and trim
+        $friendlyName = $friendlyName -replace '\s+', ' '
+        $friendlyName = $friendlyName.Trim()
+        
+        # Capitalize first letter of each word
+        $friendlyName = (Get-Culture).TextInfo.ToTitleCase($friendlyName.ToLower())
+    } else {
+        # Has camelCase - insert spaces before capital letters
+        # But first, protect special OS names and abbreviations from being split incorrectly
+        # Use lowercase placeholders so they don't trigger capital letter splitting
+        $tempName = $Name
+        $tempName = $tempName -creplace 'iOS', '~ios~'      # Case-sensitive: only 'iOS' not 'ios' in 'Kiosk'
+        $tempName = $tempName -creplace 'macOS', '~macos~'  # Case-sensitive: only 'macOS'
+        $tempName = $tempName -creplace '\bAD\b', '~ad~'    # Word boundary: only standalone 'AD'
+        $tempName = $tempName -creplace '\bIP\b', '~ip~'    # Word boundary: only standalone 'IP'
+        
+        # Insert spaces before capital letters
+        $friendlyName = $tempName -creplace '([A-Z])', ' $1'
+        $friendlyName = $friendlyName.Trim() -replace '\s+', ' '
+        
+        # Restore protected OS names and abbreviations
+        $friendlyName = $friendlyName -replace '~ios~', ' iOS'
+        $friendlyName = $friendlyName -replace '~macos~', ' macOS'
+        $friendlyName = $friendlyName -replace '~ad~', ' AD'
+        $friendlyName = $friendlyName -replace '~ip~', ' IP'
+        
+        # Capitalize first letter if not already
+        if ($friendlyName.Length -gt 0) {
+            $friendlyName = $friendlyName.Substring(0, 1).ToUpper() + $friendlyName.Substring(1)
+        }
+    }
+    
+    # Handle common abbreviations (for both paths)
+    $friendlyName = $friendlyName -replace '\bIos\b', 'iOS'
+    $friendlyName = $friendlyName -replace '\bMac\s*Os\b', 'macOS'
+    $friendlyName = $friendlyName -replace '\bApi\b', 'API'
+    $friendlyName = $friendlyName -replace '\bId\b', 'ID'
+    $friendlyName = $friendlyName -replace '\bVpp\b', 'VPP'
+    $friendlyName = $friendlyName -replace '\bMdm\b', 'MDM'
+    $friendlyName = $friendlyName -replace '\bMam\b', 'MAM'
+    $friendlyName = $friendlyName -replace '\bUrl\b', 'URL'
+    $friendlyName = $friendlyName -replace '\bVpn\b', 'VPN'
+    $friendlyName = $friendlyName -replace '\bWifi\b', 'WiFi'
+    $friendlyName = $friendlyName -replace '\bScep\b', 'SCEP'
+    $friendlyName = $friendlyName -replace '\bPkcs\b', 'PKCS'
+    $friendlyName = $friendlyName -replace '\bPfx\b', 'PFX'
+    $friendlyName = $friendlyName -replace '\bAd\b', 'AD'
+    $friendlyName = $friendlyName -replace '\bIp\b', 'IP'
+    $friendlyName = $friendlyName -replace '\bAsr\b', 'ASR'
+    $friendlyName = $friendlyName -replace 'Windows10', 'Windows 10'
+    $friendlyName = $friendlyName -replace 'O365', 'Office 365'
+    
+    return $friendlyName
+}
+
 # Function to extract resource types from Microsoft Learn page
 function Get-ResourceTypesFromPage {
     [CmdletBinding()]
@@ -80,39 +209,11 @@ function Get-ResourceTypesFromPage {
         # Extract resource types from the page
         $resourceTypes = @()
         
-        # Primary Pattern: Look for anchor links with pattern #<resourcetype>-resource-type
-        # Example: href="#deviceconfigurationpolicyios-resource-type"
-        $anchorMatches = [regex]::Matches($content, 'href="#([a-zA-Z0-9_]+)-resource-type"')
+        # Extract ONLY from h2 heading elements to preserve camelCase formatting
+        # Example: <h2>deviceCategory resource type</h2> → deviceCategory
+        $headingMatches = [regex]::Matches($content, '<h2[^>]*>([a-zA-Z0-9_]+)\s+resource\s+type</h2>', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
         
-        Write-Host "Found $($anchorMatches.Count) anchor links with resource type pattern" -ForegroundColor Gray
-        
-        foreach ($match in $anchorMatches) {
-            $resourceName = $match.Groups[1].Value
-            
-            if ($resourceName -and $resourceName -notmatch '^(http|https|www|learn|microsoft|graph|resource|type)$' -and $resourceName.Length -gt 2) {
-                $resourceTypes += $resourceName
-            }
-        }
-        
-        # Secondary Pattern: Look for ID attributes with resource type pattern
-        # Example: id="deviceconfigurationpolicyios-resource-type"
-        $idMatches = [regex]::Matches($content, 'id="([a-zA-Z0-9_]+)-resource-type"')
-        
-        Write-Host "Found $($idMatches.Count) ID elements with resource type pattern" -ForegroundColor Gray
-        
-        foreach ($match in $idMatches) {
-            $resourceName = $match.Groups[1].Value
-            
-            if ($resourceName -and $resourceName -notmatch '^(http|https|www|learn|microsoft|graph|resource|type)$' -and $resourceName.Length -gt 2) {
-                $resourceTypes += $resourceName
-            }
-        }
-
-        # Tertiary Pattern: Look for heading elements containing "resource type"
-        # Example: <h2>deviceConfigurationPolicyiOS resource type</h2>
-        $headingMatches = [regex]::Matches($content, '<h[2-4][^>]*>([a-zA-Z0-9_]+)\s+resource\s+type</h[2-4]>', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
-        
-        Write-Host "Found $($headingMatches.Count) heading elements with resource type pattern" -ForegroundColor Gray
+        Write-Host "Found $($headingMatches.Count) h2 heading elements with resource type pattern" -ForegroundColor Gray
         
         foreach ($match in $headingMatches) {
             $resourceName = $match.Groups[1].Value
@@ -122,8 +223,8 @@ function Get-ResourceTypesFromPage {
             }
         }
         
-        # Remove duplicates (case-insensitive) and sort
-        $uniqueResourceTypes = $resourceTypes | Sort-Object -Unique -Property @{Expression={$_.ToLower()}}
+        # Remove duplicates and sort (case-sensitive to preserve exact casing)
+        $uniqueResourceTypes = $resourceTypes | Select-Object -Unique | Sort-Object
         
         Write-Host "Found $($uniqueResourceTypes.Count) unique resource types for $ResourceType" -ForegroundColor Green
         
@@ -137,6 +238,7 @@ function Get-ResourceTypesFromPage {
             
             $resourceObject = @{
                 OriginalName           = $resource
+                FriendlyName           = ConvertTo-FriendlyName -Name $resource
                 PrefixedName           = $prefixedResource
                 ResourceType           = $ResourceType
                 AnchorUrl              = "$Url#$($resource.ToLower())-resource-type"
@@ -466,6 +568,7 @@ $allResources | ForEach-Object {
         } else { '' }
         ResourceType           = $_.ResourceType
         OriginalName           = $_.OriginalName
+        FriendlyName           = $_.FriendlyName
         PrefixedName           = $_.PrefixedName
         LastUpdated            = $_.LastUpdated
     }

@@ -11026,6 +11026,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to read users' badge details without a signed-in user.",
+    "DisplayName": "Read users' badge details",
+    "Id": "19f99fa8-134e-4c3f-a9f7-5180eaa6e011",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PrintBadges.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to read printers without a signed-in user.",
     "DisplayName": "Read printers.",
     "Id": "2b1bdd6b-9a0f-47c6-a806-b3e20cfd07a8",
@@ -13383,6 +13395,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Address Customer Master Reader",
+    "DisplayName": "AddressCustomerMasterReader",
+    "Id": "1cbc9fa5-af3f-44ad-9455-35ef4dd212aa",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AddressCustomerMasterReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Customer Reader",
     "DisplayName": "CustomerReader",
     "Id": "a589c920-4000-431e-8a26-3c849e60d9e8",
@@ -13599,109 +13623,36 @@
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Role to access ABS Golden Tenant",
-    "DisplayName": "ABS Golden Tenant",
-    "Id": "9ebca522-71de-407e-8f7c-320eb0380e52",
+    "Description": "Role for app in a day mediume/heavy users",
+    "DisplayName": "App In A Day Medium-Heavy Users",
+    "Id": "7f7f3470-f7c6-498a-afc2-9dbb17d48efc",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "ABSGoldenTenant",
+    "Value": "AppInADayMediumHeavyUsers",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Allows access to the the CDX ` with Copilot experience",
-    "DisplayName": "Copilot Security",
-    "Id": "d11c78e4-22d9-4b62-9c2b-12fa91ab8c54",
+    "Description": "Role for app in a day light users",
+    "DisplayName": "App In A Day Light Users",
+    "Id": "1f8c56cc-c1af-442a-abea-a7ac05679c3d",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "CopilotSecurity",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User",
-      "Application"
-    ],
-    "Description": "Allows access to DXP API",
-    "DisplayName": "DXPAccessRole",
-    "Id": "056b66d2-221d-4650-a25b-765893271a2a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "DXPAccessRole",
+    "Value": "AppInADayLightUsers",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Allows access to CDX D365 Retail Commerce Add-on add on",
-    "DisplayName": "D365 Retail Commerce Add-on",
-    "Id": "187d162d-8f71-4488-a079-c34fb56ffc7b",
+    "Description": "Role to access light house experience from CDX",
+    "DisplayName": "Lighthouse Role",
+    "Id": "2e436c8f-5665-41cb-9fa0-d620946d8380",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "D365RetailCommerceAddOn",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User"
-    ],
-    "Description": "Can access W365 tenants",
-    "DisplayName": "W365AllowUsers",
-    "Id": "759e8c43-37ca-4017-8616-a4be9d5e1126",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "W365.AllowedUser",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User"
-    ],
-    "Description": "Used to secure CDX content",
-    "DisplayName": "W365Role",
-    "Id": "f9b6fe6d-475d-48e4-893d-a2673267f07d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "W365Role",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User"
-    ],
-    "Description": "Used to secure Customer Test Drive experiences in CDX",
-    "DisplayName": "Customer Test Drive",
-    "Id": "7aae7517-68c9-4114-aff9-8f89de28ca46",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CTD",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User"
-    ],
-    "Description": "Allows access to CDX CoPilot Shared Demo experiences",
-    "DisplayName": "CoPilot Shared Demo Access",
-    "Id": "e84cb7a2-15f7-4daa-915e-8e688b1843e7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CoPilotSharedDemoAccess",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User"
-    ],
-    "Description": "Users who can manage data in the db",
-    "DisplayName": "VCDataAdmin",
-    "Id": "cecddf5b-dd34-4f59-abe7-a459f3a120b1",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "VCDataAdmin",
+    "Value": "Lighthouse",
     "AdditionalProperties": {}
   },
   {
@@ -13721,36 +13672,121 @@
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Role to access light house experience from CDX",
-    "DisplayName": "Lighthouse Role",
-    "Id": "2e436c8f-5665-41cb-9fa0-d620946d8380",
+    "Description": "Users who can manage data in the db",
+    "DisplayName": "VCDataAdmin",
+    "Id": "cecddf5b-dd34-4f59-abe7-a459f3a120b1",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Lighthouse",
+    "Value": "VCDataAdmin",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Role for app in a day light users",
-    "DisplayName": "App In A Day Light Users",
-    "Id": "1f8c56cc-c1af-442a-abea-a7ac05679c3d",
+    "Description": "Allows access to CDX CoPilot Shared Demo experiences",
+    "DisplayName": "CoPilot Shared Demo Access",
+    "Id": "e84cb7a2-15f7-4daa-915e-8e688b1843e7",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AppInADayLightUsers",
+    "Value": "CoPilotSharedDemoAccess",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Role for app in a day mediume/heavy users ",
-    "DisplayName": "App In A Day Medium-Heavy Users",
-    "Id": "7f7f3470-f7c6-498a-afc2-9dbb17d48efc",
+    "Description": "Used to secure Customer Test Drive experiences in CDX",
+    "DisplayName": "Customer Test Drive",
+    "Id": "7aae7517-68c9-4114-aff9-8f89de28ca46",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AppInADayMediumHeavyUsers",
+    "Value": "CTD",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Used to secure CDX content",
+    "DisplayName": "W365Role",
+    "Id": "f9b6fe6d-475d-48e4-893d-a2673267f07d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "W365Role",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Can access W365 tenants",
+    "DisplayName": "W365AllowUsers",
+    "Id": "759e8c43-37ca-4017-8616-a4be9d5e1126",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "W365.AllowedUser",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Allows access to CDX D365 Retail Commerce Add-on add on",
+    "DisplayName": "D365 Retail Commerce Add-on",
+    "Id": "187d162d-8f71-4488-a079-c34fb56ffc7b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "D365RetailCommerceAddOn",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User",
+      "Application"
+    ],
+    "Description": "Allows access to DXP API",
+    "DisplayName": "DXPAccessRole",
+    "Id": "056b66d2-221d-4650-a25b-765893271a2a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DXPAccessRole",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Allows access to the the CDX ` with Copilot experience",
+    "DisplayName": "Copilot Security",
+    "Id": "d11c78e4-22d9-4b62-9c2b-12fa91ab8c54",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CopilotSecurity",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Role to access ABS Golden Tenant",
+    "DisplayName": "ABS Golden Tenant",
+    "Id": "9ebca522-71de-407e-8f7c-320eb0380e52",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ABSGoldenTenant",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Role to access EDU Copilot Add On",
+    "DisplayName": "EDUcopilotAddon",
+    "Id": "81a179ff-cbe9-48ea-a228-4bcdfaa47e21",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EDUcopilotAddon",
     "AdditionalProperties": {}
   }
 ]

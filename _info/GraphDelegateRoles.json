@@ -480,6 +480,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to access Sherlock Conversations API acting as users in the organization.",
+    "AdminConsentDisplayName": "Access Sherlock Conversations API as organization users",
+    "Id": "1a8d204a-10fb-4da1-a303-17497f914fbc",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to access Sherlock Conversations API as you.",
+    "UserConsentDisplayName": "Access Sherlock Conversations API as you",
+    "Value": "Conversations.Access",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "This allows user to read M365ContentExplorer",
     "AdminConsentDisplayName": "M365ContentExplorer.Read.All",
     "Id": "b80e6cec-e423-411f-8c98-7fe5a25ca7cf",
@@ -1665,6 +1677,18 @@
     "UserConsentDescription": "Use the ManagedProvider API for readonly operations",
     "UserConsentDisplayName": "MashupProviderApi.Read",
     "Value": "MashupProviderApi.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the client application to create and execute sessions that user has access to",
+    "AdminConsentDisplayName": "Sessions.ReadWrite.All",
+    "Id": "2843164f-ca31-473a-9198-ceaeb95e59b1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the client application to create and execute sessions that user has access to",
+    "UserConsentDisplayName": "Sessions.ReadWrite.All",
+    "Value": "Sessions.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -11208,6 +11232,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app read and write access to connected services for the user",
+    "AdminConsentDisplayName": "Read and write access to connected services for the user",
+    "Id": "f6ce1383-15a3-4547-a2cd-0b6fa8804df8",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app read and write access to connected services for the user",
+    "UserConsentDisplayName": "Read and write access to connected services for the user",
+    "Value": "DiscoveryConnectedServices.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app read and write access to a list of user’s most recently used documents and locations",
+    "AdminConsentDisplayName": "Read and write access to a list of most recently used documents and locations for the user",
+    "Id": "b7d2228a-50ac-4639-bc0d-6c91c3e5bac5",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app read and write access to a list of user’s most recently used documents and locations",
+    "UserConsentDisplayName": "Read and write access to a list of most recently used documents and locations for the user",
+    "Value": "MRU.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow app to submit jobs to eDiscovery.",
     "AdminConsentDisplayName": "eDiscovery.Jobs.Write",
     "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
@@ -11721,6 +11769,102 @@
     "UserConsentDescription": "Allows an application to read or write Customer Key Encryption Tenant Data",
     "UserConsentDisplayName": "Read or Write Customer Key Encryption Tenant Data",
     "Value": "CustomerKeyTenant-Internal.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to access User Skills CRUD APIs",
+    "AdminConsentDisplayName": "VivaSkills.User.ReadWrite",
+    "Id": "3fa41f45-e40d-4646-9217-e54ebb5ee53f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to access User Skills CRUD APIs",
+    "UserConsentDisplayName": "VivaSkills.User.ReadWrite",
+    "Value": "VivaSkills.User.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to access User Skills Read APIs",
+    "AdminConsentDisplayName": "VivaSkills.User.Read",
+    "Id": "f3f5d286-af39-42b3-9f5d-cea0eed1fb19",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to access User Skills Read APIs",
+    "UserConsentDisplayName": "VivaSkills.User.Read",
+    "Value": "VivaSkills.User.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to talk to Bulk Tagging API",
+    "AdminConsentDisplayName": "VivaSkills.Learning.ReadWrite",
+    "Id": "3bf0c553-a627-4806-ac0e-36e46f7bbd7f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to talk to BlukTagging API",
+    "UserConsentDisplayName": "VivaSkills.Learning.ReadWrite",
+    "Value": "VivaSkills.Learning.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to talk to Content Tagging API",
+    "AdminConsentDisplayName": "VivaSkills.Content.ReadWrite",
+    "Id": "33de1162-cc96-4170-9242-4c390e8579d0",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to talk to Content Tagging API",
+    "UserConsentDisplayName": "VivaSkills.Content.ReadWrite",
+    "Value": "VivaSkills.Content.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "VivaSkills.Read",
+    "AdminConsentDisplayName": "VivaSkills.Read",
+    "Id": "8d01acc7-82e6-4367-86a4-a982fc065146",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "VivaSkills.Read",
+    "UserConsentDisplayName": "VivaSkills.Read",
+    "Value": "VivaSkills.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "VivaSkills.ReadWrite",
+    "AdminConsentDisplayName": "VivaSkills.ReadWrite",
+    "Id": "888aee5d-7a7e-4cb3-a069-2348a008a48b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "VivaSkills.ReadWrite",
+    "UserConsentDisplayName": "VivaSkills.ReadWrite",
+    "Value": "VivaSkills.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "VivaSkills.Admin.Read",
+    "AdminConsentDisplayName": "VivaSkills.Admin.Read",
+    "Id": "6313fbd6-4023-478d-8745-92f8881ead8d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "VivaSkills.Admin.Read",
+    "UserConsentDisplayName": "VivaSkills.Admin.Read",
+    "Value": "VivaSkills.Admin.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "VivaSkills.Admin.ReadWrite",
+    "AdminConsentDisplayName": "VivaSkills.Admin.ReadWrite",
+    "Id": "7734fbf3-01a5-4017-9449-27e8acee5ba5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "VivaSkills.Admin.ReadWrite",
+    "UserConsentDisplayName": "VivaSkills.Admin.ReadWrite",
+    "Value": "VivaSkills.Admin.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -15420,6 +15564,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "this allows to read user profile",
+    "AdminConsentDisplayName": "user.read",
+    "Id": "34a47c2f-cd0d-47b4-a93c-2c41130c671c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "this allows to read user profile",
+    "UserConsentDisplayName": "user.read",
+    "Value": "user.read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "This permission is required to create Action Packages",
     "AdminConsentDisplayName": "ActionPackage.ReadWrite.All",
     "Id": "1cf92f38-2850-4dbf-8f1d-fadd7532d7b7",
@@ -15477,6 +15633,54 @@
     "UserConsentDescription": "Have read access to alchemy data",
     "UserConsentDisplayName": "Access read alchemy data",
     "Value": "Alchemy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read print badge collections on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read print badge collections.",
+    "Id": "23b75ee2-e239-4146-92a4-e86346ffe4ad",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read print badge collections on your behalf.",
+    "UserConsentDisplayName": "Read print badge collections.",
+    "Value": "PrintBadgeCollections.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read and update print badge collections on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write print badge collections.",
+    "Id": "d6c2f65a-47e8-40e8-88c6-6fb221d28b8d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read and write print badge collections on your behalf.",
+    "UserConsentDisplayName": "Read and write print badge collections.",
+    "Value": "PrintBadgeCollections.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read print badges on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read print badges.",
+    "Id": "5ab706f2-4ce1-4c50-a91c-80c9d82f1a65",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read print badges on your behalf.",
+    "UserConsentDisplayName": "Read print badges.",
+    "Value": "PrintBadges.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read and update print badges on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write print badges.",
+    "Id": "b0251562-fe60-48c3-a11c-b2a82962956a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read and write print badges on your behalf.",
+    "UserConsentDisplayName": "Read and write print badges.",
+    "Value": "PrintBadges.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -15972,46 +16176,22 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read and write Skype user contacts and groups\r\n",
-    "AdminConsentDisplayName": "Read/write Skype user contacts and groups",
-    "Id": "5bdeff8b-73d9-4b8a-9e9b-d44c6105f9b4",
-    "IsEnabled": true,
+    "AdminConsentDescription": "Allows the app to initiate instant messages, audio, video, and desktop sharing conversations; and join meetings on-behalf of the signed-in user\r\n",
+    "AdminConsentDisplayName": "Initiate conversations and join meetings",
+    "Id": "44e84b5a-52a3-4b41-975c-6c960414004a",
+    "IsEnabled": false,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read and manage your Skype for Business contacts and groups\r\n",
-    "UserConsentDisplayName": "Read and manage your Skype contacts and groups",
-    "Value": "Contacts.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to receive instant messages, audio, video, and desktop sharing invitations on-behalf of the signed-in user\r\n",
-    "AdminConsentDisplayName": "Receive conversation invites (preview)",
-    "Id": "4d48dea7-b534-4bca-9d76-5f8a7a8edae8",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to receive instant messages, audio, video, and desktop sharing invitations\r\n",
-    "UserConsentDisplayName": "Receive conversation invites",
-    "Value": "Conversations.Receive",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read and update presence, photo, location, note, call forwarding settings of the signed-in user\r\n",
-    "AdminConsentDisplayName": "Read/write Skype user information (preview)",
-    "Id": "208afe8f-9dfa-4f72-a755-6b810d61f42f",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read and update your presence, photo, location, note, call forwarding settings\r\n",
-    "UserConsentDisplayName": "Read and manage user information",
-    "Value": "User.ReadWrite",
+    "UserConsentDescription": "Allows the app to initiate instant messages, audio, video, and desktop sharing conversations; and join meetings\r\n",
+    "UserConsentDisplayName": "Initiate conversations and join meetings",
+    "Value": "Conversations.Initiate",
     "AdditionalProperties": {}
   },
   {
     "AdminConsentDescription": "Allows the app to create Skype meetings on-behalf of the signed-in user\r\n",
     "AdminConsentDisplayName": "Create Skype Meetings",
     "Id": "d0c8f2ea-8f80-4289-8e78-4bc821cde1bc",
-    "IsEnabled": true,
+    "IsEnabled": false,
     "Origin": null,
     "Type": "User",
     "UserConsentDescription": "Allows the app to create Skype meetings\r\n",
@@ -16020,15 +16200,39 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to initiate instant messages, audio, video, and desktop sharing conversations; and join meetings on-behalf of the signed-in user\r\n",
-    "AdminConsentDisplayName": "Initiate conversations and join meetings",
-    "Id": "44e84b5a-52a3-4b41-975c-6c960414004a",
-    "IsEnabled": true,
+    "AdminConsentDescription": "Allows the app to read and update presence, photo, location, note, call forwarding settings of the signed-in user\r\n",
+    "AdminConsentDisplayName": "Read/write Skype user information (preview)",
+    "Id": "208afe8f-9dfa-4f72-a755-6b810d61f42f",
+    "IsEnabled": false,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to initiate instant messages, audio, video, and desktop sharing conversations; and join meetings\r\n",
-    "UserConsentDisplayName": "Initiate conversations and join meetings",
-    "Value": "Conversations.Initiate",
+    "UserConsentDescription": "Allows the app to read and update your presence, photo, location, note, call forwarding settings\r\n",
+    "UserConsentDisplayName": "Read and manage user information",
+    "Value": "User.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to receive instant messages, audio, video, and desktop sharing invitations on-behalf of the signed-in user\r\n",
+    "AdminConsentDisplayName": "Receive conversation invites (preview)",
+    "Id": "4d48dea7-b534-4bca-9d76-5f8a7a8edae8",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to receive instant messages, audio, video, and desktop sharing invitations\r\n",
+    "UserConsentDisplayName": "Receive conversation invites",
+    "Value": "Conversations.Receive",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and write Skype user contacts and groups\r\n",
+    "AdminConsentDisplayName": "Read/write Skype user contacts and groups",
+    "Id": "5bdeff8b-73d9-4b8a-9e9b-d44c6105f9b4",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read and manage your Skype for Business contacts and groups\r\n",
+    "UserConsentDisplayName": "Read and manage your Skype contacts and groups",
+    "Value": "Contacts.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -18048,6 +18252,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app access to Microsoft 365 Modern Support Connector as signed in user",
+    "AdminConsentDisplayName": "M365Connector.Access_As_User",
+    "Id": "d51d8889-53eb-4fc7-950f-aae89cd9e5fe",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app access to Microsoft 365 Modern Support Connector as signed in user",
+    "UserConsentDisplayName": "Microsoft 365 Modern Support Connector",
+    "Value": "M365Connector.Access_As_User",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Microsoft Stream is a fully managed SaaS service for enterprise customers in which users can upload, share and view videos.",
     "AdminConsentDisplayName": "Access Microsoft Stream as a signed-in user",
     "Id": "2185b81d-ed0a-4219-9b20-d8fa6bd53097",
@@ -18057,6 +18273,18 @@
     "UserConsentDescription": "Microsoft Stream is a fully managed SaaS service for enterprise customers in which users can upload, share and view videos.",
     "UserConsentDisplayName": "Access Microsoft Stream as a signed-in user",
     "Value": "access_microsoftstream_service",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to create conversation threads and reply on existing threads for the SRE agents that user has access to",
+    "AdminConsentDisplayName": "Create conversation threads with SRE agents and reply on existing conversation threads",
+    "Id": "c41153e1-cb8a-4a26-ac7e-e6457e0716cf",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to create conversation threads and reply on existing threads for the SRE agents that user has access to",
+    "UserConsentDisplayName": "Create conversation threads with SRE agents and reply on existing conversation threads",
+    "Value": "Threads.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -19125,6 +19353,18 @@
     "UserConsentDescription": "Consent for Azure Machine Learning Service",
     "UserConsentDisplayName": "user_impersonation",
     "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to access Azure Growth Signup APIs acting as signed-in users",
+    "AdminConsentDisplayName": "Azure Growth Signup",
+    "Id": "df5e5f31-cc73-4a31-9291-89348976337e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to access Signup APIs acting as signed-in users",
+    "UserConsentDisplayName": "Azure Growth Signup",
+    "Value": "azuregrowth.api.signup",
     "AdditionalProperties": {}
   },
   {

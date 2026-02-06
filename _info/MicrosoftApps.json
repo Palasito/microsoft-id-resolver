@@ -42,6 +42,12 @@
     "source": "Graph"
   },
   {
+    "appId": "589ce44b-ca13-4384-89e2-dd4e642a4b37",
+    "displayName": "AKS Deployment Safeguards",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "93625bc8-bfe2-437a-97e0-3d0060024faa",
     "displayName": "Microsoft password reset service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -492,6 +498,12 @@
     "source": "Graph"
   },
   {
+    "appId": "02d2a314-8dbb-47d3-8a77-1677403097de",
+    "displayName": "Microsoft SaaS Hub Resource Provider",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "00695ed2-3202-4156-8da1-69f60065e255",
     "displayName": "Microsoft Visio Data Visualizer",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -660,6 +672,12 @@
     "source": "Graph"
   },
   {
+    "appId": "2c7dd73f-7a21-485b-b97d-a2508fa152c3",
+    "displayName": "Azure ContainerApps Sessions",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
     "displayName": "Microsoft Teams Web Client",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -740,6 +758,12 @@
   {
     "appId": "2b479c68-8d9b-4e27-9d85-5d74803de734",
     "displayName": "Virtual Visits App",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "1459b1f6-7a5b-4300-93a2-44b4a651759f",
+    "displayName": "Azure Container Apps Arc - Control Plane",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -884,6 +908,12 @@
   {
     "appId": "f6b60513-f290-450e-a2f3-9930de61c5e7",
     "displayName": "Microsoft Azure Log Search Alerts",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "55ebbb62-3b9c-49fd-9b87-9595226dd4ac",
+    "displayName": "Microsoft Azure Legion ",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -1476,6 +1506,12 @@
     "source": "Graph"
   },
   {
+    "appId": "75d4238e-b142-4d2d-aed9-232b830b8706",
+    "displayName": "Viva Skills",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "8f41dc7c-542c-4bdd-8eb3-e60543f607ca",
     "displayName": "Microsoft Device Directory Service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1706,6 +1742,12 @@
   {
     "appId": "b24835c0-6b13-41e7-822c-94c9effb98ee",
     "displayName": "FrontendTransport",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "4730902d-4371-4615-ba76-e99be524bd44",
+    "displayName": "AKS Trust domain",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -2238,6 +2280,12 @@
     "source": "Graph"
   },
   {
+    "appId": "6dae42f8-4368-4678-94ff-3960e28e3630",
+    "displayName": "Azure Kubernetes Service AAD Server",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "7b58f833-4438-494c-a724-234928795a67",
     "displayName": "Directory and Policy Cache",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2412,6 +2460,12 @@
     "source": "Graph"
   },
   {
+    "appId": "6104ad52-755e-428b-9fb5-5fdf4d2c4d53",
+    "displayName": "Azure ContainerApps Auth",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "7cd684f4-8a78-49b0-91ec-6a35d38739ba",
     "displayName": "Azure Logic Apps",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2514,6 +2568,12 @@
     "source": "Graph"
   },
   {
+    "appId": "409eb69a-5e20-4e1e-a8bf-c23300057950",
+    "displayName": "Azure Container Apps Arc - Data Plane",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "224a7b82-46c9-4d6b-8db0-7360fb444681",
     "displayName": "Microsoft Modern Contact Master",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2588,6 +2648,12 @@
   {
     "appId": "de926fbf-e23b-41f9-ae15-c943a9cfa630",
     "displayName": "Microsoft Azure Authorization Private Link Provider",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "609d2f62-527f-4451-bfd2-ac2c7850822c",
+    "displayName": "Azure Kubernetes Service - Fleet RP",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -3300,6 +3366,12 @@
     "source": "Graph"
   },
   {
+    "appId": "75861f5e-a448-49d7-9c99-6b59bc88c6dc",
+    "displayName": "Modern Support Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "3734c1a4-2bed-4998-a37a-ff1a9e7bf019",
     "displayName": "Microsoft Azure Container Apps - Data Plane",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3368,6 +3440,12 @@
   {
     "appId": "b5a60e17-278b-4c92-a4e2-b9262e66bb28",
     "displayName": "Azure MFA StrongAuthenticationService",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "59f0a04a-b322-4310-adc9-39ac41e9631e",
+    "displayName": "Azure SRE Agent",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -3606,6 +3684,12 @@
     "source": "Graph"
   },
   {
+    "appId": "8d605dfc-1a04-4da6-9be2-8426724af3f3",
+    "displayName": "Power Platform Authorization Service PROD",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "0cb7b9ec-5336-483b-bc31-b15b5788de71",
     "displayName": "ASM Campaign Servicing",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3770,6 +3854,12 @@
   {
     "appId": "9cb77803-d937-493e-9a3b-4b49de3f5a74",
     "displayName": "Microsoft Intune Service Discovery",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "7319c514-987d-4e9b-ac3d-d38c4f427f4c",
+    "displayName": "AzureContainerService",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -23544,12 +23634,6 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "6dae42f8-4368-4678-94ff-3960e28e3630",
-    "displayName": "AKS server app ID",
-    "appOwnerOrganizationId": "",
-    "source": "EntraDocs"
-  },
-  {
     "appId": "80faf920-1908-4b52-b5ef-a8e7bedfc67a",
     "displayName": "AKS public client ID on behalf of user auth",
     "appOwnerOrganizationId": "",
@@ -24506,12 +24590,6 @@
   {
     "appId": "707aa1ac-be0a-478d-9ce7-0d2765a5c1d6",
     "displayName": "Funnel and Engagement Data Service [Community Contributed]",
-    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
-    "source": "GitHub"
-  },
-  {
-    "appId": "75861f5e-a448-49d7-9c99-6b59bc88c6dc",
-    "displayName": "Modern Support Connector [Community Contributed]",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "GitHub"
   },

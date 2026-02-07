@@ -214,9 +214,9 @@ function Get-UTCMResourceNamesFromDocs {
             # Actual format: <h2 id="administrativeunit-resource-type">administrativeUnit resource type</h2>
             # We need to capture the camelCase name from the text content
             $h2Pattern = '<h2[^>]*id="([^"]+)-resource-type"[^>]*>(\w+)\s+resource\s+type</h2>'
-            $matches = [regex]::Matches($htmlContent, $h2Pattern)
+            $activeMatches = [regex]::Matches($htmlContent, $h2Pattern)
             
-            foreach ($match in $matches) {
+            foreach ($match in $activeMatches) {
                 $lowercaseKey = $match.Groups[1].Value    # from id (e.g., "administrativeunit")  
                 $camelCaseName = $match.Groups[2].Value  # from text (e.g., "administrativeUnit")
                 
@@ -227,7 +227,7 @@ function Get-UTCMResourceNamesFromDocs {
                 }
             }
             
-            Write-Verbose "  Extracted $($matches.Count) resource types from page"
+            Write-Verbose "  Extracted $($activeMatches.Count) resource types from page"
         } catch {
             Write-Warning "Failed to fetch $pageUrl : $_"
         }

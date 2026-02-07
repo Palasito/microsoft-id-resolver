@@ -281,6 +281,16 @@ try {
     $schema = Invoke-RestMethod -Uri $SchemaUrl -ErrorAction Stop
     Write-Host "✓ Schema fetched successfully" -ForegroundColor Green
     
+    # Ensure output directory exists before saving schema
+    if (-not (Test-Path $OutputPath)) {
+        New-Item -Path $OutputPath -ItemType Directory -Force | Out-Null
+    }
+    
+    # Export the raw schema to file for reference
+    $schemaOutputPath = Join-Path $OutputPath "utcm-monitor-schema.json"
+    $schema | ConvertTo-Json -Depth 100 | Set-Content -Path $schemaOutputPath -Encoding UTF8
+    Write-Host "✓ Raw schema exported to: $schemaOutputPath" -ForegroundColor Green
+    
     # Extract resource types from $defs
     $resourceDefinitions = $schema.'$defs'
     

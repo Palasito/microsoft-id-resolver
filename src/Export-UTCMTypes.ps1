@@ -1,16 +1,17 @@
 <#
 .SYNOPSIS
-    Crawls Microsoft Learn pages to extract resource types and add appropriate prefixes for snapshot creation.
+    Extracts UTCM resource types from the official JSON schema at schemastore.org.
 
 .DESCRIPTION
-    This script periodically fetches resource types from Microsoft Learn documentation pages
-    and adds the appropriate 'microsoft.<type>.' prefix to each resource type.
-    The prefix type is dynamically determined from the URL pattern.
+    This script fetches the authoritative UTCM JSON schema from schemastore.org and extracts
+    all resource types with their metadata. The schema is always up-to-date and contains
+    all resource types in microsoft.<type>.<resourcename> format.
 
 .NOTES
-    Version: 1.0
+    Version: 2.0
     Author: Pipeline Automation
     Last Updated: February 2026
+    Schema Source: https://www.schemastore.org/utcm-monitor.json
 #>
 
 [CmdletBinding()]
@@ -19,42 +20,13 @@ param(
     [string]$OutputPath = ".\_info",
 
     [Parameter(Mandatory = $false)]
-    [string]$FileName = "utcm-resource-types.json",
+    [string]$JsonFileName = "utcm-resource-types.json",
 
     [Parameter(Mandatory = $false)]
-    [switch]$ExportToJson,
+    [string]$CsvFileName = "utcm-resource-types.csv",
 
     [Parameter(Mandatory = $false)]
-    [switch]$ExportToCsv
-)
-
-# Static list of URLs to crawl - Update this list manually as needed
-$ResourceUrls = @(
-    @{
-        Url  = "https://learn.microsoft.com/en-us/graph/utcm-intune-resources"
-        Type = "intune"
-    },
-    @{
-        Url  = "https://learn.microsoft.com/en-us/graph/utcm-exchange-resources"
-        Type = "exchange"
-    },
-    @{
-        Url  = "https://learn.microsoft.com/en-us/graph/utcm-entra-resources"
-        Type = "entra"
-    },
-    @{
-        Url  = "https://learn.microsoft.com/en-us/graph/utcm-securityandcompliance-resources"
-        Type = "securityandcompliance"
-    },
-    @{
-        Url  = "https://learn.microsoft.com/en-us/graph/utcm-teams-resources"
-        Type = "teams"
-    }
-    # Add more resource types here as needed:
-    # @{
-    #     Url = "https://learn.microsoft.com/en-us/graph/utcm-<type>-resources"
-    #     Type = "<type>"
-    # }
+    [string]$SchemaUrl = "https://www.schemastore.org/utcm-monitor.json"
 )
 
 # Function to convert camelCase/PascalCase to friendly display name
@@ -69,83 +41,114 @@ function ConvertTo-FriendlyName {
     $hasUpperCase = $Name -cmatch '[A-Z]'
     
     if (-not $hasUpperCase) {
-        # All lowercase - use heuristic word boundary detection
-        # Insert spaces before common word patterns
+        # All lowercase - use intelligent word boundary detection
+        # Strategy: comprehensive English word library to split concatenated words
+        
         $friendlyName = $Name
         
-        # Common technology terms and patterns
-        $friendlyName = $friendlyName -replace 'policy', ' Policy'
-        $friendlyName = $friendlyName -replace 'configuration', ' Configuration'
-        $friendlyName = $friendlyName -replace 'protection', ' Protection'
-        $friendlyName = $friendlyName -replace 'device', ' Device'
-        $friendlyName = $friendlyName -replace 'windows', ' Windows'
-        $friendlyName = $friendlyName -replace 'android', ' Android'
-        $friendlyName = $friendlyName -replace 'account', ' Account'
-        $friendlyName = $friendlyName -replace 'antivirus', ' Antivirus'
-        $friendlyName = $friendlyName -replace 'application', ' Application'
-        $friendlyName = $friendlyName -replace 'control', ' Control'
-        $friendlyName = $friendlyName -replace 'surface', ' Surface'
-        $friendlyName = $friendlyName -replace 'reduction', ' Reduction'
-        $friendlyName = $friendlyName -replace 'rules', ' Rules'
-        $friendlyName = $friendlyName -replace 'compliance', ' Compliance'
-        $friendlyName = $friendlyName -replace 'catalog', ' Catalog'
-        $friendlyName = $friendlyName -replace 'setting', ' Setting'
-        $friendlyName = $friendlyName -replace 'template', ' Template'
-        $friendlyName = $friendlyName -replace 'administrative', ' Administrative'
-        $friendlyName = $friendlyName -replace 'custom', ' Custom'
-        $friendlyName = $friendlyName -replace 'defender', ' Defender'
-        $friendlyName = $friendlyName -replace 'endpoint', ' Endpoint'
-        $friendlyName = $friendlyName -replace 'onboarding', ' Onboarding'
-        $friendlyName = $friendlyName -replace 'delivery', ' Delivery'
-        $friendlyName = $friendlyName -replace 'optimization', ' Optimization'
-        $friendlyName = $friendlyName -replace 'domain', ' Domain'
-        $friendlyName = $friendlyName -replace 'join', ' Join'
-        $friendlyName = $friendlyName -replace 'email', ' Email'
-        $friendlyName = $friendlyName -replace 'profile', ' Profile'
-        $friendlyName = $friendlyName -replace 'firmware', ' Firmware'
-        $friendlyName = $friendlyName -replace 'interface', ' Interface'
-        $friendlyName = $friendlyName -replace 'health', ' Health'
-        $friendlyName = $friendlyName -replace 'monitoring', ' Monitoring'
-        $friendlyName = $friendlyName -replace 'identity', ' Identity'
-        $friendlyName = $friendlyName -replace 'imported', ' Imported'
-        $friendlyName = $friendlyName -replace 'certificate', ' Certificate'
-        $friendlyName = $friendlyName -replace 'kiosk', ' Kiosk'
-        $friendlyName = $friendlyName -replace 'network', ' Network'
-        $friendlyName = $friendlyName -replace 'boundary', ' Boundary'
-        $friendlyName = $friendlyName -replace 'trusted', ' Trusted'
-        $friendlyName = $friendlyName -replace 'wired', ' Wired'
-        $friendlyName = $friendlyName -replace 'enrollment', ' Enrollment'
-        $friendlyName = $friendlyName -replace 'limit', ' Limit'
-        $friendlyName = $friendlyName -replace 'restriction', ' Restriction'
-        $friendlyName = $friendlyName -replace 'platform', ' Platform'
-        $friendlyName = $friendlyName -replace 'status', ' Status'
-        $friendlyName = $friendlyName -replace 'page', ' Page'
-        $friendlyName = $friendlyName -replace 'detection', ' Detection'
-        $friendlyName = $friendlyName -replace 'response', ' Response'
-        $friendlyName = $friendlyName -replace 'exploit', ' Exploit'
-        $friendlyName = $friendlyName -replace 'cleanup', ' Cleanup'
-        $friendlyName = $friendlyName -replace 'rule', ' Rule'
-        $friendlyName = $friendlyName -replace 'local', ' Local'
-        $friendlyName = $friendlyName -replace 'user', ' User'
-        $friendlyName = $friendlyName -replace 'group', ' Group'
-        $friendlyName = $friendlyName -replace 'membership', ' Membership'
-        $friendlyName = $friendlyName -replace 'category', ' Category'
+        # Build comprehensive word library (sorted by length descending for longest-match-first)
+        $words = @(
+            # 5+ letters (most specific)
+            'authentication', 'authorization', 'administrative', 'administrator', 'availability', 
+            'configuration', 'classification', 'synchronization', 'notification', 'registration',
+            'certificate', 'assignment', 'encryption', 'federation', 'deployment', 'integration',
+            'distribution', 'subscription', 'organization', 'optimization', 'restriction',
+            'template', 'delivery', 'detection', 'interface', 'monitoring', 'onboarding',
+            'reduction', 'enrollment', 'membership', 'ownership', 'migration', 'retention',
+            'expiration', 'activation', 'deactivation', 'validation', 'verification',
+            'settings', 'category', 'firmware', 'software', 'hardware', 'platform',
+            'defender', 'endpoint', 'antivirus', 'boundary', 'baseline', 'standard',
+            'advanced', 'custom', 'attribute', 'context', 'reference', 'method',
+            'policy', 'profile', 'device', 'windows', 'android', 'account',
+            'control', 'surface', 'catalog', 'setting', 'domain', 'email',
+            'health', 'identity', 'imported', 'kiosk', 'network', 'trusted',
+            'wired', 'wireless', 'status', 'response', 'exploit', 'cleanup',
+            'local', 'group', 'class', 'claim', 'unit', 'application',
+            'protection', 'management', 'compliance', 'information', 'permission',
+            'principal', 'processing', 'provider', 'relationship', 'schedule',
+            'security', 'service', 'tenant', 'transport', 'mailbox',
+            'accepted', 'access', 'address', 'allowed', 'attachment',
+            'blocked', 'calendar', 'client', 'collection', 'connection',
+            'connector', 'content', 'delivery', 'filter', 'hosted',
+            'inbound', 'instance', 'internal', 'journal', 'location',
+            'manager', 'mapping', 'member', 'message', 'named',
+            'outbound', 'password', 'request', 'rule', 'user',
+            'strength', 'conditional', 'crosstenantaccess', 'entitlement',
+            'package', 'catalog', 'resource', 'connected', 'lifecycle',
+            'naming', 'external', 'definition', 'eligibility', 'temporary',
+            'voice', 'authenticator', 'fido', 'software', 'authorization',
+            'tenant', 'default', 'partner', 'malware', 'spam', 'connection',
+            'safe', 'links', 'broadcast', 'emergency', 'routing', 'enhanced',
+            'dialin', 'conferencing', 'recording', 'cortana', 'translation',
+            'unassigned', 'treatment', 'upgrade', 'voicemail', 'calling',
+            'mobility', 'roaming', 'feedback', 'federation', 'guest',
+            'messaging', 'meeting', 'online', 'orgwide', 'workload',
+            'sensitivity', 'supervisory', 'review', 'fileplan', 'authority',
+            'citation', 'department', 'subcategory', 'compliance', 'retention',
+            'entitlement', 'autopilot', 'hybrid', 'joined', 'limit',
+            'restriction', 'enrollment', 'android', 'administrator',
+            'opensource', 'enterprise', 'autoreply', 'permission', 'tips',
+            'intraorganization', 'offlineaddress', 'book', 'perimeter',
+            'policytip', 'config', 'recipient', 'submission', 'roleassignment',
+            'shared',  'sweep', 'accountprotection', 'usergroupmembership',
+            'appconfiguration', 'appprotection', 'deviceandappmanagement',
+            'assignmentfilter', 'cleanup', 'openvpn', 'windows', 'macos',
+            
+            # 4-letter words
+            'role', 'mail', 'fido', 'wifi', 'rule', 'user', 'page',
+            'site', 'team', 'hold', 'park', 'call', 'chat', 'file',
+            'auto', 'list', 'plan', 'irm', 'owa', 'dlp', 'case',
+            'book', 'tips', 'pstn', 'sync', 'task', 'form', 'work',
+            'owner', 'join', 'data', 'zone', 'note', 'link', 'path',
+            
+            # 3-letter words
+            'cas', 'atp', 'ume', 'eop', 'ome', 'vdi', 'app',
+            'api', 'url', 'sms', 'vpn', 'tab', 'set', 'log',
+            'tag', 'tip', 'org', 'key', 'map', 'for', 'and',
+            'the', 'ip', 'ad',
+            
+            # 2-letter words (rarely needed)
+            'um'
+        )
         
-        # Clean up multiple spaces and trim
-        $friendlyName = $friendlyName -replace '\s+', ' '
-        $friendlyName = $friendlyName.Trim()
+        # Sort by length descending to match longest first
+        $words = $words | Sort-Object -Property Length -Descending | Select-Object -Unique
         
-        # Capitalize first letter of each word
-        $friendlyName = (Get-Culture).TextInfo.ToTitleCase($friendlyName.ToLower())
+        # Iterative word extraction
+        $result = @()
+        $remaining = $friendlyName.ToLower()
+        
+        while ($remaining.Length -gt 0) {
+            $matched = $false
+            foreach ($word in $words) {
+                if ($remaining.StartsWith($word)) {
+                    $result += $word
+                    $remaining = $remaining.Substring($word.Length)
+                    $matched = $true
+                    break
+                }
+            }
+            
+            if (-not $matched) {
+                # No match found - take first character and continue
+                $result += $remaining[0].ToString()
+                $remaining = $remaining.Substring(1)
+            }
+        }
+        
+        # Join with spaces and convert to Title Case
+        $friendlyName = ($result -join ' ').Trim()
+        $friendlyName = $friendlyName -replace '\s+', ' '  # Collapse multiple spaces
+        $friendlyName = (Get-Culture).TextInfo.ToTitleCase($friendlyName)
     } else {
-        # Has camelCase - insert spaces before capital letters
-        # But first, protect special OS names and abbreviations from being split incorrectly
-        # Use lowercase placeholders so they don't trigger capital letter splitting
+        # For camelCase names, protect iOS, macOS, AD, and IP from being split
         $tempName = $Name
-        $tempName = $tempName -creplace 'iOS', '~ios~'      # Case-sensitive: only 'iOS' not 'ios' in 'Kiosk'
+        $tempName = $tempName -creplace 'iOS', '~ios~'      # Case-sensitive: only 'iOS'
         $tempName = $tempName -creplace 'macOS', '~macos~'  # Case-sensitive: only 'macOS'
-        $tempName = $tempName -creplace '\bAD\b', '~ad~'    # Word boundary: only standalone 'AD'
-        $tempName = $tempName -creplace '\bIP\b', '~ip~'    # Word boundary: only standalone 'IP'
+        $tempName = $tempName -creplace '(?<=[a-z])AD(?=[A-Z]|$)', '~ad~'    # AD between lowercase and uppercase/end
+        $tempName = $tempName -creplace '(?<=[a-z])IP(?=[A-Z]|$)', '~ip~'    # IP between lowercase and uppercase/end
+        $tempName = $tempName -creplace '^AD(?=[A-Z])', '~ad~'    # AD at start before uppercase
+        $tempName = $tempName -creplace '^IP(?=[A-Z])', '~ip~'    # IP at start before uppercase
         
         # Insert spaces before capital letters
         $friendlyName = $tempName -creplace '([A-Z])', ' $1'
@@ -157,13 +160,13 @@ function ConvertTo-FriendlyName {
         $friendlyName = $friendlyName -replace '~ad~', ' AD'
         $friendlyName = $friendlyName -replace '~ip~', ' IP'
         
-        # Capitalize first letter if not already
+        # Capitalize first letter
         if ($friendlyName.Length -gt 0) {
             $friendlyName = $friendlyName.Substring(0, 1).ToUpper() + $friendlyName.Substring(1)
         }
     }
     
-    # Handle common abbreviations (for both paths)
+    # Handle common abbreviations
     $friendlyName = $friendlyName -replace '\bIos\b', 'iOS'
     $friendlyName = $friendlyName -replace '\bMac\s*Os\b', 'macOS'
     $friendlyName = $friendlyName -replace '\bApi\b', 'API'
@@ -186,426 +189,237 @@ function ConvertTo-FriendlyName {
     return $friendlyName
 }
 
-# Function to extract resource types from Microsoft Learn page
-function Get-ResourceTypesFromPage {
+# Function to extract h2 headers from UTCM documentation pages
+function Get-UTCMResourceNamesFromDocs {
     [CmdletBinding()]
-    param(
-        [Parameter(Mandatory = $true)]
-        [string]$Url,
-        
-        [Parameter(Mandatory = $true)]
-        [string]$ResourceType
+    param()
+    
+    $utcmPages = @(
+        'https://learn.microsoft.com/en-us/graph/utcm-entra-resources'
+        'https://learn.microsoft.com/en-us/graph/utcm-exchange-resources'
+        'https://learn.microsoft.com/en-us/graph/utcm-intune-resources'
+        'https://learn.microsoft.com/en-us/graph/utcm-securityandcompliance-resources'
+        'https://learn.microsoft.com/en-us/graph/utcm-teams-resources'
     )
     
-    try {
-        Write-Host "Fetching resource types from: $Url" -ForegroundColor Cyan
-        
-        # Fetch the page content
-        $response = Invoke-WebRequest -Uri $Url -UseBasicParsing -ErrorAction Stop
-        
-        # Parse the HTML content
-        $content = $response.Content
-        
-        # Extract resource types from the page
-        $resourceTypes = @()
-        
-        # Extract ONLY from h2 heading elements to preserve camelCase formatting
-        # Example: <h2>deviceCategory resource type</h2> → deviceCategory
-        $headingMatches = [regex]::Matches($content, '<h2[^>]*>([a-zA-Z0-9_]+)\s+resource\s+type</h2>', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
-        
-        Write-Host "Found $($headingMatches.Count) h2 heading elements with resource type pattern" -ForegroundColor Gray
-        
-        foreach ($match in $headingMatches) {
-            $resourceName = $match.Groups[1].Value
+    $resourceNameMap = @{}
+    
+    foreach ($pageUrl in $utcmPages) {
+        Write-Verbose "Fetching: $pageUrl"
+        try {
+            $response = Invoke-WebRequest -Uri $pageUrl -UseBasicParsing -ErrorAction Stop
+            $htmlContent = $response.Content
             
-            if ($resourceName -and $resourceName -notmatch '^(http|https|www|learn|microsoft|graph|resource|type)$' -and $resourceName.Length -gt 2) {
-                $resourceTypes += $resourceName
-            }
-        }
-        
-        # Remove duplicates and sort (case-sensitive to preserve exact casing)
-        $uniqueResourceTypes = $resourceTypes | Select-Object -Unique | Sort-Object
-        
-        Write-Host "Found $($uniqueResourceTypes.Count) unique resource types for $ResourceType" -ForegroundColor Green
-        
-        # Add prefix to each resource type
-        $prefixedResources = @()
-        foreach ($resource in $uniqueResourceTypes) {
-            $prefixedResource = "microsoft.$ResourceType.$resource"
+            # Extract h2 headers using regex
+            # Actual format: <h2 id="administrativeunit-resource-type">administrativeUnit resource type</h2>
+            # We need to capture the camelCase name from the text content
+            $h2Pattern = '<h2[^>]*id="([^"]+)-resource-type"[^>]*>(\w+)\s+resource\s+type</h2>'
+            $matches = [regex]::Matches($htmlContent, $h2Pattern)
             
-            # Try to extract permissions for this resource type
-            $permissionsData = Get-PermissionsForResourceType -Content $content -ResourceName $resource
-            
-            $resourceObject = @{
-                OriginalName           = $resource
-                FriendlyName           = ConvertTo-FriendlyName -Name $resource
-                PrefixedName           = $prefixedResource
-                ResourceType           = $ResourceType
-                AnchorUrl              = "$Url#$($resource.ToLower())-resource-type"
-                LastUpdated            = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
-            }
-            
-            # Add permissions data if available
-            if ($permissionsData -and $permissionsData.AllPermissions) {
-                $resourceObject.ApplicationPermissions = $permissionsData.AllPermissions
-                $resourceObject.OperationPermissions = $permissionsData.OperationPermissions
-            } else {
-                $resourceObject.ApplicationPermissions = @()
-                $resourceObject.OperationPermissions = @()
-            }
-            
-            # Add Exchange.ManageAsApp permission for all Exchange resource types
-            if ($ResourceType -eq "exchange") {
-                if ($resourceObject.ApplicationPermissions -notcontains "Exchange.ManageAsApp") {
-                    $resourceObject.ApplicationPermissions = @($resourceObject.ApplicationPermissions) + @("Exchange.ManageAsApp")
-                    Write-Verbose "Added Exchange.ManageAsApp permission to $resource"
+            foreach ($match in $matches) {
+                $lowercaseKey = $match.Groups[1].Value    # from id (e.g., "administrativeunit")  
+                $camelCaseName = $match.Groups[2].Value  # from text (e.g., "administrativeUnit")
+                
+                # Store mapping: lowercase -> camelCase
+                if (-not $resourceNameMap.ContainsKey($lowercaseKey)) {
+                    $resourceNameMap[$lowercaseKey] = $camelCaseName
+                    Write-Verbose "  Found: $lowercaseKey -> $camelCaseName"
                 }
             }
             
-            $prefixedResources += $resourceObject
+            Write-Verbose "  Extracted $($matches.Count) resource types from page"
+        } catch {
+            Write-Warning "Failed to fetch $pageUrl : $_"
         }
-        
-        return $prefixedResources
-    }
-    catch {
-        Write-Error "Failed to fetch resource types from $Url : $_"
-        return @()
-    }
-}
-
-# Function to extract permissions for a specific resource type
-function Get-PermissionsForResourceType {
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory = $true)]
-        [string]$Content,
-        
-        [Parameter(Mandatory = $true)]
-        [string]$ResourceName
-    )
-    
-    try {
-        # Look for the section containing this resource type
-        # Pattern: Find the section starting with the resource type anchor/heading
-        # Search up to 30000 characters or until next h2 heading ONLY (h3 is subsection)
-        Write-Verbose "`n=== DEBUG: Searching for permissions: $ResourceName ==="
-        $sectionPattern = "id=`"$ResourceName-resource-type`"[\s\S]{0,30000}?(?=<h2\s|$)"
-        $sectionMatch = [regex]::Match($Content, $sectionPattern, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
-        
-        if (-not $sectionMatch.Success) {
-            # Try alternate pattern with the anchor link
-            Write-Verbose "DEBUG: ID pattern failed, trying href..."
-            $sectionPattern = "href=`"#$ResourceName-resource-type`"[\s\S]{0,30000}?(?=<h2\s|$)"
-            $sectionMatch = [regex]::Match($Content, $sectionPattern, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
-            
-            if (-not $sectionMatch.Success) {
-                Write-Verbose "DEBUG: ❌ Could not find section for resource: $ResourceName"
-                return @()
-            }
-        }
-        
-        Write-Verbose "DEBUG: ✓ Section found (length: $($sectionMatch.Value.Length) chars)"
-        $sectionContent = $sectionMatch.Value
-        
-        # Show preview of section
-        $preview = $sectionContent.Substring(0, [Math]::Min(300, $sectionContent.Length)) -replace '\s+', ' '
-        Write-Verbose "DEBUG: Section preview: $preview..."
-        
-        # Try to find "Application permissions" or "Microsoft Graph permissions" heading followed by table content
-        # Support multiple HTML structures: standard tables, divs with tables, markdown-rendered tables
-        Write-Verbose "DEBUG: Searching for permission tables..."
-        $permissionsPatterns = @(
-            # Pattern 1: Standard table after "Application permissions"
-            'Application\s+permissions[\s\S]{0,3000}?<table[\s\S]{0,5000}?</table>',
-            # Pattern 2: Microsoft Graph + Application permissions + table
-            'Microsoft\s+Graph[\s\S]{0,500}?Application\s+permissions[\s\S]{0,3000}?<table[\s\S]{0,5000}?</table>',
-            # Pattern 3: Any heading with "permissions" + table
-            '<h[3-5][^>]*>.*?[Pp]ermissions.*?</h[3-5]>[\s\S]{0,3000}?<table[\s\S]{0,5000}?</table>',
-            # Pattern 4: Permissions in div/section wrapper
-            'Application\s+permissions[\s\S]{0,500}?<(?:div|section)[^>]*>[\s\S]{0,5000}?<table[\s\S]{0,5000}?</table>',
-            # Pattern 5: Markdown-style table (pipe-delimited)
-            'Application\s+permissions[\s\S]{0,500}?\|[^\n]*\|[\s\S]{0,3000}?(?=\n\n|<h|$)'
-        )
-        
-        $tableContent = $null
-        $patternIndex = 0
-        foreach ($pattern in $permissionsPatterns) {
-            $patternIndex++
-            Write-Verbose "DEBUG: Trying pattern $patternIndex..."
-            $permissionsMatch = [regex]::Match($sectionContent, $pattern, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
-            if ($permissionsMatch.Success) {
-                $tableContent = $permissionsMatch.Value
-                Write-Verbose "DEBUG: ✓ Pattern $patternIndex matched! Table length: $($tableContent.Length)"
-                break
-            }
-        }
-        
-        if (-not $tableContent) {
-            Write-Verbose "DEBUG: ⚠ No permission table found with standard patterns (tried $patternIndex patterns)"
-            Write-Verbose "DEBUG: Attempting fallback: extracting permission strings from section..."
-            
-            # Fallback: Search for "Application permissions" section and extract any Graph permission strings
-            $permSectionPattern = 'Application\s+permissions[\s\S]{0,5000}?(?=<h[3-5]|$)'
-            $permSectionMatch = [regex]::Match($sectionContent, $permSectionPattern, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
-            
-            if ($permSectionMatch.Success) {
-                Write-Verbose "DEBUG: ✓ Found permissions section (fallback)"
-                $permSectionText = $permSectionMatch.Value
-                
-                # Extract all Graph permission strings directly (Capital.Capital.Capital pattern)
-                $permissionPattern = '\b([A-Z][A-Za-z0-9]*\.[A-Z][A-Za-z0-9]*\.[A-Z][A-Za-z0-9]*)\b'
-                $permMatches = [regex]::Matches($permSectionText, $permissionPattern)
-                
-                if ($permMatches.Count -gt 0) {
-                    Write-Verbose "DEBUG: ✓ Extracted $($permMatches.Count) permissions using fallback pattern"
-                    $fallbackPerms = @()
-                    foreach ($match in $permMatches) {
-                        $perm = $match.Groups[1].Value
-                        if ($perm -and $perm -notmatch '^(Operation|Supported|Permissions|Microsoft|Graph)$') {
-                            $fallbackPerms += $perm
-                        }
-                    }
-                    
-                    if ($fallbackPerms.Count -gt 0) {
-                        $uniquePerms = $fallbackPerms | Select-Object -Unique | Sort-Object
-                        Write-Verbose "DEBUG: ✓ Returning $($uniquePerms.Count) unique permissions (fallback) for: $ResourceName"
-                        Write-Host "  Found $($uniquePerms.Count) permissions for $ResourceName (fallback)" -ForegroundColor DarkYellow
-                        return @{
-                            AllPermissions = $uniquePerms
-                            OperationPermissions = @()  # Can't determine operations without table structure
-                        }
-                    }
-                }
-            }
-            
-            Write-Verbose "DEBUG: ❌ No permissions found for: $ResourceName (exhausted all methods)"
-            return @()
-        }
-        
-        # Extract all table rows (excluding header)
-        $rowMatches = [regex]::Matches($tableContent, '<tr[^>]*>(.*?)</tr>', [System.Text.RegularExpressions.RegexOptions]::Singleline)
-        
-        Write-Verbose "DEBUG: Found $($rowMatches.Count) table rows"
-        
-        if ($rowMatches.Count -eq 0) {
-            Write-Verbose "DEBUG: ❌ No table rows found for: $ResourceName"
-            return @()
-        }
-        
-        $permissions = @()
-        $operationPermissions = @()
-        $rowsProcessed = 0
-        
-        foreach ($rowMatch in $rowMatches) {
-            $rowContent = $rowMatch.Groups[1].Value
-            
-            # Skip header rows
-            if ($rowContent -match '<th') {
-                continue
-            }
-            
-            $rowsProcessed++
-            
-            # Extract all table cells
-            $cellMatches = [regex]::Matches($rowContent, '<td[^>]*>(.*?)</td>', [System.Text.RegularExpressions.RegexOptions]::Singleline)
-            
-            if ($cellMatches.Count -ge 2) {
-                $operation = $null
-                
-                # First cell is typically the Operation
-                if ($cellMatches.Count -gt 0) {
-                    $operationCell = $cellMatches[0].Groups[1].Value
-                    $operation = $operationCell -replace '<[^>]+>', '' -replace '&nbsp;', ' ' -replace '&amp;', '&' -replace '\s+', ' '
-                    $operation = $operation.Trim()
-                }
-                
-                # Second cell is typically the Supported permissions
-                if ($cellMatches.Count -gt 1) {
-                    $permissionCell = $cellMatches[1].Groups[1].Value
-                    
-                    # Remove HTML tags but keep the text
-                    $cleanCell = $permissionCell -replace '<[^>]+>', ' '
-                    
-                    # Extract all permission patterns (e.g., Group.Read.All, DeviceManagementConfiguration.Read.All)
-                    # Pattern: word.word.word (each part starts with capital letter)
-                    $permissionMatches = [regex]::Matches($cleanCell, '\b([A-Z][A-Za-z0-9]*\.[A-Z][A-Za-z0-9]*\.[A-Z][A-Za-z0-9]*)\b')
-                    
-                    $cellPermissions = @()
-                    foreach ($permMatch in $permissionMatches) {
-                        $perm = $permMatch.Groups[1].Value
-                        if ($perm -and $perm -notmatch '^(Operation|Supported|Permissions|Microsoft|Graph)$') {
-                            $cellPermissions += $perm
-                            $permissions += $perm
-                        }
-                    }
-                    
-                    if ($operation -and $cellPermissions.Count -gt 0) {
-                        Write-Verbose "DEBUG: Found permissions for operation '$operation': $($cellPermissions -join ', ')"
-                        $operationPermissions += @{
-                            Operation = $operation
-                            Permissions = $cellPermissions
-                        }
-                    }
-                }
-            }
-        }
-        
-        Write-Verbose "DEBUG: Processed $rowsProcessed data rows, found $($permissions.Count) permission mentions"
-        
-        # Return unique permissions with operation context
-        $uniquePermissions = $permissions | Select-Object -Unique | Sort-Object
-        
-        if ($uniquePermissions.Count -gt 0) {
-            Write-Verbose "DEBUG: ✓ Returning $($uniquePermissions.Count) unique permissions for: $ResourceName"
-            Write-Host "  Found $($uniquePermissions.Count) permissions for $ResourceName" -ForegroundColor DarkGreen
-            return @{
-                AllPermissions = $uniquePermissions
-                OperationPermissions = $operationPermissions
-            }
-        }
-        
-        Write-Verbose "DEBUG: ⚠ No permissions found for: $ResourceName"
-        return @()
-    }
-    catch {
-        Write-Verbose "DEBUG: ❌ ERROR extracting permissions for $ResourceName : $_"
-        Write-Host "  ERROR: $_" -ForegroundColor Red
-        return @()
-    }
-}
-
-# Function to dynamically determine resource type from URL if not provided
-function Get-ResourceTypeFromUrl {
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory = $true)]
-        [string]$Url
-    )
-    
-    # Extract resource type from URL pattern: utcm-<type>-resources
-    if ($Url -match 'utcm-([a-zA-Z0-9]+)-resources') {
-        return $matches[1]
     }
     
-    # Fallback: try to extract from path
-    if ($Url -match '/([a-zA-Z0-9]+)-resources') {
-        return $matches[1]
-    }
-    
-    return "unknown"
+    Write-Host "✓ Extracted $($resourceNameMap.Count) camelCase resource names from documentation" -ForegroundColor Green
+    return $resourceNameMap
 }
 
 # Main execution
 Write-Host "==================================================" -ForegroundColor Yellow
-Write-Host "Resource Type Crawler - Starting" -ForegroundColor Yellow
+Write-Host "UTCM Resource Type Extractor - Starting" -ForegroundColor Yellow
 Write-Host "==================================================" -ForegroundColor Yellow
 Write-Host ""
 
-$allResources = @()
-$summary = @()
-
-foreach ($resourceConfig in $ResourceUrls) {
-    $url = $resourceConfig.Url
-    $type = $resourceConfig.Type
-    
-    # If type is not provided, try to determine it from URL
-    if ([string]::IsNullOrWhiteSpace($type)) {
-        $type = Get-ResourceTypeFromUrl -Url $url
-        Write-Host "Dynamically determined resource type: $type" -ForegroundColor Magenta
-    }
-    
-    # Fetch and process resources
-    $resources = Get-ResourceTypesFromPage -Url $url -ResourceType $type
-    
-    if ($resources.Count -gt 0) {
-        $allResources += $resources
-        $summary += @{
-            ResourceType = $type
-            Url          = $url
-            Count        = $resources.Count
-        }
-    }
-    
-    Write-Host ""
-}
-
-# Display summary
-Write-Host "==================================================" -ForegroundColor Yellow
-Write-Host "Summary" -ForegroundColor Yellow
-Write-Host "==================================================" -ForegroundColor Yellow
-
-foreach ($item in $summary) {
-    Write-Host "Resource Type: $($item.ResourceType)" -ForegroundColor Cyan
-    Write-Host "  URL: $($item.Url)" -ForegroundColor Gray
-    Write-Host "  Count: $($item.Count)" -ForegroundColor Green
-    Write-Host ""
-}
-
-Write-Host "Total prefixed resources: $($allResources.Count)" -ForegroundColor Green
+# Step 1: Fetch camelCase names from documentation pages
+Write-Host "Step 1: Fetching resource names from Microsoft Learn documentation pages..." -ForegroundColor Cyan
+$camelCaseMap = Get-UTCMResourceNamesFromDocs
 Write-Host ""
 
-# Export results
-$jsonOutput = @{
-    GeneratedDate  = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
-    TotalResources = $allResources.Count
-    ResourceTypes  = $summary
-    Resources      = $allResources
-} | ConvertTo-Json -Depth 10
+# Step 1.5: Manual overrides for resources not found in docs or with poor word splitting
+$manualOverrides = @{
+    'globaladdresslist' = 'Global Address List'
+    'managementroleentry' = 'Management Role Entry'
+    'addressbookpolicy' = 'Address Book Policy'
+    'addresslist' = 'Address List'
+    'clientaccessrule' = 'Client Access Rule'
+    'eopprotectionpolicyrule' = 'EOP Protection Policy Rule'
+    'externalinoutlook' = 'External In Outlook'
+    'offlineaddressbook' = 'Offline Address Book'
+    'sweeprule' = 'Sweep Rule'
+    'groupsnamingpolicy' = 'Groups Naming Policy'
+    'groupssettings' = 'Groups Settings'
+    'channel' = 'Channel'
+    'channeltab' = 'Channel Tab'
+    'orgwideappsettings' = 'Org Wide App Settings'
+    'accountprotectionlocaladministratorpasswordsolutionpolicy' = 'Account Protection Local Administrator Password Solution Policy'
+    'asrrulespolicywindows10' = 'ASR Rules Policy Windows 10'
+    'auditconfigurationpolicy' = 'Audit Configuration Policy'
+    'autosensitivitylabelrule' = 'Auto Sensitivity Label Rule'
+    'dlpcompliancerule' = 'DLP Compliance Rule'
+    'sensitivitylabel' = 'Sensitivity Label'
+    'place' = 'Place'
+}
 
-$OutputPath = Join-Path $OutputPath $FileName
+# Step 2: Fetch the JSON schema
+Write-Host "Step 2: Fetching JSON schema from: $SchemaUrl" -ForegroundColor Cyan
 
-$jsonOutput | Out-File -FilePath $OutputPath -Encoding UTF8 -Force
-Write-Host "Results exported to: $OutputPath" -ForegroundColor Green
-
-
-$csvPath = $OutputPath -replace '\.json$', '.csv'
-$allResources | ForEach-Object {
-    [PSCustomObject]@{
-        AnchorUrl              = $_.AnchorUrl
-        ApplicationPermissions = if ($_.ApplicationPermissions) { $_.ApplicationPermissions -join ', ' } else { '' }
-        OperationPermissions   = if ($_.OperationPermissions) { 
-            ($_.OperationPermissions | ForEach-Object { "$($_.Operation): $($_.Permissions -join ', ')" }) -join ' | ' 
-        } else { '' }
-        ResourceType           = $_.ResourceType
-        OriginalName           = $_.OriginalName
-        FriendlyName           = $_.FriendlyName
-        PrefixedName           = $_.PrefixedName
-        LastUpdated            = $_.LastUpdated
-    }
-} | Export-Csv -Path $csvPath -NoTypeInformation -Encoding UTF8 -Force
-Write-Host "Results exported to CSV: $csvPath" -ForegroundColor Green
-
-
-# Output sample of prefixed resources for verification
-Write-Host "==================================================" -ForegroundColor Yellow
-Write-Host "Sample Prefixed Resources (first 5)" -ForegroundColor Yellow
-Write-Host "==================================================" -ForegroundColor Yellow
-
-$allResources | Select-Object -First 5 | ForEach-Object {
-    Write-Host ""
-    Write-Host "$($_.PrefixedName)" -ForegroundColor White
-    Write-Host "  Anchor: $($_.AnchorUrl)" -ForegroundColor DarkGray
+try {
+    # Fetch the JSON schema
+    $schema = Invoke-RestMethod -Uri $SchemaUrl -ErrorAction Stop
+    Write-Host "✓ Schema fetched successfully" -ForegroundColor Green
     
-    if ($_.ApplicationPermissions -and $_.ApplicationPermissions.Count -gt 0) {
-        Write-Host "  All Permissions: $($_.ApplicationPermissions -join ', ')" -ForegroundColor Cyan
+    # Extract resource types from $defs
+    $resourceDefinitions = $schema.'$defs'
+    
+    if (-not $resourceDefinitions) {
+        throw "Schema does not contain `$defs section"
+    }
+    
+    $resourceTypeNames = $resourceDefinitions.PSObject.Properties.Name
+    Write-Host "✓ Found $($resourceTypeNames.Count) resource type definitions" -ForegroundColor Green
+    Write-Host ""
+    
+    # Process each resource type
+    $allResources = @()
+    $summary = @{}
+    
+    foreach ($prefixedName in $resourceTypeNames) {
+        # Parse the prefixed name: microsoft.<type>.<resourcename>
+        $parts = $prefixedName -split '\.'
         
-        if ($_.OperationPermissions -and $_.OperationPermissions.Count -gt 0) {
-            Write-Host "  Permission Details:" -ForegroundColor Gray
-            foreach ($opPerm in $_.OperationPermissions) {
-                Write-Host "    - $($opPerm.Operation): $($opPerm.Permissions -join ', ')" -ForegroundColor DarkCyan
-            }
+        if ($parts.Count -ne 3 -or $parts[0] -ne 'microsoft') {
+            Write-Warning "Skipping invalid resource name format: $prefixedName"
+            continue
         }
-    } else {
-        Write-Host "  No permissions found" -ForegroundColor DarkYellow
+        
+        $resourceType = $parts[1]
+        $originalName = $parts[2]
+        
+        # Determine friendly name with priority: manual override > camelCase from docs > word splitting
+        $lowercaseKey = $originalName.ToLower()
+        $friendlyName = $null
+        
+        # Priority 1: Check manual overrides first
+        if ($manualOverrides.ContainsKey($lowercaseKey)) {
+            $friendlyName = $manualOverrides[$lowercaseKey]
+            Write-Verbose "Using manual override: $lowercaseKey → $friendlyName"
+        }
+        # Priority 2: Use camelCase from documentation
+        elseif ($camelCaseMap.ContainsKey($lowercaseKey)) {
+            $camelCaseName = $camelCaseMap[$lowercaseKey]
+            $friendlyName = ConvertTo-FriendlyName -Name $camelCaseName
+            Write-Verbose "Using camelCase from docs: $lowercaseKey → $camelCaseName → $friendlyName"
+        }
+        # Priority 3: Fall back to word splitting on original name
+        else {
+            $friendlyName = ConvertTo-FriendlyName -Name $originalName
+            Write-Verbose "Using word splitting: $originalName → $friendlyName"
+        }
+        
+        # Get the resource definition for description
+        $resourceDef = $resourceDefinitions.$prefixedName
+        $description = $resourceDef.description
+        
+        # Create resource object
+        $resourceObject = [PSCustomObject]@{
+            PrefixedName = $prefixedName
+            ResourceType = $resourceType
+            OriginalName = $originalName
+            FriendlyName = $friendlyName
+            Description  = $description
+            LastUpdated  = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+        }
+        
+        $allResources += $resourceObject
+        
+        # Update summary
+        if (-not $summary.ContainsKey($resourceType)) {
+            $summary[$resourceType] = 0
+        }
+        $summary[$resourceType]++
     }
+    
+    # Sort resources
+    $allResources = $allResources | Sort-Object PrefixedName
+    
+    Write-Host "==================================================" -ForegroundColor Yellow
+    Write-Host "Summary by Resource Type" -ForegroundColor Yellow
+    Write-Host "==================================================" -ForegroundColor Yellow
+    
+    foreach ($type in ($summary.Keys | Sort-Object)) {
+        Write-Host "$type : $($summary[$type]) resources" -ForegroundColor Cyan
+    }
+    
+    Write-Host ""
+    Write-Host "Total resources: $($allResources.Count)" -ForegroundColor Green
+    Write-Host ""
+    
+    # Ensure output directory exists
+    if (-not (Test-Path $OutputPath)) {
+        New-Item -Path $OutputPath -ItemType Directory -Force | Out-Null
+        Write-Host "Created output directory: $OutputPath" -ForegroundColor Gray
+    }
+    
+    # Export to JSON
+    $jsonData = @{
+        GeneratedDate  = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+        SchemaSource   = $SchemaUrl
+        TotalResources = $allResources.Count
+        Summary        = $summary
+        Resources      = $allResources
+    }
+    
+    $jsonPath = Join-Path $OutputPath $JsonFileName
+    $jsonData | ConvertTo-Json -Depth 10 | Out-File -FilePath $jsonPath -Encoding UTF8 -Force
+    Write-Host "✓ JSON exported to: $jsonPath" -ForegroundColor Green
+    
+    # Export to CSV
+    $csvPath = Join-Path $OutputPath $CsvFileName
+    $allResources | Select-Object PrefixedName, ResourceType, OriginalName, FriendlyName, Description, LastUpdated |
+        Export-Csv -Path $csvPath -NoTypeInformation -Encoding UTF8 -Force
+    Write-Host "✓ CSV exported to: $csvPath" -ForegroundColor Green
+    
+    Write-Host ""
+    Write-Host "==================================================" -ForegroundColor Yellow
+    Write-Host "Sample Resources (first 10)" -ForegroundColor Yellow
+    Write-Host "==================================================" -ForegroundColor Yellow
+    
+    $allResources | Select-Object -First 10 | ForEach-Object {
+        Write-Host ""
+        Write-Host "$($_.PrefixedName)" -ForegroundColor White
+        Write-Host "  Original Name: $($_.OriginalName)" -ForegroundColor Gray
+        Write-Host "  Friendly Name: $($_.FriendlyName)" -ForegroundColor Cyan
+        Write-Host "  Type: $($_.ResourceType)" -ForegroundColor Gray
+        if ($_.Description) {
+            $desc = if ($_.Description.Length -gt 100) { 
+                $_.Description.Substring(0, 97) + "..." 
+            } else { 
+                $_.Description 
+            }
+            Write-Host "  Description: $desc" -ForegroundColor DarkGray
+        }
+    }
+    
+    Write-Host ""
+    Write-Host "==================================================" -ForegroundColor Yellow
+    Write-Host "Script completed successfully!" -ForegroundColor Green
+    Write-Host "==================================================" -ForegroundColor Yellow
 }
-
-Write-Host ""
-Write-Host "==================================================" -ForegroundColor Yellow
-
-# Count resources with permissions
-$resourcesWithPermissions = ($allResources | Where-Object { $_.ApplicationPermissions -and $_.ApplicationPermissions.Count -gt 0 }).Count
-Write-Host "Resources with permissions: $resourcesWithPermissions / $($allResources.Count)" -ForegroundColor Green
-
-Write-Host ""
-Write-Host "Script completed successfully!" -ForegroundColor Green
+catch {
+    Write-Error "Failed to process schema: $_"
+    Write-Error $_.Exception.Message
+    exit 1
+}

@@ -13395,6 +13395,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Full Trust Billing Subscription Refund Manager",
+    "DisplayName": "FullTrustBillingSubscriptionRefundManager",
+    "Id": "501b1467-43a9-475e-9fbb-5e840ff5b597",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "FullTrustBillingSubscriptionRefundManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Address Customer Master Reader",
     "DisplayName": "AddressCustomerMasterReader",
     "Id": "1cbc9fa5-af3f-44ad-9455-35ef4dd212aa",

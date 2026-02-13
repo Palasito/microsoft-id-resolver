@@ -18060,6 +18060,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the application to access Diagnostic Services on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Access Diagnostic Services",
+    "Id": "384a9d29-7ed2-4fc4-b781-1aa48cb2b883",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the application to access Diagnostic Services on your behalf",
+    "UserConsentDisplayName": "Access Diagnostic Services",
+    "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to access the Yammer platform on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write to the Yammer platform",
     "Id": "5db81a03-0de0-432b-b31e-71d57c8d2e0b",

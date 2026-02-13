@@ -1509,6 +1509,7 @@
 "934e7a4e-6b72-4c56-966c-0ab878a30c89","operations.readwrite","Operations.ReadWrite","This allows the user to create and get the status of operations."
 "1f479d02-0183-4852-8264-464546fd8f52","Identity.PrivilegeAccountActions","get a list of actions and update on the status of said actions","Allows the app to get a list of actions required on AD and Entra identities and update on the status of said actions for MDI customers."
 "9bba0ae2-fc9b-4c22-b607-b6afdf6601cb","Identity.PrivilegeAccountTagging","Send which accounts are managed by the PAM solution","Allows the app to send which accounts are managed by the PAM solution for all AD and Entra identities for MDI customers."
+"384a9d29-7ed2-4fc4-b781-1aa48cb2b883","user_impersonation","Access Diagnostic Services","Allow the application to access Diagnostic Services on behalf of the signed-in user"
 "5db81a03-0de0-432b-b31e-71d57c8d2e0b","user_impersonation","Read and write to the Yammer platform","Allows the application to access the Yammer platform on behalf of the signed-in user."
 "8e5870bb-8808-44dc-8e10-c509ed919ddd","access_as_user","Read and write to the Yammer platform","Allows the application to access the Yammer platform on behalf of the signed-in user."
 "d472d143-85dd-45b2-8114-a295534d2140","Storyline.ReadWrite.All","Read and write all Viva Engage storylines","Allows the app to read and write all Viva Engage storylines on behalf of the signed-in user."

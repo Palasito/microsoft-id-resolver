@@ -1,18 +1,18 @@
 "PrefixedName","ResourceType","OriginalName","FriendlyName","Description","LastUpdated"
-"microsoft.entra.administrativeunit","entra","administrativeunit","Administrative Unit","This resource configures an Azure AD Administrative Unit.","2026-02-16T05:56:01Z"
-"microsoft.entra.application","entra","application","Application","This resource configures an Azure Active Directory Application.","2026-02-16T05:56:01Z"
-"microsoft.entra.attributeset","entra","attributeset","Attribute Set","Represents a group of related custom security attribute definitions.","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationcontextclassreference","entra","authenticationcontextclassreference","Authentication Context Class Reference","Represents a Microsoft Entra authentication context class reference. Authentication context class references are custom values that define a Conditional Access authentication requirement","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicy","entra","authenticationmethodpolicy","Authentication Method Policy","Azure AD Authentication Method Policy","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicyauthenticator","entra","authenticationmethodpolicyauthenticator","Authentication Method Policy Authenticator","Azure AD Authentication Method Policy Authenticator","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicyemail","entra","authenticationmethodpolicyemail","Authentication Method Policy Email","Azure AD Authentication Method Policy Email","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicyfido2","entra","authenticationmethodpolicyfido2","Authentication Method Policy Fido2","Azure AD Authentication Method Policy Fido2","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicysms","entra","authenticationmethodpolicysms","Authentication Method Policy Sms","Azure AD Authentication Method Policy Sms","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicysoftware","entra","authenticationmethodpolicysoftware","Authentication Method Policy Software","Azure AD Authentication Method Policy Software","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicytemporary","entra","authenticationmethodpolicytemporary","Authentication Method Policy Temporary","Azure AD Authentication Method Policy Temporary","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicyvoice","entra","authenticationmethodpolicyvoice","Authentication Method Policy Voice","Azure AD Authentication Method Policy Voice","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationmethodpolicyx509","entra","authenticationmethodpolicyx509","Authentication Method Policy X509","Azure AD Authentication Method Policy X509","2026-02-16T05:56:01Z"
-"microsoft.entra.authenticationstrengthpolicy","entra","authenticationstrengthpolicy","Authentication Strength Policy","Azure AD Authentication Strength Policy","2026-02-16T05:56:01Z"
+"microsoft.entra.administrativeunit","entra","administrativeunit","Administrative Unit","This resource configures an Azure AD Administrative Unit.","2026-02-16T17:45:25Z"
+"microsoft.entra.application","entra","application","Application","This resource configures an Azure Active Directory Application.","2026-02-16T17:45:25Z"
+"microsoft.entra.attributeset","entra","attributeset","Attribute Set","Represents a group of related custom security attribute definitions.","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationcontextclassreference","entra","authenticationcontextclassreference","Authentication Context Class Reference","Represents a Microsoft Entra authentication context class reference. Authentication context class references are custom values that define a Conditional Access authentication requirement","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicy","entra","authenticationmethodpolicy","Authentication Method Policy","Azure AD Authentication Method Policy","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicyauthenticator","entra","authenticationmethodpolicyauthenticator","Authentication Method Policy Authenticator","Azure AD Authentication Method Policy Authenticator","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicyemail","entra","authenticationmethodpolicyemail","Authentication Method Policy Email","Azure AD Authentication Method Policy Email","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicyfido2","entra","authenticationmethodpolicyfido2","Authentication Method Policy Fido2","Azure AD Authentication Method Policy Fido2","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicysms","entra","authenticationmethodpolicysms","Authentication Method Policy Sms","Azure AD Authentication Method Policy Sms","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicysoftware","entra","authenticationmethodpolicysoftware","Authentication Method Policy Software","Azure AD Authentication Method Policy Software","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicytemporary","entra","authenticationmethodpolicytemporary","Authentication Method Policy Temporary","Azure AD Authentication Method Policy Temporary","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicyvoice","entra","authenticationmethodpolicyvoice","Authentication Method Policy Voice","Azure AD Authentication Method Policy Voice","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationmethodpolicyx509","entra","authenticationmethodpolicyx509","Authentication Method Policy X509","Azure AD Authentication Method Policy X509","2026-02-16T17:45:25Z"
+"microsoft.entra.authenticationstrengthpolicy","entra","authenticationstrengthpolicy","Authentication Strength Policy","Azure AD Authentication Strength Policy","2026-02-16T17:45:25Z"
 "microsoft.entra.authorizationpolicy","entra","authorizationpolicy","Authorization Policy","This resource configures the Azure Active Directory Authorization Policy.
 
 The policy is managed using the BETA API, some properties may have been added in the API but not in the resource
@@ -28,59 +28,59 @@ To authenticate via Microsoft Graph, this resource required the following Applic
 * **Export**
   * Policy.Read.All
 
-NOTE: All permissions listed above require admin consent.","2026-02-16T05:56:01Z"
-"microsoft.entra.conditionalaccesspolicy","entra","conditionalaccesspolicy","Conditional Access Policy","This resource configures an Azure Active Directory Conditional Access Policy.","2026-02-16T05:56:01Z"
-"microsoft.entra.crosstenantaccesspolicy","entra","crosstenantaccesspolicy","Cross Tenant Access Policy","This resource manages Azure AD Cross Tenant Access Policies.","2026-02-16T05:56:01Z"
-"microsoft.entra.crosstenantaccesspolicyconfigurationdefault","entra","crosstenantaccesspolicyconfigurationdefault","Cross Tenant Access Policy Configuration Default","This resource manages Azure AD Cross Tenant Access Policies Configuration Default.","2026-02-16T05:56:01Z"
-"microsoft.entra.crosstenantaccesspolicyconfigurationpartner","entra","crosstenantaccesspolicyconfigurationpartner","Cross Tenant Access Policy Configuration Partner","This resource manages Azure AD Cross Tenant Access Policies Configuration Partner.","2026-02-16T05:56:01Z"
-"microsoft.entra.entitlementmanagementaccesspackage","entra","entitlementmanagementaccesspackage","Entitlement Management Access Package","This resource configures an Azure AD Entitlement Management Access Package.","2026-02-16T05:56:01Z"
-"microsoft.entra.entitlementmanagementaccesspackageassignmentpolicy","entra","entitlementmanagementaccesspackageassignmentpolicy","Entitlement Management Access Package Assignment Policy","This resource configures an Azure AD Entitlement Management Access Package Assignment Policy.","2026-02-16T05:56:01Z"
-"microsoft.entra.entitlementmanagementaccesspackagecatalog","entra","entitlementmanagementaccesspackagecatalog","Entitlement Management Access Package Catalog","This resource configures an Azure AD Entitlement Management Access Package Catalog.","2026-02-16T05:56:01Z"
-"microsoft.entra.entitlementmanagementaccesspackagecatalogresource","entra","entitlementmanagementaccesspackagecatalogresource","Entitlement Management Access Package Catalog Resource","This resource configures an Azure AD Entitlement Management Access Package Catalog Resource.","2026-02-16T05:56:01Z"
-"microsoft.entra.entitlementmanagementconnectedorganization","entra","entitlementmanagementconnectedorganization","Entitlement Management Connected Organization","This resource configures an Azure AD Entitlement Management Connected Organization.","2026-02-16T05:56:01Z"
-"microsoft.entra.externalidentitypolicy","entra","externalidentitypolicy","External Identity Policy","Represents the tenant-wide policy that controls whether external users can leave the guest Microsoft Entra tenant via self-service controls.","2026-02-16T05:56:01Z"
+NOTE: All permissions listed above require admin consent.","2026-02-16T17:45:25Z"
+"microsoft.entra.conditionalaccesspolicy","entra","conditionalaccesspolicy","Conditional Access Policy","This resource configures an Azure Active Directory Conditional Access Policy.","2026-02-16T17:45:25Z"
+"microsoft.entra.crosstenantaccesspolicy","entra","crosstenantaccesspolicy","Cross Tenant Access Policy","This resource manages Azure AD Cross Tenant Access Policies.","2026-02-16T17:45:25Z"
+"microsoft.entra.crosstenantaccesspolicyconfigurationdefault","entra","crosstenantaccesspolicyconfigurationdefault","Cross Tenant Access Policy Configuration Default","This resource manages Azure AD Cross Tenant Access Policies Configuration Default.","2026-02-16T17:45:25Z"
+"microsoft.entra.crosstenantaccesspolicyconfigurationpartner","entra","crosstenantaccesspolicyconfigurationpartner","Cross Tenant Access Policy Configuration Partner","This resource manages Azure AD Cross Tenant Access Policies Configuration Partner.","2026-02-16T17:45:25Z"
+"microsoft.entra.entitlementmanagementaccesspackage","entra","entitlementmanagementaccesspackage","Entitlement Management Access Package","This resource configures an Azure AD Entitlement Management Access Package.","2026-02-16T17:45:25Z"
+"microsoft.entra.entitlementmanagementaccesspackageassignmentpolicy","entra","entitlementmanagementaccesspackageassignmentpolicy","Entitlement Management Access Package Assignment Policy","This resource configures an Azure AD Entitlement Management Access Package Assignment Policy.","2026-02-16T17:45:25Z"
+"microsoft.entra.entitlementmanagementaccesspackagecatalog","entra","entitlementmanagementaccesspackagecatalog","Entitlement Management Access Package Catalog","This resource configures an Azure AD Entitlement Management Access Package Catalog.","2026-02-16T17:45:25Z"
+"microsoft.entra.entitlementmanagementaccesspackagecatalogresource","entra","entitlementmanagementaccesspackagecatalogresource","Entitlement Management Access Package Catalog Resource","This resource configures an Azure AD Entitlement Management Access Package Catalog Resource.","2026-02-16T17:45:25Z"
+"microsoft.entra.entitlementmanagementconnectedorganization","entra","entitlementmanagementconnectedorganization","Entitlement Management Connected Organization","This resource configures an Azure AD Entitlement Management Connected Organization.","2026-02-16T17:45:25Z"
+"microsoft.entra.externalidentitypolicy","entra","externalidentitypolicy","External Identity Policy","Represents the tenant-wide policy that controls whether external users can leave the guest Microsoft Entra tenant via self-service controls.","2026-02-16T17:45:25Z"
 "microsoft.entra.group","entra","group","Group","This resource configures an Azure Active Directory group. IMPORTANT: It does not support mail enabled security groups or mail enabled groups that are not unified or dynamic groups.
 
-If using with AADUser, be aware that if AADUser->MemberOf is being specified and the referenced group is configured with AADGroup->Member then a conflict may arise if the two don't match. It is usually best to choose only one of them. See AADUser","2026-02-16T05:56:01Z"
-"microsoft.entra.grouplifecyclepolicy","entra","grouplifecyclepolicy","Group Lifecycle Policy","This resource configures an Azure Active Directory Group Lifecycle Policy (e.g. Expiration).","2026-02-16T05:56:01Z"
-"microsoft.entra.groupsnamingpolicy","entra","groupsnamingpolicy","Groups Naming Policy","This resource configures an Azure Active Directory Group Naming Policy.","2026-02-16T05:56:01Z"
-"microsoft.entra.groupssettings","entra","groupssettings","Groups Settings","This resource configures an Azure Active Directory Groups Settings.","2026-02-16T05:56:01Z"
-"microsoft.entra.namedlocationpolicy","entra","namedlocationpolicy","Named Location Policy","This resource configures the Azure AD Named Location Policies in Azure Active Directory","2026-02-16T05:56:01Z"
+If using with AADUser, be aware that if AADUser->MemberOf is being specified and the referenced group is configured with AADGroup->Member then a conflict may arise if the two don't match. It is usually best to choose only one of them. See AADUser","2026-02-16T17:45:25Z"
+"microsoft.entra.grouplifecyclepolicy","entra","grouplifecyclepolicy","Group Lifecycle Policy","This resource configures an Azure Active Directory Group Lifecycle Policy (e.g. Expiration).","2026-02-16T17:45:25Z"
+"microsoft.entra.groupsnamingpolicy","entra","groupsnamingpolicy","Groups Naming Policy","This resource configures an Azure Active Directory Group Naming Policy.","2026-02-16T17:45:25Z"
+"microsoft.entra.groupssettings","entra","groupssettings","Groups Settings","This resource configures an Azure Active Directory Groups Settings.","2026-02-16T17:45:25Z"
+"microsoft.entra.namedlocationpolicy","entra","namedlocationpolicy","Named Location Policy","This resource configures the Azure AD Named Location Policies in Azure Active Directory","2026-02-16T17:45:25Z"
 "microsoft.entra.roledefinition","entra","roledefinition","Role Definition","This resource configures an Azure Active Directory role definition.
 To configure custom roles you require an Azure AD Premium P1 license.
 The account used to configure role definitions based on this resource needs either to be a
-""Global Administrator"" or a ""Privileged role administrator"".","2026-02-16T05:56:01Z"
-"microsoft.entra.roleeligibilityschedulerequest","entra","roleeligibilityschedulerequest","Role Eligibility Schedule Request","Represents a request for a role eligibility for a principal through PIM. The role eligibility can be permanently eligible without an expiry date or temporarily eligible with an expiry date. Inherits from request.","2026-02-16T05:56:01Z"
+""Global Administrator"" or a ""Privileged role administrator"".","2026-02-16T17:45:25Z"
+"microsoft.entra.roleeligibilityschedulerequest","entra","roleeligibilityschedulerequest","Role Eligibility Schedule Request","Represents a request for a role eligibility for a principal through PIM. The role eligibility can be permanently eligible without an expiry date or temporarily eligible with an expiry date. Inherits from request.","2026-02-16T17:45:25Z"
 "microsoft.entra.rolesetting","entra","rolesetting","Role Setting","This resource configure existing Azure roles. All UI parameters can be configured using this resource like:
 - Notifications
-- require approval / ticket / justification / MFA","2026-02-16T05:56:01Z"
-"microsoft.entra.securitydefaults","entra","securitydefaults","Security Defaults","This resource configures the Security Defaults in Azure Active Directory.","2026-02-16T05:56:01Z"
-"microsoft.entra.serviceprincipal","entra","serviceprincipal","Service Principal","This resource configures an Azure Active Directory ServicePrincipal.","2026-02-16T05:56:01Z"
-"microsoft.entra.socialidentityprovider","entra","socialidentityprovider","Social Identity Provider","Represents identity providers with External Identities for both Microsoft Entra ID and Azure AD B2C tenants. For Microsoft Entra B2B scenarios in a Microsoft Entra tenant, the identity provider type can be Google or Facebook.","2026-02-16T05:56:01Z"
-"microsoft.entra.tenantdetails","entra","tenantdetails","Tenant Details","This resource configures the Azure AD Tenant Details","2026-02-16T05:56:01Z"
-"microsoft.entra.tokenlifetimepolicy","entra","tokenlifetimepolicy","Token Lifetime Policy","This resource configures the Azure AD Token Lifetime Policies","2026-02-16T05:56:01Z"
+- require approval / ticket / justification / MFA","2026-02-16T17:45:25Z"
+"microsoft.entra.securitydefaults","entra","securitydefaults","Security Defaults","This resource configures the Security Defaults in Azure Active Directory.","2026-02-16T17:45:25Z"
+"microsoft.entra.serviceprincipal","entra","serviceprincipal","Service Principal","This resource configures an Azure Active Directory ServicePrincipal.","2026-02-16T17:45:25Z"
+"microsoft.entra.socialidentityprovider","entra","socialidentityprovider","Social Identity Provider","Represents identity providers with External Identities for both Microsoft Entra ID and Azure AD B2C tenants. For Microsoft Entra B2B scenarios in a Microsoft Entra tenant, the identity provider type can be Google or Facebook.","2026-02-16T17:45:25Z"
+"microsoft.entra.tenantdetails","entra","tenantdetails","Tenant Details","This resource configures the Azure AD Tenant Details","2026-02-16T17:45:25Z"
+"microsoft.entra.tokenlifetimepolicy","entra","tokenlifetimepolicy","Token Lifetime Policy","This resource configures the Azure AD Token Lifetime Policies","2026-02-16T17:45:25Z"
 "microsoft.entra.user","entra","user","User","This resource allows users to create Azure AD Users and assign them licenses, roles and/or groups.
 
-If using with AADGroup, be aware that if AADUser->MemberOf is being specified and the referenced group is configured with AADGroup->Member then a conflict may arise if the two don't match. It is usually best to choose only one of them. See AADGroup","2026-02-16T05:56:01Z"
-"microsoft.exchange.accepteddomain","exchange","accepteddomain","Accepted Domain","This resource configures the Accepted Email Domains in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.activesyncdeviceaccessrule","exchange","activesyncdeviceaccessrule","Active Sync Device Access Rule","This resource configures Active Sync Device Access Rules in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.addressbookpolicy","exchange","addressbookpolicy","Address Book Policy","This resource configures Address Book Policies in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.addresslist","exchange","addresslist","Address List","This resource configures Exchange Online address lists.","2026-02-16T05:56:01Z"
+If using with AADGroup, be aware that if AADUser->MemberOf is being specified and the referenced group is configured with AADGroup->Member then a conflict may arise if the two don't match. It is usually best to choose only one of them. See AADGroup","2026-02-16T17:45:25Z"
+"microsoft.exchange.accepteddomain","exchange","accepteddomain","Accepted Domain","This resource configures the Accepted Email Domains in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.activesyncdeviceaccessrule","exchange","activesyncdeviceaccessrule","Active Sync Device Access Rule","This resource configures Active Sync Device Access Rules in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.addressbookpolicy","exchange","addressbookpolicy","Address Book Policy","This resource configures Address Book Policies in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.addresslist","exchange","addresslist","Address List","This resource configures Exchange Online address lists.","2026-02-16T17:45:25Z"
 "microsoft.exchange.antiphishpolicy","exchange","antiphishpolicy","Anti Phish Policy","This resource configures an Anti-Phish Policy in Exchange Online.
-Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-antiphishpolicy?view=exchange-ps","2026-02-16T05:56:01Z"
+Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-antiphishpolicy?view=exchange-ps","2026-02-16T17:45:25Z"
 "microsoft.exchange.antiphishrule","exchange","antiphishrule","Anti Phish Rule","This resource configures an Anti-Phish Rule in Exchange Online.
-Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-antiphishRule?view=exchange-ps","2026-02-16T05:56:01Z"
-"microsoft.exchange.applicationaccesspolicy","exchange","applicationaccesspolicy","Application Access Policy","This resource configures Applications Access Policies in Exchange Online.","2026-02-16T05:56:01Z"
+Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-antiphishRule?view=exchange-ps","2026-02-16T17:45:25Z"
+"microsoft.exchange.applicationaccesspolicy","exchange","applicationaccesspolicy","Application Access Policy","This resource configures Applications Access Policies in Exchange Online.","2026-02-16T17:45:25Z"
 "microsoft.exchange.atppolicyforo365","exchange","atppolicyforo365","Atp Policy For Office 365","This resource configures the Advanced Threat Protection (ATP) policy
-in Office 365.  Tenant must be subscribed to ATP.","2026-02-16T05:56:01Z"
-"microsoft.exchange.authenticationpolicy","exchange","authenticationpolicy","Authentication Policy","This resource configures Authentication Policies in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.authenticationpolicyassignment","exchange","authenticationpolicyassignment","Authentication Policy Assignment","This resource assigns Exchange Online Authentication Policies to users.","2026-02-16T05:56:01Z"
-"microsoft.exchange.availabilityaddressspace","exchange","availabilityaddressspace","Availability Address Space","Create a new AvailabilityAddressSpace in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.availabilityconfig","exchange","availabilityconfig","Availability Config","This resource configures the Availability Config in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.calendarprocessing","exchange","calendarprocessing","Calendar Processing","This resource configures the Calendar Processing settings Exchange Online.","2026-02-16T05:56:01Z"
+in Office 365.  Tenant must be subscribed to ATP.","2026-02-16T17:45:25Z"
+"microsoft.exchange.authenticationpolicy","exchange","authenticationpolicy","Authentication Policy","This resource configures Authentication Policies in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.authenticationpolicyassignment","exchange","authenticationpolicyassignment","Authentication Policy Assignment","This resource assigns Exchange Online Authentication Policies to users.","2026-02-16T17:45:25Z"
+"microsoft.exchange.availabilityaddressspace","exchange","availabilityaddressspace","Availability Address Space","Create a new AvailabilityAddressSpace in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.availabilityconfig","exchange","availabilityconfig","Availability Config","This resource configures the Availability Config in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.calendarprocessing","exchange","calendarprocessing","Calendar Processing","This resource configures the Calendar Processing settings Exchange Online.","2026-02-16T17:45:25Z"
 "microsoft.exchange.casmailboxplan","exchange","casmailboxplan","Cas Mailbox Plan","This resource configures Client Access services (CAS) mailbox plans
-in cloud-based organizations.","2026-02-16T05:56:01Z"
-"microsoft.exchange.casmailboxsettings","exchange","casmailboxsettings","Cas Mailbox Settings","This resource configures CAS mailbox settings.","2026-02-16T05:56:01Z"
+in cloud-based organizations.","2026-02-16T17:45:25Z"
+"microsoft.exchange.casmailboxsettings","exchange","casmailboxsettings","Cas Mailbox Settings","This resource configures CAS mailbox settings.","2026-02-16T17:45:25Z"
 "microsoft.exchange.clientaccessrule","exchange","clientaccessrule","Client Access Rule","This resource configures Client Access sRules.
 Client Access Rules help you control access to your organization based
 on the properties of the connection.
@@ -88,99 +88,99 @@ on the properties of the connection.
 Note: Not all authentication types are supported for all protocols.
 
 The supported authentication types per protocol can be found here:
-https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules","2026-02-16T05:56:01Z"
-"microsoft.exchange.dataclassification","exchange","dataclassification","Data Classification","Create a new data classification policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.dataencryptionpolicy","exchange","dataencryptionpolicy","Data Encryption Policy","Create a new Data Encryption policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.distributiongroup","exchange","distributiongroup","Distribution Group","This resource configures Exchange Online distribution groups.","2026-02-16T05:56:01Z"
+https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules","2026-02-16T17:45:25Z"
+"microsoft.exchange.dataclassification","exchange","dataclassification","Data Classification","Create a new data classification policy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.dataencryptionpolicy","exchange","dataencryptionpolicy","Data Encryption Policy","Create a new Data Encryption policy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.distributiongroup","exchange","distributiongroup","Distribution Group","This resource configures Exchange Online distribution groups.","2026-02-16T17:45:25Z"
 "microsoft.exchange.dkimsigningconfig","exchange","dkimsigningconfig","Dkim Signing Config","This resource configures the DomainKeys Identified Mail (DKIM) signing policy
-settings for domains in a cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.emailaddresspolicy","exchange","emailaddresspolicy","Email Address Policy","This resource configures Email address policies in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.eopprotectionpolicyrule","exchange","eopprotectionpolicyrule","EOP Protection Policy Rule","This resource configures EOP Protection Policy Rules.","2026-02-16T05:56:01Z"
-"microsoft.exchange.externalinoutlook","exchange","externalinoutlook","External In Outlook","This resource will use Set-ExternalInOutlook cmdlet to modify the configuration of external sender identification that's available in Outlook, Outlook for Mac, Outlook on the web, and Outlook for iOS and Android.","2026-02-16T05:56:01Z"
-"microsoft.exchange.globaladdresslist","exchange","globaladdresslist","Global Address List","This resource configures Global Address Lists in Exchange Online.","2026-02-16T05:56:01Z"
+settings for domains in a cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.emailaddresspolicy","exchange","emailaddresspolicy","Email Address Policy","This resource configures Email address policies in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.eopprotectionpolicyrule","exchange","eopprotectionpolicyrule","EOP Protection Policy Rule","This resource configures EOP Protection Policy Rules.","2026-02-16T17:45:25Z"
+"microsoft.exchange.externalinoutlook","exchange","externalinoutlook","External In Outlook","This resource will use Set-ExternalInOutlook cmdlet to modify the configuration of external sender identification that's available in Outlook, Outlook for Mac, Outlook on the web, and Outlook for iOS and Android.","2026-02-16T17:45:25Z"
+"microsoft.exchange.globaladdresslist","exchange","globaladdresslist","Global Address List","This resource configures Global Address Lists in Exchange Online.","2026-02-16T17:45:25Z"
 "microsoft.exchange.groupsettings","exchange","groupsettings","Group Settings","This resource configures settings on groups
-such as the custom attributes and language.","2026-02-16T05:56:01Z"
+such as the custom attributes and language.","2026-02-16T17:45:25Z"
 "microsoft.exchange.hostedconnectionfilterpolicy","exchange","hostedconnectionfilterpolicy","Hosted Connection Filter Policy","This resource configures the settings of connection filter policies
-in your cloud-based organization.","2026-02-16T05:56:01Z"
+in your cloud-based organization.","2026-02-16T17:45:25Z"
 "microsoft.exchange.hostedcontentfilterpolicy","exchange","hostedcontentfilterpolicy","Hosted Content Filter Policy","This resource configures the settings of connection filter policies
-in your cloud-based organization.","2026-02-16T05:56:01Z"
+in your cloud-based organization.","2026-02-16T17:45:25Z"
 "microsoft.exchange.hostedcontentfilterrule","exchange","hostedcontentfilterrule","Hosted Content Filter Rule","This resource configures an Hosted Content Filter Rule in Exchange Online.
-Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-HostedContentFilterRule?view=exchange-ps","2026-02-16T05:56:01Z"
+Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-HostedContentFilterRule?view=exchange-ps","2026-02-16T17:45:25Z"
 "microsoft.exchange.hostedoutboundspamfilterpolicy","exchange","hostedoutboundspamfilterpolicy","Hosted Outbound Spam Filter Policy","This resource configures the settings of the outbound spam filter policy
-in your cloud-based organization.","2026-02-16T05:56:01Z"
+in your cloud-based organization.","2026-02-16T17:45:25Z"
 "microsoft.exchange.hostedoutboundspamfilterrule","exchange","hostedoutboundspamfilterrule","Hosted Outbound Spam Filter Rule","This resource configures an Hosted Content Filter Rule in Exchange Online.
-Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/new-hostedoutboundspamfilterrule?view=exchange-ps","2026-02-16T05:56:01Z"
-"microsoft.exchange.inboundconnector","exchange","inboundconnector","Inbound Connector","This resource configures an Inbound connector in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.intraorganizationconnector","exchange","intraorganizationconnector","Intra Organization Connector","Create a new EXOIntraOrganizationConnector in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.irmconfiguration","exchange","irmconfiguration","Irm Configuration","Modify the resource Configuration policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.journalrule","exchange","journalrule","Journal Rule","This resource allows to configure Journal Rules in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.mailboxautoreplyconfiguration","exchange","mailboxautoreplyconfiguration","Mailbox Auto Reply Configuration","This resource configures the Auto Reply settings of mailboxes.","2026-02-16T05:56:01Z"
+Reference: https://docs.microsoft.com/en-us/powershell/module/exchange/new-hostedoutboundspamfilterrule?view=exchange-ps","2026-02-16T17:45:25Z"
+"microsoft.exchange.inboundconnector","exchange","inboundconnector","Inbound Connector","This resource configures an Inbound connector in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.intraorganizationconnector","exchange","intraorganizationconnector","Intra Organization Connector","Create a new EXOIntraOrganizationConnector in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.irmconfiguration","exchange","irmconfiguration","Irm Configuration","Modify the resource Configuration policy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.journalrule","exchange","journalrule","Journal Rule","This resource allows to configure Journal Rules in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.mailboxautoreplyconfiguration","exchange","mailboxautoreplyconfiguration","Mailbox Auto Reply Configuration","This resource configures the Auto Reply settings of mailboxes.","2026-02-16T17:45:25Z"
 "microsoft.exchange.mailboxcalendarfolder","exchange","mailboxcalendarfolder","Mailbox Calendar Folder","This resource configures calendar publishing or sharing settings on a mailbox
-for the visibility of calendar information to external users.","2026-02-16T05:56:01Z"
-"microsoft.exchange.mailboxpermission","exchange","mailboxpermission","Mailbox Permission","Use this resource to modify the permissions of mailbox.","2026-02-16T05:56:01Z"
-"microsoft.exchange.mailboxplan","exchange","mailboxplan","Mailbox Plan","Use this resource to modify the settings of mailbox plans in the cloud-based service.","2026-02-16T05:56:01Z"
+for the visibility of calendar information to external users.","2026-02-16T17:45:25Z"
+"microsoft.exchange.mailboxpermission","exchange","mailboxpermission","Mailbox Permission","Use this resource to modify the permissions of mailbox.","2026-02-16T17:45:25Z"
+"microsoft.exchange.mailboxplan","exchange","mailboxplan","Mailbox Plan","Use this resource to modify the settings of mailbox plans in the cloud-based service.","2026-02-16T17:45:25Z"
 "microsoft.exchange.mailboxsettings","exchange","mailboxsettings","Mailbox Settings","This resource configures settings on Mailboxes
-such as the Regional settings and its timezone.","2026-02-16T05:56:01Z"
-"microsoft.exchange.mailcontact","exchange","mailcontact","Mail Contact","This resource configures Exchange Online address lists.","2026-02-16T05:56:01Z"
-"microsoft.exchange.mailtips","exchange","mailtips","Mail Tips","This resource allows to configure Mailtips behaviors in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.malwarefilterpolicy","exchange","malwarefilterpolicy","Malware Filter Policy","Create or modify a EXOMalwareFilterPolicy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.malwarefilterrule","exchange","malwarefilterrule","Malware Filter Rule","Create or modify a new EXOMalwareFilterRule in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.managementrole","exchange","managementrole","Management Role","This resource configures RBAC Management Roles in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.managementroleassignment","exchange","managementroleassignment","Management Role Assignment","This resource configures RBAC Management Roles Assignments in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.managementroleentry","exchange","managementroleentry","Management Role Entry","This resource configures RBAC Management Roles Entries in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.messageclassification","exchange","messageclassification","Message Classification","Create a new Message Classification policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.mobiledevicemailboxpolicy","exchange","mobiledevicemailboxpolicy","Mobile Device Mailbox Policy","This resource configures Mobile Device Mailbox Policies in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.offlineaddressbook","exchange","offlineaddressbook","Offline Address Book","This resource configures Offline Address Books in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.omeconfiguration","exchange","omeconfiguration","Ome Configuration","Create a new OME Configuration policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.onpremisesorganization","exchange","onpremisesorganization","On Premises Organization","This resource configures On-Premises Organization in Exchange Online.","2026-02-16T05:56:01Z"
+such as the Regional settings and its timezone.","2026-02-16T17:45:25Z"
+"microsoft.exchange.mailcontact","exchange","mailcontact","Mail Contact","This resource configures Exchange Online address lists.","2026-02-16T17:45:25Z"
+"microsoft.exchange.mailtips","exchange","mailtips","Mail Tips","This resource allows to configure Mailtips behaviors in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.malwarefilterpolicy","exchange","malwarefilterpolicy","Malware Filter Policy","Create or modify a EXOMalwareFilterPolicy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.malwarefilterrule","exchange","malwarefilterrule","Malware Filter Rule","Create or modify a new EXOMalwareFilterRule in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.managementrole","exchange","managementrole","Management Role","This resource configures RBAC Management Roles in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.managementroleassignment","exchange","managementroleassignment","Management Role Assignment","This resource configures RBAC Management Roles Assignments in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.managementroleentry","exchange","managementroleentry","Management Role Entry","This resource configures RBAC Management Roles Entries in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.messageclassification","exchange","messageclassification","Message Classification","Create a new Message Classification policy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.mobiledevicemailboxpolicy","exchange","mobiledevicemailboxpolicy","Mobile Device Mailbox Policy","This resource configures Mobile Device Mailbox Policies in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.offlineaddressbook","exchange","offlineaddressbook","Offline Address Book","This resource configures Offline Address Books in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.omeconfiguration","exchange","omeconfiguration","Ome Configuration","Create a new OME Configuration policy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.onpremisesorganization","exchange","onpremisesorganization","On Premises Organization","This resource configures On-Premises Organization in Exchange Online.","2026-02-16T17:45:25Z"
 "microsoft.exchange.organizationconfig","exchange","organizationconfig","Organization Config","This resource configures the Exchange Online organization-wide
-settings.","2026-02-16T05:56:01Z"
-"microsoft.exchange.organizationrelationship","exchange","organizationrelationship","Organization Relationship","This resource configures the Organization Relationship in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.outboundconnector","exchange","outboundconnector","Outbound Connector","Create a new Inbound connector in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.owamailboxpolicy","exchange","owamailboxpolicy","Owa Mailbox Policy","This resource configures OWA Mailbox Policies in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.partnerapplication","exchange","partnerapplication","Partner Application","This resource configures Partner Applications in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.perimeterconfiguration","exchange","perimeterconfiguration","Perimeter Configuration","Modify the perimeter Configuration policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.place","exchange","place","Place","This resource configures a place in Exchange Online (e.g., room).","2026-02-16T05:56:01Z"
-"microsoft.exchange.policytipconfig","exchange","policytipconfig","Policy Tip Config","This resource configures Policy Tips in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.quarantinepolicy","exchange","quarantinepolicy","Quarantine Policy","Create or modify a EXOQuarantinePolicy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.recipientpermission","exchange","recipientpermission","Recipient Permission","This resource allows users to retrieve Office 365 Recipient Permissions.","2026-02-16T05:56:01Z"
-"microsoft.exchange.remotedomain","exchange","remotedomain","Remote Domain","This resource configures the Remote Email Domains in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.reportsubmissionpolicy","exchange","reportsubmissionpolicy","Report Submission Policy","Create or modify an EXOReportSubmissionPolicy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.reportsubmissionrule","exchange","reportsubmissionrule","Report Submission Rule","Create or modify an EXOReportSubmissionRule in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.resourceconfiguration","exchange","resourceconfiguration","Resource Configuration","Modify the resource Configuration policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.roleassignmentpolicy","exchange","roleassignmentpolicy","Role Assignment Policy","This resource configures Role Assignment Policies in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.rolegroup","exchange","rolegroup","Role Group","This resource configures Role Groups in Exchange Online.","2026-02-16T05:56:01Z"
+settings.","2026-02-16T17:45:25Z"
+"microsoft.exchange.organizationrelationship","exchange","organizationrelationship","Organization Relationship","This resource configures the Organization Relationship in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.outboundconnector","exchange","outboundconnector","Outbound Connector","Create a new Inbound connector in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.owamailboxpolicy","exchange","owamailboxpolicy","Owa Mailbox Policy","This resource configures OWA Mailbox Policies in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.partnerapplication","exchange","partnerapplication","Partner Application","This resource configures Partner Applications in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.perimeterconfiguration","exchange","perimeterconfiguration","Perimeter Configuration","Modify the perimeter Configuration policy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.place","exchange","place","Place","This resource configures a place in Exchange Online (e.g., room).","2026-02-16T17:45:25Z"
+"microsoft.exchange.policytipconfig","exchange","policytipconfig","Policy Tip Config","This resource configures Policy Tips in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.quarantinepolicy","exchange","quarantinepolicy","Quarantine Policy","Create or modify a EXOQuarantinePolicy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.recipientpermission","exchange","recipientpermission","Recipient Permission","This resource allows users to retrieve Office 365 Recipient Permissions.","2026-02-16T17:45:25Z"
+"microsoft.exchange.remotedomain","exchange","remotedomain","Remote Domain","This resource configures the Remote Email Domains in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.reportsubmissionpolicy","exchange","reportsubmissionpolicy","Report Submission Policy","Create or modify an EXOReportSubmissionPolicy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.reportsubmissionrule","exchange","reportsubmissionrule","Report Submission Rule","Create or modify an EXOReportSubmissionRule in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.resourceconfiguration","exchange","resourceconfiguration","Resource Configuration","Modify the resource Configuration policy in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.roleassignmentpolicy","exchange","roleassignmentpolicy","Role Assignment Policy","This resource configures Role Assignment Policies in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.rolegroup","exchange","rolegroup","Role Group","This resource configures Role Groups in Exchange Online.","2026-02-16T17:45:25Z"
 "microsoft.exchange.safeattachmentpolicy","exchange","safeattachmentpolicy","Safe Attachment Policy","This resource configures the settings of the Safe Attachments policies
-in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.safeattachmentrule","exchange","safeattachmentrule","Safe Attachment Rule","This resource configures an Safe Attachment Rule in Exchange Online.","2026-02-16T05:56:01Z"
+in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.safeattachmentrule","exchange","safeattachmentrule","Safe Attachment Rule","This resource configures an Safe Attachment Rule in Exchange Online.","2026-02-16T17:45:25Z"
 "microsoft.exchange.safelinkspolicy","exchange","safelinkspolicy","Safe Links Policy","This resource configures the settings of the SafeLinks policies
-in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.exchange.safelinksrule","exchange","safelinksrule","Safe Links Rule","This resource configures an SafeLinks Rule in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.sharedmailbox","exchange","sharedmailbox","Shared Mailbox","This resource allows users to create Office 365 Shared Mailboxes.","2026-02-16T05:56:01Z"
-"microsoft.exchange.sharingpolicy","exchange","sharingpolicy","Sharing Policy","This resource configures Sharing Policies in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.exchange.sweeprule","exchange","sweeprule","Sweep Rule","Use this resource to create Sweep rules in mailboxes. Sweep rules run at regular intervals to help keep your Inbox clean.","2026-02-16T05:56:01Z"
+in your cloud-based organization.","2026-02-16T17:45:25Z"
+"microsoft.exchange.safelinksrule","exchange","safelinksrule","Safe Links Rule","This resource configures an SafeLinks Rule in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.sharedmailbox","exchange","sharedmailbox","Shared Mailbox","This resource allows users to create Office 365 Shared Mailboxes.","2026-02-16T17:45:25Z"
+"microsoft.exchange.sharingpolicy","exchange","sharingpolicy","Sharing Policy","This resource configures Sharing Policies in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.exchange.sweeprule","exchange","sweeprule","Sweep Rule","Use this resource to create Sweep rules in mailboxes. Sweep rules run at regular intervals to help keep your Inbox clean.","2026-02-16T17:45:25Z"
 "microsoft.exchange.transportconfig","exchange","transportconfig","Transport Config","This resource configures the Exchange Online transport
-settings.","2026-02-16T05:56:01Z"
-"microsoft.exchange.transportrule","exchange","transportrule","Transport Rule","This resource configures Transport Rules in Exchange Online.","2026-02-16T05:56:01Z"
-"microsoft.intune.accountprotectionlocaladministratorpasswordsolutionpolicy","intune","accountprotectionlocaladministratorpasswordsolutionpolicy","Account Protection Local Administrator Password Solution Policy","This resource configures an Intune Account Protection Local Administrator Password Solution Policy.","2026-02-16T05:56:01Z"
-"microsoft.intune.accountprotectionlocalusergroupmembershippolicy","intune","accountprotectionlocalusergroupmembershippolicy","Account Protection Local User Group Membership Policy","This resource configures a Intune Account Protection Local User Group Membership policy.","2026-02-16T05:56:01Z"
-"microsoft.intune.accountprotectionpolicy","intune","accountprotectionpolicy","Account Protection Policy","This resource configures a Intune Account Protection policy.","2026-02-16T05:56:01Z"
+settings.","2026-02-16T17:45:25Z"
+"microsoft.exchange.transportrule","exchange","transportrule","Transport Rule","This resource configures Transport Rules in Exchange Online.","2026-02-16T17:45:25Z"
+"microsoft.intune.accountprotectionlocaladministratorpasswordsolutionpolicy","intune","accountprotectionlocaladministratorpasswordsolutionpolicy","Account Protection Local Administrator Password Solution Policy","This resource configures an Intune Account Protection Local Administrator Password Solution Policy.","2026-02-16T17:45:25Z"
+"microsoft.intune.accountprotectionlocalusergroupmembershippolicy","intune","accountprotectionlocalusergroupmembershippolicy","Account Protection Local User Group Membership Policy","This resource configures a Intune Account Protection Local User Group Membership policy.","2026-02-16T17:45:25Z"
+"microsoft.intune.accountprotectionpolicy","intune","accountprotectionpolicy","Account Protection Policy","This resource configures a Intune Account Protection policy.","2026-02-16T17:45:25Z"
 "microsoft.intune.antiviruspolicywindows10settingcatalog","intune","antiviruspolicywindows10settingcatalog","Antivirus Policy Windows 10 Setting Catalog","This resource configures an Intune Endpoint Protection Antivirus policy for a Windows 10 Device.
-This policy setting enables the management of Microsoft Defender Antivirus for Windows 10 using the settings catalog.","2026-02-16T05:56:01Z"
-"microsoft.intune.appconfigurationpolicy","intune","appconfigurationpolicy","App Configuration Policy","This resource configures the Intune App configuration policies.","2026-02-16T05:56:01Z"
-"microsoft.intune.applicationcontrolpolicywindows10","intune","applicationcontrolpolicywindows10","Application Control Policy Windows 10","This resource configures a Intune Endpoint Protection Application Control policy for an Windows 10 Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.appprotectionpolicyandroid","intune","appprotectionpolicyandroid","App Protection Policy Android","This resource configures an Intune app protection policy for an Android Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.appprotectionpolicyios","intune","appprotectionpolicyios","App Protection Policy iOS","This resource configures an Intune app protection policy for an iOS Device.","2026-02-16T05:56:01Z"
+This policy setting enables the management of Microsoft Defender Antivirus for Windows 10 using the settings catalog.","2026-02-16T17:45:25Z"
+"microsoft.intune.appconfigurationpolicy","intune","appconfigurationpolicy","App Configuration Policy","This resource configures the Intune App configuration policies.","2026-02-16T17:45:25Z"
+"microsoft.intune.applicationcontrolpolicywindows10","intune","applicationcontrolpolicywindows10","Application Control Policy Windows 10","This resource configures a Intune Endpoint Protection Application Control policy for an Windows 10 Device.","2026-02-16T17:45:25Z"
+"microsoft.intune.appprotectionpolicyandroid","intune","appprotectionpolicyandroid","App Protection Policy Android","This resource configures an Intune app protection policy for an Android Device.","2026-02-16T17:45:25Z"
+"microsoft.intune.appprotectionpolicyios","intune","appprotectionpolicyios","App Protection Policy iOS","This resource configures an Intune app protection policy for an iOS Device.","2026-02-16T17:45:25Z"
 "microsoft.intune.asrrulespolicywindows10","intune","asrrulespolicywindows10","ASR Rules Policy Windows 10","This resource configures a Intune Endpoint Protection Attack Surface Reduction rules policy for a Windows 10 Device.
-This resource returns ASR rules created using deviceConfiguration Graph settings.","2026-02-16T05:56:01Z"
+This resource returns ASR rules created using deviceConfiguration Graph settings.","2026-02-16T17:45:25Z"
 "microsoft.intune.attacksurfacereductionrulespolicywindows10configmanager","intune","attacksurfacereductionrulespolicywindows10configmanager","Attack Surface Reduction Rules Policy Windows 10 Config Manager","This resource configures an Intune Endpoint Protection Attack Surface Reduction Rules policy for a Windows 10 Device for Configuration Manager.
 This policy setting enables setting the state (Block/Audit/Off/Warn) for each attack surface reduction (ASR) rule. Each ASR rule listed can be set to one of the following states (Block/Audit/Off/Warn). The ASR rule ID and state should be added under the Options for this setting. Each entry must be listed as a name value pair. The name defines a valid ASR rule ID, while the value contains the status ID indicating the status of the rule.
 
-For more information about ASR rule ID and status ID, see Enable Attack Surface Reduction: https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction.","2026-02-16T05:56:01Z"
+For more information about ASR rule ID and status ID, see Enable Attack Surface Reduction: https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction.","2026-02-16T17:45:25Z"
 "microsoft.intune.deviceandappmanagementassignmentfilter","intune","deviceandappmanagementassignmentfilter","Device And App Management Assignment Filter","This resource represents the properties of the Intune Assignment Filter.
-For more information: https://docs.microsoft.com/en-us/graph/api/resources/intune-policyset-deviceandappmanagementassignmentfilter?view=graph-rest-beta","2026-02-16T05:56:01Z"
-"microsoft.intune.devicecategory","intune","devicecategory","Device Category","This resource configures the Intune device categories.","2026-02-16T05:56:01Z"
-"microsoft.intune.devicecleanuprule","intune","devicecleanuprule","Device Cleanup Rule","This resource configures the Intune device cleanup rule.","2026-02-16T05:56:01Z"
+For more information: https://docs.microsoft.com/en-us/graph/api/resources/intune-policyset-deviceandappmanagementassignmentfilter?view=graph-rest-beta","2026-02-16T17:45:25Z"
+"microsoft.intune.devicecategory","intune","devicecategory","Device Category","This resource configures the Intune device categories.","2026-02-16T17:45:25Z"
+"microsoft.intune.devicecleanuprule","intune","devicecleanuprule","Device Cleanup Rule","This resource configures the Intune device cleanup rule.","2026-02-16T17:45:25Z"
 "microsoft.intune.devicecompliancepolicyandroid","intune","devicecompliancepolicyandroid","Device Compliance Policy Android","This resource configures the settings of Android device compliance policies
 in your cloud-based organization.
 
@@ -345,7 +345,7 @@ When set to Require, the following setting can be configured:
     * Number of days until password expires
     Select the number of days before the password expires and the user must create a new password.
     * Number of previous passwords to prevent reuse
-    Enter the number of recent passwords that can't be reused. Use this setting to restrict the user from creating previously used passwords.","2026-02-16T05:56:01Z"
+    Enter the number of recent passwords that can't be reused. Use this setting to restrict the user from creating previously used passwords.","2026-02-16T17:45:25Z"
 "microsoft.intune.devicecompliancepolicyandroiddeviceowner","intune","devicecompliancepolicyandroiddeviceowner","Device Compliance Policy Android Device Owner","This resource configures the settings of Android Work Profile device compliance policies
 in your cloud-based organization.
 
@@ -466,7 +466,7 @@ _You don't have to configure this setting because USB debugging is already disab
 * **Minimum security patch level**
 Select the oldest security patch level a device can have. Devices that aren't at least at this patch level are noncompliant. The date must be entered in the YYYY-MM-DD format.
 
-_By default, no date is configured._","2026-02-16T05:56:01Z"
+_By default, no date is configured._","2026-02-16T17:45:25Z"
 "microsoft.intune.devicecompliancepolicyandroidworkprofile","intune","devicecompliancepolicyandroidworkprofile","Device Compliance Policy Android Work Profile","This resource configures the settings of Android Work Profile device compliance policies
 in your cloud-based organization.
 
@@ -587,8 +587,8 @@ _You don't have to configure this setting because USB debugging is already disab
 * **Minimum security patch level**
 Select the oldest security patch level a device can have. Devices that aren't at least at this patch level are noncompliant. The date must be entered in the YYYY-MM-DD format.
 
-_By default, no date is configured._","2026-02-16T05:56:01Z"
-"microsoft.intune.devicecompliancepolicyios","intune","devicecompliancepolicyios","Device Compliance Policy iOS","This resource configures the Intune compliance policies for iOs devices.","2026-02-16T05:56:01Z"
+_By default, no date is configured._","2026-02-16T17:45:25Z"
+"microsoft.intune.devicecompliancepolicyios","intune","devicecompliancepolicyios","Device Compliance Policy iOS","This resource configures the Intune compliance policies for iOs devices.","2026-02-16T17:45:25Z"
 "microsoft.intune.devicecompliancepolicymacos","intune","devicecompliancepolicymacos","Device Compliance Policy macOS","This resource configures the settings of MacOS compliance policies
 in your cloud-based organization.
 
@@ -670,7 +670,7 @@ For more information, see Gatekeeper on macOS.
   * Not configured _(default)_ - The gatekeeper option has no impact on compliance or non-compliance.
   * Mac App Store - Only install apps for the Mac app store. Apps can't be installed from third parties nor identified developers. If a user selects Gatekeeper to install apps outside the Mac App Store, then the device is considered not compliant.
   * Mac App Store and identified developers - Install apps for the Mac app store and from identified developers. macOS checks the identity of developers, and does some other checks to verify app integrity. If a user selects Gatekeeper to install apps outside these options, then the device is considered not compliant.
-  * Anywhere - Apps can be installed from anywhere, and by any developer. This option is the least secure.","2026-02-16T05:56:01Z"
+  * Anywhere - Apps can be installed from anywhere, and by any developer. This option is the least secure.","2026-02-16T17:45:25Z"
 "microsoft.intune.devicecompliancepolicywindows10","intune","devicecompliancepolicywindows10","Device Compliance Policy Windows 10","This resource configures the settings of Windows 10 compliance policies
 in your cloud-based organization.
 
@@ -856,65 +856,65 @@ For guidance, see set up enrollment for Windows devices.
 Special consideration for Surface Hubs running Windows 10 Team OS:
 Surface Hubs that run Windows 10 Team OS do not support the Microsoft Defender for Endpoint and Password compliance policies at this time. Therefore, for Surface Hubs that run Windows 10 Team OS set the following two settings to their _(default)_ of _Not configured_:
 * In the category Password, set Require a password to unlock mobile devices to the _(default)_ of Not configured.
-* In the category Microsoft Defender for Endpoint, set Require the device to be at or under the machine risk score to the _(default)_ of Not configured.","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationadministrativetemplatepolicywindows10","intune","deviceconfigurationadministrativetemplatepolicywindows10","Device Configuration Administrative Template Policy Windows 10","Intune Device Configuration Administrative Template Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationcustompolicywindows10","intune","deviceconfigurationcustompolicywindows10","Device Configuration Custom Policy Windows 10","Intune Device Configuration Custom Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationdefenderforendpointonboardingpolicywindows10","intune","deviceconfigurationdefenderforendpointonboardingpolicywindows10","Device Configuration Defender For Endpoint Onboarding Policy Windows 10","Intune Device Configuration Defender For Endpoint Onboarding Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationdeliveryoptimizationpolicywindows10","intune","deviceconfigurationdeliveryoptimizationpolicywindows10","Device Configuration Delivery Optimization Policy Windows 10","Intune Device Configuration Delivery Optimization Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationdomainjoinpolicywindows10","intune","deviceconfigurationdomainjoinpolicywindows10","Device Configuration Domain Join Policy Windows 10","Intune Device Configuration Domain Join Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationemailprofilepolicywindows10","intune","deviceconfigurationemailprofilepolicywindows10","Device Configuration Email Profile Policy Windows 10","Intune Device Configuration Email Profile Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationendpointprotectionpolicywindows10","intune","deviceconfigurationendpointprotectionpolicywindows10","Device Configuration Endpoint Protection Policy Windows 10","Intune Device Configuration Endpoint Protection Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationfirmwareinterfacepolicywindows10","intune","deviceconfigurationfirmwareinterfacepolicywindows10","Device Configuration Firmware Interface Policy Windows 10","Intune Device Configuration Firmware Interface Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationhealthmonitoringconfigurationpolicywindows10","intune","deviceconfigurationhealthmonitoringconfigurationpolicywindows10","Device Configuration Health Monitoring Configuration Policy Windows 10","Intune Device Configuration Health Monitoring Configuration Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationidentityprotectionpolicywindows10","intune","deviceconfigurationidentityprotectionpolicywindows10","Device Configuration Identity Protection Policy Windows 10","Intune Device Configuration Identity Protection Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationimportedpfxcertificatepolicywindows10","intune","deviceconfigurationimportedpfxcertificatepolicywindows10","Device Configuration Imported PFX Certificate Policy Windows 10","Intune Device Configuration Imported Pfx Certificate Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationkioskpolicywindows10","intune","deviceconfigurationkioskpolicywindows10","Device Configuration Kiosk Policy Windows 10","Intune Device Configuration Kiosk Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationnetworkboundarypolicywindows10","intune","deviceconfigurationnetworkboundarypolicywindows10","Device Configuration Network Boundary Policy Windows 10","Intune Device Configuration Network Boundary Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpkcscertificatepolicywindows10","intune","deviceconfigurationpkcscertificatepolicywindows10","Device Configuration PKCS Certificate Policy Windows 10","Intune Device Configuration Pkcs Certificate Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpolicyandroiddeviceadministrator","intune","deviceconfigurationpolicyandroiddeviceadministrator","Device Configuration Policy Android Device Administrator","This resource configures the settings of Android Device Administrator device restriction policy in your cloud-based organization.","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpolicyandroiddeviceowner","intune","deviceconfigurationpolicyandroiddeviceowner","Device Configuration Policy Android Device Owner","This resource configures an Intune Device Configuration Policy Android Device Owner.","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpolicyandroidopensourceproject","intune","deviceconfigurationpolicyandroidopensourceproject","Device Configuration Policy Android Open Source Project","This resource configures an Intune device configuration profile for an Android Open Source Project Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpolicyandroidworkprofile","intune","deviceconfigurationpolicyandroidworkprofile","Device Configuration Policy Android Work Profile","This resource configures an Intune device configuration profile for an Android WorkProfile Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpolicyios","intune","deviceconfigurationpolicyios","Device Configuration Policy iOS","This resource configures an Intune Device Configuration Policy for iOS.","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpolicymacos","intune","deviceconfigurationpolicymacos","Device Configuration Policy macOS","This resource configures an Intune device configuration profile for an MacOS Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationpolicywindows10","intune","deviceconfigurationpolicywindows10","Device Configuration Policy Windows 10","Intune Device Configuration Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationscepcertificatepolicywindows10","intune","deviceconfigurationscepcertificatepolicywindows10","Device Configuration SCEP Certificate Policy Windows 10","Intune Device Configuration Scep Certificate Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationsecureassessmentpolicywindows10","intune","deviceconfigurationsecureassessmentpolicywindows10","Device Configuration Secure Assessment Policy Windows 10","Intune Device Configuration Secure Assessment Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationsharedmultidevicepolicywindows10","intune","deviceconfigurationsharedmultidevicepolicywindows10","Device Configuration Shared Multi Device Policy Windows 10","Intune Device Configuration Shared Multi Device Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationtrustedcertificatepolicywindows10","intune","deviceconfigurationtrustedcertificatepolicywindows10","Device Configuration Trusted Certificate Policy Windows 10","Intune Device Configuration Trusted Certificate Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationvpnpolicywindows10","intune","deviceconfigurationvpnpolicywindows10","Device Configuration VPN Policy Windows 10","Intune Device Configuration Vpn Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationwindowsteampolicywindows10","intune","deviceconfigurationwindowsteampolicywindows10","Device Configuration Windows Team Policy Windows 10","Intune Device Configuration Windows Team Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceconfigurationwirednetworkpolicywindows10","intune","deviceconfigurationwirednetworkpolicywindows10","Device Configuration Wired Network Policy Windows 10","Intune Device Configuration Wired Network Policy for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceenrollmentlimitrestriction","intune","deviceenrollmentlimitrestriction","Device Enrollment Limit Restriction","This resource configures the Intune device enrollment limit restrictions.","2026-02-16T05:56:01Z"
+* In the category Microsoft Defender for Endpoint, set Require the device to be at or under the machine risk score to the _(default)_ of Not configured.","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationadministrativetemplatepolicywindows10","intune","deviceconfigurationadministrativetemplatepolicywindows10","Device Configuration Administrative Template Policy Windows 10","Intune Device Configuration Administrative Template Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationcustompolicywindows10","intune","deviceconfigurationcustompolicywindows10","Device Configuration Custom Policy Windows 10","Intune Device Configuration Custom Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationdefenderforendpointonboardingpolicywindows10","intune","deviceconfigurationdefenderforendpointonboardingpolicywindows10","Device Configuration Defender For Endpoint Onboarding Policy Windows 10","Intune Device Configuration Defender For Endpoint Onboarding Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationdeliveryoptimizationpolicywindows10","intune","deviceconfigurationdeliveryoptimizationpolicywindows10","Device Configuration Delivery Optimization Policy Windows 10","Intune Device Configuration Delivery Optimization Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationdomainjoinpolicywindows10","intune","deviceconfigurationdomainjoinpolicywindows10","Device Configuration Domain Join Policy Windows 10","Intune Device Configuration Domain Join Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationemailprofilepolicywindows10","intune","deviceconfigurationemailprofilepolicywindows10","Device Configuration Email Profile Policy Windows 10","Intune Device Configuration Email Profile Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationendpointprotectionpolicywindows10","intune","deviceconfigurationendpointprotectionpolicywindows10","Device Configuration Endpoint Protection Policy Windows 10","Intune Device Configuration Endpoint Protection Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationfirmwareinterfacepolicywindows10","intune","deviceconfigurationfirmwareinterfacepolicywindows10","Device Configuration Firmware Interface Policy Windows 10","Intune Device Configuration Firmware Interface Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationhealthmonitoringconfigurationpolicywindows10","intune","deviceconfigurationhealthmonitoringconfigurationpolicywindows10","Device Configuration Health Monitoring Configuration Policy Windows 10","Intune Device Configuration Health Monitoring Configuration Policy for Windows10","2026-02-16T17:45:25Z"
+"microsoft.intune.deviceconfigurationidentityprotectionpolicywindows10","intune","deviceconfigurationidentityprotectionpolicywindows10","Device Configuration Identity Protection Policy Windows 10","Intune Device Configuration Identity Protection Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationimportedpfxcertificatepolicywindows10","intune","deviceconfigurationimportedpfxcertificatepolicywindows10","Device Configuration Imported PFX Certificate Policy Windows 10","Intune Device Configuration Imported Pfx Certificate Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationkioskpolicywindows10","intune","deviceconfigurationkioskpolicywindows10","Device Configuration Kiosk Policy Windows 10","Intune Device Configuration Kiosk Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationnetworkboundarypolicywindows10","intune","deviceconfigurationnetworkboundarypolicywindows10","Device Configuration Network Boundary Policy Windows 10","Intune Device Configuration Network Boundary Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpkcscertificatepolicywindows10","intune","deviceconfigurationpkcscertificatepolicywindows10","Device Configuration PKCS Certificate Policy Windows 10","Intune Device Configuration Pkcs Certificate Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpolicyandroiddeviceadministrator","intune","deviceconfigurationpolicyandroiddeviceadministrator","Device Configuration Policy Android Device Administrator","This resource configures the settings of Android Device Administrator device restriction policy in your cloud-based organization.","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpolicyandroiddeviceowner","intune","deviceconfigurationpolicyandroiddeviceowner","Device Configuration Policy Android Device Owner","This resource configures an Intune Device Configuration Policy Android Device Owner.","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpolicyandroidopensourceproject","intune","deviceconfigurationpolicyandroidopensourceproject","Device Configuration Policy Android Open Source Project","This resource configures an Intune device configuration profile for an Android Open Source Project Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpolicyandroidworkprofile","intune","deviceconfigurationpolicyandroidworkprofile","Device Configuration Policy Android Work Profile","This resource configures an Intune device configuration profile for an Android WorkProfile Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpolicyios","intune","deviceconfigurationpolicyios","Device Configuration Policy iOS","This resource configures an Intune Device Configuration Policy for iOS.","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpolicymacos","intune","deviceconfigurationpolicymacos","Device Configuration Policy macOS","This resource configures an Intune device configuration profile for an MacOS Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationpolicywindows10","intune","deviceconfigurationpolicywindows10","Device Configuration Policy Windows 10","Intune Device Configuration Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationscepcertificatepolicywindows10","intune","deviceconfigurationscepcertificatepolicywindows10","Device Configuration SCEP Certificate Policy Windows 10","Intune Device Configuration Scep Certificate Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationsecureassessmentpolicywindows10","intune","deviceconfigurationsecureassessmentpolicywindows10","Device Configuration Secure Assessment Policy Windows 10","Intune Device Configuration Secure Assessment Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationsharedmultidevicepolicywindows10","intune","deviceconfigurationsharedmultidevicepolicywindows10","Device Configuration Shared Multi Device Policy Windows 10","Intune Device Configuration Shared Multi Device Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationtrustedcertificatepolicywindows10","intune","deviceconfigurationtrustedcertificatepolicywindows10","Device Configuration Trusted Certificate Policy Windows 10","Intune Device Configuration Trusted Certificate Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationvpnpolicywindows10","intune","deviceconfigurationvpnpolicywindows10","Device Configuration VPN Policy Windows 10","Intune Device Configuration Vpn Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationwindowsteampolicywindows10","intune","deviceconfigurationwindowsteampolicywindows10","Device Configuration Windows Team Policy Windows 10","Intune Device Configuration Windows Team Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceconfigurationwirednetworkpolicywindows10","intune","deviceconfigurationwirednetworkpolicywindows10","Device Configuration Wired Network Policy Windows 10","Intune Device Configuration Wired Network Policy for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceenrollmentlimitrestriction","intune","deviceenrollmentlimitrestriction","Device Enrollment Limit Restriction","This resource configures the Intune device enrollment limit restrictions.","2026-02-16T17:45:26Z"
 "microsoft.intune.deviceenrollmentplatformrestriction","intune","deviceenrollmentplatformrestriction","Device Enrollment Platform Restriction","This resource configures the Intune device platform enrollment restrictions.
 
 **Be aware**: To deploy a Android platform restriction policy, two individual configurations must exist:
 
 * The first one contains the key for `AndroidRestriction`
-* The second one contains the key for `AndroidForWorkRestriction`","2026-02-16T05:56:01Z"
-"microsoft.intune.deviceenrollmentstatuspagewindows10","intune","deviceenrollmentstatuspagewindows10","Device Enrollment Status Page Windows 10","Intune Device Enrollment Status Page Configuration for Windows10","2026-02-16T05:56:01Z"
-"microsoft.intune.endpointdetectionandresponsepolicywindows10","intune","endpointdetectionandresponsepolicywindows10","Endpoint Detection And Response Policy Windows 10","This resource configures an Intune Endpoint Detection and Response Policy for Windows 10.","2026-02-16T05:56:01Z"
+* The second one contains the key for `AndroidForWorkRestriction`","2026-02-16T17:45:26Z"
+"microsoft.intune.deviceenrollmentstatuspagewindows10","intune","deviceenrollmentstatuspagewindows10","Device Enrollment Status Page Windows 10","Intune Device Enrollment Status Page Configuration for Windows10","2026-02-16T17:45:26Z"
+"microsoft.intune.endpointdetectionandresponsepolicywindows10","intune","endpointdetectionandresponsepolicywindows10","Endpoint Detection And Response Policy Windows 10","This resource configures an Intune Endpoint Detection and Response Policy for Windows 10.","2026-02-16T17:45:26Z"
 "microsoft.intune.exploitprotectionpolicywindows10settingcatalog","intune","exploitprotectionpolicywindows10settingcatalog","Exploit Protection Policy Windows 10 Setting Catalog","This resource configures an Intune Endpoint Protection Exploit Protection policy for a Windows 10 Device.
 Enables the IT admin to push out a configuration representing the desired system and application mitigation options to all the devices in the organization. The configuration is represented by an XML.
 For more information Exploit Protection, see
 - Enable Exploit Protection on Devices and Import: https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/enable-exploit-protection,
-- Export, and deploy Exploit Protection configurations: https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/import-export-exploit-protection-emet-xml","2026-02-16T05:56:01Z"
-"microsoft.intune.policysets","intune","policysets","Policy Sets","Intune Policy Sets","2026-02-16T05:56:01Z"
-"microsoft.intune.roleassignment","intune","roleassignment","Role Assignment","This resource configures an Intune Role Assignment.","2026-02-16T05:56:01Z"
-"microsoft.intune.roledefinition","intune","roledefinition","Role Definition","This resource configures an Intune Role Definition.","2026-02-16T05:56:01Z"
+- Export, and deploy Exploit Protection configurations: https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/import-export-exploit-protection-emet-xml","2026-02-16T17:45:26Z"
+"microsoft.intune.policysets","intune","policysets","Policy Sets","Intune Policy Sets","2026-02-16T17:45:26Z"
+"microsoft.intune.roleassignment","intune","roleassignment","Role Assignment","This resource configures an Intune Role Assignment.","2026-02-16T17:45:26Z"
+"microsoft.intune.roledefinition","intune","roledefinition","Role Definition","This resource configures an Intune Role Definition.","2026-02-16T17:45:26Z"
 "microsoft.intune.settingcatalogasrrulespolicywindows10","intune","settingcatalogasrrulespolicywindows10","Setting Catalog ASR Rules Policy Windows 10","This resource configures a Intune Endpoint Protection Attack Surface Reduction rules policy for a Windows 10 Device.
-This resource returns ASR rules created using settings catalog settings.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicyandroiddeviceadministrator","intune","wificonfigurationpolicyandroiddeviceadministrator","WiFi Configuration Policy Android Device Administrator","This resource configures an Intune Wifi Configuration Policy Android Device Administrator Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicyandroidenterprisedeviceowner","intune","wificonfigurationpolicyandroidenterprisedeviceowner","WiFi Configuration Policy Android Enterprise Device Owner","This resource configures an Intune Wifi Configuration Policy Android Enterprise Device Owner Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicyandroidenterpriseworkprofile","intune","wificonfigurationpolicyandroidenterpriseworkprofile","WiFi Configuration Policy Android Enterprise Work Profile","This resource configures an Intune Wifi Configuration Policy Android Enterprise Work Profile Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicyandroidforwork","intune","wificonfigurationpolicyandroidforwork","WiFi Configuration Policy Android For Work","This resource configures an Intune Wifi Configuration Policy Android For Work Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicyandroidopensourceproject","intune","wificonfigurationpolicyandroidopensourceproject","WiFi Configuration Policy Android Open Source Project","This resource configures an Intune Wifi Configuration Policy Android Open Source Project Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicyios","intune","wificonfigurationpolicyios","WiFi Configuration Policy iOS","This resource configures an Intune Wifi Configuration Policy for iOS Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicymacos","intune","wificonfigurationpolicymacos","WiFi Configuration Policy macOS","This resource configures an Intune Wifi Configuration Policy for MacOS Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.wificonfigurationpolicywindows10","intune","wificonfigurationpolicywindows10","WiFi Configuration Policy Windows 10","This resource configures an Intune Wifi Configuration Policy for Windows10 Device.","2026-02-16T05:56:01Z"
-"microsoft.intune.windowsautopilotdeploymentprofileazureadhybridjoined","intune","windowsautopilotdeploymentprofileazureadhybridjoined","Windows Autopilot Deployment Profile Azure AD Hybrid Joined","Intune Windows Autopilot Deployment Profile Azure AD Hybrid Joined","2026-02-16T05:56:01Z"
-"microsoft.intune.windowsautopilotdeploymentprofileazureadjoined","intune","windowsautopilotdeploymentprofileazureadjoined","Windows Autopilot Deployment Profile Azure AD Joined","Intune Windows Autopilot Deployment Profile Azure AD Joined","2026-02-16T05:56:01Z"
-"microsoft.intune.windowsinformationprotectionpolicywindows10mdmenrolled","intune","windowsinformationprotectionpolicywindows10mdmenrolled","Windows Information Protection Policy Windows 10 MDM Enrolled","Intune Windows Information Protection Policy for Windows10 Mdm Enrolled","2026-02-16T05:56:01Z"
+This resource returns ASR rules created using settings catalog settings.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicyandroiddeviceadministrator","intune","wificonfigurationpolicyandroiddeviceadministrator","WiFi Configuration Policy Android Device Administrator","This resource configures an Intune Wifi Configuration Policy Android Device Administrator Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicyandroidenterprisedeviceowner","intune","wificonfigurationpolicyandroidenterprisedeviceowner","WiFi Configuration Policy Android Enterprise Device Owner","This resource configures an Intune Wifi Configuration Policy Android Enterprise Device Owner Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicyandroidenterpriseworkprofile","intune","wificonfigurationpolicyandroidenterpriseworkprofile","WiFi Configuration Policy Android Enterprise Work Profile","This resource configures an Intune Wifi Configuration Policy Android Enterprise Work Profile Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicyandroidforwork","intune","wificonfigurationpolicyandroidforwork","WiFi Configuration Policy Android For Work","This resource configures an Intune Wifi Configuration Policy Android For Work Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicyandroidopensourceproject","intune","wificonfigurationpolicyandroidopensourceproject","WiFi Configuration Policy Android Open Source Project","This resource configures an Intune Wifi Configuration Policy Android Open Source Project Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicyios","intune","wificonfigurationpolicyios","WiFi Configuration Policy iOS","This resource configures an Intune Wifi Configuration Policy for iOS Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicymacos","intune","wificonfigurationpolicymacos","WiFi Configuration Policy macOS","This resource configures an Intune Wifi Configuration Policy for MacOS Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.wificonfigurationpolicywindows10","intune","wificonfigurationpolicywindows10","WiFi Configuration Policy Windows 10","This resource configures an Intune Wifi Configuration Policy for Windows10 Device.","2026-02-16T17:45:26Z"
+"microsoft.intune.windowsautopilotdeploymentprofileazureadhybridjoined","intune","windowsautopilotdeploymentprofileazureadhybridjoined","Windows Autopilot Deployment Profile Azure AD Hybrid Joined","Intune Windows Autopilot Deployment Profile Azure AD Hybrid Joined","2026-02-16T17:45:26Z"
+"microsoft.intune.windowsautopilotdeploymentprofileazureadjoined","intune","windowsautopilotdeploymentprofileazureadjoined","Windows Autopilot Deployment Profile Azure AD Joined","Intune Windows Autopilot Deployment Profile Azure AD Joined","2026-02-16T17:45:26Z"
+"microsoft.intune.windowsinformationprotectionpolicywindows10mdmenrolled","intune","windowsinformationprotectionpolicywindows10mdmenrolled","Windows Information Protection Policy Windows 10 MDM Enrolled","Intune Windows Information Protection Policy for Windows10 Mdm Enrolled","2026-02-16T17:45:26Z"
 "microsoft.intune.windowsupdateforbusinessfeatureupdateprofilewindows10","intune","windowsupdateforbusinessfeatureupdateprofilewindows10","Windows Update For Business Feature Update Profile Windows 10","Intune Windows Update For Business Feature Update Profile for Windows10
 
 ## RolloutSettings
@@ -936,153 +936,153 @@ The RolloutSettings for this resource have the following constraints and notes:
         * If the start date is before the current date + 2 days, it will be adjusted to this date.
 * When testing a policy:
     * If the policy is missing and the start and end date are before the current date, it will return true.
-    * If the start date is different but before the current start date or time, it will return true.","2026-02-16T05:56:01Z"
-"microsoft.intune.windowsupdateforbusinessringupdateprofilewindows10","intune","windowsupdateforbusinessringupdateprofilewindows10","Windows Update For Business Ring Update Profile Windows 10","Intune Windows Update For Business Ring Update Profile for Windows 10","2026-02-16T05:56:01Z"
+    * If the start date is different but before the current start date or time, it will return true.","2026-02-16T17:45:26Z"
+"microsoft.intune.windowsupdateforbusinessringupdateprofilewindows10","intune","windowsupdateforbusinessringupdateprofilewindows10","Windows Update For Business Ring Update Profile Windows 10","Intune Windows Update For Business Ring Update Profile for Windows 10","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.auditconfigurationpolicy","securityandcompliance","auditconfigurationpolicy","Audit Configuration Policy","This resource configures an Audit ConfigurationPolicy
-in Security and Compliance Center.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.autosensitivitylabelpolicy","securityandcompliance","autosensitivitylabelpolicy","Auto Sensitivity Label Policy","This resource configures a Auto Sensitivity label policy in Security and Compliance.","2026-02-16T05:56:01Z"
+in Security and Compliance Center.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.autosensitivitylabelpolicy","securityandcompliance","autosensitivitylabelpolicy","Auto Sensitivity Label Policy","This resource configures a Auto Sensitivity label policy in Security and Compliance.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.autosensitivitylabelrule","securityandcompliance","autosensitivitylabelrule","Auto Sensitivity Label Rule","This resource configures a Auto Sensitivity Label
-Rule in Security and Compliance Center.","2026-02-16T05:56:01Z"
+Rule in Security and Compliance Center.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.caseholdpolicy","securityandcompliance","caseholdpolicy","Case Hold Policy","This resource configures a eDiscovery Case Policy
-in Security and Compliance Center.","2026-02-16T05:56:01Z"
+in Security and Compliance Center.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.caseholdrule","securityandcompliance","caseholdrule","Case Hold Rule","This resource configures an eDiscovery Case Hold Rule
-in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.compliancecase","securityandcompliance","compliancecase","Compliance Case","This resource configures an eDiscovery Case in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.compliancesearch","securityandcompliance","compliancesearch","Compliance Search","This resource configures an Compliance Search (eDiscovery) in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.compliancesearchaction","securityandcompliance","compliancesearchaction","Compliance Search Action","This resource configures a Compliance Search Action in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.compliancetag","securityandcompliance","compliancetag","Compliance Tag","This resource configures a Compliance Tag in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.deviceconditionalaccesspolicy","securityandcompliance","deviceconditionalaccesspolicy","Device Conditional Access Policy","This resource configures a Device Conditional Access Policy in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.deviceconfigurationpolicy","securityandcompliance","deviceconfigurationpolicy","Device Configuration Policy","This resource configures a Device Configuration Policy in Security and Compliance.","2026-02-16T05:56:01Z"
+in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.compliancecase","securityandcompliance","compliancecase","Compliance Case","This resource configures an eDiscovery Case in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.compliancesearch","securityandcompliance","compliancesearch","Compliance Search","This resource configures an Compliance Search (eDiscovery) in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.compliancesearchaction","securityandcompliance","compliancesearchaction","Compliance Search Action","This resource configures a Compliance Search Action in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.compliancetag","securityandcompliance","compliancetag","Compliance Tag","This resource configures a Compliance Tag in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.deviceconditionalaccesspolicy","securityandcompliance","deviceconditionalaccesspolicy","Device Conditional Access Policy","This resource configures a Device Conditional Access Policy in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.deviceconfigurationpolicy","securityandcompliance","deviceconfigurationpolicy","Device Configuration Policy","This resource configures a Device Configuration Policy in Security and Compliance.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.dlpcompliancepolicy","securityandcompliance","dlpcompliancepolicy","Dlp Compliance Policy","This resource configures a Data Loss Prevention Compliance
-Policy in Security and Compliance Center.","2026-02-16T05:56:01Z"
+Policy in Security and Compliance Center.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.dlpcompliancerule","securityandcompliance","dlpcompliancerule","DLP Compliance Rule","This resource configures a Data Loss Prevention Compliance
-Rule in Security and Compliance Center.","2026-02-16T05:56:01Z"
+Rule in Security and Compliance Center.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.fileplanpropertyauthority","securityandcompliance","fileplanpropertyauthority","File Plan Property Authority","This resource configures an authority entry for Security and
-Compliance File Plans.","2026-02-16T05:56:01Z"
+Compliance File Plans.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.fileplanpropertycategory","securityandcompliance","fileplanpropertycategory","File Plan Property Category","This resource configures a category entry for Security and
-Compliance File Plans.","2026-02-16T05:56:01Z"
+Compliance File Plans.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.fileplanpropertycitation","securityandcompliance","fileplanpropertycitation","File Plan Property Citation","This resource configures a citation entry for Security and
-Compliance File Plans.","2026-02-16T05:56:01Z"
+Compliance File Plans.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.fileplanpropertydepartment","securityandcompliance","fileplanpropertydepartment","File Plan Property Department","This resource configures a department entry for Security and
-Compliance File Plans.","2026-02-16T05:56:01Z"
+Compliance File Plans.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.fileplanpropertyreferenceid","securityandcompliance","fileplanpropertyreferenceid","File Plan Property Reference ID","This resource configures a reference ID entry for Security and
-Compliance File Plans.","2026-02-16T05:56:01Z"
+Compliance File Plans.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.fileplanpropertysubcategory","securityandcompliance","fileplanpropertysubcategory","File Plan Property Sub Category","This resource configures a sub-category entry for Security and
-Compliance File Plans.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.labelpolicy","securityandcompliance","labelpolicy","Label Policy","This resource configures a Sensitivity label policy in Security and Compliance.","2026-02-16T05:56:01Z"
+Compliance File Plans.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.labelpolicy","securityandcompliance","labelpolicy","Label Policy","This resource configures a Sensitivity label policy in Security and Compliance.","2026-02-16T17:45:26Z"
 "microsoft.securityandcompliance.protectionalert","securityandcompliance","protectionalert","Protection Alert","This resource configures a Protection Alert
-in Security and Compliance Center.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.retentioncompliancepolicy","securityandcompliance","retentioncompliancepolicy","Retention Compliance Policy","This resource configures a Retention Compliance Policy in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.retentioncompliancerule","securityandcompliance","retentioncompliancerule","Retention Compliance Rule","This resource configures a Retention Compliance Rule in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.retentioneventtype","securityandcompliance","retentioneventtype","Retention Event Type","This resource configures a Retention Event Type in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.securityfilter","securityandcompliance","securityfilter","Security Filter","This resource configures a Security Filter in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.sensitivitylabel","securityandcompliance","sensitivitylabel","Sensitivity Label","This resource configures Sensitivity labels in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.supervisoryreviewpolicy","securityandcompliance","supervisoryreviewpolicy","Supervisory Review Policy","This resource configures a Supervision Policy in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.securityandcompliance.supervisoryreviewrule","securityandcompliance","supervisoryreviewrule","Supervisory Review Rule","This resource configures a Supervision Review Rule in Security and Compliance.","2026-02-16T05:56:01Z"
-"microsoft.teams.apppermissionpolicy","teams","apppermissionpolicy","App Permission Policy","Manages the Teams App Permission Policies.","2026-02-16T05:56:01Z"
-"microsoft.teams.appsetuppolicy","teams","appsetuppolicy","App Setup Policy","Manages Teams app setup policies in your tenant.","2026-02-16T05:56:01Z"
-"microsoft.teams.audioconferencingpolicy","teams","audioconferencingpolicy","Audio Conferencing Policy","Configures a Teams Audio Conferencing Policy.","2026-02-16T05:56:01Z"
-"microsoft.teams.callholdpolicy","teams","callholdpolicy","Call Hold Policy","Creates a new Teams call hold policy in your tenant. The Teams call hold policy is used to customize the call hold experience for Teams clients.","2026-02-16T05:56:01Z"
+in Security and Compliance Center.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.retentioncompliancepolicy","securityandcompliance","retentioncompliancepolicy","Retention Compliance Policy","This resource configures a Retention Compliance Policy in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.retentioncompliancerule","securityandcompliance","retentioncompliancerule","Retention Compliance Rule","This resource configures a Retention Compliance Rule in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.retentioneventtype","securityandcompliance","retentioneventtype","Retention Event Type","This resource configures a Retention Event Type in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.securityfilter","securityandcompliance","securityfilter","Security Filter","This resource configures a Security Filter in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.sensitivitylabel","securityandcompliance","sensitivitylabel","Sensitivity Label","This resource configures Sensitivity labels in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.supervisoryreviewpolicy","securityandcompliance","supervisoryreviewpolicy","Supervisory Review Policy","This resource configures a Supervision Policy in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.securityandcompliance.supervisoryreviewrule","securityandcompliance","supervisoryreviewrule","Supervisory Review Rule","This resource configures a Supervision Review Rule in Security and Compliance.","2026-02-16T17:45:26Z"
+"microsoft.teams.apppermissionpolicy","teams","apppermissionpolicy","App Permission Policy","Manages the Teams App Permission Policies.","2026-02-16T17:45:25Z"
+"microsoft.teams.appsetuppolicy","teams","appsetuppolicy","App Setup Policy","Manages Teams app setup policies in your tenant.","2026-02-16T17:45:25Z"
+"microsoft.teams.audioconferencingpolicy","teams","audioconferencingpolicy","Audio Conferencing Policy","Configures a Teams Audio Conferencing Policy.","2026-02-16T17:45:25Z"
+"microsoft.teams.callholdpolicy","teams","callholdpolicy","Call Hold Policy","Creates a new Teams call hold policy in your tenant. The Teams call hold policy is used to customize the call hold experience for Teams clients.","2026-02-16T17:45:25Z"
 "microsoft.teams.callingpolicy","teams","callingpolicy","Calling Policy","This resource configures a Teams Calling Policy.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/teams-calling-policy","2026-02-16T05:56:01Z"
-"microsoft.teams.callparkpolicy","teams","callparkpolicy","Call Park Policy","The TeamsCallParkPolicy controls whether or not users are able to leverage the call park feature in Microsoft Teams. Call park allows enterprise voice customers to place a call on hold and then perform a number of actions on that call: transfer to another department, retrieve via the same phone, or retrieve via a different Teams phone. The New-CsTeamsCallParkPolicy resource lets you create a new custom policy that can then be assigned to one or more specific users.","2026-02-16T05:56:01Z"
-"microsoft.teams.callqueue","teams","callqueue","Call Queue","This resource is used to manage Call Queue in your Skype for Business Online organization.","2026-02-16T05:56:01Z"
-"microsoft.teams.channel","teams","channel","Channel","This resource is used to add and update channels in existing Teams.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/teams-calling-policy","2026-02-16T17:45:25Z"
+"microsoft.teams.callparkpolicy","teams","callparkpolicy","Call Park Policy","The TeamsCallParkPolicy controls whether or not users are able to leverage the call park feature in Microsoft Teams. Call park allows enterprise voice customers to place a call on hold and then perform a number of actions on that call: transfer to another department, retrieve via the same phone, or retrieve via a different Teams phone. The New-CsTeamsCallParkPolicy resource lets you create a new custom policy that can then be assigned to one or more specific users.","2026-02-16T17:45:25Z"
+"microsoft.teams.callqueue","teams","callqueue","Call Queue","This resource is used to manage Call Queue in your Skype for Business Online organization.","2026-02-16T17:45:25Z"
+"microsoft.teams.channel","teams","channel","Channel","This resource is used to add and update channels in existing Teams.","2026-02-16T17:45:25Z"
 "microsoft.teams.channelspolicy","teams","channelspolicy","Channels Policy","This resource configures a Teams Channel Policy.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/teams-policies","2026-02-16T05:56:01Z"
-"microsoft.teams.channeltab","teams","channeltab","Channel Tab","This resource configures a new Custom tab in a Channel.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/teams-policies","2026-02-16T17:45:25Z"
+"microsoft.teams.channeltab","teams","channeltab","Channel Tab","This resource configures a new Custom tab in a Channel.","2026-02-16T17:45:25Z"
 "microsoft.teams.clientconfiguration","teams","clientconfiguration","Client Configuration","This resource is used to configure the Teams client settings.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365#teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center","2026-02-16T05:56:01Z"
-"microsoft.teams.compliancerecordingpolicy","teams","compliancerecordingpolicy","Compliance Recording Policy","Creates a new Teams recording policy for governing automatic policy-based recording in your tenant. Automatic policy-based recording is only applicable to Microsoft Teams users.","2026-02-16T05:56:01Z"
-"microsoft.teams.cortanapolicy","teams","cortanapolicy","Cortana Policy","The CsTeamsCortanaPolicy resources enable administrators to control settings for Cortana voice assistant in Microsoft Teams.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365#teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center","2026-02-16T17:45:25Z"
+"microsoft.teams.compliancerecordingpolicy","teams","compliancerecordingpolicy","Compliance Recording Policy","Creates a new Teams recording policy for governing automatic policy-based recording in your tenant. Automatic policy-based recording is only applicable to Microsoft Teams users.","2026-02-16T17:45:25Z"
+"microsoft.teams.cortanapolicy","teams","cortanapolicy","Cortana Policy","The CsTeamsCortanaPolicy resources enable administrators to control settings for Cortana voice assistant in Microsoft Teams.","2026-02-16T17:45:25Z"
 "microsoft.teams.dialinconferencingtenantsettings","teams","dialinconferencingtenantsettings","Dial In Conferencing Tenant Settings","This resource configures a Teams User's Calling Settings.
 
-More information: https://learn.microsoft.com/en-us/microsoftteams/user-call-settings","2026-02-16T05:56:01Z"
+More information: https://learn.microsoft.com/en-us/microsoftteams/user-call-settings","2026-02-16T17:45:25Z"
 "microsoft.teams.emergencycallingpolicy","teams","emergencycallingpolicy","Emergency Calling Policy","This resource configures the Teams Emergency Calling Policies.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/manage-emergency-calling-policies","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/manage-emergency-calling-policies","2026-02-16T17:45:25Z"
 "microsoft.teams.emergencycallroutingpolicy","teams","emergencycallroutingpolicy","Emergency Call Routing Policy","This resource configures the Teams Emergency Call Routing Policies.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/manage-emergency-call-routing-policies","2026-02-16T05:56:01Z"
-"microsoft.teams.enhancedencryptionpolicy","teams","enhancedencryptionpolicy","Enhanced Encryption Policy","Use this resource to create a new Teams enhanced encryption policy.","2026-02-16T05:56:01Z"
-"microsoft.teams.eventspolicy","teams","eventspolicy","Events Policy","This resource configures the Teams Events Policies.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/manage-emergency-call-routing-policies","2026-02-16T17:45:25Z"
+"microsoft.teams.enhancedencryptionpolicy","teams","enhancedencryptionpolicy","Enhanced Encryption Policy","Use this resource to create a new Teams enhanced encryption policy.","2026-02-16T17:45:25Z"
+"microsoft.teams.eventspolicy","teams","eventspolicy","Events Policy","This resource configures the Teams Events Policies.","2026-02-16T17:45:25Z"
 "microsoft.teams.federationconfiguration","teams","federationconfiguration","Federation Configuration","This resource is used to configure the Teams Federation Configuration (CsTenantFederationConfiguration).
 In the Teams admin center this is available in 'External access' in the Users section.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/manage-external-access","2026-02-16T05:56:01Z"
-"microsoft.teams.feedbackpolicy","teams","feedbackpolicy","Feedback Policy","New-CsTeamsFeedbackPolicy [-Identity] <string> [-UserInitiatedMode <string>] [-ReceiveSurveysMode <string>] [-AllowScreenshotCollection <bool>] [-AllowEmailCollection <bool>] [-AllowLogCollection <bool>] [-EnableFeatureSuggestions <bool>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]","2026-02-16T05:56:01Z"
-"microsoft.teams.filespolicy","teams","filespolicy","Files Policy","New-CsTeamsFilesPolicy [-Identity] <string> [-NativeFileEntryPoints <string>] [-SPChannelFilesTab <string>] [-MsftInternalProcessingMode <string>] [-WhatIf] [-Confirm] [<CommonParameters>]","2026-02-16T05:56:01Z"
-"microsoft.teams.grouppolicyassignment","teams","grouppolicyassignment","Group Policy Assignment","This resource is used to assign Teams policy to a specified group","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/manage-external-access","2026-02-16T17:45:25Z"
+"microsoft.teams.feedbackpolicy","teams","feedbackpolicy","Feedback Policy","New-CsTeamsFeedbackPolicy [-Identity] <string> [-UserInitiatedMode <string>] [-ReceiveSurveysMode <string>] [-AllowScreenshotCollection <bool>] [-AllowEmailCollection <bool>] [-AllowLogCollection <bool>] [-EnableFeatureSuggestions <bool>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]","2026-02-16T17:45:25Z"
+"microsoft.teams.filespolicy","teams","filespolicy","Files Policy","New-CsTeamsFilesPolicy [-Identity] <string> [-NativeFileEntryPoints <string>] [-SPChannelFilesTab <string>] [-MsftInternalProcessingMode <string>] [-WhatIf] [-Confirm] [<CommonParameters>]","2026-02-16T17:45:25Z"
+"microsoft.teams.grouppolicyassignment","teams","grouppolicyassignment","Group Policy Assignment","This resource is used to assign Teams policy to a specified group","2026-02-16T17:45:25Z"
 "microsoft.teams.guestcallingconfiguration","teams","guestcallingconfiguration","Guest Calling Configuration","This resource is used to configure the Teams guest calling configuration.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests","2026-02-16T17:45:25Z"
 "microsoft.teams.guestmeetingconfiguration","teams","guestmeetingconfiguration","Guest Meeting Configuration","This resource is used to configure the Teams Guest Meetings Configuration.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests","2026-02-16T17:45:25Z"
 "microsoft.teams.guestmessagingconfiguration","teams","guestmessagingconfiguration","Guest Messaging Configuration","This resource is used to configure the Teams Guest Messaging Configuration.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests","2026-02-16T05:56:01Z"
-"microsoft.teams.ipphonepolicy","teams","ipphonepolicy","IP Phone Policy","New-CsTeamsIPPhonePolicy allows you to create a policy to manage features related to Teams phone experiences. Teams phone policies determine the features that are available to users.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests","2026-02-16T17:45:25Z"
+"microsoft.teams.ipphonepolicy","teams","ipphonepolicy","IP Phone Policy","New-CsTeamsIPPhonePolicy allows you to create a policy to manage features related to Teams phone experiences. Teams phone policies determine the features that are available to users.","2026-02-16T17:45:25Z"
 "microsoft.teams.meetingbroadcastconfiguration","teams","meetingbroadcastconfiguration","Meeting Broadcast Configuration","This resource is used to configure the Teams Meeting Broadcast Settings.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/configure-teams-live-events","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/configure-teams-live-events","2026-02-16T17:45:25Z"
 "microsoft.teams.meetingbroadcastpolicy","teams","meetingbroadcastpolicy","Meeting Broadcast Policy","This resource is used to configure the Teams Meeting Broadcast Policies.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/set-up-for-teams-live-events","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/set-up-for-teams-live-events","2026-02-16T17:45:25Z"
 "microsoft.teams.meetingconfiguration","teams","meetingconfiguration","Meeting Configuration","This resource is used to configure the Teams Meeting Configuration.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams","2026-02-16T17:45:25Z"
 "microsoft.teams.meetingpolicy","teams","meetingpolicy","Meeting Policy","This resource configures the Teams Meeting Policies.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-overview","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-overview","2026-02-16T17:45:25Z"
 "microsoft.teams.messagingpolicy","teams","messagingpolicy","Messaging Policy","This resource is used to configure the Teams messaging policy.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/messaging-policies-in-teams","2026-02-16T05:56:01Z"
-"microsoft.teams.mobilitypolicy","teams","mobilitypolicy","Mobility Policy","The TeamsMobilityPolicy allows Admins to control Teams mobile usage for users.","2026-02-16T05:56:01Z"
-"microsoft.teams.networkroamingpolicy","teams","networkroamingpolicy","Network Roaming Policy","New-CsTeamsNetworkRoamingPolicy allows IT Admins to create policies for Network Roaming and Bandwidth Control experiences in Microsoft Teams.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/messaging-policies-in-teams","2026-02-16T17:45:25Z"
+"microsoft.teams.mobilitypolicy","teams","mobilitypolicy","Mobility Policy","The TeamsMobilityPolicy allows Admins to control Teams mobile usage for users.","2026-02-16T17:45:25Z"
+"microsoft.teams.networkroamingpolicy","teams","networkroamingpolicy","Network Roaming Policy","New-CsTeamsNetworkRoamingPolicy allows IT Admins to create policies for Network Roaming and Bandwidth Control experiences in Microsoft Teams.","2026-02-16T17:45:25Z"
 "microsoft.teams.onlinevoicemailpolicy","teams","onlinevoicemailpolicy","Online Voicemail Policy","This resource configures the Teams Online Voicemail Policies.
 
-More information: https://learn.microsoft.com/en-us/microsoftteams/manage-voicemail-policies","2026-02-16T05:56:01Z"
-"microsoft.teams.onlinevoicemailusersettings","teams","onlinevoicemailusersettings","Online Voicemail User Settings","This resource configures a Teams User's Online Voicemail Settings.","2026-02-16T05:56:01Z"
-"microsoft.teams.onlinevoiceuser","teams","onlinevoiceuser","Online Voice User","This resource configures the Teams Online Voice User.","2026-02-16T05:56:01Z"
-"microsoft.teams.orgwideappsettings","teams","orgwideappsettings","Org Wide App Settings","This resource configures Org-Wide App Settings for Teams.","2026-02-16T05:56:01Z"
+More information: https://learn.microsoft.com/en-us/microsoftteams/manage-voicemail-policies","2026-02-16T17:45:25Z"
+"microsoft.teams.onlinevoicemailusersettings","teams","onlinevoicemailusersettings","Online Voicemail User Settings","This resource configures a Teams User's Online Voicemail Settings.","2026-02-16T17:45:25Z"
+"microsoft.teams.onlinevoiceuser","teams","onlinevoiceuser","Online Voice User","This resource configures the Teams Online Voice User.","2026-02-16T17:45:25Z"
+"microsoft.teams.orgwideappsettings","teams","orgwideappsettings","Org Wide App Settings","This resource configures Org-Wide App Settings for Teams.","2026-02-16T17:45:25Z"
 "microsoft.teams.pstnusage","teams","pstnusage","Pstn Usage","This resource configures a Teams PSTN Usage.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/direct-routing-voice-routing","2026-02-16T05:56:01Z"
-"microsoft.teams.shiftspolicy","teams","shiftspolicy","Shifts Policy","This resource allows you to create a new TeamsShiftPolicy instance and set it's properties.","2026-02-16T05:56:01Z"
-"microsoft.teams.team","teams","team","Team","This resource configures or creates a new Team.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/direct-routing-voice-routing","2026-02-16T17:45:25Z"
+"microsoft.teams.shiftspolicy","teams","shiftspolicy","Shifts Policy","This resource allows you to create a new TeamsShiftPolicy instance and set it's properties.","2026-02-16T17:45:25Z"
+"microsoft.teams.team","teams","team","Team","This resource configures or creates a new Team.","2026-02-16T17:45:25Z"
 "microsoft.teams.templatespolicy","teams","templatespolicy","Templates Policy","This resource configures a Teams Templates Policy.
 
-More information: https://learn.microsoft.com/en-us/microsoftteams/templates-policies","2026-02-16T05:56:01Z"
+More information: https://learn.microsoft.com/en-us/microsoftteams/templates-policies","2026-02-16T17:45:25Z"
 "microsoft.teams.tenantdialplan","teams","tenantdialplan","Tenant Dial Plan","This resource is used to configure the tenant-wide dial plans for Microsoft Teams.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/create-and-manage-dial-plans","2026-02-16T05:56:01Z"
-"microsoft.teams.tenantnetworkregion","teams","tenantnetworkregion","Tenant Network Region","As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkRegion to define network regions. A network region interconnects various parts of a network across multiple geographic areas. The RegionID parameter is a logical name that represents the geography of the region, and has no dependencies or restrictions. Tenant network region is used for Location Based Routing.","2026-02-16T05:56:01Z"
-"microsoft.teams.tenantnetworksite","teams","tenantnetworksite","Tenant Network Site","As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkSite to define network sites. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region. Tenant network site is used for Location Based Routing.","2026-02-16T05:56:01Z"
-"microsoft.teams.tenantnetworksubnet","teams","tenantnetworksubnet","Tenant Network Subnet","As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkSubnet to define network subnets and assign them to network sites. Each internal subnet may only be associated with one site. Tenant network subnet is used for Location Based Routing.","2026-02-16T05:56:01Z"
-"microsoft.teams.tenanttrustedipaddress","teams","tenanttrustedipaddress","Tenant Trusted IP Address","As an Admin, you can use the Windows PowerShell command, New-CsTenantTrustedIPAddress to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.","2026-02-16T05:56:01Z"
-"microsoft.teams.translationrule","teams","translationrule","Translation Rule","Cmdlet to create a new telephone number manipulation rule.","2026-02-16T05:56:01Z"
-"microsoft.teams.unassignednumbertreatment","teams","unassignednumbertreatment","Unassigned Number Treatment","Creates a new treatment for how calls to an unassigned number range should be routed. The call can be routed to a user, an application or to an announcement service where a custom message will be played to the caller.","2026-02-16T05:56:01Z"
-"microsoft.teams.updatemanagementpolicy","teams","updatemanagementpolicy","Update Management Policy","This resource configures the Teams Update policies. For additional information, please refer to https://docs.microsoft.com/en-us/MicrosoftTeams/public-preview-doc-updates#set-the-update-policy","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/create-and-manage-dial-plans","2026-02-16T17:45:25Z"
+"microsoft.teams.tenantnetworkregion","teams","tenantnetworkregion","Tenant Network Region","As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkRegion to define network regions. A network region interconnects various parts of a network across multiple geographic areas. The RegionID parameter is a logical name that represents the geography of the region, and has no dependencies or restrictions. Tenant network region is used for Location Based Routing.","2026-02-16T17:45:25Z"
+"microsoft.teams.tenantnetworksite","teams","tenantnetworksite","Tenant Network Site","As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkSite to define network sites. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region. Tenant network site is used for Location Based Routing.","2026-02-16T17:45:25Z"
+"microsoft.teams.tenantnetworksubnet","teams","tenantnetworksubnet","Tenant Network Subnet","As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkSubnet to define network subnets and assign them to network sites. Each internal subnet may only be associated with one site. Tenant network subnet is used for Location Based Routing.","2026-02-16T17:45:25Z"
+"microsoft.teams.tenanttrustedipaddress","teams","tenanttrustedipaddress","Tenant Trusted IP Address","As an Admin, you can use the Windows PowerShell command, New-CsTenantTrustedIPAddress to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.","2026-02-16T17:45:25Z"
+"microsoft.teams.translationrule","teams","translationrule","Translation Rule","Cmdlet to create a new telephone number manipulation rule.","2026-02-16T17:45:25Z"
+"microsoft.teams.unassignednumbertreatment","teams","unassignednumbertreatment","Unassigned Number Treatment","Creates a new treatment for how calls to an unassigned number range should be routed. The call can be routed to a user, an application or to an announcement service where a custom message will be played to the caller.","2026-02-16T17:45:25Z"
+"microsoft.teams.updatemanagementpolicy","teams","updatemanagementpolicy","Update Management Policy","This resource configures the Teams Update policies. For additional information, please refer to https://docs.microsoft.com/en-us/MicrosoftTeams/public-preview-doc-updates#set-the-update-policy","2026-02-16T17:45:25Z"
 "microsoft.teams.upgradeconfiguration","teams","upgradeconfiguration","Upgrade Configuration","This resource configures the Teams Upgrade settings.
 
-More information: https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype","2026-02-16T17:45:25Z"
 "microsoft.teams.upgradepolicy","teams","upgradepolicy","Upgrade Policy","This resource configures the Teams Upgrade policies.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/meetings-first#prepare-for-teams-meetings-in-meetings-first","2026-02-16T05:56:01Z"
-"microsoft.teams.user","teams","user","User","This resource is used to add new users to a team","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/meetings-first#prepare-for-teams-meetings-in-meetings-first","2026-02-16T17:45:25Z"
+"microsoft.teams.user","teams","user","User","This resource is used to add new users to a team","2026-02-16T17:45:25Z"
 "microsoft.teams.usercallingsettings","teams","usercallingsettings","User Calling Settings","This resource configures a Teams User's Calling Settings.
 
-More information: https://learn.microsoft.com/en-us/microsoftteams/user-call-settings","2026-02-16T05:56:01Z"
-"microsoft.teams.userpolicyassignment","teams","userpolicyassignment","User Policy Assignment","This resource is used to assign Teams policy to a specified user.","2026-02-16T05:56:01Z"
-"microsoft.teams.vdipolicy","teams","vdipolicy","Vdi Policy","This resource implements Teams VDI Policies.","2026-02-16T05:56:01Z"
+More information: https://learn.microsoft.com/en-us/microsoftteams/user-call-settings","2026-02-16T17:45:25Z"
+"microsoft.teams.userpolicyassignment","teams","userpolicyassignment","User Policy Assignment","This resource is used to assign Teams policy to a specified user.","2026-02-16T17:45:25Z"
+"microsoft.teams.vdipolicy","teams","vdipolicy","Vdi Policy","This resource implements Teams VDI Policies.","2026-02-16T17:45:25Z"
 "microsoft.teams.voiceroute","teams","voiceroute","Voice Route","This resource configures a Teams Voice Route.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/direct-routing-voice-routing","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/direct-routing-voice-routing","2026-02-16T17:45:25Z"
 "microsoft.teams.voiceroutingpolicy","teams","voiceroutingpolicy","Voice Routing Policy","This resource configures a Teams Voice Routing Policy.
 
-More information: https://docs.microsoft.com/en-us/microsoftteams/manage-voice-routing-policies","2026-02-16T05:56:01Z"
-"microsoft.teams.workloadpolicy","teams","workloadpolicy","Workload Policy","This resources implements a Teams workload policy.","2026-02-16T05:56:01Z"
+More information: https://docs.microsoft.com/en-us/microsoftteams/manage-voice-routing-policies","2026-02-16T17:45:25Z"
+"microsoft.teams.workloadpolicy","teams","workloadpolicy","Workload Policy","This resources implements a Teams workload policy.","2026-02-16T17:45:25Z"

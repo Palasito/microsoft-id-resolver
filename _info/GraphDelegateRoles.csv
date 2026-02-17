@@ -1050,6 +1050,7 @@
 "59146b7c-ba55-445c-ad99-b0ae77e28992","TeamsAppValidation.Submit","Submit Teams app for validation","Submit an app for running Teams App validation routines"
 "c433c028-68c7-4c20-9f86-f974e820dcec","TeamsAppValidation.Execute","Run Teams app validation","Runs Teams app validation for submitted app"
 "7d00ce87-dff2-46f7-8cec-977df77a9e33","ApiSecretRegistration.ReadWrite","Allow reading and writing Teams App API secret registrations","Allow reading and writing Teams App API secret registrations"
+"c595891f-110c-4524-abce-fa7b97bc7c65","Catalog.Read.All","Read catalog","Allows reading catalog on the user’s behalf."
 "6213ab68-aad6-4ec9-836a-306b14f6fee6","Item.Audit.All","Make API calls that require audit permissions on all items","Allows the app to make API calls that require audit permissions on all items, on behalf of the signed-in user."
 "6cadaf62-a218-4d72-a641-0f85c813ece3","DatabricksCatalog.Read.All","Read Databricks workspaces catalog metadata.","Allows reading Databricks workspaces catalog metadata on the user’s behalf."
 "1318ed2f-75ad-4748-b33a-d49044214bdb","Eventhouse.Reshare.All","Eventhouse.Reshare (retired)"," "

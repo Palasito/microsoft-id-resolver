@@ -1,12 +1,6 @@
 {
-  "GeneratedDate": "2026-02-25T17:49:38Z",
-  "Summary": {
-    "entra": 39,
-    "teams": 58,
-    "securityandcompliance": 28,
-    "intune": 69,
-    "exchange": 76
-  },
+  "GeneratedDate": "2026-02-26T05:50:20Z",
+  "TotalResources": 270,
   "Resources": [
     {
       "PrefixedName": "microsoft.entra.administrativeunit",
@@ -14,7 +8,7 @@
       "OriginalName": "administrativeunit",
       "FriendlyName": "Administrative Unit",
       "Description": "This resource configures an Azure AD Administrative Unit.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.application",
@@ -22,7 +16,7 @@
       "OriginalName": "application",
       "FriendlyName": "Application",
       "Description": "This resource configures an Azure Active Directory Application.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.attributeset",
@@ -30,7 +24,7 @@
       "OriginalName": "attributeset",
       "FriendlyName": "Attribute Set",
       "Description": "Represents a group of related custom security attribute definitions.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationcontextclassreference",
@@ -38,7 +32,7 @@
       "OriginalName": "authenticationcontextclassreference",
       "FriendlyName": "Authentication Context Class Reference",
       "Description": "Represents a Microsoft Entra authentication context class reference. Authentication context class references are custom values that define a Conditional Access authentication requirement",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicy",
@@ -46,7 +40,7 @@
       "OriginalName": "authenticationmethodpolicy",
       "FriendlyName": "Authentication Method Policy",
       "Description": "Azure AD Authentication Method Policy",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicyauthenticator",
@@ -54,7 +48,7 @@
       "OriginalName": "authenticationmethodpolicyauthenticator",
       "FriendlyName": "Authentication Method Policy Authenticator",
       "Description": "Azure AD Authentication Method Policy Authenticator",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicyemail",
@@ -62,7 +56,7 @@
       "OriginalName": "authenticationmethodpolicyemail",
       "FriendlyName": "Authentication Method Policy Email",
       "Description": "Azure AD Authentication Method Policy Email",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicyfido2",
@@ -70,7 +64,7 @@
       "OriginalName": "authenticationmethodpolicyfido2",
       "FriendlyName": "Authentication Method Policy Fido2",
       "Description": "Azure AD Authentication Method Policy Fido2",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicysms",
@@ -78,7 +72,7 @@
       "OriginalName": "authenticationmethodpolicysms",
       "FriendlyName": "Authentication Method Policy Sms",
       "Description": "Azure AD Authentication Method Policy Sms",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicysoftware",
@@ -86,7 +80,7 @@
       "OriginalName": "authenticationmethodpolicysoftware",
       "FriendlyName": "Authentication Method Policy Software",
       "Description": "Azure AD Authentication Method Policy Software",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicytemporary",
@@ -94,7 +88,7 @@
       "OriginalName": "authenticationmethodpolicytemporary",
       "FriendlyName": "Authentication Method Policy Temporary",
       "Description": "Azure AD Authentication Method Policy Temporary",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicyvoice",
@@ -102,7 +96,7 @@
       "OriginalName": "authenticationmethodpolicyvoice",
       "FriendlyName": "Authentication Method Policy Voice",
       "Description": "Azure AD Authentication Method Policy Voice",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationmethodpolicyx509",
@@ -110,7 +104,7 @@
       "OriginalName": "authenticationmethodpolicyx509",
       "FriendlyName": "Authentication Method Policy X509",
       "Description": "Azure AD Authentication Method Policy X509",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authenticationstrengthpolicy",
@@ -118,7 +112,7 @@
       "OriginalName": "authenticationstrengthpolicy",
       "FriendlyName": "Authentication Strength Policy",
       "Description": "Azure AD Authentication Strength Policy",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.authorizationpolicy",
@@ -126,7 +120,7 @@
       "OriginalName": "authorizationpolicy",
       "FriendlyName": "Authorization Policy",
       "Description": "This resource configures the Azure Active Directory Authorization Policy.\r\n\r\nThe policy is managed using the BETA API, some properties may have been added in the API but not in the resource\r\n\r\n## Azure AD Permissions\r\n\r\nTo authenticate via Microsoft Graph, this resource required the following Application permissions:\r\n\r\n* **Automate**\r\n  * Policy.Read.All\r\n  * Policy.ReadWrite.Authorization\r\n\r\n* **Export**\r\n  * Policy.Read.All\r\n\r\nNOTE: All permissions listed above require admin consent.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.conditionalaccesspolicy",
@@ -134,7 +128,7 @@
       "OriginalName": "conditionalaccesspolicy",
       "FriendlyName": "Conditional Access Policy",
       "Description": "This resource configures an Azure Active Directory Conditional Access Policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.crosstenantaccesspolicy",
@@ -142,7 +136,7 @@
       "OriginalName": "crosstenantaccesspolicy",
       "FriendlyName": "Cross Tenant Access Policy",
       "Description": "This resource manages Azure AD Cross Tenant Access Policies.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.crosstenantaccesspolicyconfigurationdefault",
@@ -150,7 +144,7 @@
       "OriginalName": "crosstenantaccesspolicyconfigurationdefault",
       "FriendlyName": "Cross Tenant Access Policy Configuration Default",
       "Description": "This resource manages Azure AD Cross Tenant Access Policies Configuration Default.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.crosstenantaccesspolicyconfigurationpartner",
@@ -158,7 +152,7 @@
       "OriginalName": "crosstenantaccesspolicyconfigurationpartner",
       "FriendlyName": "Cross Tenant Access Policy Configuration Partner",
       "Description": "This resource manages Azure AD Cross Tenant Access Policies Configuration Partner.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.entitlementmanagementaccesspackage",
@@ -166,7 +160,7 @@
       "OriginalName": "entitlementmanagementaccesspackage",
       "FriendlyName": "Entitlement Management Access Package",
       "Description": "This resource configures an Azure AD Entitlement Management Access Package.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.entitlementmanagementaccesspackageassignmentpolicy",
@@ -174,7 +168,7 @@
       "OriginalName": "entitlementmanagementaccesspackageassignmentpolicy",
       "FriendlyName": "Entitlement Management Access Package Assignment Policy",
       "Description": "This resource configures an Azure AD Entitlement Management Access Package Assignment Policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.entitlementmanagementaccesspackagecatalog",
@@ -182,7 +176,7 @@
       "OriginalName": "entitlementmanagementaccesspackagecatalog",
       "FriendlyName": "Entitlement Management Access Package Catalog",
       "Description": "This resource configures an Azure AD Entitlement Management Access Package Catalog.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.entitlementmanagementaccesspackagecatalogresource",
@@ -190,7 +184,7 @@
       "OriginalName": "entitlementmanagementaccesspackagecatalogresource",
       "FriendlyName": "Entitlement Management Access Package Catalog Resource",
       "Description": "This resource configures an Azure AD Entitlement Management Access Package Catalog Resource.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.entitlementmanagementconnectedorganization",
@@ -198,7 +192,7 @@
       "OriginalName": "entitlementmanagementconnectedorganization",
       "FriendlyName": "Entitlement Management Connected Organization",
       "Description": "This resource configures an Azure AD Entitlement Management Connected Organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.externalidentitypolicy",
@@ -206,7 +200,7 @@
       "OriginalName": "externalidentitypolicy",
       "FriendlyName": "External Identity Policy",
       "Description": "Represents the tenant-wide policy that controls whether external users can leave the guest Microsoft Entra tenant via self-service controls.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.group",
@@ -214,7 +208,7 @@
       "OriginalName": "group",
       "FriendlyName": "Group",
       "Description": "This resource configures an Azure Active Directory group. IMPORTANT: It does not support mail enabled security groups or mail enabled groups that are not unified or dynamic groups.\r\n\r\nIf using with AADUser, be aware that if AADUser->MemberOf is being specified and the referenced group is configured with AADGroup->Member then a conflict may arise if the two don't match. It is usually best to choose only one of them. See AADUser",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.grouplifecyclepolicy",
@@ -222,7 +216,7 @@
       "OriginalName": "grouplifecyclepolicy",
       "FriendlyName": "Group Lifecycle Policy",
       "Description": "This resource configures an Azure Active Directory Group Lifecycle Policy (e.g. Expiration).",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.groupsnamingpolicy",
@@ -230,7 +224,7 @@
       "OriginalName": "groupsnamingpolicy",
       "FriendlyName": "Groups Naming Policy",
       "Description": "This resource configures an Azure Active Directory Group Naming Policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.groupssettings",
@@ -238,7 +232,7 @@
       "OriginalName": "groupssettings",
       "FriendlyName": "Groups Settings",
       "Description": "This resource configures an Azure Active Directory Groups Settings.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.namedlocationpolicy",
@@ -246,7 +240,7 @@
       "OriginalName": "namedlocationpolicy",
       "FriendlyName": "Named Location Policy",
       "Description": "This resource configures the Azure AD Named Location Policies in Azure Active Directory",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.roledefinition",
@@ -254,7 +248,7 @@
       "OriginalName": "roledefinition",
       "FriendlyName": "Role Definition",
       "Description": "This resource configures an Azure Active Directory role definition.\r\nTo configure custom roles you require an Azure AD Premium P1 license.\r\nThe account used to configure role definitions based on this resource needs either to be a\r\n\"Global Administrator\" or a \"Privileged role administrator\".",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.roleeligibilityschedulerequest",
@@ -262,7 +256,7 @@
       "OriginalName": "roleeligibilityschedulerequest",
       "FriendlyName": "Role Eligibility Schedule Request",
       "Description": "Represents a request for a role eligibility for a principal through PIM. The role eligibility can be permanently eligible without an expiry date or temporarily eligible with an expiry date. Inherits from request.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.rolesetting",
@@ -270,7 +264,7 @@
       "OriginalName": "rolesetting",
       "FriendlyName": "Role Setting",
       "Description": "This resource configure existing Azure roles. All UI parameters can be configured using this resource like:\r\n- Notifications\r\n- require approval / ticket / justification / MFA",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.securitydefaults",
@@ -278,7 +272,7 @@
       "OriginalName": "securitydefaults",
       "FriendlyName": "Security Defaults",
       "Description": "This resource configures the Security Defaults in Azure Active Directory.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.serviceprincipal",
@@ -286,7 +280,7 @@
       "OriginalName": "serviceprincipal",
       "FriendlyName": "Service Principal",
       "Description": "This resource configures an Azure Active Directory ServicePrincipal.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.socialidentityprovider",
@@ -294,7 +288,7 @@
       "OriginalName": "socialidentityprovider",
       "FriendlyName": "Social Identity Provider",
       "Description": "Represents identity providers with External Identities for both Microsoft Entra ID and Azure AD B2C tenants. For Microsoft Entra B2B scenarios in a Microsoft Entra tenant, the identity provider type can be Google or Facebook.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.tenantdetails",
@@ -302,7 +296,7 @@
       "OriginalName": "tenantdetails",
       "FriendlyName": "Tenant Details",
       "Description": "This resource configures the Azure AD Tenant Details",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.tokenlifetimepolicy",
@@ -310,7 +304,7 @@
       "OriginalName": "tokenlifetimepolicy",
       "FriendlyName": "Token Lifetime Policy",
       "Description": "This resource configures the Azure AD Token Lifetime Policies",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.entra.user",
@@ -318,7 +312,7 @@
       "OriginalName": "user",
       "FriendlyName": "User",
       "Description": "This resource allows users to create Azure AD Users and assign them licenses, roles and/or groups.\r\n\r\nIf using with AADGroup, be aware that if AADUser->MemberOf is being specified and the referenced group is configured with AADGroup->Member then a conflict may arise if the two don't match. It is usually best to choose only one of them. See AADGroup",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.accepteddomain",
@@ -326,7 +320,7 @@
       "OriginalName": "accepteddomain",
       "FriendlyName": "Accepted Domain",
       "Description": "This resource configures the Accepted Email Domains in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.activesyncdeviceaccessrule",
@@ -334,7 +328,7 @@
       "OriginalName": "activesyncdeviceaccessrule",
       "FriendlyName": "Active Sync Device Access Rule",
       "Description": "This resource configures Active Sync Device Access Rules in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.addressbookpolicy",
@@ -342,7 +336,7 @@
       "OriginalName": "addressbookpolicy",
       "FriendlyName": "Address Book Policy",
       "Description": "This resource configures Address Book Policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.addresslist",
@@ -350,7 +344,7 @@
       "OriginalName": "addresslist",
       "FriendlyName": "Address List",
       "Description": "This resource configures Exchange Online address lists.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.antiphishpolicy",
@@ -358,7 +352,7 @@
       "OriginalName": "antiphishpolicy",
       "FriendlyName": "Anti Phish Policy",
       "Description": "This resource configures an Anti-Phish Policy in Exchange Online.\r\nReference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-antiphishpolicy?view=exchange-ps",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.antiphishrule",
@@ -366,7 +360,7 @@
       "OriginalName": "antiphishrule",
       "FriendlyName": "Anti Phish Rule",
       "Description": "This resource configures an Anti-Phish Rule in Exchange Online.\r\nReference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-antiphishRule?view=exchange-ps",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.applicationaccesspolicy",
@@ -374,7 +368,7 @@
       "OriginalName": "applicationaccesspolicy",
       "FriendlyName": "Application Access Policy",
       "Description": "This resource configures Applications Access Policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.atppolicyforo365",
@@ -382,7 +376,7 @@
       "OriginalName": "atppolicyforo365",
       "FriendlyName": "Atp Policy For Office 365",
       "Description": "This resource configures the Advanced Threat Protection (ATP) policy\r\nin Office 365.  Tenant must be subscribed to ATP.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.authenticationpolicy",
@@ -390,7 +384,7 @@
       "OriginalName": "authenticationpolicy",
       "FriendlyName": "Authentication Policy",
       "Description": "This resource configures Authentication Policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.authenticationpolicyassignment",
@@ -398,7 +392,7 @@
       "OriginalName": "authenticationpolicyassignment",
       "FriendlyName": "Authentication Policy Assignment",
       "Description": "This resource assigns Exchange Online Authentication Policies to users.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.availabilityaddressspace",
@@ -406,7 +400,7 @@
       "OriginalName": "availabilityaddressspace",
       "FriendlyName": "Availability Address Space",
       "Description": "Create a new AvailabilityAddressSpace in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.availabilityconfig",
@@ -414,7 +408,7 @@
       "OriginalName": "availabilityconfig",
       "FriendlyName": "Availability Config",
       "Description": "This resource configures the Availability Config in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.calendarprocessing",
@@ -422,7 +416,7 @@
       "OriginalName": "calendarprocessing",
       "FriendlyName": "Calendar Processing",
       "Description": "This resource configures the Calendar Processing settings Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.casmailboxplan",
@@ -430,7 +424,7 @@
       "OriginalName": "casmailboxplan",
       "FriendlyName": "Cas Mailbox Plan",
       "Description": "This resource configures Client Access services (CAS) mailbox plans\r\nin cloud-based organizations.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.casmailboxsettings",
@@ -438,7 +432,7 @@
       "OriginalName": "casmailboxsettings",
       "FriendlyName": "Cas Mailbox Settings",
       "Description": "This resource configures CAS mailbox settings.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.clientaccessrule",
@@ -446,7 +440,7 @@
       "OriginalName": "clientaccessrule",
       "FriendlyName": "Client Access Rule",
       "Description": "This resource configures Client Access sRules.\r\nClient Access Rules help you control access to your organization based\r\non the properties of the connection.\r\n\r\nNote: Not all authentication types are supported for all protocols.\r\n\r\nThe supported authentication types per protocol can be found here:\r\nhttps://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.dataclassification",
@@ -454,7 +448,7 @@
       "OriginalName": "dataclassification",
       "FriendlyName": "Data Classification",
       "Description": "Create a new data classification policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.dataencryptionpolicy",
@@ -462,7 +456,7 @@
       "OriginalName": "dataencryptionpolicy",
       "FriendlyName": "Data Encryption Policy",
       "Description": "Create a new Data Encryption policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.distributiongroup",
@@ -470,7 +464,7 @@
       "OriginalName": "distributiongroup",
       "FriendlyName": "Distribution Group",
       "Description": "This resource configures Exchange Online distribution groups.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.dkimsigningconfig",
@@ -478,7 +472,7 @@
       "OriginalName": "dkimsigningconfig",
       "FriendlyName": "Dkim Signing Config",
       "Description": "This resource configures the DomainKeys Identified Mail (DKIM) signing policy\r\nsettings for domains in a cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.emailaddresspolicy",
@@ -486,7 +480,7 @@
       "OriginalName": "emailaddresspolicy",
       "FriendlyName": "Email Address Policy",
       "Description": "This resource configures Email address policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.eopprotectionpolicyrule",
@@ -494,7 +488,7 @@
       "OriginalName": "eopprotectionpolicyrule",
       "FriendlyName": "EOP Protection Policy Rule",
       "Description": "This resource configures EOP Protection Policy Rules.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.externalinoutlook",
@@ -502,7 +496,7 @@
       "OriginalName": "externalinoutlook",
       "FriendlyName": "External In Outlook",
       "Description": "This resource will use Set-ExternalInOutlook cmdlet to modify the configuration of external sender identification that's available in Outlook, Outlook for Mac, Outlook on the web, and Outlook for iOS and Android.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.globaladdresslist",
@@ -510,7 +504,7 @@
       "OriginalName": "globaladdresslist",
       "FriendlyName": "Global Address List",
       "Description": "This resource configures Global Address Lists in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.groupsettings",
@@ -518,7 +512,7 @@
       "OriginalName": "groupsettings",
       "FriendlyName": "Group Settings",
       "Description": "This resource configures settings on groups\r\nsuch as the custom attributes and language.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.hostedconnectionfilterpolicy",
@@ -526,7 +520,7 @@
       "OriginalName": "hostedconnectionfilterpolicy",
       "FriendlyName": "Hosted Connection Filter Policy",
       "Description": "This resource configures the settings of connection filter policies\r\nin your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.hostedcontentfilterpolicy",
@@ -534,7 +528,7 @@
       "OriginalName": "hostedcontentfilterpolicy",
       "FriendlyName": "Hosted Content Filter Policy",
       "Description": "This resource configures the settings of connection filter policies\r\nin your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.hostedcontentfilterrule",
@@ -542,7 +536,7 @@
       "OriginalName": "hostedcontentfilterrule",
       "FriendlyName": "Hosted Content Filter Rule",
       "Description": "This resource configures an Hosted Content Filter Rule in Exchange Online.\r\nReference: https://docs.microsoft.com/en-us/powershell/module/exchange/advanced-threat-protection/new-HostedContentFilterRule?view=exchange-ps",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.hostedoutboundspamfilterpolicy",
@@ -550,7 +544,7 @@
       "OriginalName": "hostedoutboundspamfilterpolicy",
       "FriendlyName": "Hosted Outbound Spam Filter Policy",
       "Description": "This resource configures the settings of the outbound spam filter policy\r\nin your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.hostedoutboundspamfilterrule",
@@ -558,7 +552,7 @@
       "OriginalName": "hostedoutboundspamfilterrule",
       "FriendlyName": "Hosted Outbound Spam Filter Rule",
       "Description": "This resource configures an Hosted Content Filter Rule in Exchange Online.\r\nReference: https://docs.microsoft.com/en-us/powershell/module/exchange/new-hostedoutboundspamfilterrule?view=exchange-ps",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.inboundconnector",
@@ -566,7 +560,7 @@
       "OriginalName": "inboundconnector",
       "FriendlyName": "Inbound Connector",
       "Description": "This resource configures an Inbound connector in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.intraorganizationconnector",
@@ -574,7 +568,7 @@
       "OriginalName": "intraorganizationconnector",
       "FriendlyName": "Intra Organization Connector",
       "Description": "Create a new EXOIntraOrganizationConnector in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.irmconfiguration",
@@ -582,7 +576,7 @@
       "OriginalName": "irmconfiguration",
       "FriendlyName": "Irm Configuration",
       "Description": "Modify the resource Configuration policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.journalrule",
@@ -590,7 +584,7 @@
       "OriginalName": "journalrule",
       "FriendlyName": "Journal Rule",
       "Description": "This resource allows to configure Journal Rules in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mailboxautoreplyconfiguration",
@@ -598,7 +592,7 @@
       "OriginalName": "mailboxautoreplyconfiguration",
       "FriendlyName": "Mailbox Auto Reply Configuration",
       "Description": "This resource configures the Auto Reply settings of mailboxes.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mailboxcalendarfolder",
@@ -606,7 +600,7 @@
       "OriginalName": "mailboxcalendarfolder",
       "FriendlyName": "Mailbox Calendar Folder",
       "Description": "This resource configures calendar publishing or sharing settings on a mailbox\r\nfor the visibility of calendar information to external users.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mailboxpermission",
@@ -614,7 +608,7 @@
       "OriginalName": "mailboxpermission",
       "FriendlyName": "Mailbox Permission",
       "Description": "Use this resource to modify the permissions of mailbox.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mailboxplan",
@@ -622,7 +616,7 @@
       "OriginalName": "mailboxplan",
       "FriendlyName": "Mailbox Plan",
       "Description": "Use this resource to modify the settings of mailbox plans in the cloud-based service.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mailboxsettings",
@@ -630,7 +624,7 @@
       "OriginalName": "mailboxsettings",
       "FriendlyName": "Mailbox Settings",
       "Description": "This resource configures settings on Mailboxes\r\nsuch as the Regional settings and its timezone.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mailcontact",
@@ -638,7 +632,7 @@
       "OriginalName": "mailcontact",
       "FriendlyName": "Mail Contact",
       "Description": "This resource configures Exchange Online address lists.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mailtips",
@@ -646,7 +640,7 @@
       "OriginalName": "mailtips",
       "FriendlyName": "Mail Tips",
       "Description": "This resource allows to configure Mailtips behaviors in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.malwarefilterpolicy",
@@ -654,7 +648,7 @@
       "OriginalName": "malwarefilterpolicy",
       "FriendlyName": "Malware Filter Policy",
       "Description": "Create or modify a EXOMalwareFilterPolicy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.malwarefilterrule",
@@ -662,7 +656,7 @@
       "OriginalName": "malwarefilterrule",
       "FriendlyName": "Malware Filter Rule",
       "Description": "Create or modify a new EXOMalwareFilterRule in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.managementrole",
@@ -670,7 +664,7 @@
       "OriginalName": "managementrole",
       "FriendlyName": "Management Role",
       "Description": "This resource configures RBAC Management Roles in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.managementroleassignment",
@@ -678,7 +672,7 @@
       "OriginalName": "managementroleassignment",
       "FriendlyName": "Management Role Assignment",
       "Description": "This resource configures RBAC Management Roles Assignments in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.managementroleentry",
@@ -686,7 +680,7 @@
       "OriginalName": "managementroleentry",
       "FriendlyName": "Management Role Entry",
       "Description": "This resource configures RBAC Management Roles Entries in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.messageclassification",
@@ -694,7 +688,7 @@
       "OriginalName": "messageclassification",
       "FriendlyName": "Message Classification",
       "Description": "Create a new Message Classification policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.mobiledevicemailboxpolicy",
@@ -702,7 +696,7 @@
       "OriginalName": "mobiledevicemailboxpolicy",
       "FriendlyName": "Mobile Device Mailbox Policy",
       "Description": "This resource configures Mobile Device Mailbox Policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.offlineaddressbook",
@@ -710,7 +704,7 @@
       "OriginalName": "offlineaddressbook",
       "FriendlyName": "Offline Address Book",
       "Description": "This resource configures Offline Address Books in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.omeconfiguration",
@@ -718,7 +712,7 @@
       "OriginalName": "omeconfiguration",
       "FriendlyName": "Ome Configuration",
       "Description": "Create a new OME Configuration policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.onpremisesorganization",
@@ -726,7 +720,7 @@
       "OriginalName": "onpremisesorganization",
       "FriendlyName": "On Premises Organization",
       "Description": "This resource configures On-Premises Organization in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.organizationconfig",
@@ -734,7 +728,7 @@
       "OriginalName": "organizationconfig",
       "FriendlyName": "Organization Config",
       "Description": "This resource configures the Exchange Online organization-wide\r\nsettings.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.organizationrelationship",
@@ -742,7 +736,7 @@
       "OriginalName": "organizationrelationship",
       "FriendlyName": "Organization Relationship",
       "Description": "This resource configures the Organization Relationship in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.outboundconnector",
@@ -750,7 +744,7 @@
       "OriginalName": "outboundconnector",
       "FriendlyName": "Outbound Connector",
       "Description": "Create a new Inbound connector in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.owamailboxpolicy",
@@ -758,7 +752,7 @@
       "OriginalName": "owamailboxpolicy",
       "FriendlyName": "Owa Mailbox Policy",
       "Description": "This resource configures OWA Mailbox Policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.partnerapplication",
@@ -766,7 +760,7 @@
       "OriginalName": "partnerapplication",
       "FriendlyName": "Partner Application",
       "Description": "This resource configures Partner Applications in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.perimeterconfiguration",
@@ -774,7 +768,7 @@
       "OriginalName": "perimeterconfiguration",
       "FriendlyName": "Perimeter Configuration",
       "Description": "Modify the perimeter Configuration policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.place",
@@ -782,7 +776,7 @@
       "OriginalName": "place",
       "FriendlyName": "Place",
       "Description": "This resource configures a place in Exchange Online (e.g., room).",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.policytipconfig",
@@ -790,7 +784,7 @@
       "OriginalName": "policytipconfig",
       "FriendlyName": "Policy Tip Config",
       "Description": "This resource configures Policy Tips in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.quarantinepolicy",
@@ -798,7 +792,7 @@
       "OriginalName": "quarantinepolicy",
       "FriendlyName": "Quarantine Policy",
       "Description": "Create or modify a EXOQuarantinePolicy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.recipientpermission",
@@ -806,7 +800,7 @@
       "OriginalName": "recipientpermission",
       "FriendlyName": "Recipient Permission",
       "Description": "This resource allows users to retrieve Office 365 Recipient Permissions.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.remotedomain",
@@ -814,7 +808,7 @@
       "OriginalName": "remotedomain",
       "FriendlyName": "Remote Domain",
       "Description": "This resource configures the Remote Email Domains in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.reportsubmissionpolicy",
@@ -822,7 +816,7 @@
       "OriginalName": "reportsubmissionpolicy",
       "FriendlyName": "Report Submission Policy",
       "Description": "Create or modify an EXOReportSubmissionPolicy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.reportsubmissionrule",
@@ -830,7 +824,7 @@
       "OriginalName": "reportsubmissionrule",
       "FriendlyName": "Report Submission Rule",
       "Description": "Create or modify an EXOReportSubmissionRule in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.resourceconfiguration",
@@ -838,7 +832,7 @@
       "OriginalName": "resourceconfiguration",
       "FriendlyName": "Resource Configuration",
       "Description": "Modify the resource Configuration policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.roleassignmentpolicy",
@@ -846,7 +840,7 @@
       "OriginalName": "roleassignmentpolicy",
       "FriendlyName": "Role Assignment Policy",
       "Description": "This resource configures Role Assignment Policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.rolegroup",
@@ -854,7 +848,7 @@
       "OriginalName": "rolegroup",
       "FriendlyName": "Role Group",
       "Description": "This resource configures Role Groups in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.safeattachmentpolicy",
@@ -862,7 +856,7 @@
       "OriginalName": "safeattachmentpolicy",
       "FriendlyName": "Safe Attachment Policy",
       "Description": "This resource configures the settings of the Safe Attachments policies\r\nin your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.safeattachmentrule",
@@ -870,7 +864,7 @@
       "OriginalName": "safeattachmentrule",
       "FriendlyName": "Safe Attachment Rule",
       "Description": "This resource configures an Safe Attachment Rule in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.safelinkspolicy",
@@ -878,7 +872,7 @@
       "OriginalName": "safelinkspolicy",
       "FriendlyName": "Safe Links Policy",
       "Description": "This resource configures the settings of the SafeLinks policies\r\nin your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.safelinksrule",
@@ -886,7 +880,7 @@
       "OriginalName": "safelinksrule",
       "FriendlyName": "Safe Links Rule",
       "Description": "This resource configures an SafeLinks Rule in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.sharedmailbox",
@@ -894,7 +888,7 @@
       "OriginalName": "sharedmailbox",
       "FriendlyName": "Shared Mailbox",
       "Description": "This resource allows users to create Office 365 Shared Mailboxes.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.sharingpolicy",
@@ -902,7 +896,7 @@
       "OriginalName": "sharingpolicy",
       "FriendlyName": "Sharing Policy",
       "Description": "This resource configures Sharing Policies in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.sweeprule",
@@ -910,7 +904,7 @@
       "OriginalName": "sweeprule",
       "FriendlyName": "Sweep Rule",
       "Description": "Use this resource to create Sweep rules in mailboxes. Sweep rules run at regular intervals to help keep your Inbox clean.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.transportconfig",
@@ -918,7 +912,7 @@
       "OriginalName": "transportconfig",
       "FriendlyName": "Transport Config",
       "Description": "This resource configures the Exchange Online transport\r\nsettings.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.exchange.transportrule",
@@ -926,7 +920,7 @@
       "OriginalName": "transportrule",
       "FriendlyName": "Transport Rule",
       "Description": "This resource configures Transport Rules in Exchange Online.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.accountprotectionlocaladministratorpasswordsolutionpolicy",
@@ -934,7 +928,7 @@
       "OriginalName": "accountprotectionlocaladministratorpasswordsolutionpolicy",
       "FriendlyName": "Account Protection Local Administrator Password Solution Policy",
       "Description": "This resource configures an Intune Account Protection Local Administrator Password Solution Policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.accountprotectionlocalusergroupmembershippolicy",
@@ -942,7 +936,7 @@
       "OriginalName": "accountprotectionlocalusergroupmembershippolicy",
       "FriendlyName": "Account Protection Local User Group Membership Policy",
       "Description": "This resource configures a Intune Account Protection Local User Group Membership policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.accountprotectionpolicy",
@@ -950,7 +944,7 @@
       "OriginalName": "accountprotectionpolicy",
       "FriendlyName": "Account Protection Policy",
       "Description": "This resource configures a Intune Account Protection policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.antiviruspolicywindows10settingcatalog",
@@ -958,7 +952,7 @@
       "OriginalName": "antiviruspolicywindows10settingcatalog",
       "FriendlyName": "Antivirus Policy Windows 10 Setting Catalog",
       "Description": "This resource configures an Intune Endpoint Protection Antivirus policy for a Windows 10 Device.\r\nThis policy setting enables the management of Microsoft Defender Antivirus for Windows 10 using the settings catalog.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.appconfigurationpolicy",
@@ -966,7 +960,7 @@
       "OriginalName": "appconfigurationpolicy",
       "FriendlyName": "App Configuration Policy",
       "Description": "This resource configures the Intune App configuration policies.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.applicationcontrolpolicywindows10",
@@ -974,7 +968,7 @@
       "OriginalName": "applicationcontrolpolicywindows10",
       "FriendlyName": "Application Control Policy Windows 10",
       "Description": "This resource configures a Intune Endpoint Protection Application Control policy for an Windows 10 Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.appprotectionpolicyandroid",
@@ -982,7 +976,7 @@
       "OriginalName": "appprotectionpolicyandroid",
       "FriendlyName": "App Protection Policy Android",
       "Description": "This resource configures an Intune app protection policy for an Android Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.appprotectionpolicyios",
@@ -990,7 +984,7 @@
       "OriginalName": "appprotectionpolicyios",
       "FriendlyName": "App Protection Policy iOS",
       "Description": "This resource configures an Intune app protection policy for an iOS Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.asrrulespolicywindows10",
@@ -998,7 +992,7 @@
       "OriginalName": "asrrulespolicywindows10",
       "FriendlyName": "ASR Rules Policy Windows 10",
       "Description": "This resource configures a Intune Endpoint Protection Attack Surface Reduction rules policy for a Windows 10 Device.\r\nThis resource returns ASR rules created using deviceConfiguration Graph settings.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.attacksurfacereductionrulespolicywindows10configmanager",
@@ -1006,7 +1000,7 @@
       "OriginalName": "attacksurfacereductionrulespolicywindows10configmanager",
       "FriendlyName": "Attack Surface Reduction Rules Policy Windows 10 Config Manager",
       "Description": "This resource configures an Intune Endpoint Protection Attack Surface Reduction Rules policy for a Windows 10 Device for Configuration Manager.\r\nThis policy setting enables setting the state (Block/Audit/Off/Warn) for each attack surface reduction (ASR) rule. Each ASR rule listed can be set to one of the following states (Block/Audit/Off/Warn). The ASR rule ID and state should be added under the Options for this setting. Each entry must be listed as a name value pair. The name defines a valid ASR rule ID, while the value contains the status ID indicating the status of the rule.\r\n\r\nFor more information about ASR rule ID and status ID, see Enable Attack Surface Reduction: https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/enable-attack-surface-reduction.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceandappmanagementassignmentfilter",
@@ -1014,7 +1008,7 @@
       "OriginalName": "deviceandappmanagementassignmentfilter",
       "FriendlyName": "Device And App Management Assignment Filter",
       "Description": "This resource represents the properties of the Intune Assignment Filter.\r\nFor more information: https://docs.microsoft.com/en-us/graph/api/resources/intune-policyset-deviceandappmanagementassignmentfilter?view=graph-rest-beta",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecategory",
@@ -1022,7 +1016,7 @@
       "OriginalName": "devicecategory",
       "FriendlyName": "Device Category",
       "Description": "This resource configures the Intune device categories.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecleanuprule",
@@ -1030,7 +1024,7 @@
       "OriginalName": "devicecleanuprule",
       "FriendlyName": "Device Cleanup Rule",
       "Description": "This resource configures the Intune device cleanup rule.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecompliancepolicyandroid",
@@ -1038,7 +1032,7 @@
       "OriginalName": "devicecompliancepolicyandroid",
       "FriendlyName": "Device Compliance Policy Android",
       "Description": "This resource configures the settings of Android device compliance policies\r\nin your cloud-based organization.\r\n\r\n## Parameters\r\n\r\n### Microsoft Defender for Endpoint\r\n\r\n* **Require the device to be at or under the machine risk score**\r\n  Select the maximum allowed machine risk score for devices evaluated by Microsoft Defender for Endpoint. Devices that exceed this score get marked as noncompliant.\r\n    * Not configured (_default_)\r\n    * Clear\r\n    * Low\r\n    * Medium\r\n    * High\r\n\r\n### Device Health\r\n\r\n* **Devices managed with device administrator**\r\n  Device administrator capabilities are superseded by Android Enterprise.\r\n    * Not configured (_default_)\r\n    * Block - Blocking device administrator will guide users to move to Android Enterprise Personally-Owned and Corporate-Owned Work Profile management to regain access.\r\n\r\n### Rooted devices\r\n* **Prevent rooted devices from having corporate access. (This compliance check is supported for Android 4.0 and above.)**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Block - Mark rooted (jailbroken) devices as not compliant.\r\n\r\n* **Require the device to be at or under the Device Threat Level**\r\n  Use this setting to take the risk assessment from a connected Mobile Threat Defense service as a condition for compliance.\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Secured - This option is the most secure, as the device can't have any threats. If the device is detected with any level of threats, it's evaluated as noncompliant.\r\n    * Low - The device is evaluated as compliant if only low-level threats are present. Anything higher puts the device in a noncompliant status.\r\n    * Medium - The device is evaluated as compliant if existing threats on the device are low or medium level. If the device is detected to have high-level threats, it's determined to be noncompliant.\r\n    * High - This option is the least secure, and allows all threat levels. It may be useful if you're using this solution only for reporting purposes.\r\n\r\n### Google Play Protect\r\n* **Google Play Services is configured**\r\n  Google Play services allows security updates, and is a base-level dependency for many security features on certified-Google devices.\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Require that the Google Play services app is installed and enabled.\r\n\r\n* **Up-to-date security provider**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Require that an up-to-date security provider can protect a device from known vulnerabilities.\r\n\r\n* **Threat scan on apps**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Require that the Android Verify Apps feature is enabled.\r\n\r\n* **SafetyNet device attestation**\r\n  Enter the level of SafetyNet attestation that must be met. Your options:\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Check basic integrity\r\n    * Check basic integrity & certified devices\r\n\r\n### Device Properties\r\n* **Operating System Version**\r\n    * Minimum OS version\r\n  When a device doesn't meet the minimum OS version requirement, it's reported as noncompliant. A link with information about how to upgrade is shown. The end user can choose to upgrade their device, and then get access to company resources.\r\n\r\n  _By default, no version is configured._\r\n\r\n    * Maximum OS version\r\n  When a device is using an OS version later than the version specified in the rule, access to company resources is blocked. The user is asked to contact their IT admin. Until a rule is changed to allow the OS version, this device can't access company resources.\r\n\r\n  _By default, no version is configured._\r\n\r\n### System Security\r\n* **Encryption**\r\n  Encryption of data storage on a device\r\n  Supported on Android 4.0 and later, or KNOX 4.0 and later.\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Encrypt data storage on your devices. Devices are encrypted when you choose the Require a password to unlock mobile devices setting.\r\n\r\n* **Device Security**\r\n  Block apps from unknown sources\r\n  Supported on Android 4.0 to Android 7.x. Not supported by Android 8.0 and later\r\n    * Not configured (_default_) - this setting isn't evaluated for compliance or non-compliance.\r\n    * Block - Block devices with Security > Unknown Sources enabled sources (_supported on Android 4.0 through Android 7.x. Not supported on Android 8.0 and later._).\r\n\r\n  To side-load apps, unknown sources must be allowed. If you're not side-loading Android apps, then set this feature to Block to enable this compliance policy.\r\n\r\n* **Company portal app runtime integrity**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Choose Require to confirm the Company Portal app meets all the following requirements:\r\n        * Has the default runtime environment installed\r\n        * Is properly signed\r\n        * Isn't in debug-mode\r\n\r\n* **Block USB debugging on device**\r\n  _(Supported on Android 4.2 or later)_\r\n\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Block - Prevent devices from using the USB debugging feature.\r\n\r\n* **Minimum security patch level**\r\n  _(Supported on Android 6.0 or later)_\r\n\r\n  Select the oldest security patch level a device can have. Devices that aren't at least at this patch level are noncompliant. The date must be entered in the YYYY-MM-DD format.\r\n\r\n  _By default, no date is configured._\r\n\r\n* **Restricted apps**\r\n  Enter the App name and App bundle ID for apps that should be restricted, and then select Add. A device with at least one restricted app installed is marked as non-compliant.\r\n\r\n### Password\r\n\r\nThe available settings for passwords vary by the version of Android on the device.\r\n\r\n#### All Android devices\r\nThe following settings are supported on Android 4.0 or later, and Knox 4.0 and later.\r\n\r\n* **Maximum minutes of inactivity before password is required**\r\n  This setting specifies the length of time without user input after which the mobile device screen is locked. Options range from 1 Minute to 8 Hours. The recommended value is 15 Minutes.\r\n    * Not configured (_default_)\r\n\r\n#### Android 10 and later\r\nThe following settings are supported on Android 10 or later, but not on Knox.\r\n\r\n* **Password complexity**\r\n  _This setting is supported on Android 10 or later, but not on Samsung Knox. On devices that run Android 9 and earlier or Samsung Knox, settings for the password length and type override this setting for complexity._\r\n\r\n  Specify the required password complexity.\r\n    * None (_default_) - No password required.\r\n    * Low - The password satisfies one of the following conditions:\r\n        * Pattern\r\n        * Numeric PIN has a repeating (4444) or ordered (1234, 4321, 2468) sequence.\r\n    * Medium - The password satisfies one of the following conditions:\r\n        * Numeric PIN doesn’t have a repeating (4444) or ordered (1234, 4321, 2468) sequence, and has minimum length of 4.\r\n        * Alphabetic, with a minimum length of 4.\r\n        * Alphanumeric, with a minimum length of 4.\r\n    * High - The password satisfies one of the following conditions:\r\n        * Numeric PIN doesn’t have a repeating (4444) or ordered (1234, 4321, 2468) sequence, and has minimum length of 8.\r\n        * Alphabetic, with a minimum length of 6.\r\n        * Alphanumeric, with a minimum length of 6.\r\n\r\n#### Android 9 and earlier or Samsung Knox\r\n_The following settings are supported on Android 9.0 and earlier, and any version of Samsung Knox._\r\n\r\n* **Require a password to unlock mobile devices**\r\n  This setting specifies whether to require users to enter a password before access is granted to information on their mobile devices. Recommended value: Require\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Users must enter a password before they can access their device.\r\n\r\nWhen set to Require, the following setting can be configured:\r\n\r\n* **Required password type**\r\n  Choose if a password should include only numeric characters, or a mix of numerals and other characters.\r\n    * Device Default - To evaluate password compliance, be sure to select a password strength other than Device default.\r\n    * Low security biometric\r\n    * At least numeric\r\n    * Numeric complex - Repeated or consecutive numerals, such as 1111 or 1234, aren't allowed.\r\n    * At least alphabetic\r\n    * At least alphanumeric\r\n    * At least alphanumeric with symbols\r\n\r\n  Based on the configuration of this setting, one or more of the following options are available:\r\n    * Minimum password length\r\n    Enter the minimum number of digits or characters that the user's password must have.\r\n    * Maximum minutes of inactivity before password is required\r\n    Enter the idle time before the user must reenter their password. When you choose Not configured (_default_), this setting isn't evaluated for compliance or non-compliance.\r\n    * Number of days until password expires\r\n    Select the number of days before the password expires and the user must create a new password.\r\n    * Number of previous passwords to prevent reuse\r\n    Enter the number of recent passwords that can't be reused. Use this setting to restrict the user from creating previously used passwords.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecompliancepolicyandroiddeviceowner",
@@ -1046,7 +1040,7 @@
       "OriginalName": "devicecompliancepolicyandroiddeviceowner",
       "FriendlyName": "Device Compliance Policy Android Device Owner",
       "Description": "This resource configures the settings of Android Work Profile device compliance policies\r\nin your cloud-based organization.\r\n\r\n## Parameters\r\n\r\n### Microsoft Defender for Endpoint - _for Personally-Owned Work Profile_\r\n\r\n* **Require the device to be at or under the machine risk score**\r\n  Select the maximum allowed machine risk score for devices evaluated by Microsoft Defender for Endpoint. Devices which exceed this score get marked as noncompliant.\r\n    * Not configured (_default_)\r\n    * Clear\r\n    * Low\r\n    * Medium\r\n    * High\r\n\r\n### Device Health - _for Personally-Owned Work Profile_\r\n* **Rooted devices**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Block - Mark rooted (jailbroken) devices as not compliant.\r\n\r\n* **Require the device to be at or under the Device Threat Level**\r\nSelect the maximum allowed device threat level evaluated by your mobile threat defense service. Devices that exceed this threat level are marked noncompliant. To use this setting, choose the allowed threat level:\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Secured - This option is the most secure, and means that the device can't have any threats. If the device is detected with any level of threats, it's evaluated as noncompliant.\r\n    * Low - The device is evaluated as compliant if only low-level threats are present. Anything higher puts the device in a noncompliant status.\r\n    * Medium - The device is evaluated as compliant if the threats that are present on the device are low or medium level. If the device is detected to have high-level threats, it's determined to be noncompliant.\r\n    * High - This option is the least secure, as it allows all threat levels. It may be useful if you're using this solution only for reporting purposes.\r\n\r\n### Google Play Protect - _for Personally-Owned Work Profile_\r\n\r\n* **Google Play Services is configured**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Require that the Google Play services app is installed and enabled. Google Play services allows security updates, and is a base-level dependency for many security features on certified-Google devices.\r\n\r\n* **Up-to-date security provider**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Require that an up-to-date security provider can protect a device from known vulnerabilities.\r\n\r\n* **SafetyNet device attestation**\r\n  Enter the level of SafetyNet attestation that must be met. Your options:\r\n    * Not configured (_default_) - Setting isn't evaluated for compliance or non-compliance.\r\n    * Check basic integrity\r\n    * Check basic integrity & certified devices\r\n\r\nNote:\r\n* On Android Enterprise devices, Threat scan on apps is a device configuration policy. Using a configuration policy, administrators can enable the setting on a device. See Android Enterprise device restriction settings.\r\n\r\n### Device Properties - _for Personally-Owned Work Profile_\r\n\r\n* **Operating System Version - *for Personally-Owned Work Profile***\r\n    * Minimum OS version\r\n      When a device doesn't meet the minimum OS version requirement, it's reported as non-compliant. A link with information on how to upgrade is shown. The end user can upgrade their device, and then access organization resources.\r\n\r\n  _By default, no version is configured._\r\n\r\n* **Maximum OS version**\r\n  When a device is using an OS version later than the version in the rule, access to organization resources is blocked. The user is asked to contact their IT administrator. Until a rule is changed to allow the OS version, this device can't access organization resources.\r\n\r\n  _By default, no version is configured._\r\n\r\n### System security - for _Personally-Owned Work Profile_\r\n\r\n* **Require a password to unlock mobile devices**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Users must enter a password before they can access their device.\r\n\r\n  _This setting applies at the device level. If you only need to require a password at the Personally-Owned Work Profile level, then use a configuration policy. See Android Enterprise device configuration settings._\r\n\r\n* **Required password type**\r\n  Choose if a password should include only numeric characters, or a mix of numerals and other characters. Your options:\r\n    * Device Default\r\n    * Low security biometric\r\n    * At least numeric (_default_): Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n    * Numeric complex: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n    * At least alphabetic: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n    * At least alphanumeric: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n    * At least alphanumeric with symbols: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n\r\n  Depending on the password type you select, the following settings are available:\r\n    * Maximum minutes of inactivity before password is required\r\n    Enter the idle time before the user must reenter their password. Options include the default of Not configured, and from 1 Minute to 8 hours.\r\n    * Number of days until password expires\r\n    Enter the number of days, between 1-365, until the device password must be changed. For example, to change the password after 60 days, enter 60. When the password expires, users are prompted to create a new password.\r\n    * Minimum password length\r\n    Enter the minimum length the password must have, between 4 and 16 characters.\r\n    * Number of previous passwords to prevent reuse\r\n    Enter the number of recent passwords that can't be reused. Use this setting to restrict the user from creating previously used passwords.\r\n\r\n### Encryption - _for Personally-Owned Work Profile_\r\n* **Encryption of data storage on device**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Encrypt data storage on your devices.\r\n\r\n  You don't have to configure this setting because Android Enterprise devices enforce encryption.\r\n\r\n### Device Security - _for Personally-Owned Work Profile_\r\n\r\n* **Block apps from unknown sources**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Block - Block devices with Security > Unknown Sources enabled sources (supported on Android 4.0 through Android 7.x. Not supported by Android 8.0 and later).\r\n\r\n  _To side-load apps, unknown sources must be allowed. If you're not side-loading Android apps, then set this feature to Block to enable this compliance policy._\r\n\r\n* **Company portal app runtime integrity**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Require - Choose Require to confirm the Company Portal app meets all the following requirements:\r\n        * Has the default runtime environment installed\r\n        * Is properly signed\r\n        * Isn't in debug-mode\r\n        * Is installed from a known source\r\n\r\n* **Block USB debugging on device**\r\n    * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n    * Block - Prevent devices from using the USB debugging feature.\r\n\r\n_You don't have to configure this setting because USB debugging is already disabled on Android Enterprise devices._\r\n\r\n* **Minimum security patch level**\r\nSelect the oldest security patch level a device can have. Devices that aren't at least at this patch level are noncompliant. The date must be entered in the YYYY-MM-DD format.\r\n\r\n_By default, no date is configured._",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecompliancepolicyandroidworkprofile",
@@ -1054,7 +1048,7 @@
       "OriginalName": "devicecompliancepolicyandroidworkprofile",
       "FriendlyName": "Device Compliance Policy Android Work Profile",
       "Description": "This resource configures the settings of Android Work Profile device compliance policies\r\nin your cloud-based organization.\r\n\r\n## Parameters\r\n\r\n### Microsoft Defender for Endpoint - _for Personally-Owned Work Profile_\r\n\r\n* **Require the device to be at or under the machine risk score**\r\n  Select the maximum allowed machine risk score for devices evaluated by Microsoft Defender for Endpoint. Devices which exceed this score get marked as noncompliant.\r\n  * Not configured (_default_)\r\n  * Clear\r\n  * Low\r\n  * Medium\r\n  * High\r\n\r\n### Device Health - _for Personally-Owned Work Profile_\r\n* **Rooted devices**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Block - Mark rooted (jailbroken) devices as not compliant.\r\n\r\n* **Require the device to be at or under the Device Threat Level**\r\n  Select the maximum allowed device threat level evaluated by your mobile threat defense service. Devices that exceed this threat level are marked noncompliant. To use this setting, choose the allowed threat level:\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Secured - This option is the most secure, and means that the device can't have any threats. If the device is detected with any level of threats, it's evaluated as noncompliant.\r\n  * Low - The device is evaluated as compliant if only low-level threats are present. Anything higher puts the device in a noncompliant status.\r\n  * Medium - The device is evaluated as compliant if the threats that are present on the device are low or medium level. If the device is detected to have high-level threats, it's determined to be noncompliant.\r\n  * High - This option is the least secure, as it allows all threat levels. It may be useful if you're using this solution only for reporting purposes.\r\n\r\n### Google Play Protect - _for Personally-Owned Work Profile_\r\n\r\n* **Google Play Services is configured**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - Require that the Google Play services app is installed and enabled. Google Play services allows security updates, and is a base-level dependency for many security features on certified-Google devices.\r\n\r\n* **Up-to-date security provider**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - Require that an up-to-date security provider can protect a device from known vulnerabilities.\r\n\r\n* **SafetyNet device attestation**\r\n  Enter the level of SafetyNet attestation that must be met. Your options:\r\n  * Not configured (_default_) - Setting isn't evaluated for compliance or non-compliance.\r\n  * Check basic integrity\r\n  * Check basic integrity & certified devices\r\n\r\n  Note:\r\n    * On Android Enterprise devices, Threat scan on apps is a device configuration policy. Using a configuration policy, administrators can enable the setting on a device. See Android Enterprise device restriction settings.\r\n\r\n### Device Properties - _for Personally-Owned Work Profile_\r\n\r\n* **Operating System Version - *for Personally-Owned Work Profile***\r\n  * Minimum OS version\r\n    When a device doesn't meet the minimum OS version requirement, it's reported as non-compliant. A link with information on how to upgrade is shown. The end user can upgrade their device, and then access organization resources.\r\n\r\n  _By default, no version is configured._\r\n\r\n* **Maximum OS version**\r\n  When a device is using an OS version later than the version in the rule, access to organization resources is blocked. The user is asked to contact their IT administrator. Until a rule is changed to allow the OS version, this device can't access organization resources.\r\n\r\n  _By default, no version is configured._\r\n\r\n### System security - for _Personally-Owned Work Profile_\r\n\r\n* **Require a password to unlock mobile devices**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - Users must enter a password before they can access their device.\r\n\r\n  _This setting applies at the device level. If you only need to require a password at the Personally-Owned Work Profile level, then use a configuration policy. See Android Enterprise device configuration settings._\r\n\r\n* **Required password type**\r\n  Choose if a password should include only numeric characters, or a mix of numerals and other characters. Your options:\r\n  * Device Default\r\n  * Low security biometric\r\n  * At least numeric (_default_): Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n  * Numeric complex: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n  * At least alphabetic: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n  * At least alphanumeric: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n  * At least alphanumeric with symbols: Enter the minimum password length a user must enter, between 4 and 16 characters.\r\n\r\n  Depending on the password type you select, the following settings are available:\r\n  * Maximum minutes of inactivity before password is required\r\n  Enter the idle time before the user must reenter their password. Options include the default of Not configured, and from 1 Minute to 8 hours.\r\n  * Number of days until password expires\r\n  Enter the number of days, between 1-365, until the device password must be changed. For example, to change the password after 60 days, enter 60. When the password expires, users are prompted to create a new password.\r\n  * Minimum password length\r\n  Enter the minimum length the password must have, between 4 and 16 characters.\r\n  * Number of previous passwords to prevent reuse\r\n  Enter the number of recent passwords that can't be reused. Use this setting to restrict the user from creating previously used passwords.\r\n\r\n### Encryption - _for Personally-Owned Work Profile_\r\n* **Encryption of data storage on device**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - Encrypt data storage on your devices.\r\n\r\n  You don't have to configure this setting because Android Enterprise devices enforce encryption.\r\n\r\n### Device Security - _for Personally-Owned Work Profile_\r\n\r\n* **Block apps from unknown sources**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Block - Block devices with Security > Unknown Sources enabled sources (supported on Android 4.0 through Android 7.x. Not supported by Android 8.0 and later).\r\n\r\n  _To side-load apps, unknown sources must be allowed. If you're not side-loading Android apps, then set this feature to Block to enable this compliance policy._\r\n\r\n* **Company portal app runtime integrity**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - Choose Require to confirm the Company Portal app meets all the following requirements:\r\n    * Has the default runtime environment installed\r\n    * Is properly signed\r\n    * Isn't in debug-mode\r\n    * Is installed from a known source\r\n\r\n* **Block USB debugging on device**\r\n  * Not configured (_default_) - This setting isn't evaluated for compliance or non-compliance.\r\n  * Block - Prevent devices from using the USB debugging feature.\r\n\r\n_You don't have to configure this setting because USB debugging is already disabled on Android Enterprise devices._\r\n\r\n* **Minimum security patch level**\r\nSelect the oldest security patch level a device can have. Devices that aren't at least at this patch level are noncompliant. The date must be entered in the YYYY-MM-DD format.\r\n\r\n_By default, no date is configured._",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecompliancepolicyios",
@@ -1062,7 +1056,7 @@
       "OriginalName": "devicecompliancepolicyios",
       "FriendlyName": "Device Compliance Policy iOS",
       "Description": "This resource configures the Intune compliance policies for iOs devices.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecompliancepolicymacos",
@@ -1070,7 +1064,7 @@
       "OriginalName": "devicecompliancepolicymacos",
       "FriendlyName": "Device Compliance Policy macOS",
       "Description": "This resource configures the settings of MacOS compliance policies\r\nin your cloud-based organization.\r\n\r\n## Parameters\r\n\r\n### Device Health\r\n* **Require a system integrity protection**\r\n  *  Not configured _(default)_ - This setting isn't evaluated for compliance or non-compliance.\r\n  *  Require - Require macOS devices to have System Integrity Protection enabled.\r\n\r\n### Device Properties\r\n* **Minimum OS required**\r\n  When a device doesn't meet the minimum OS version requirement, it's reported as non-compliant. A link with information on how to upgrade is shown. The device user can choose to upgrade their device. After that, they can access organization resources.\r\n\r\n* **Maximum OS version allowed**\r\n  When a device uses an OS version later than the version in the rule, access to organization resources is blocked. The device user is asked to contact their IT administrator. The device can't access organization resources until a rule changes to allow the OS version.\r\n\r\n* **Minimum OS build version**\r\n  When Apple publishes security updates, the build number is typically updated, not the OS version. Use this feature to enter a minimum allowed build number on the device.\r\n\r\n* **Maximum OS build version**\r\n  When Apple publishes security updates, the build number is typically updated, not the OS version. Use this feature to enter a maximum allowed build number on the device.\r\n\r\n## System security settings\r\n### Password\r\n* **Require a password to unlock mobile devices**\r\n  * Not configured _(default)_\r\n  * Require Users must enter a password before they can access their device.\r\n\r\n* **Simple passwords**\r\n  * Not configured _(default)_ - Users can create passwords simple like 1234 or 1111.\r\n  * Block - Users can't create simple passwords, such as 1234 or 1111.\r\n\r\n* **Minimum password length**\r\n  * Enter the minimum number of digits or characters that the password must have.\r\n\r\n* **Password type**\r\n  * Choose if a password should have only Numeric characters, or if there should be a mix of numbers and other characters (Alphanumeric).\r\n\r\n* **Number of non-alphanumeric characters in password**\r\n  * Enter the minimum number of special characters, such as &, #, %, !, and so on, that must be in the password.\r\n\r\n  Setting a higher number requires the user to create a password that is more complex.\r\n\r\n* **Maximum minutes of inactivity before password is required**\r\n  * Enter the idle time before the user must reenter their password.\r\n\r\n* **Password expiration (days)**\r\n  * Select the number of days before the password expires, and they must create a new one.\r\n\r\n* **Number of previous passwords to prevent reuse**\r\n  * Enter the number of previously used passwords that can't be used.\r\n\r\n### Encryption\r\n* **Encryption of data storage on device**\r\n  * Not configured (_default_)\r\n  * Require - Use _Require_ to encrypt data storage on your devices.\r\n\r\n### Device Security\r\nFirewall protects devices from unauthorized network access. You can use Firewall to control connections on a per-application basis.\r\n\r\n* **Firewall**\r\n  * Not configured _(default)_ - This setting leaves the firewall turned off, and network traffic is allowed (not blocked).\r\n  * Enable - Use Enable to help protect devices from unauthorized access. Enabling this feature allows you to handle incoming internet connections, and use stealth mode.\r\n\r\n* **Incoming connections**\r\n  * Not configured _(default)_ - Allows incoming connections and sharing services.\r\n  * Block - Block all incoming network connections except the connections required for basic internet services, such as DHCP, Bonjour, and IPSec. This setting also blocks all sharing services, including screen sharing, remote access, iTunes music sharing, and more.\r\n\r\n* **Stealth Mode**\r\n  * Not configured _(default)_ - This setting leaves stealth mode turned off.\r\n  * Enable - Turn on stealth mode to prevent devices from responding to probing requests, which can be made my malicious users. When enabled, the device continues to answer incoming requests for authorized apps.\r\n\r\n### Gatekeeper\r\nFor more information, see Gatekeeper on macOS.\r\n\r\n* **Allow apps downloaded from these locations**\r\n  Allows supported applications to be installed on your devices from different locations. Your location options:\r\n  * Not configured _(default)_ - The gatekeeper option has no impact on compliance or non-compliance.\r\n  * Mac App Store - Only install apps for the Mac app store. Apps can't be installed from third parties nor identified developers. If a user selects Gatekeeper to install apps outside the Mac App Store, then the device is considered not compliant.\r\n  * Mac App Store and identified developers - Install apps for the Mac app store and from identified developers. macOS checks the identity of developers, and does some other checks to verify app integrity. If a user selects Gatekeeper to install apps outside these options, then the device is considered not compliant.\r\n  * Anywhere - Apps can be installed from anywhere, and by any developer. This option is the least secure.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.devicecompliancepolicywindows10",
@@ -1078,7 +1072,7 @@
       "OriginalName": "devicecompliancepolicywindows10",
       "FriendlyName": "Device Compliance Policy Windows 10",
       "Description": "This resource configures the settings of Windows 10 compliance policies\r\nin your cloud-based organization.\r\n\r\n## Parameters\r\n\r\n### Device Health\r\n#### Windows Health Attestation Service evaluation rules\r\n* **Require BitLocker:**\r\n  Windows BitLocker Drive Encryption encrypts all data stored on the Windows operating system volume. BitLocker uses the Trusted Platform Module (TPM) to help protect the Windows operating system and user data. It also helps confirm that a computer isn't tampered with, even if its left unattended, lost, or stolen. If the computer is equipped with a compatible TPM, BitLocker uses the TPM to lock the encryption keys that protect the data. As a result, the keys can't be accessed until the TPM verifies the state of the computer.\r\n  * Not configured _(default)_ - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - The device can protect data that's stored on the drive from unauthorized access when the system is off, or hibernates.\r\n\r\n  Device HealthAttestation CSP - BitLockerStatus\r\n\r\n* **Require Secure Boot to be enabled on the device:**\r\n  * Not configured _(default)_ - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - The system is forced to boot to a factory trusted state. The core components that are used to boot the machine must have correct cryptographic signatures that are trusted by the organization that manufactured the device. The UEFI firmware verifies the signature before it lets the machine start. If any files are tampered with, which breaks their signature, the system doesn't boot.\r\n\r\n### Device Properties\r\n#### Operating System Version\r\nTo discover build versions for all Windows 10 Feature Updates and Cumulative Updates (to be used in some of the fields below), see Windows 10 release information. Be sure to include the 10.0. prefix before the build numbers, as the following examples illustrate.\r\n\r\n* **Minimum OS version:**\r\n  Enter the minimum allowed version in the major.minor.build.revision number format. To get the correct value, open a command prompt, and type ver. The ver command returns the version in the following format:\r\n\r\n  Microsoft Windows [Version 10.0.17134.1]\r\n\r\n  When a device has an earlier version than the OS version you enter, it's reported as noncompliant. A link with information on how to upgrade is shown. The end user can choose to upgrade their device. After they upgrade, they can access company resources.\r\n\r\n* **Maximum OS version:**\r\n  Enter the maximum allowed version, in the major.minor.build.revision number format. To get the correct value, open a command prompt, and type ver. The ver command returns the version in the following format:\r\n\r\n  Microsoft Windows [Version 10.0.17134.1]\r\n\r\n  When a device is using an OS version later than the version entered, access to organization resources is blocked. The end user is asked to contact their IT administrator. The device can't access organization resources until the rule is changed to allow the OS version.\r\n\r\n* **Minimum OS required for mobile devices:**\r\n  Enter the minimum allowed version, in the major.minor.build number format.\r\n\r\n  When a device has an earlier version that the OS version you enter, it's reported as noncompliant. A link with information on how to upgrade is shown. The end user can choose to upgrade their device. After they upgrade, they can access company resources.\r\n\r\n* **Maximum OS required for mobile devices:**\r\n  Enter the maximum allowed version, in the major.minor.build number.\r\n\r\n  When a device is using an OS version later than the version entered, access to organization resources is blocked. The end user is asked to contact their IT administrator. The device can't access organization resources until the rule is changed to allow the OS version.\r\n\r\n* **Valid operating system builds:**\r\n  Specify a list of minimum and maximum operating system builds. Valid operating system builds provides additional flexibility when compared against minimum and maximum OS versions. Consider a scenario where minimum OS version is set to 10.0.18362.xxx (Windows 10 1903) and maximum OS version is set to 10.0.18363.xxx (Windows 10 1909). This configuration can allow a Windows 10 1903 device that doesn't have recent cumulative updates installed to be identified as compliant. Minimum and maximum OS versions might be suitable if you have standardized on a single Windows 10 release, but might not address your requirements if you need to use multiple builds, each with specific patch levels. In such a case, consider leveraging valid operating system builds instead, which allows multiple builds to be specified as per the following example.\r\n\r\n  Example:\r\n  The following table is an example of a range for the acceptable operating systems versions for different Windows 10 releases. In this example, three different Feature Updates have been allowed (1809, 1909 and 2004). Specifically, only those versions of Windows and which have applied cumulative updates from June to September 2020 will be considered to be compliant. This is sample data only. The table includes a first column that includes any text you want to describe the entry, followed by the minimum and maximum OS version for that entry. The second and third columns must adhere to valid OS build versions in the major.minor.build.revision number format. After you define one or more entries, you can Export the list as a comma-separated values (CSV) file.\r\n\r\n  | Description                 | Minimum OS version | Maximum OS version |\r\n  |-----------------------------|--------------------|--------------------|\r\n  | Win 10 2004 (Jun-Sept 2020) | 10.0.19041.329     | 10.0.19041.508     |\r\n  | Win 10 1909 (Jun-Sept 2020) | 10.0.18363.900     | 10.0.18363.1110    |\r\n  | Win 10 1809 (Jun-Sept 2020) | 10.0.17763.1282    | 10.0.17763.1490    |\r\n\r\n### Configuration Manager Compliance\r\nApplies only to co-managed devices running Windows 10 and later. Intune-only devices return a not available status.\r\n\r\n* **Require device compliance from Configuration Manager:**\r\n  * Not configured _(default)_ - Intune doesn't check for any of the Configuration Manager settings for compliance.\r\n  * Require - Require all settings (configuration items) in Configuration Manager to be compliant.\r\n\r\n### System Security\r\n#### Password\r\n* **Require a password to unlock mobile devices:**\r\n  * Not configured _(default)_ - This setting isn't evaluated for compliance or non-compliance.\r\n  * Require - Users must enter a password before they can access their device.\r\n\r\n* **Simple passwords:**\r\n  * Not configured _(default)_ - Users can create simple passwords, such as 1234 or 1111.\r\n  * Block - Users can't create simple passwords, such as 1234 or 1111.\r\n\r\n* **Password type:**\r\n  Choose the type of password or PIN required. Your options:\r\n  * Device _(default)_  - Require a password, numeric PIN, or alphanumeric PIN\r\n  * Numeric - Require a password or numeric PIN\r\n  * Alphanumeric - Require a password, or alphanumeric PIN.\r\n  When set to Alphanumeric, the following settings are available:\r\n\r\n  * Password complexity:\r\n    Your options:\r\n    * Require digits and lowercase letters _(default)_\r\n    * Require digits, lowercase letters, and uppercase letters\r\n    * Require digits, lowercase letters, uppercase letters, and special characters\r\n\r\n* **Minimum password length:**\r\n    Enter the minimum number of digits or characters that the password must have.\r\n\r\n* **Maximum minutes of inactivity before password is required:**\r\n    Enter the idle time before the user must reenter their password.\r\n\r\n* **Password expiration (days):**\r\n    Enter the number of days before the password expires, and they must create a new one, from 1-730.\r\n\r\n* **Number of previous passwords to prevent reuse:**\r\n    Enter the number of previously used passwords that can't be used.\r\n\r\n* **Require password when device returns from idle state (Mobile and Holographic):**\r\n    * Not configured _(default)_\r\n    * Require - Require device users to enter the password every time the device returns from an idle state.\r\n\r\n  **Important**\r\n  When the password requirement is changed on a Windows desktop, users are impacted the next time they sign in, as that's when the device goes from idle to active. Users with passwords that meet the requirement are still prompted to change their passwords.\r\n\r\n### Encryption\r\n\r\n* **Encryption of data storage on a device:**\r\n  This setting applies to all drives on a device.\r\n  * Not configured _(default)_\r\n  * Require - Use Require to encrypt data storage on your devices.\r\n\r\n  **Note**\r\n  The Encryption of data storage on a device setting generically checks for the presence of encryption on the device, more specifically at the OS drive level. Currently, Intune supports only the encryption check with BitLocker. For a more robust encryption setting, consider using Require BitLocker, which leverages Windows Device Health Attestation to validate Bitlocker status at the TPM level.\r\n\r\n### Device Security\r\n\r\n* **Firewall:**\r\n  * Not configured _(default)_ - Intune doesn't control the Microsoft Defender Firewall, nor change existing settings.\r\n  * Require - Turn on the Microsoft Defender Firewall, and prevent users from turning it off.\r\n\r\n  **Note**\r\n  If the device immediately syncs after a reboot, or immediately syncs waking from sleep, then this setting may report as an Error. This scenario might not affect the overall device compliance status. To re-evaluate the compliance status, manually sync the device.\r\n\r\n* **Trusted Platform Module (TPM):**\r\n  * Not configured _(default)_ - Intune doesn't check the device for a TPM chip version.\r\n  * Require - Intune checks the TPM chip version for compliance. The device is compliant if the TPM chip version is greater than 0 (zero). The device isn't compliant if there isn't a TPM version on the device.\r\n\r\n* **Antivirus:**\r\n  * Not configured _(default)_ - Intune doesn't check for any antivirus solutions installed on the device.\r\n  * Require - Check compliance using antivirus solutions that are registered with Windows Security Center, such as Symantec and Microsoft Defender.\r\n\r\n* **Antispyware:**\r\n  * Not configured _(default)_ - Intune doesn't check for any antispyware solutions installed on the device.\r\n  * Require - Check compliance using antispyware solutions that are registered with Windows Security Center, such as Symantec and Microsoft Defender.\r\n\r\n### Defender\r\nThe following compliance settings are supported with Windows 10 Desktop.\r\n\r\n* **Microsoft Defender Antimalware:**\r\n  * Not configured _(default)_ - Intune doesn't control the service, nor change existing settings.\r\n  * Require - Turn on the Microsoft Defender anti-malware service, and prevent users from turning it off.\r\n\r\n* **Microsoft Defender Antimalware minimum version:**\r\n  Enter the minimum allowed version of Microsoft Defender anti-malware service. For example, enter 4.11.0.0. When left blank, any version of the Microsoft Defender anti-malware service can be used.\r\n\r\n  By _(default)_, no version is configured.\r\n\r\n* **Microsoft Defender Antimalware security intelligence up-to-date:**\r\n  Controls the Windows Security virus and threat protection updates on the devices.\r\n  * Not configured _(default)_ - Intune doesn't enforce any requirements.\r\n  * Require - Force the Microsoft Defender security intelligence be up-to-date.\r\n\r\n* **Real-time protection:**\r\n  * Not configured (_(default)_) - Intune doesn't control this feature, nor change existing settings.\r\n  * Require - Turn on real-time protection, which scans for malware, spyware, and other unwanted software.\r\n\r\n### Microsoft Defender for Endpoint\r\n#### Microsoft Defender for Endpoint rules\r\nFor additional information on Microsoft Defender for Endpoint integration in conditional access scenarios, see Configure Conditional Access in Microsoft Defender for Endpoint.\r\n\r\n* **Require the device to be at or under the machine risk score:**\r\n  Use this setting to take the risk assessment from your defense threat services as a condition for compliance. Choose the maximum allowed threat level:\r\n  * Not configured (_(default)_)\r\n  * Clear -This option is the most secure, as the device can't have any threats. If the device is detected as having any level of threats, it's evaluated as non-compliant.\r\n  * Low - The device is evaluated as compliant if only low-level threats are present. Anything higher puts the device in a non-compliant status.\r\n  * Medium - The device is evaluated as compliant if existing threats on the device are low or medium level. If the device is detected to have high-level threats, it's determined to be non-compliant.\r\n  * High - This option is the least secure, and allows all threat levels. It may be useful if you're using this solution only for reporting purposes.\r\n\r\n### Windows Holographic for Business\r\nWindows Holographic for Business uses the Windows 10 and later platform. Windows Holographic for Business supports the following setting:\r\n\r\n**System Security > Encryption > Encryption of data storage on device.**\r\nTo verify device encryption on the Microsoft HoloLens, see Verify device encryption.\r\n\r\n### Surface Hub\r\nSurface Hub uses the Windows 10 and later platform. Surface Hubs are supported for both compliance and Conditional Access. To enable these features on Surface Hubs, we recommend you enable Windows 10 automatic enrollment in Intune (requires Azure Active Directory (Azure AD)), and target the Surface Hub devices as device groups. Surface Hubs are required to be Azure AD joined for compliance and Conditional Access to work.\r\n\r\nFor guidance, see set up enrollment for Windows devices.\r\n\r\nSpecial consideration for Surface Hubs running Windows 10 Team OS:\r\nSurface Hubs that run Windows 10 Team OS do not support the Microsoft Defender for Endpoint and Password compliance policies at this time. Therefore, for Surface Hubs that run Windows 10 Team OS set the following two settings to their _(default)_ of _Not configured_:\r\n* In the category Password, set Require a password to unlock mobile devices to the _(default)_ of Not configured.\r\n* In the category Microsoft Defender for Endpoint, set Require the device to be at or under the machine risk score to the _(default)_ of Not configured.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationadministrativetemplatepolicywindows10",
@@ -1086,7 +1080,7 @@
       "OriginalName": "deviceconfigurationadministrativetemplatepolicywindows10",
       "FriendlyName": "Device Configuration Administrative Template Policy Windows 10",
       "Description": "Intune Device Configuration Administrative Template Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationcustompolicywindows10",
@@ -1094,7 +1088,7 @@
       "OriginalName": "deviceconfigurationcustompolicywindows10",
       "FriendlyName": "Device Configuration Custom Policy Windows 10",
       "Description": "Intune Device Configuration Custom Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationdefenderforendpointonboardingpolicywindows10",
@@ -1102,7 +1096,7 @@
       "OriginalName": "deviceconfigurationdefenderforendpointonboardingpolicywindows10",
       "FriendlyName": "Device Configuration Defender For Endpoint Onboarding Policy Windows 10",
       "Description": "Intune Device Configuration Defender For Endpoint Onboarding Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationdeliveryoptimizationpolicywindows10",
@@ -1110,7 +1104,7 @@
       "OriginalName": "deviceconfigurationdeliveryoptimizationpolicywindows10",
       "FriendlyName": "Device Configuration Delivery Optimization Policy Windows 10",
       "Description": "Intune Device Configuration Delivery Optimization Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationdomainjoinpolicywindows10",
@@ -1118,7 +1112,7 @@
       "OriginalName": "deviceconfigurationdomainjoinpolicywindows10",
       "FriendlyName": "Device Configuration Domain Join Policy Windows 10",
       "Description": "Intune Device Configuration Domain Join Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationemailprofilepolicywindows10",
@@ -1126,7 +1120,7 @@
       "OriginalName": "deviceconfigurationemailprofilepolicywindows10",
       "FriendlyName": "Device Configuration Email Profile Policy Windows 10",
       "Description": "Intune Device Configuration Email Profile Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationendpointprotectionpolicywindows10",
@@ -1134,7 +1128,7 @@
       "OriginalName": "deviceconfigurationendpointprotectionpolicywindows10",
       "FriendlyName": "Device Configuration Endpoint Protection Policy Windows 10",
       "Description": "Intune Device Configuration Endpoint Protection Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationfirmwareinterfacepolicywindows10",
@@ -1142,7 +1136,7 @@
       "OriginalName": "deviceconfigurationfirmwareinterfacepolicywindows10",
       "FriendlyName": "Device Configuration Firmware Interface Policy Windows 10",
       "Description": "Intune Device Configuration Firmware Interface Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationhealthmonitoringconfigurationpolicywindows10",
@@ -1150,7 +1144,7 @@
       "OriginalName": "deviceconfigurationhealthmonitoringconfigurationpolicywindows10",
       "FriendlyName": "Device Configuration Health Monitoring Configuration Policy Windows 10",
       "Description": "Intune Device Configuration Health Monitoring Configuration Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationidentityprotectionpolicywindows10",
@@ -1158,7 +1152,7 @@
       "OriginalName": "deviceconfigurationidentityprotectionpolicywindows10",
       "FriendlyName": "Device Configuration Identity Protection Policy Windows 10",
       "Description": "Intune Device Configuration Identity Protection Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationimportedpfxcertificatepolicywindows10",
@@ -1166,7 +1160,7 @@
       "OriginalName": "deviceconfigurationimportedpfxcertificatepolicywindows10",
       "FriendlyName": "Device Configuration Imported PFX Certificate Policy Windows 10",
       "Description": "Intune Device Configuration Imported Pfx Certificate Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationkioskpolicywindows10",
@@ -1174,7 +1168,7 @@
       "OriginalName": "deviceconfigurationkioskpolicywindows10",
       "FriendlyName": "Device Configuration Kiosk Policy Windows 10",
       "Description": "Intune Device Configuration Kiosk Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationnetworkboundarypolicywindows10",
@@ -1182,7 +1176,7 @@
       "OriginalName": "deviceconfigurationnetworkboundarypolicywindows10",
       "FriendlyName": "Device Configuration Network Boundary Policy Windows 10",
       "Description": "Intune Device Configuration Network Boundary Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpkcscertificatepolicywindows10",
@@ -1190,7 +1184,7 @@
       "OriginalName": "deviceconfigurationpkcscertificatepolicywindows10",
       "FriendlyName": "Device Configuration PKCS Certificate Policy Windows 10",
       "Description": "Intune Device Configuration Pkcs Certificate Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroiddeviceadministrator",
@@ -1198,7 +1192,7 @@
       "OriginalName": "deviceconfigurationpolicyandroiddeviceadministrator",
       "FriendlyName": "Device Configuration Policy Android Device Administrator",
       "Description": "This resource configures the settings of Android Device Administrator device restriction policy in your cloud-based organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroiddeviceowner",
@@ -1206,7 +1200,7 @@
       "OriginalName": "deviceconfigurationpolicyandroiddeviceowner",
       "FriendlyName": "Device Configuration Policy Android Device Owner",
       "Description": "This resource configures an Intune Device Configuration Policy Android Device Owner.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroidopensourceproject",
@@ -1214,7 +1208,7 @@
       "OriginalName": "deviceconfigurationpolicyandroidopensourceproject",
       "FriendlyName": "Device Configuration Policy Android Open Source Project",
       "Description": "This resource configures an Intune device configuration profile for an Android Open Source Project Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpolicyandroidworkprofile",
@@ -1222,7 +1216,7 @@
       "OriginalName": "deviceconfigurationpolicyandroidworkprofile",
       "FriendlyName": "Device Configuration Policy Android Work Profile",
       "Description": "This resource configures an Intune device configuration profile for an Android WorkProfile Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpolicyios",
@@ -1230,7 +1224,7 @@
       "OriginalName": "deviceconfigurationpolicyios",
       "FriendlyName": "Device Configuration Policy iOS",
       "Description": "This resource configures an Intune Device Configuration Policy for iOS.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpolicymacos",
@@ -1238,7 +1232,7 @@
       "OriginalName": "deviceconfigurationpolicymacos",
       "FriendlyName": "Device Configuration Policy macOS",
       "Description": "This resource configures an Intune device configuration profile for an MacOS Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationpolicywindows10",
@@ -1246,7 +1240,7 @@
       "OriginalName": "deviceconfigurationpolicywindows10",
       "FriendlyName": "Device Configuration Policy Windows 10",
       "Description": "Intune Device Configuration Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationscepcertificatepolicywindows10",
@@ -1254,7 +1248,7 @@
       "OriginalName": "deviceconfigurationscepcertificatepolicywindows10",
       "FriendlyName": "Device Configuration SCEP Certificate Policy Windows 10",
       "Description": "Intune Device Configuration Scep Certificate Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationsecureassessmentpolicywindows10",
@@ -1262,7 +1256,7 @@
       "OriginalName": "deviceconfigurationsecureassessmentpolicywindows10",
       "FriendlyName": "Device Configuration Secure Assessment Policy Windows 10",
       "Description": "Intune Device Configuration Secure Assessment Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationsharedmultidevicepolicywindows10",
@@ -1270,7 +1264,7 @@
       "OriginalName": "deviceconfigurationsharedmultidevicepolicywindows10",
       "FriendlyName": "Device Configuration Shared Multi Device Policy Windows 10",
       "Description": "Intune Device Configuration Shared Multi Device Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationtrustedcertificatepolicywindows10",
@@ -1278,7 +1272,7 @@
       "OriginalName": "deviceconfigurationtrustedcertificatepolicywindows10",
       "FriendlyName": "Device Configuration Trusted Certificate Policy Windows 10",
       "Description": "Intune Device Configuration Trusted Certificate Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationvpnpolicywindows10",
@@ -1286,7 +1280,7 @@
       "OriginalName": "deviceconfigurationvpnpolicywindows10",
       "FriendlyName": "Device Configuration VPN Policy Windows 10",
       "Description": "Intune Device Configuration Vpn Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationwindowsteampolicywindows10",
@@ -1294,7 +1288,7 @@
       "OriginalName": "deviceconfigurationwindowsteampolicywindows10",
       "FriendlyName": "Device Configuration Windows Team Policy Windows 10",
       "Description": "Intune Device Configuration Windows Team Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceconfigurationwirednetworkpolicywindows10",
@@ -1302,7 +1296,7 @@
       "OriginalName": "deviceconfigurationwirednetworkpolicywindows10",
       "FriendlyName": "Device Configuration Wired Network Policy Windows 10",
       "Description": "Intune Device Configuration Wired Network Policy for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceenrollmentlimitrestriction",
@@ -1310,7 +1304,7 @@
       "OriginalName": "deviceenrollmentlimitrestriction",
       "FriendlyName": "Device Enrollment Limit Restriction",
       "Description": "This resource configures the Intune device enrollment limit restrictions.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceenrollmentplatformrestriction",
@@ -1318,7 +1312,7 @@
       "OriginalName": "deviceenrollmentplatformrestriction",
       "FriendlyName": "Device Enrollment Platform Restriction",
       "Description": "This resource configures the Intune device platform enrollment restrictions.\r\n\r\n**Be aware**: To deploy a Android platform restriction policy, two individual configurations must exist:\r\n\r\n* The first one contains the key for `AndroidRestriction`\r\n* The second one contains the key for `AndroidForWorkRestriction`",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.deviceenrollmentstatuspagewindows10",
@@ -1326,7 +1320,7 @@
       "OriginalName": "deviceenrollmentstatuspagewindows10",
       "FriendlyName": "Device Enrollment Status Page Windows 10",
       "Description": "Intune Device Enrollment Status Page Configuration for Windows10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.endpointdetectionandresponsepolicywindows10",
@@ -1334,7 +1328,7 @@
       "OriginalName": "endpointdetectionandresponsepolicywindows10",
       "FriendlyName": "Endpoint Detection And Response Policy Windows 10",
       "Description": "This resource configures an Intune Endpoint Detection and Response Policy for Windows 10.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.exploitprotectionpolicywindows10settingcatalog",
@@ -1342,7 +1336,7 @@
       "OriginalName": "exploitprotectionpolicywindows10settingcatalog",
       "FriendlyName": "Exploit Protection Policy Windows 10 Setting Catalog",
       "Description": "This resource configures an Intune Endpoint Protection Exploit Protection policy for a Windows 10 Device.\r\nEnables the IT admin to push out a configuration representing the desired system and application mitigation options to all the devices in the organization. The configuration is represented by an XML.\r\nFor more information Exploit Protection, see\r\n- Enable Exploit Protection on Devices and Import: https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/enable-exploit-protection,\r\n- Export, and deploy Exploit Protection configurations: https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/import-export-exploit-protection-emet-xml",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.policysets",
@@ -1350,7 +1344,7 @@
       "OriginalName": "policysets",
       "FriendlyName": "Policy Sets",
       "Description": "Intune Policy Sets",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.roleassignment",
@@ -1358,7 +1352,7 @@
       "OriginalName": "roleassignment",
       "FriendlyName": "Role Assignment",
       "Description": "This resource configures an Intune Role Assignment.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.roledefinition",
@@ -1366,7 +1360,7 @@
       "OriginalName": "roledefinition",
       "FriendlyName": "Role Definition",
       "Description": "This resource configures an Intune Role Definition.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.settingcatalogasrrulespolicywindows10",
@@ -1374,7 +1368,7 @@
       "OriginalName": "settingcatalogasrrulespolicywindows10",
       "FriendlyName": "Setting Catalog ASR Rules Policy Windows 10",
       "Description": "This resource configures a Intune Endpoint Protection Attack Surface Reduction rules policy for a Windows 10 Device.\r\nThis resource returns ASR rules created using settings catalog settings.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroiddeviceadministrator",
@@ -1382,7 +1376,7 @@
       "OriginalName": "wificonfigurationpolicyandroiddeviceadministrator",
       "FriendlyName": "WiFi Configuration Policy Android Device Administrator",
       "Description": "This resource configures an Intune Wifi Configuration Policy Android Device Administrator Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidenterprisedeviceowner",
@@ -1390,7 +1384,7 @@
       "OriginalName": "wificonfigurationpolicyandroidenterprisedeviceowner",
       "FriendlyName": "WiFi Configuration Policy Android Enterprise Device Owner",
       "Description": "This resource configures an Intune Wifi Configuration Policy Android Enterprise Device Owner Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidenterpriseworkprofile",
@@ -1398,7 +1392,7 @@
       "OriginalName": "wificonfigurationpolicyandroidenterpriseworkprofile",
       "FriendlyName": "WiFi Configuration Policy Android Enterprise Work Profile",
       "Description": "This resource configures an Intune Wifi Configuration Policy Android Enterprise Work Profile Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidforwork",
@@ -1406,7 +1400,7 @@
       "OriginalName": "wificonfigurationpolicyandroidforwork",
       "FriendlyName": "WiFi Configuration Policy Android For Work",
       "Description": "This resource configures an Intune Wifi Configuration Policy Android For Work Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicyandroidopensourceproject",
@@ -1414,7 +1408,7 @@
       "OriginalName": "wificonfigurationpolicyandroidopensourceproject",
       "FriendlyName": "WiFi Configuration Policy Android Open Source Project",
       "Description": "This resource configures an Intune Wifi Configuration Policy Android Open Source Project Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicyios",
@@ -1422,7 +1416,7 @@
       "OriginalName": "wificonfigurationpolicyios",
       "FriendlyName": "WiFi Configuration Policy iOS",
       "Description": "This resource configures an Intune Wifi Configuration Policy for iOS Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicymacos",
@@ -1430,7 +1424,7 @@
       "OriginalName": "wificonfigurationpolicymacos",
       "FriendlyName": "WiFi Configuration Policy macOS",
       "Description": "This resource configures an Intune Wifi Configuration Policy for MacOS Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.wificonfigurationpolicywindows10",
@@ -1438,7 +1432,7 @@
       "OriginalName": "wificonfigurationpolicywindows10",
       "FriendlyName": "WiFi Configuration Policy Windows 10",
       "Description": "This resource configures an Intune Wifi Configuration Policy for Windows10 Device.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.windowsautopilotdeploymentprofileazureadhybridjoined",
@@ -1446,7 +1440,7 @@
       "OriginalName": "windowsautopilotdeploymentprofileazureadhybridjoined",
       "FriendlyName": "Windows Autopilot Deployment Profile Azure AD Hybrid Joined",
       "Description": "Intune Windows Autopilot Deployment Profile Azure AD Hybrid Joined",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.windowsautopilotdeploymentprofileazureadjoined",
@@ -1454,7 +1448,7 @@
       "OriginalName": "windowsautopilotdeploymentprofileazureadjoined",
       "FriendlyName": "Windows Autopilot Deployment Profile Azure AD Joined",
       "Description": "Intune Windows Autopilot Deployment Profile Azure AD Joined",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.windowsinformationprotectionpolicywindows10mdmenrolled",
@@ -1462,7 +1456,7 @@
       "OriginalName": "windowsinformationprotectionpolicywindows10mdmenrolled",
       "FriendlyName": "Windows Information Protection Policy Windows 10 MDM Enrolled",
       "Description": "Intune Windows Information Protection Policy for Windows10 Mdm Enrolled",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.windowsupdateforbusinessfeatureupdateprofilewindows10",
@@ -1470,7 +1464,7 @@
       "OriginalName": "windowsupdateforbusinessfeatureupdateprofilewindows10",
       "FriendlyName": "Windows Update For Business Feature Update Profile Windows 10",
       "Description": "Intune Windows Update For Business Feature Update Profile for Windows10\r\n\r\n## RolloutSettings\r\n\r\nThe RolloutSettings for this resource have the following constraints and notes: \r\n\r\n* When creating a policy:\r\n    * If only a start date is specified, then the start date must be at least today. \r\n        * If the desired state date is before the current date, it will be adjusted to the current date.\r\n    * If a start and end date is specified, the start date must be the current date + 2 days, and  \r\n      the end date must be at least one day after the start date.\r\n        * If the start date is before the current date + 2 days, it will be adjusted to this date.\r\n* When updating a policy:\r\n    * If only a start date is specified, then the start date must either be the date from the current   \r\n      configuration or the current date (or later). \r\n        * If the desired state date is before the current date, it will be adjusted to the current date.\r\n    * If a start and end date is specified, the start date must be the current date + 2 days, and  \r\n      the end date must be at least one day after the start date.\r\n        * If the start date is before the current date + 2 days, it will be adjusted to this date.\r\n* When testing a policy:\r\n    * If the policy is missing and the start and end date are before the current date, it will return true.\r\n    * If the start date is different but before the current start date or time, it will return true.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.intune.windowsupdateforbusinessringupdateprofilewindows10",
@@ -1478,7 +1472,7 @@
       "OriginalName": "windowsupdateforbusinessringupdateprofilewindows10",
       "FriendlyName": "Windows Update For Business Ring Update Profile Windows 10",
       "Description": "Intune Windows Update For Business Ring Update Profile for Windows 10",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.auditconfigurationpolicy",
@@ -1486,7 +1480,7 @@
       "OriginalName": "auditconfigurationpolicy",
       "FriendlyName": "Audit Configuration Policy",
       "Description": "This resource configures an Audit ConfigurationPolicy\r\nin Security and Compliance Center.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.autosensitivitylabelpolicy",
@@ -1494,7 +1488,7 @@
       "OriginalName": "autosensitivitylabelpolicy",
       "FriendlyName": "Auto Sensitivity Label Policy",
       "Description": "This resource configures a Auto Sensitivity label policy in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.autosensitivitylabelrule",
@@ -1502,7 +1496,7 @@
       "OriginalName": "autosensitivitylabelrule",
       "FriendlyName": "Auto Sensitivity Label Rule",
       "Description": "This resource configures a Auto Sensitivity Label\r\nRule in Security and Compliance Center.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.caseholdpolicy",
@@ -1510,7 +1504,7 @@
       "OriginalName": "caseholdpolicy",
       "FriendlyName": "Case Hold Policy",
       "Description": "This resource configures a eDiscovery Case Policy\r\nin Security and Compliance Center.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.caseholdrule",
@@ -1518,7 +1512,7 @@
       "OriginalName": "caseholdrule",
       "FriendlyName": "Case Hold Rule",
       "Description": "This resource configures an eDiscovery Case Hold Rule\r\nin Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.compliancecase",
@@ -1526,7 +1520,7 @@
       "OriginalName": "compliancecase",
       "FriendlyName": "Compliance Case",
       "Description": "This resource configures an eDiscovery Case in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.compliancesearch",
@@ -1534,7 +1528,7 @@
       "OriginalName": "compliancesearch",
       "FriendlyName": "Compliance Search",
       "Description": "This resource configures an Compliance Search (eDiscovery) in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.compliancesearchaction",
@@ -1542,7 +1536,7 @@
       "OriginalName": "compliancesearchaction",
       "FriendlyName": "Compliance Search Action",
       "Description": "This resource configures a Compliance Search Action in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.compliancetag",
@@ -1550,7 +1544,7 @@
       "OriginalName": "compliancetag",
       "FriendlyName": "Compliance Tag",
       "Description": "This resource configures a Compliance Tag in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.deviceconditionalaccesspolicy",
@@ -1558,7 +1552,7 @@
       "OriginalName": "deviceconditionalaccesspolicy",
       "FriendlyName": "Device Conditional Access Policy",
       "Description": "This resource configures a Device Conditional Access Policy in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.deviceconfigurationpolicy",
@@ -1566,7 +1560,7 @@
       "OriginalName": "deviceconfigurationpolicy",
       "FriendlyName": "Device Configuration Policy",
       "Description": "This resource configures a Device Configuration Policy in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.dlpcompliancepolicy",
@@ -1574,7 +1568,7 @@
       "OriginalName": "dlpcompliancepolicy",
       "FriendlyName": "Dlp Compliance Policy",
       "Description": "This resource configures a Data Loss Prevention Compliance\r\nPolicy in Security and Compliance Center.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.dlpcompliancerule",
@@ -1582,7 +1576,7 @@
       "OriginalName": "dlpcompliancerule",
       "FriendlyName": "DLP Compliance Rule",
       "Description": "This resource configures a Data Loss Prevention Compliance\r\nRule in Security and Compliance Center.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.fileplanpropertyauthority",
@@ -1590,7 +1584,7 @@
       "OriginalName": "fileplanpropertyauthority",
       "FriendlyName": "File Plan Property Authority",
       "Description": "This resource configures an authority entry for Security and\r\nCompliance File Plans.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.fileplanpropertycategory",
@@ -1598,7 +1592,7 @@
       "OriginalName": "fileplanpropertycategory",
       "FriendlyName": "File Plan Property Category",
       "Description": "This resource configures a category entry for Security and\r\nCompliance File Plans.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.fileplanpropertycitation",
@@ -1606,7 +1600,7 @@
       "OriginalName": "fileplanpropertycitation",
       "FriendlyName": "File Plan Property Citation",
       "Description": "This resource configures a citation entry for Security and\r\nCompliance File Plans.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.fileplanpropertydepartment",
@@ -1614,7 +1608,7 @@
       "OriginalName": "fileplanpropertydepartment",
       "FriendlyName": "File Plan Property Department",
       "Description": "This resource configures a department entry for Security and\r\nCompliance File Plans.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.fileplanpropertyreferenceid",
@@ -1622,7 +1616,7 @@
       "OriginalName": "fileplanpropertyreferenceid",
       "FriendlyName": "File Plan Property Reference ID",
       "Description": "This resource configures a reference ID entry for Security and\r\nCompliance File Plans.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.fileplanpropertysubcategory",
@@ -1630,7 +1624,7 @@
       "OriginalName": "fileplanpropertysubcategory",
       "FriendlyName": "File Plan Property Sub Category",
       "Description": "This resource configures a sub-category entry for Security and\r\nCompliance File Plans.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.labelpolicy",
@@ -1638,7 +1632,7 @@
       "OriginalName": "labelpolicy",
       "FriendlyName": "Label Policy",
       "Description": "This resource configures a Sensitivity label policy in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.protectionalert",
@@ -1646,7 +1640,7 @@
       "OriginalName": "protectionalert",
       "FriendlyName": "Protection Alert",
       "Description": "This resource configures a Protection Alert\r\nin Security and Compliance Center.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.retentioncompliancepolicy",
@@ -1654,7 +1648,7 @@
       "OriginalName": "retentioncompliancepolicy",
       "FriendlyName": "Retention Compliance Policy",
       "Description": "This resource configures a Retention Compliance Policy in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.retentioncompliancerule",
@@ -1662,7 +1656,7 @@
       "OriginalName": "retentioncompliancerule",
       "FriendlyName": "Retention Compliance Rule",
       "Description": "This resource configures a Retention Compliance Rule in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.retentioneventtype",
@@ -1670,7 +1664,7 @@
       "OriginalName": "retentioneventtype",
       "FriendlyName": "Retention Event Type",
       "Description": "This resource configures a Retention Event Type in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.securityfilter",
@@ -1678,7 +1672,7 @@
       "OriginalName": "securityfilter",
       "FriendlyName": "Security Filter",
       "Description": "This resource configures a Security Filter in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.sensitivitylabel",
@@ -1686,7 +1680,7 @@
       "OriginalName": "sensitivitylabel",
       "FriendlyName": "Sensitivity Label",
       "Description": "This resource configures Sensitivity labels in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.supervisoryreviewpolicy",
@@ -1694,7 +1688,7 @@
       "OriginalName": "supervisoryreviewpolicy",
       "FriendlyName": "Supervisory Review Policy",
       "Description": "This resource configures a Supervision Policy in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.securityandcompliance.supervisoryreviewrule",
@@ -1702,7 +1696,7 @@
       "OriginalName": "supervisoryreviewrule",
       "FriendlyName": "Supervisory Review Rule",
       "Description": "This resource configures a Supervision Review Rule in Security and Compliance.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.apppermissionpolicy",
@@ -1710,7 +1704,7 @@
       "OriginalName": "apppermissionpolicy",
       "FriendlyName": "App Permission Policy",
       "Description": "Manages the Teams App Permission Policies.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.appsetuppolicy",
@@ -1718,7 +1712,7 @@
       "OriginalName": "appsetuppolicy",
       "FriendlyName": "App Setup Policy",
       "Description": "Manages Teams app setup policies in your tenant.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.audioconferencingpolicy",
@@ -1726,7 +1720,7 @@
       "OriginalName": "audioconferencingpolicy",
       "FriendlyName": "Audio Conferencing Policy",
       "Description": "Configures a Teams Audio Conferencing Policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.callholdpolicy",
@@ -1734,7 +1728,7 @@
       "OriginalName": "callholdpolicy",
       "FriendlyName": "Call Hold Policy",
       "Description": "Creates a new Teams call hold policy in your tenant. The Teams call hold policy is used to customize the call hold experience for Teams clients.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.callingpolicy",
@@ -1742,7 +1736,7 @@
       "OriginalName": "callingpolicy",
       "FriendlyName": "Calling Policy",
       "Description": "This resource configures a Teams Calling Policy.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/teams-calling-policy",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.callparkpolicy",
@@ -1750,7 +1744,7 @@
       "OriginalName": "callparkpolicy",
       "FriendlyName": "Call Park Policy",
       "Description": "The TeamsCallParkPolicy controls whether or not users are able to leverage the call park feature in Microsoft Teams. Call park allows enterprise voice customers to place a call on hold and then perform a number of actions on that call: transfer to another department, retrieve via the same phone, or retrieve via a different Teams phone. The New-CsTeamsCallParkPolicy resource lets you create a new custom policy that can then be assigned to one or more specific users.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.callqueue",
@@ -1758,7 +1752,7 @@
       "OriginalName": "callqueue",
       "FriendlyName": "Call Queue",
       "Description": "This resource is used to manage Call Queue in your Skype for Business Online organization.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.channel",
@@ -1766,7 +1760,7 @@
       "OriginalName": "channel",
       "FriendlyName": "Channel",
       "Description": "This resource is used to add and update channels in existing Teams.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.channelspolicy",
@@ -1774,7 +1768,7 @@
       "OriginalName": "channelspolicy",
       "FriendlyName": "Channels Policy",
       "Description": "This resource configures a Teams Channel Policy.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/teams-policies",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.channeltab",
@@ -1782,7 +1776,7 @@
       "OriginalName": "channeltab",
       "FriendlyName": "Channel Tab",
       "Description": "This resource configures a new Custom tab in a Channel.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.clientconfiguration",
@@ -1790,7 +1784,7 @@
       "OriginalName": "clientconfiguration",
       "FriendlyName": "Client Configuration",
       "Description": "This resource is used to configure the Teams client settings.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365#teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.compliancerecordingpolicy",
@@ -1798,7 +1792,7 @@
       "OriginalName": "compliancerecordingpolicy",
       "FriendlyName": "Compliance Recording Policy",
       "Description": "Creates a new Teams recording policy for governing automatic policy-based recording in your tenant. Automatic policy-based recording is only applicable to Microsoft Teams users.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.cortanapolicy",
@@ -1806,7 +1800,7 @@
       "OriginalName": "cortanapolicy",
       "FriendlyName": "Cortana Policy",
       "Description": "The CsTeamsCortanaPolicy resources enable administrators to control settings for Cortana voice assistant in Microsoft Teams.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.dialinconferencingtenantsettings",
@@ -1814,7 +1808,7 @@
       "OriginalName": "dialinconferencingtenantsettings",
       "FriendlyName": "Dial In Conferencing Tenant Settings",
       "Description": "This resource configures a Teams User's Calling Settings.\r\n\r\nMore information: https://learn.microsoft.com/en-us/microsoftteams/user-call-settings",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.emergencycallingpolicy",
@@ -1822,7 +1816,7 @@
       "OriginalName": "emergencycallingpolicy",
       "FriendlyName": "Emergency Calling Policy",
       "Description": "This resource configures the Teams Emergency Calling Policies.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/manage-emergency-calling-policies",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.emergencycallroutingpolicy",
@@ -1830,7 +1824,7 @@
       "OriginalName": "emergencycallroutingpolicy",
       "FriendlyName": "Emergency Call Routing Policy",
       "Description": "This resource configures the Teams Emergency Call Routing Policies.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/manage-emergency-call-routing-policies",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.enhancedencryptionpolicy",
@@ -1838,7 +1832,7 @@
       "OriginalName": "enhancedencryptionpolicy",
       "FriendlyName": "Enhanced Encryption Policy",
       "Description": "Use this resource to create a new Teams enhanced encryption policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.eventspolicy",
@@ -1846,7 +1840,7 @@
       "OriginalName": "eventspolicy",
       "FriendlyName": "Events Policy",
       "Description": "This resource configures the Teams Events Policies.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.federationconfiguration",
@@ -1854,7 +1848,7 @@
       "OriginalName": "federationconfiguration",
       "FriendlyName": "Federation Configuration",
       "Description": "This resource is used to configure the Teams Federation Configuration (CsTenantFederationConfiguration).\r\nIn the Teams admin center this is available in 'External access' in the Users section.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/manage-external-access",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.feedbackpolicy",
@@ -1862,7 +1856,7 @@
       "OriginalName": "feedbackpolicy",
       "FriendlyName": "Feedback Policy",
       "Description": "New-CsTeamsFeedbackPolicy [-Identity] <string> [-UserInitiatedMode <string>] [-ReceiveSurveysMode <string>] [-AllowScreenshotCollection <bool>] [-AllowEmailCollection <bool>] [-AllowLogCollection <bool>] [-EnableFeatureSuggestions <bool>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.filespolicy",
@@ -1870,7 +1864,7 @@
       "OriginalName": "filespolicy",
       "FriendlyName": "Files Policy",
       "Description": "New-CsTeamsFilesPolicy [-Identity] <string> [-NativeFileEntryPoints <string>] [-SPChannelFilesTab <string>] [-MsftInternalProcessingMode <string>] [-WhatIf] [-Confirm] [<CommonParameters>]",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.grouppolicyassignment",
@@ -1878,7 +1872,7 @@
       "OriginalName": "grouppolicyassignment",
       "FriendlyName": "Group Policy Assignment",
       "Description": "This resource is used to assign Teams policy to a specified group",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.guestcallingconfiguration",
@@ -1886,7 +1880,7 @@
       "OriginalName": "guestcallingconfiguration",
       "FriendlyName": "Guest Calling Configuration",
       "Description": "This resource is used to configure the Teams guest calling configuration.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.guestmeetingconfiguration",
@@ -1894,7 +1888,7 @@
       "OriginalName": "guestmeetingconfiguration",
       "FriendlyName": "Guest Meeting Configuration",
       "Description": "This resource is used to configure the Teams Guest Meetings Configuration.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.guestmessagingconfiguration",
@@ -1902,7 +1896,7 @@
       "OriginalName": "guestmessagingconfiguration",
       "FriendlyName": "Guest Messaging Configuration",
       "Description": "This resource is used to configure the Teams Guest Messaging Configuration.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/set-up-guests",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.ipphonepolicy",
@@ -1910,7 +1904,7 @@
       "OriginalName": "ipphonepolicy",
       "FriendlyName": "IP Phone Policy",
       "Description": "New-CsTeamsIPPhonePolicy allows you to create a policy to manage features related to Teams phone experiences. Teams phone policies determine the features that are available to users.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.meetingbroadcastconfiguration",
@@ -1918,7 +1912,7 @@
       "OriginalName": "meetingbroadcastconfiguration",
       "FriendlyName": "Meeting Broadcast Configuration",
       "Description": "This resource is used to configure the Teams Meeting Broadcast Settings.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/configure-teams-live-events",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.meetingbroadcastpolicy",
@@ -1926,7 +1920,7 @@
       "OriginalName": "meetingbroadcastpolicy",
       "FriendlyName": "Meeting Broadcast Policy",
       "Description": "This resource is used to configure the Teams Meeting Broadcast Policies.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/set-up-for-teams-live-events",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.meetingconfiguration",
@@ -1934,7 +1928,7 @@
       "OriginalName": "meetingconfiguration",
       "FriendlyName": "Meeting Configuration",
       "Description": "This resource is used to configure the Teams Meeting Configuration.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.meetingpolicy",
@@ -1942,7 +1936,7 @@
       "OriginalName": "meetingpolicy",
       "FriendlyName": "Meeting Policy",
       "Description": "This resource configures the Teams Meeting Policies.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-overview",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.messagingpolicy",
@@ -1950,7 +1944,7 @@
       "OriginalName": "messagingpolicy",
       "FriendlyName": "Messaging Policy",
       "Description": "This resource is used to configure the Teams messaging policy.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/messaging-policies-in-teams",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.mobilitypolicy",
@@ -1958,7 +1952,7 @@
       "OriginalName": "mobilitypolicy",
       "FriendlyName": "Mobility Policy",
       "Description": "The TeamsMobilityPolicy allows Admins to control Teams mobile usage for users.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.networkroamingpolicy",
@@ -1966,7 +1960,7 @@
       "OriginalName": "networkroamingpolicy",
       "FriendlyName": "Network Roaming Policy",
       "Description": "New-CsTeamsNetworkRoamingPolicy allows IT Admins to create policies for Network Roaming and Bandwidth Control experiences in Microsoft Teams.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.onlinevoicemailpolicy",
@@ -1974,7 +1968,7 @@
       "OriginalName": "onlinevoicemailpolicy",
       "FriendlyName": "Online Voicemail Policy",
       "Description": "This resource configures the Teams Online Voicemail Policies.\r\n\r\nMore information: https://learn.microsoft.com/en-us/microsoftteams/manage-voicemail-policies",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.onlinevoicemailusersettings",
@@ -1982,7 +1976,7 @@
       "OriginalName": "onlinevoicemailusersettings",
       "FriendlyName": "Online Voicemail User Settings",
       "Description": "This resource configures a Teams User's Online Voicemail Settings.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.onlinevoiceuser",
@@ -1990,7 +1984,7 @@
       "OriginalName": "onlinevoiceuser",
       "FriendlyName": "Online Voice User",
       "Description": "This resource configures the Teams Online Voice User.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.orgwideappsettings",
@@ -1998,7 +1992,7 @@
       "OriginalName": "orgwideappsettings",
       "FriendlyName": "Org Wide App Settings",
       "Description": "This resource configures Org-Wide App Settings for Teams.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.pstnusage",
@@ -2006,7 +2000,7 @@
       "OriginalName": "pstnusage",
       "FriendlyName": "Pstn Usage",
       "Description": "This resource configures a Teams PSTN Usage.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/direct-routing-voice-routing",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.shiftspolicy",
@@ -2014,7 +2008,7 @@
       "OriginalName": "shiftspolicy",
       "FriendlyName": "Shifts Policy",
       "Description": "This resource allows you to create a new TeamsShiftPolicy instance and set it's properties.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.team",
@@ -2022,7 +2016,7 @@
       "OriginalName": "team",
       "FriendlyName": "Team",
       "Description": "This resource configures or creates a new Team.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.templatespolicy",
@@ -2030,7 +2024,7 @@
       "OriginalName": "templatespolicy",
       "FriendlyName": "Templates Policy",
       "Description": "This resource configures a Teams Templates Policy.\r\n\r\nMore information: https://learn.microsoft.com/en-us/microsoftteams/templates-policies",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.tenantdialplan",
@@ -2038,7 +2032,7 @@
       "OriginalName": "tenantdialplan",
       "FriendlyName": "Tenant Dial Plan",
       "Description": "This resource is used to configure the tenant-wide dial plans for Microsoft Teams.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/create-and-manage-dial-plans",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.tenantnetworkregion",
@@ -2046,7 +2040,7 @@
       "OriginalName": "tenantnetworkregion",
       "FriendlyName": "Tenant Network Region",
       "Description": "As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkRegion to define network regions. A network region interconnects various parts of a network across multiple geographic areas. The RegionID parameter is a logical name that represents the geography of the region, and has no dependencies or restrictions. Tenant network region is used for Location Based Routing.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.tenantnetworksite",
@@ -2054,7 +2048,7 @@
       "OriginalName": "tenantnetworksite",
       "FriendlyName": "Tenant Network Site",
       "Description": "As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkSite to define network sites. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region. Tenant network site is used for Location Based Routing.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.tenantnetworksubnet",
@@ -2062,7 +2056,7 @@
       "OriginalName": "tenantnetworksubnet",
       "FriendlyName": "Tenant Network Subnet",
       "Description": "As an Admin, you can use the Windows PowerShell command, New-CsTenantNetworkSubnet to define network subnets and assign them to network sites. Each internal subnet may only be associated with one site. Tenant network subnet is used for Location Based Routing.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.tenanttrustedipaddress",
@@ -2070,7 +2064,7 @@
       "OriginalName": "tenanttrustedipaddress",
       "FriendlyName": "Tenant Trusted IP Address",
       "Description": "As an Admin, you can use the Windows PowerShell command, New-CsTenantTrustedIPAddress to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.translationrule",
@@ -2078,7 +2072,7 @@
       "OriginalName": "translationrule",
       "FriendlyName": "Translation Rule",
       "Description": "Cmdlet to create a new telephone number manipulation rule.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.unassignednumbertreatment",
@@ -2086,7 +2080,7 @@
       "OriginalName": "unassignednumbertreatment",
       "FriendlyName": "Unassigned Number Treatment",
       "Description": "Creates a new treatment for how calls to an unassigned number range should be routed. The call can be routed to a user, an application or to an announcement service where a custom message will be played to the caller.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.updatemanagementpolicy",
@@ -2094,7 +2088,7 @@
       "OriginalName": "updatemanagementpolicy",
       "FriendlyName": "Update Management Policy",
       "Description": "This resource configures the Teams Update policies. For additional information, please refer to https://docs.microsoft.com/en-us/MicrosoftTeams/public-preview-doc-updates#set-the-update-policy",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.upgradeconfiguration",
@@ -2102,7 +2096,7 @@
       "OriginalName": "upgradeconfiguration",
       "FriendlyName": "Upgrade Configuration",
       "Description": "This resource configures the Teams Upgrade settings.\r\n\r\nMore information: https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.upgradepolicy",
@@ -2110,7 +2104,7 @@
       "OriginalName": "upgradepolicy",
       "FriendlyName": "Upgrade Policy",
       "Description": "This resource configures the Teams Upgrade policies.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/meetings-first#prepare-for-teams-meetings-in-meetings-first",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.user",
@@ -2118,7 +2112,7 @@
       "OriginalName": "user",
       "FriendlyName": "User",
       "Description": "This resource is used to add new users to a team",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.usercallingsettings",
@@ -2126,7 +2120,7 @@
       "OriginalName": "usercallingsettings",
       "FriendlyName": "User Calling Settings",
       "Description": "This resource configures a Teams User's Calling Settings.\r\n\r\nMore information: https://learn.microsoft.com/en-us/microsoftteams/user-call-settings",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.userpolicyassignment",
@@ -2134,7 +2128,7 @@
       "OriginalName": "userpolicyassignment",
       "FriendlyName": "User Policy Assignment",
       "Description": "This resource is used to assign Teams policy to a specified user.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.vdipolicy",
@@ -2142,7 +2136,7 @@
       "OriginalName": "vdipolicy",
       "FriendlyName": "Vdi Policy",
       "Description": "This resource implements Teams VDI Policies.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.voiceroute",
@@ -2150,7 +2144,7 @@
       "OriginalName": "voiceroute",
       "FriendlyName": "Voice Route",
       "Description": "This resource configures a Teams Voice Route.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/direct-routing-voice-routing",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.voiceroutingpolicy",
@@ -2158,7 +2152,7 @@
       "OriginalName": "voiceroutingpolicy",
       "FriendlyName": "Voice Routing Policy",
       "Description": "This resource configures a Teams Voice Routing Policy.\r\n\r\nMore information: https://docs.microsoft.com/en-us/microsoftteams/manage-voice-routing-policies",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     },
     {
       "PrefixedName": "microsoft.teams.workloadpolicy",
@@ -2166,9 +2160,15 @@
       "OriginalName": "workloadpolicy",
       "FriendlyName": "Workload Policy",
       "Description": "This resources implements a Teams workload policy.",
-      "LastUpdated": "2026-02-25T17:49:38Z"
+      "LastUpdated": "2026-02-26T05:50:20Z"
     }
   ],
   "SchemaSource": "https://www.schemastore.org/utcm-monitor.json",
-  "TotalResources": 270
+  "Summary": {
+    "entra": 39,
+    "teams": 58,
+    "securityandcompliance": 28,
+    "exchange": 76,
+    "intune": 69
+  }
 }

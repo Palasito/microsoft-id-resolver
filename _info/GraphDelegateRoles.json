@@ -11952,6 +11952,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Legacy scope used by Office Client",
+    "AdminConsentDisplayName": "user_impersonation",
+    "Id": "4003e653-ac3b-43c3-af2c-a49553838842",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Legacy scope used by Office Client",
+    "UserConsentDisplayName": "user_impersonation",
+    "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow clients to read topic suggestions and update their status",
     "AdminConsentDisplayName": "TopicSuggestion-Internal.ReadWrite",
     "Id": "e6d57537-d278-4cb8-9f1d-19e173bcf4eb",

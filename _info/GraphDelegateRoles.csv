@@ -995,6 +995,7 @@
 "94fccefc-bb25-4e89-990e-66686bb4d354","User.ReadWrite.All","User.ReadWrite.All","Allows user to fetch teams events information"
 "95ea053f-3e2e-4197-bc02-f7dc90cf5530","user_impersonation","Access Omni-channel Engagement Hub Provisioning Application ","Allow the application to access Omni-channel Engagement Hub Provisioning Application  on behalf of the signed-in user."
 "a8737248-d2c2-4a7c-9759-3dfaad5c2f19","user_impersonation","Access Dynamics Lifecycle Services","Allow the application to access Dynamics Lifecycle Services on behalf of the signed-in user"
+"4003e653-ac3b-43c3-af2c-a49553838842","user_impersonation","user_impersonation","Legacy scope used by Office Client"
 "e6d57537-d278-4cb8-9f1d-19e173bcf4eb","TopicSuggestion-Internal.ReadWrite","TopicSuggestion-Internal.ReadWrite","Allow clients to read topic suggestions and update their status"
 "b2aaadb6-d62b-48f5-a451-e45345c6d980","user_impersonation","Have access to Data Export Service for Microsoft Dynamics 365 API","Allow the application access to the Data Export Service for Microsoft Dynamics 365 API on behalf of the signed-in user."
 "cee1c397-1c76-4b11-8c2a-6fdfc988fdfc","user_impersonation","Allow Access to Dynamics 365 Portal Service","Allow Application to Dynamics 365 Portal Service on behalf of the user"

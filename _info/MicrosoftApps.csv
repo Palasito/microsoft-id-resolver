@@ -466,6 +466,7 @@
 "6872b314-67ab-4a16-98e7-a663b0f772c3","Office365 Shell SS-Server Default","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "60b2e7d5-a27f-426d-a6b1-acced0846fdf","IpAddressManager","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "bceea168-88ac-4736-95dc-4ce488ffe324","Microsoft Defender for Cloud","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"1fb194a4-6285-4794-85e5-e8f339d75074","MTO Admin and Analytics Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6b91db1b-f05b-405a-a0b2-e3f60b28d645","M365 Admin Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "ce34e7e5-485f-4d76-964f-b3d2b16d1e4f","Azure Managed Grafana","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "cdccd920-384b-4a25-897d-75161a4b74c1","Skype Teams Firehose","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

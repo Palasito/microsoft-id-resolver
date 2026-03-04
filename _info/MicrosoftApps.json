@@ -2802,6 +2802,12 @@
     "source": "Graph"
   },
   {
+    "appId": "1fb194a4-6285-4794-85e5-e8f339d75074",
+    "displayName": "MTO Admin and Analytics Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "6b91db1b-f05b-405a-a0b2-e3f60b28d645",
     "displayName": "M365 Admin Services",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

@@ -25704,6 +25704,30 @@
     "source": "EntraDocs"
   },
   {
+    "appId": "43d7b169-1d9e-4d32-8cd8-06c5974ed90c",
+    "displayName": "Threat Intelligence Briefing Agent resource",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "b5304409-74ae-42bf-a3e3-d62da4845129",
+    "displayName": "app governance in Microsoft Defender for Cloud",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "56edfb3f-b612-4e4c-acb9-4bbd141bd535",
+    "displayName": "Microsoft Defender XDR streaming API video",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "4a918a14-4069-4108-9b7d-76486212d75d",
+    "displayName": "Windows Defender Security Intelligence Enterprise app",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
     "appId": "04436913-cf0d-4d2a-9cc6-2ffe7f1d3d1c",
     "displayName": "Windows Notification Service [Community Contributed]",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

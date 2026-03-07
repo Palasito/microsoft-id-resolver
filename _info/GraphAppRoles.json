@@ -12123,120 +12123,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows services to write collection membership data to storage in the Configuration Manager microservice",
-    "DisplayName": "Write CM Collection Data",
-    "Id": "a7a0e953-7ed2-423c-849f-9d78b5e44612",
+    "Description": "Allows to call service API to query boundary data",
+    "DisplayName": "Read boundary data",
+    "Id": "b026af69-9eae-4bb3-9351-304d4987e170",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "CmCollectionData.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows services to call APIs that return SCCM collection membership data",
-    "DisplayName": "Read CM Collection Data",
-    "Id": "1ce9e34f-35e8-4af8-b172-09e4dd00453d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CmCollectionData.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows to call service API to query or modify account onboarding data",
-    "DisplayName": "Read or write account onboarding data",
-    "Id": "76e55082-bbde-4602-b506-bba9c6368668",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Account.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows to call service API to query or modify device data",
-    "DisplayName": "Read or write device data",
-    "Id": "4b03fb80-ef9e-4391-86c9-152c41bf0693",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Device.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows to call service API to query notification and notification result",
-    "DisplayName": "Read notification or notification result",
-    "Id": "20bd8bbf-3063-4a8f-ae4f-f2f5e5bda666",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Notification.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows to call service API to query or modify notification and notification result",
-    "DisplayName": "Read or write notification and notification result",
-    "Id": "0db7d603-2368-4c9a-8f47-adc9ac73e5e1",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Notification.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows to call service API to query device data",
-    "DisplayName": "Read device data",
-    "Id": "15fdfc00-27d5-4f79-8a38-8efe91e3c1cc",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Device.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows to call service API to query account onboarding data",
-    "DisplayName": "Read account onboarding data",
-    "Id": "c8750fbf-30e2-40ed-8519-e2876cbeccb9",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Account.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User"
-    ],
-    "Description": "Allows user to perform administrative actions",
-    "DisplayName": "Admin User",
-    "Id": "c22b119a-bb68-45ab-8a0a-ef26bc7a66e7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AdminUser.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows to call service API to query collection data",
-    "DisplayName": "Read collection data",
-    "Id": "66a874a2-b739-43fa-8e1a-176cd8290cf5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Collection.Read.All",
+    "Value": "Boundary.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -12255,12 +12147,120 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows to call service API to query boundary data",
-    "DisplayName": "Read boundary data",
-    "Id": "b026af69-9eae-4bb3-9351-304d4987e170",
+    "Description": "Allows to call service API to query collection data",
+    "DisplayName": "Read collection data",
+    "Id": "66a874a2-b739-43fa-8e1a-176cd8290cf5",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Boundary.Read.All",
+    "Value": "Collection.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Allows user to perform administrative actions",
+    "DisplayName": "Admin User",
+    "Id": "c22b119a-bb68-45ab-8a0a-ef26bc7a66e7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AdminUser.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows to call service API to query account onboarding data",
+    "DisplayName": "Read account onboarding data",
+    "Id": "c8750fbf-30e2-40ed-8519-e2876cbeccb9",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Account.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows to call service API to query device data",
+    "DisplayName": "Read device data",
+    "Id": "15fdfc00-27d5-4f79-8a38-8efe91e3c1cc",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Device.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows to call service API to query or modify notification and notification result",
+    "DisplayName": "Read or write notification and notification result",
+    "Id": "0db7d603-2368-4c9a-8f47-adc9ac73e5e1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Notification.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows to call service API to query notification and notification result",
+    "DisplayName": "Read notification or notification result",
+    "Id": "20bd8bbf-3063-4a8f-ae4f-f2f5e5bda666",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Notification.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows to call service API to query or modify device data",
+    "DisplayName": "Read or write device data",
+    "Id": "4b03fb80-ef9e-4391-86c9-152c41bf0693",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Device.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows to call service API to query or modify account onboarding data",
+    "DisplayName": "Read or write account onboarding data",
+    "Id": "76e55082-bbde-4602-b506-bba9c6368668",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Account.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows services to call APIs that return SCCM collection membership data",
+    "DisplayName": "Read CM Collection Data",
+    "Id": "1ce9e34f-35e8-4af8-b172-09e4dd00453d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CmCollectionData.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows services to write collection membership data to storage in the Configuration Manager microservice",
+    "DisplayName": "Write CM Collection Data",
+    "Id": "a7a0e953-7ed2-423c-849f-9d78b5e44612",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CmCollectionData.write",
     "AdditionalProperties": {}
   },
   {

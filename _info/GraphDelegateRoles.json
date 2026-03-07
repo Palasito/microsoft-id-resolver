@@ -18192,6 +18192,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the current user to sign in to Viva Engage with files permission.",
+    "AdminConsentDisplayName": "Access Viva Engage",
+    "Id": "66622194-1f28-432c-8b29-1a664754247a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the current user to sign in to Viva Engage with files permission.",
+    "UserConsentDisplayName": "Access Viva Engage",
+    "Value": "engage_access",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to access the Yammer platform on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Read and write to the Yammer platform",
     "Id": "5db81a03-0de0-432b-b31e-71d57c8d2e0b",

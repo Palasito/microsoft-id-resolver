@@ -673,5 +673,15 @@
     "id": "3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a",
     "displayName": "Purview Workload Content Administrator",
     "source": "Graph"
+  },
+  {
+    "id": "f42252d9-5400-4d7b-b9ef-cc582dbb8577",
+    "displayName": "Entra Backup Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "b6a27b2b-f905-4b2e-81b5-0d90e0ef1fdb",
+    "displayName": "Entra Backup Administrator",
+    "source": "Graph"
   }
 ]

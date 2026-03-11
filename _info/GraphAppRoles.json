@@ -11942,6 +11942,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read and write all XDR resources managed by Bicep.",
+    "DisplayName": "Read and write all XDR resources managed by Bicep",
+    "Id": "11f3c349-17c0-46ca-b8a5-4152c7ccdcbe",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BicepXDR.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allow app to submit jobs to eDiscovery.",
     "DisplayName": "eDiscovery.Jobs.Write",
     "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",

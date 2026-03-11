@@ -1475,6 +1475,7 @@
 "d603c21a-d512-4b5a-b552-c233ebbeaf2e","get_data_warehouse","Get data warehouse information from Microsoft Intune","Grants access to the Intune data warehouse API"
 "c39b1293-0279-419a-af35-634169af6fdc","user_impersonation","User impersonated access to the Microsoft Teams Bots","This will grant access to the Microsoft Teams Bots Services on behalf of the signed-in user."
 "a2ae160d-e79b-4d36-82eb-d00c436c99bb","Who.Read","Ask WhoBot questions on behalf of the signed-in user.","Allows the app to issue queries to WhoBot to get information about people in the user's organization based on info in AAD Directory, Exchange, etc."
+"b044b07c-b246-4148-a740-52cbea7a2820","BicepXDR.ReadWrite.All","Read and write all XDR resources managed by Bicep","Allows the app to read and write all XDR resources managed by Bicep."
 "0c981b21-0229-4b35-a0b9-82acfa228288","Sites.Read.All","Read all Site information","Allows the app to read all Sites information in your organization, on your behalf."
 "91d6f071-cbcb-48b9-baba-557f0f1f41aa","notification_read","notification.read","read notifications"
 "5faac7a2-ab08-4049-aece-ab2b4de5f59e","eDiscovery.Jobs.Write","eDiscovery.Jobs.Write","Allow app to submit jobs to eDiscovery."

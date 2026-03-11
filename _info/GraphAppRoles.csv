@@ -996,6 +996,7 @@ The app user cannot create new notes, modify existing notes, or view notes under
 "7828b294-fdcc-4ed6-a45a-854364afb21d","send_data_usage","Send and receive device telecom and Wi-Fi data usage information with Microsoft Intune","Allow the telecom expense management app to send and receive device telecom and Wi-Fi data usage information, including phone number, with Intune to help analyze and manage data usage costs of corporate-owned devices."
 "907d16c7-7591-49a4-b523-6fd42e5f2c7e","pfx_cert_provider","PFX certificate management","Read PFX certificate requests and send certificates to Microsoft Intune."
 "39d724e8-6a34-4930-9a36-364082c35716","scep_challenge_provider","SCEP challenge validation","Send SCEP challenges to Intune for certificate request validation. "
+"11f3c349-17c0-46ca-b8a5-4152c7ccdcbe","BicepXDR.ReadWrite.All","Read and write all XDR resources managed by Bicep","Allows the app to read and write all XDR resources managed by Bicep."
 "5faac7a2-ab08-4049-aece-ab2b4de5f59e","eDiscovery.Jobs.Write","eDiscovery.Jobs.Write","Allow app to submit jobs to eDiscovery."
 "0f062bc7-6f95-469a-810f-d846e6cbba44","eDiscovery.Jobs.Read","eDiscovery.Jobs.Read","Allow app to read properties of jobs submitted to eDiscovery."
 "7431916a-fe67-40b3-b273-602ffe516093","user.invite.all","Invite users to tenant","Allows application to invite users to tenant"

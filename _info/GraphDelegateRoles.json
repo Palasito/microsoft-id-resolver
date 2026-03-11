@@ -17652,6 +17652,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read and write all XDR resources managed by Bicep.",
+    "AdminConsentDisplayName": "Read and write all XDR resources managed by Bicep",
+    "Id": "b044b07c-b246-4148-a740-52cbea7a2820",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read and write all XDR resources managed by Bicep.",
+    "UserConsentDisplayName": "Read and write all XDR resources managed by Bicep",
+    "Value": "BicepXDR.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read all Sites information in your organization, on your behalf.",
     "AdminConsentDisplayName": "Read all Site information",
     "Id": "0c981b21-0229-4b35-a0b9-82acfa228288",

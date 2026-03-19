@@ -10642,6 +10642,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read Agent Blueprints",
+    "DisplayName": "AgentBlueprint.Read.All",
+    "Id": "6fdbf6e8-d61d-4b53-84e5-35bdc7fb608b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentBlueprint.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write Agent Blueprints",
+    "DisplayName": "AgentBlueprint.ReadWrite.All",
+    "Id": "d7e34e2a-d3c6-4619-95a2-0e6829f90a32",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentBlueprint.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows Microsoft Graph to call into the service to perform operations on application's behalf",
     "DisplayName": "Access APIs exposed by Teams Graph worload",
     "Id": "ed20b8a8-12e9-45f5-b3e5-69f25572d7be",

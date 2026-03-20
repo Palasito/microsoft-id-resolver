@@ -136,3 +136,7 @@
 "3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a","Purview Workload Content Administrator","Graph"
 "f42252d9-5400-4d7b-b9ef-cc582dbb8577","Entra Backup Reader","Graph"
 "b6a27b2b-f905-4b2e-81b5-0d90e0ef1fdb","Entra Backup Administrator","Graph"
+"1981f584-96e9-4a6f-95b0-f522373f8fae","Tenant Governance Administrator","Graph"
+"e0a4caa6-fe82-443f-b92f-d87341d17b2e","Tenant Governance Reader","Graph"
+"b8e31d83-1534-480f-9b10-0338ded51b7e","Tenant Governance Relationship Administrator","Graph"
+"124577f8-48ed-456a-839f-13b419002e33","Tenant Governance Relationship Reader","Graph"

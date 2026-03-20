@@ -683,5 +683,25 @@
     "id": "b6a27b2b-f905-4b2e-81b5-0d90e0ef1fdb",
     "displayName": "Entra Backup Administrator",
     "source": "Graph"
+  },
+  {
+    "id": "1981f584-96e9-4a6f-95b0-f522373f8fae",
+    "displayName": "Tenant Governance Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "e0a4caa6-fe82-443f-b92f-d87341d17b2e",
+    "displayName": "Tenant Governance Reader",
+    "source": "Graph"
+  },
+  {
+    "id": "b8e31d83-1534-480f-9b10-0338ded51b7e",
+    "displayName": "Tenant Governance Relationship Administrator",
+    "source": "Graph"
+  },
+  {
+    "id": "124577f8-48ed-456a-839f-13b419002e33",
+    "displayName": "Tenant Governance Relationship Reader",
+    "source": "Graph"
   }
 ]

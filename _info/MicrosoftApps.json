@@ -26230,5 +26230,11 @@
     "displayName": "Windows 365 Portal [Community Contributed]",
     "appOwnerOrganizationId": "",
     "source": "GitHub"
+  },
+  {
+    "appId": "f8d98a96-0999-43f5-8af3-69971c7bb423",
+    "displayName": "Apple Internet Accounts [Community Contributed]",
+    "appOwnerOrganizationId": "e0fad04c-a04c-41ab-b35e-dc523af755a1",
+    "source": "GitHub"
   }
 ]

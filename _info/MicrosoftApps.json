@@ -3084,6 +3084,12 @@
     "source": "Graph"
   },
   {
+    "appId": "8ad61c39-5b6e-447c-b26a-a64eee436502",
+    "displayName": "M365AdminAgent",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "76cd24bf-a9fc-4344-b1dc-908275de6d6d",
     "displayName": "Azure SQL Virtual Network to Network Resource Provider",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

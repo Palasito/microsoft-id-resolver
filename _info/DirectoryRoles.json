@@ -675,6 +675,11 @@
     "source": "Graph"
   },
   {
+    "id": "fc8ad4e2-40e4-4724-8317-bcda7503ecbf",
+    "displayName": "Customer Delegated Admin Relationship Administrator",
+    "source": "Graph"
+  },
+  {
     "id": "f42252d9-5400-4d7b-b9ef-cc582dbb8577",
     "displayName": "Entra Backup Reader",
     "source": "Graph"

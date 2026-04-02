@@ -964,6 +964,7 @@
 "b7d2228a-50ac-4639-bc0d-6c91c3e5bac5","MRU.ReadWrite","Read and write access to a list of most recently used documents and locations for the user","Allows the app read and write access to a list of user’s most recently used documents and locations"
 "5faac7a2-ab08-4049-aece-ab2b4de5f59e","eDiscovery.Jobs.Write","eDiscovery.Jobs.Write","Allow app to submit jobs to eDiscovery."
 "0f062bc7-6f95-469a-810f-d846e6cbba44","eDiscovery.Jobs.Read","eDiscovery.Jobs.Read","Allow app to read properties of jobs submitted to eDiscovery."
+"cd0f19c9-fe4c-4339-b0fd-12a4c3ac6604","PurviewData.Read.All","Read purview data as the signed-in user","Allows the app to read purview data on behalf of the signed-in user"
 "3105f1e2-2f5e-4dbc-b276-a29474e18597","Connector.Read","Connector.Read","This allows user to access compliance connector APIs"
 "1c3162b4-de12-4eb3-b521-088e4e2d6915","user_impersonation","Access Azure Maps","Allow the application to access Azure Maps on behalf of the signed-in user."
 "e2cea78f-e743-4d8f-a16a-75b629a038ae","ServiceHealth.Read","Read service health information for your organization","Allows the application to read service health information for your organization."

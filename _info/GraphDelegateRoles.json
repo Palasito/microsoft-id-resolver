@@ -11580,6 +11580,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read purview data on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read purview data as the signed-in user",
+    "Id": "cd0f19c9-fe4c-4339-b0fd-12a4c3ac6604",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read purview data on behalf of the signed-in user",
+    "UserConsentDisplayName": "Read purview data as the signed-in user",
+    "Value": "PurviewData.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "This allows user to access compliance connector APIs",
     "AdminConsentDisplayName": "Connector.Read",
     "Id": "3105f1e2-2f5e-4dbc-b276-a29474e18597",

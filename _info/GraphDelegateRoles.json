@@ -216,6 +216,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Loki MCP Server Access",
+    "AdminConsentDisplayName": "Loki MCP Server Access",
+    "Id": "1c4fb7e0-1fa5-477b-a4b5-39592ebdf176",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Loki MCP Server Access",
+    "UserConsentDisplayName": "Loki MCP Server Access",
+    "Value": "MCP.Read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow access to chat messages via this API.",
     "AdminConsentDisplayName": "Read chat messages (delegated)",
     "Id": "594a414c-f70a-4504-b1f6-f1b5a4c95b2f",
@@ -6453,6 +6465,18 @@
     "UserConsentDescription": "Allows the app to read the memberships of hidden groups or administrative units on your behalf, for those hidden groups or adminstrative units that you have access to.",
     "UserConsentDisplayName": "Read your hidden memberships",
     "Value": "Member.Read.Hidden",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read available properties of remoteTenantGroups, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read RemoteTenantGroups information",
+    "Id": "649c63bc-ce3c-4f7b-93c6-70ef1fe4ae7d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read available properties on remoteTenantGroups, on your behalf.",
+    "UserConsentDisplayName": "Read RemoteTenantGroups information",
+    "Value": "MS-RemoteTenantGroups.Read.All",
     "AdditionalProperties": {}
   },
   {

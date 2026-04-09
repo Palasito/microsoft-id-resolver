@@ -19032,18 +19032,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the current signed in user to update the Content Domain information",
-    "AdminConsentDisplayName": "ContentDomain.ReadWrite",
-    "Id": "6662245d-d5f3-42cb-b401-b08c2f424d5f",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the current signed in user to update the Content Domain information",
-    "UserConsentDisplayName": "ContentDomain.ReadWrite",
-    "Value": "ContentDomain.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the current signed-in user to read Content Domain information.",
     "AdminConsentDisplayName": "ContentDomain.Read.All",
     "Id": "bbee328f-fe32-4251-a58c-9b16f9bf50c8",
@@ -19053,6 +19041,18 @@
     "UserConsentDescription": "Allows the current signed-in user to read Content Domain information.",
     "UserConsentDisplayName": "ContentDomain.Read.All",
     "Value": "ContentDomain.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the current signed in user to update the Content Domain information",
+    "AdminConsentDisplayName": "ContentDomain.ReadWrite",
+    "Id": "6662245d-d5f3-42cb-b401-b08c2f424d5f",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the current signed in user to update the Content Domain information",
+    "UserConsentDisplayName": "ContentDomain.ReadWrite",
+    "Value": "ContentDomain.ReadWrite",
     "AdditionalProperties": {}
   },
   {

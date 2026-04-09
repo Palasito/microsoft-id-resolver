@@ -12987,24 +12987,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Read and Write permission of Content Domain Items into the content domain shard owned by the application. ",
-    "DisplayName": "ContentDomainItem.ReadWrite.OwnedBy",
-    "Id": "83447e6a-d68b-4373-bd75-efab237f20ba",
+    "Description": "Allows the current signed-in user to read Content Domain information.",
+    "DisplayName": "ContentDomain.Read.All",
+    "Id": "bbee328f-fe32-4251-a58c-9b16f9bf50c8",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "ContentDomainItem.ReadWrite.OwnedBy",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read and Write permission of Content Domain Items into all content domain shards. ",
-    "DisplayName": "ContentDomainItem.ReadWrite.All",
-    "Id": "175d9ac0-118e-4725-b5a1-be1e16948cf6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ContentDomainItem.ReadWrite.All",
+    "Value": "ContentDomain.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -13023,12 +13011,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the current signed-in user to read Content Domain information.",
-    "DisplayName": "ContentDomain.Read.All",
-    "Id": "bbee328f-fe32-4251-a58c-9b16f9bf50c8",
+    "Description": "Read and Write permission of Content Domain Items into all content domain shards. ",
+    "DisplayName": "ContentDomainItem.ReadWrite.All",
+    "Id": "175d9ac0-118e-4725-b5a1-be1e16948cf6",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "ContentDomain.Read.All",
+    "Value": "ContentDomainItem.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read and Write permission of Content Domain Items into the content domain shard owned by the application. ",
+    "DisplayName": "ContentDomainItem.ReadWrite.OwnedBy",
+    "Id": "83447e6a-d68b-4373-bd75-efab237f20ba",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ContentDomainItem.ReadWrite.OwnedBy",
     "AdditionalProperties": {}
   },
   {

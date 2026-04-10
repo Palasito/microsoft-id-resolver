@@ -12960,6 +12960,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows reading Iceberg and Delta table catalog metadata from the external provider on the users behalf.",
+    "AdminConsentDisplayName": "Read Iceberg and Delta table catalog metadata from the provider",
+    "Id": "debb9ba3-fb14-491a-884c-b4406ac079f5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows reading Iceberg and Delta table catalog metadata from the external provider.",
+    "UserConsentDisplayName": "Read Iceberg and Delta table catalog metadata from the provider",
+    "Value": "CatalogMirroring.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows retrieving item definitions, user identifiers, and other restricted metadata required for embedding Fabric items on the user’s behalf. To embed, the app must also be granted the appropriate contextual scope(s), such as Item.Read.All, Notebook.Read.All, or Workspace.Read.All.",
     "AdminConsentDisplayName": "Embed Fabric items, retrieve user identifiers and restricted metadata",
     "Id": "04994edc-428b-482b-af95-ee1575dde39b",

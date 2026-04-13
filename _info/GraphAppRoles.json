@@ -10136,6 +10136,18 @@
   },
   {
     "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Role to use instead of user impersonation pre auth.",
+    "DisplayName": "user impersonation pre auth",
+    "Id": "2efeabb9-813a-44ff-8a70-46000ef9dd92",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserImpersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
       "Application"
     ],
     "Description": "This allows app to read and write telehealth settings without a signed-in user.",

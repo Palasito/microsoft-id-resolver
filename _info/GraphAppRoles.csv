@@ -843,6 +843,7 @@
 "64d0900a-dba1-42fb-9753-3b80584cce8e","powerai.read.all","Access PowerAI","Allows an application to access PowerAI"
 "31e9e114-d20e-4a24-95a2-76f9b584fb20","PurviewData.Read.All","PurviewData.Read.All","This allows Services to call Purview API's with App tokens"
 "cfc0dc64-9211-4513-9d32-c387680182cf","bawuser","Preview User","Allows members of a special preview group to use experimental features of Bing"
+"2efeabb9-813a-44ff-8a70-46000ef9dd92","UserImpersonation","user impersonation pre auth","Role to use instead of user impersonation pre auth."
 "b6ef04f9-024e-4a85-a21c-63402a97ff53","TelehealthSettings-Internal.ReadWrite.All","TelehealthSettings-Internal.ReadWrite.All","This allows app to read and write telehealth settings without a signed-in user."
 "e3b2ed3a-871e-4b2a-b46f-c4caf3ac1264","TelehealthSettings-Internal.Read.All","TelehealthSettings-Internal.Read.All","This allows app to read telehealth settings without a signed-in user."
 "22ba8d5d-41e5-4e0e-8b5b-a5021c6d1dcf","VirtualVisitsAnalytics-Preview.Read","VirtualVisitsAnalytics-Preview.Read","Allow users to read virtual visit analytics data"

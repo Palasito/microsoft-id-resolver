@@ -11290,6 +11290,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to read, create and update scan job without a signed-in user.",
+    "DisplayName": "Read, create and update scan job.",
+    "Id": "f9ca039a-912c-4090-b90f-87e8f9355feb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ScanJob.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and update scanner status and capabilities without a signed-in user.",
+    "DisplayName": "Read and update scanner status and capabilities.",
+    "Id": "69fabcfb-17a2-4326-b55b-9fee898a8066",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Scanners.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the application to read users' badge details without a signed-in user.",
     "DisplayName": "Read users' badge details",
     "Id": "19f99fa8-134e-4c3f-a9f7-5180eaa6e011",

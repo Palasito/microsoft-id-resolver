@@ -13707,6 +13707,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Partner Details Manager",
+    "DisplayName": "PartnerDetailsManager",
+    "Id": "66b0d3be-66cc-465d-852a-87d76566ce29",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PartnerDetailsManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Full Trust Project Reader",
     "DisplayName": "FullTrustProjectReader",
     "Id": "a010eb98-c8e4-40c5-afc7-87df9f063e89",

@@ -1143,6 +1143,7 @@ The app user cannot create new notes, modify existing notes, or view notes under
 "e5e05709-32a3-4c85-89c8-67596eb94f24","SecurityConfiguration.ReadWrite.All","Read and write all security configurations","Allows the app to read and write all security configurations"
 "e870c0c1-c1a2-41ca-948e-a33912d2d3f0","SecurityBaselinesAssessment.Read.All","Read all security baselines assessment information","Allows the app to read all security baselines assessment information"
 "8d48872e-7710-4001-bfd0-7dac15c28f69","Purview.ApplicationAccess","Purview Application API Access","Allows the application to call Purview APIs without a signed-in user"
+"66b0d3be-66cc-465d-852a-87d76566ce29","PartnerDetailsManager","PartnerDetailsManager","Partner Details Manager"
 "a010eb98-c8e4-40c5-afc7-87df9f063e89","FullTrustProjectReader","FullTrustProjectReader","Full Trust Project Reader"
 "501b1467-43a9-475e-9fbb-5e840ff5b597","FullTrustBillingSubscriptionRefundManager","FullTrustBillingSubscriptionRefundManager","Full Trust Billing Subscription Refund Manager"
 "1cbc9fa5-af3f-44ad-9455-35ef4dd212aa","AddressCustomerMasterReader","AddressCustomerMasterReader","Address Customer Master Reader"

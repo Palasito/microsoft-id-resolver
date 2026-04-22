@@ -18264,6 +18264,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to access Azure Container Registry acting as users in the organization.",
+    "AdminConsentDisplayName": "Access Azure Container Registry as organization users",
+    "Id": "cdcfcdaf-ae2f-408c-9585-bb5b86000ba4",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to access Azure Container Registry as you.",
+    "UserConsentDisplayName": "Access Azure Container Registry as you",
+    "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows to call service API to query boundary data",
     "AdminConsentDisplayName": "Read boundary data",
     "Id": "b026af69-9eae-4bb3-9351-304d4987e170",

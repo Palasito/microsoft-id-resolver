@@ -1526,6 +1526,7 @@
 "71aee95c-300c-4e78-81f2-a26028710b1e","ResourceSchedulingOptimization","Resource Scheduling Optimization components service-to-service communication.","Allows Resource Scheduling Optimization components service-to-service communication."
 "9e24c11e-3043-4e1f-bf19-c9560ef9a969","Sways.ReadWrite","Read and write user sways","Allows the app to create, read, update, and delete sways and content within those sways on behalf of the signed-in user."
 "921df259-ef26-44e6-b99e-69e13226d635","user_impersonation","Have full access to the Skype Remote Powershell Azure services","Allow the application full access to the Skype Remote Powershell Azure services on behalf of the signed-in user"
+"cdcfcdaf-ae2f-408c-9585-bb5b86000ba4","user_impersonation","Access Azure Container Registry as organization users","Allows the application to access Azure Container Registry acting as users in the organization."
 "b026af69-9eae-4bb3-9351-304d4987e170","Boundary.Read.All","Read boundary data","Allows to call service API to query boundary data"
 "d430b935-3087-4654-8d58-25faba0dabb5","InventoryClass.Read.All","Read inventory class","Allows to call service API to query inventory class"
 "66a874a2-b739-43fa-8e1a-176cd8290cf5","Collection.Read.All","Read collection data","Allows to call service API to query collection data"

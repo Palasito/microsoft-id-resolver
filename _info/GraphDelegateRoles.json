@@ -12744,6 +12744,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the middletier service to connect with MSGraph",
+    "AdminConsentDisplayName": "Allows the middletier service to connect with MSGraph",
+    "Id": "8191c578-e296-4c54-9cdb-bec01858c081",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the middletier service to connect with MSGraph",
+    "UserConsentDisplayName": "Allows the middletier service to connect with MSGraph",
+    "Value": "middletier_service",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to connect with share point",
     "AdminConsentDisplayName": "Allows the app to connect with share point",
     "Id": "98a74943-4bc4-416e-8028-288cf2f36197",

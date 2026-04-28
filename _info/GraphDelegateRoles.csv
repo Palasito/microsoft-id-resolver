@@ -1061,6 +1061,7 @@
 "dc13fe4e-f936-494b-8b88-09d4e9a5cde0","Subscription.Add","Add subscriptions","Allows the app to add managed subscriptions to a tenant"
 "62c3283a-e0b2-4608-85d5-013e99604063","Users.Signup.Product","Users.Signup.Product","Allows the caller to perform product signup eligibility check for the given user"
 "0ec94f6b-7dfb-43d3-a076-648593587760","LowFriction.ReadWrite","LowFriction.ReadWrite","Allows the caller to perform low friction trial for the given user."
+"8191c578-e296-4c54-9cdb-bec01858c081","middletier_service","Allows the middletier service to connect with MSGraph","Allows the middletier service to connect with MSGraph"
 "98a74943-4bc4-416e-8028-288cf2f36197","sharepoint_service","Allows the app to connect with share point","Allows the app to connect with share point"
 "44351fcc-b88d-4077-982f-3367f5078db1","CEH_service","CEH_service","this allows non admin users to access configAPI"
 "e60370c1-e451-437e-aa6e-d76df38e5f15","user_impersonation","Access Microsoft Teams and Skype for Business data as the signed in user","Access Microsoft Teams and Skype for Business data based on the user's role membership"

@@ -516,6 +516,12 @@
     "source": "Graph"
   },
   {
+    "appId": "67a22a09-a89e-4845-95da-28a8e6f7069d",
+    "displayName": "PowerPlatform-a365outlookmailmcp-Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "1efb1569-5fd6-4938-8b8d-9f3aa07c658d",
     "displayName": "Microsoft Defender for Cloud for AI",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -716,6 +722,12 @@
   {
     "appId": "637fcc9f-4a9b-4aaa-8713-a2a3cfda1505",
     "displayName": "Dynamics CRM Online Administration",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "f5f46cfd-576b-4dd6-b24e-460c84b3793c",
+    "displayName": "PowerPlatform-a365memcp-Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -1004,6 +1016,12 @@
   {
     "appId": "45a330b1-b1ec-4cc1-9161-9f03992aa49f",
     "displayName": "Windows Store for Business",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "822f7873-1b52-48f2-8f56-9458c3fac264",
+    "displayName": "PowerPlatform-a365copilotchatmcp-Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -1506,6 +1524,12 @@
     "source": "Graph"
   },
   {
+    "appId": "24b2c2bc-4e48-4b69-9c88-33f4cd04c867",
+    "displayName": "Planner Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "167e2ded-f32d-49f5-8a10-308b921bc7ee",
     "displayName": "OCaaS Worker Services",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1878,14 +1902,32 @@
     "source": "Graph"
   },
   {
+    "appId": "b8c6afb3-f3a7-4ee4-9b1b-75e72ab1d4c9",
+    "displayName": "Standard Approvals Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "a12e8ccb-0fcd-46f8-b6a1-b9df7a9d7231",
     "displayName": "Azure Arc Data Processing Services",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
   {
+    "appId": "822153a9-3909-4624-b1d2-f8b646fb39a6",
+    "displayName": "PowerPlatform-a365wordmcp-Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "2a486b53-dbd2-49c0-a2bc-278bdfc30833",
     "displayName": "Cortana at Work Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "969ec24d-a136-4cc5-85a8-363e8cef1973",
+    "displayName": "OneDrive for Business Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -1970,6 +2012,12 @@
   {
     "appId": "84a0e9dd-6e58-4aad-82af-ebe485acd09d",
     "displayName": "Hubble Media Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "7442f35f-64b6-45b8-bbee-f069b75cd4f2",
+    "displayName": "Excel Online Business Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -2088,6 +2136,12 @@
     "source": "Graph"
   },
   {
+    "appId": "849933cc-a3cb-4c0d-9626-dfcf22f1677c",
+    "displayName": "PowerPlatform-a365teamsmcp-Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "8f348934-64be-4bb2-bc16-c54c96789f43",
     "displayName": "EDU Assignments",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2192,6 +2246,12 @@
   {
     "appId": "7c33bfcb-8d33-48d6-8e60-dc6404003489",
     "displayName": "Network Watcher",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "02f0a7dc-fd55-4624-8d1b-0b15d2536e64",
+    "displayName": "PowerPlatform-a365outlookcalendarmcp-Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -2790,6 +2850,12 @@
     "source": "Graph"
   },
   {
+    "appId": "02d637f4-6bed-46c2-aa72-274c8c5e0782",
+    "displayName": "Microsoft Dataverse Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "26a18ebc-cdf7-4a6a-91cb-beb352805e81",
     "displayName": "Skype Teams Calling API Service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -2918,6 +2984,12 @@
   {
     "appId": "bf9fc203-c1ff-4fd4-878b-323642e462ec",
     "displayName": "Jarvis Transaction Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "ec32cc4e-a086-4860-b15c-7b9d98722d20",
+    "displayName": "SharePoint Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -3552,6 +3624,12 @@
     "source": "Graph"
   },
   {
+    "appId": "4b55a631-6b07-4d07-a701-28f46d72f3df",
+    "displayName": "Microsoft Teams Connector",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "0ef94e72-e4fc-4aa0-a8f4-ff27deb3e6eb",
     "displayName": "Teams NRT DLP Ingestion Service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3578,6 +3656,12 @@
   {
     "appId": "7557eb47-c689-4224-abcf-aef9bd7573df",
     "displayName": "Skype for Business",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "ef1e3bba-b59c-45c6-93dd-c7fc96e274e3",
+    "displayName": "Microsoft To-Do Business Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -3740,6 +3824,12 @@
   {
     "appId": "ea62c1c6-550b-4238-8ea7-c55a85d86be8",
     "displayName": "Teams Work Report",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "3e710f56-38f6-42a3-b32a-293205a5903c",
+    "displayName": "PowerPlatform-a365adminmcp-Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },

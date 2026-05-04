@@ -219,7 +219,7 @@
     "AdminConsentDescription": "Loki MCP Server Access",
     "AdminConsentDisplayName": "Loki MCP Server Access",
     "Id": "1c4fb7e0-1fa5-477b-a4b5-39592ebdf176",
-    "IsEnabled": true,
+    "IsEnabled": false,
     "Origin": null,
     "Type": "User",
     "UserConsentDescription": "Loki MCP Server Access",

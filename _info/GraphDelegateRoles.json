@@ -216,6 +216,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow access the Office People API",
+    "AdminConsentDisplayName": "Access the Office People API",
+    "Id": "2e87e453-2fc7-45ee-947f-bf81dc7f0926",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow access to Office People API",
+    "UserConsentDisplayName": "Access to Office People API",
+    "Value": "OnlineMeetings.Read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Loki MCP Server Access",
     "AdminConsentDisplayName": "Loki MCP Server Access",
     "Id": "1c4fb7e0-1fa5-477b-a4b5-39592ebdf176",
@@ -321,18 +333,6 @@
     "UserConsentDescription": "Allow access to Office People API",
     "UserConsentDisplayName": "Access to Office People API",
     "Value": "Group.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow access the Office People API",
-    "AdminConsentDisplayName": "Access the Office People API",
-    "Id": "2e87e453-2fc7-45ee-947f-bf81dc7f0926",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow access to Office People API",
-    "UserConsentDisplayName": "Access to Office People API",
-    "Value": "OnlineMeetings.Read",
     "AdditionalProperties": {}
   },
   {

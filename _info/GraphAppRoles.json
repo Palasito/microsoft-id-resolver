@@ -10882,6 +10882,78 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the app to read Agent ID instances",
+    "DisplayName": "AgentInstance.ReadSelected.All",
+    "Id": "6a37fcfd-2481-4625-b88f-50bd819a07cc",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentInstance.ReadSelected.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write Agent ID instances",
+    "DisplayName": "AgentInstance.ReadWriteSelected.All",
+    "Id": "c3d0ca49-f209-4c91-9c9e-0cf8a8475a01",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentInstance.ReadWriteSelected.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read Agent Blueprints",
+    "DisplayName": "AgentBlueprint.ReadSelected.All",
+    "Id": "ee9e43f5-8bda-44d0-808f-885b38113567",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentBlueprint.ReadSelected.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write selected Agent Blueprints",
+    "DisplayName": "AgentBlueprint.ReadWriteSelected.All",
+    "Id": "7cddb0e5-ad5a-42c1-aa3d-c1c04f6a30e4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentBlueprint.ReadWriteSelected.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read Agent ID instances",
+    "DisplayName": "AgentInstance.Read.All",
+    "Id": "9062175b-9da6-4337-a11b-9cb8c1cdef08",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentInstance.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write Agent ID instances",
+    "DisplayName": "AgentInstance.ReadWrite.All",
+    "Id": "14bd51a3-8784-481a-aaae-342e98e8039e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AgentInstance.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read Agent Blueprints",
     "DisplayName": "AgentBlueprint.Read.All",
     "Id": "6fdbf6e8-d61d-4b53-84e5-35bdc7fb608b",

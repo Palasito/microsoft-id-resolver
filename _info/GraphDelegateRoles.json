@@ -13896,6 +13896,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read Agent ID instances on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read Agent ID instances on behalf of the signed-in user.",
+    "Id": "8b6db0f8-fa3d-4f4c-843a-52052616f3f7",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read Agent ID instances on your behalf.",
+    "UserConsentDisplayName": "Read Agent ID instances.",
+    "Value": "AgentInstance.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the app to read and write Agent Blueprints on behalf of the signed in user.",
+    "AdminConsentDisplayName": "Allow the app to read and write Agent Blueprints on behalf of the signed in user.",
+    "Id": "723ae776-88e2-41ae-a328-162e2ef59f42",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the app to read and write Agent Blueprints on behalf of the signed in user.",
+    "UserConsentDisplayName": "Allow the app to read and write Agent Blueprints on behalf of the signed in user.",
+    "Value": "AgentBlueprint.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to publish a new app, update or withdraw an existing app on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Perform write operations on ingested apps",
     "Id": "f031a3e7-c1cf-4a4e-b3b2-b230123ebef2",

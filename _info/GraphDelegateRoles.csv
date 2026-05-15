@@ -1157,6 +1157,8 @@
 "42ca9b8b-a2b1-4674-aa15-eeefc50e6c6a","Comment.Read","Get a comment present in a workbook","Grants access to get a comment present in a workbook"
 "deecce01-059b-4f37-b755-96005f4d85b0","Column.CreateKey","Add a key column to a table","Grants access to add a key column to a table"
 "ffc624a0-d8ef-4134-aa4d-45d82efd526b","Operations.Execute.All","Execute all operations of Excel Online (Business) connector","Grants access to execute all operations of Excel Online (Business) connector"
+"8b6db0f8-fa3d-4f4c-843a-52052616f3f7","AgentInstance.Read","Read Agent ID instances on behalf of the signed-in user.","Allows the app to read Agent ID instances on behalf of the signed-in user."
+"723ae776-88e2-41ae-a328-162e2ef59f42","AgentBlueprint.ReadWrite","Allow the app to read and write Agent Blueprints on behalf of the signed in user.","Allow the app to read and write Agent Blueprints on behalf of the signed in user."
 "f031a3e7-c1cf-4a4e-b3b2-b230123ebef2","AppIngestion.Write","Perform write operations on ingested apps","Allows the app to publish a new app, update or withdraw an existing app on behalf of the signed-in user."
 "07bf5a4d-e87c-42b2-ac0b-91f803f4aeea","AppIngestion.Read","Read ingested apps","Allows the app to read all ingested apps on behalf of the signed-in user."
 "ed20b8a8-12e9-45f5-b3e5-69f25572d7be","Graph.ReadWrite.All","Access APIs exposed by Teams Graph worload","Allows Microsoft Graph to call into the service to perform operations on application's behalf"

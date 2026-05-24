@@ -216,6 +216,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow access to read and send chat messages via this API.",
+    "AdminConsentDisplayName": "Read and write chat messages (delegated)",
+    "Id": "20abcb3c-0462-42ce-9fa0-d1c97a22f4e5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the app to read and send your chat messages.",
+    "UserConsentDisplayName": "Read and write chat messages",
+    "Value": "Chat.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow access the Office People API",
     "AdminConsentDisplayName": "Access the Office People API",
     "Id": "2e87e453-2fc7-45ee-947f-bf81dc7f0926",

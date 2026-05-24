@@ -17,6 +17,7 @@
 "47d9c114-7cc8-47c6-9e62-4c5955b05905","SPHome","SPHome","Access to SPHome api"
 "0eda57b1-cb5c-4bb4-bea6-804aae8cf097","user.default","user.default","The default access for the users to access Customer Consent APIs"
 "5c367ba1-3a11-4284-92e9-19c836b05b1d","user_impersonation","user_impersonation","user_impersonation"
+"20abcb3c-0462-42ce-9fa0-d1c97a22f4e5","Chat.ReadWrite","Read and write chat messages (delegated)","Allow access to read and send chat messages via this API."
 "2e87e453-2fc7-45ee-947f-bf81dc7f0926","OnlineMeetings.Read","Access the Office People API","Allow access the Office People API"
 "1c4fb7e0-1fa5-477b-a4b5-39592ebdf176","MCP.Read","Loki MCP Server Access","Loki MCP Server Access"
 "594a414c-f70a-4504-b1f6-f1b5a4c95b2f","Chat.Read","Read chat messages (delegated)","Allow access to chat messages via this API."

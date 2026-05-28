@@ -19,7 +19,6 @@
 "5c367ba1-3a11-4284-92e9-19c836b05b1d","user_impersonation","user_impersonation","user_impersonation"
 "20abcb3c-0462-42ce-9fa0-d1c97a22f4e5","Chat.ReadWrite","Read and write chat messages (delegated)","Allow access to read and send chat messages via this API."
 "2e87e453-2fc7-45ee-947f-bf81dc7f0926","OnlineMeetings.Read","Access the Office People API","Allow access the Office People API"
-"1c4fb7e0-1fa5-477b-a4b5-39592ebdf176","MCP.Read","Loki MCP Server Access","Loki MCP Server Access"
 "594a414c-f70a-4504-b1f6-f1b5a4c95b2f","Chat.Read","Read chat messages (delegated)","Allow access to chat messages via this API."
 "1d28bd1f-7c1b-4e6b-bc5b-abc07323e7f2","Policy.Read","Loki Policy.Read","Allow client apps to read policy data via Loki."
 "de374d49-137d-465b-b4bb-ef2cec26583f","Calendar.Read","Access the Office People API","Allow access the Office People API"

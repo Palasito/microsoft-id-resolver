@@ -240,18 +240,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Loki MCP Server Access",
-    "AdminConsentDisplayName": "Loki MCP Server Access",
-    "Id": "1c4fb7e0-1fa5-477b-a4b5-39592ebdf176",
-    "IsEnabled": false,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Loki MCP Server Access",
-    "UserConsentDisplayName": "Loki MCP Server Access",
-    "Value": "MCP.Read",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allow access to chat messages via this API.",
     "AdminConsentDisplayName": "Read chat messages (delegated)",
     "Id": "594a414c-f70a-4504-b1f6-f1b5a4c95b2f",

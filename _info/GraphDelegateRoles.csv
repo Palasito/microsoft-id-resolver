@@ -71,6 +71,7 @@
 "fbda7f10-5896-4449-9380-cd38b9c7261f","Operations.Execute.All","Execute all operations of Work IQ Mail MCP connector","Grants access to execute all operations of Work IQ Mail MCP connector"
 "0d7005c0-855a-485a-9d5b-5676f80a4a04","Notifications.Write","Notifications.Write","To allow application to send notifications to Azure AD provisioning service"
 "adc8f5c3-8d1a-4a2c-a663-86394f307a24","TenantUser.ReadWrite","TenantUser.ReadWrite","this allows to read and write tenant and user data"
+"9f021f4d-e924-4317-bf46-8db5e8340c6c","Exchange.AdminAPI.Manage","Manage Exchange Online Admin API","Allows the app to manage a limited set of Exchange Online configuration objects via the adminapi/v2.0 endpoint. This permission is intended for specific scenarios and requires appropriate Exchange RBAC role assignments. This permission replaces the previous Exchange.ManageV2 permission."
 "44d6b5f2-d42b-4fa7-b999-1c5fcab98e4d","Exchange.ManageV2","Manage Exchange configuration v2","Allows the app to manage a limited set of Exchange Online configuration objects via the adminapi/v2.0 endpoint. This permission is intended for specific scenarios and requires appropriate Exchange RBAC role assignments."
 "d056cee4-aed2-4aa4-b2a9-292fe18b06d2","OPX.MyDay.All","OPX.MyDay.All","This allows application to host MyDay Owa powered experience for both user and shared mailbox and calendar"
 "405782ba-4062-4ea3-bd33-f7c731841e3b","OPX.MyDay.Shared","OPX.MyDay.Shared","This allows application to host MyDay Owa powered experience for shared mailbox and calendar"

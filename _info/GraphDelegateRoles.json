@@ -17820,6 +17820,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow\n  application full access to Targeting Service on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Have full access to Targeting Service",
+    "Id": "9b6a9212-3123-4e1e-b9db-3e5c820b7670",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow application full access to Targeting Service on behalf\n  of the signed-in user. Created for CDT flow",
+    "UserConsentDisplayName": "Have full\n  access to Targeting Service",
+    "Value": "Targeting.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
     "AdminConsentDisplayName": "Have full access to the Chat Service Aggregator",
     "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",

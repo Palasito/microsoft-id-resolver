@@ -1489,6 +1489,8 @@
 "41094075-9dad-400e-a0bd-54e686782033","user_impersonation","Access Azure Resource Manager as organization users","Allows the application to access Azure Resource Manager acting as users in the organization."
 "624f9f4a-11f4-4eb6-a0a7-645ef535bac7","user_impersonation","Have full access to the Microsoft Teams Targeting Application","Allow application full access to the Microsoft Teams Targeting Application on behalf of the signed-in user"
 "7a7538b8-224d-4242-a4d7-7efd9d90585b","Dynamics.Read.All","Read dynamics results","Allows the app to read dynamics results in Microsoft search in Bing results"
+"9b6a9212-3123-4e1e-b9db-3e5c820b7670","Targeting.ReadWrite","Have full access to Targeting Service","Allow
+  application full access to Targeting Service on behalf of the signed-in user"
 "68c6d621-ef73-4169-82d9-8a3e930a2087","user_impersonation","Have full access to the Chat Service Aggregator","Allow application full access to the Chat service aggregator on behalf of the signed-in user"
 "9125c627-3755-4ad3-8742-4d6b193c4fc2","filteredhierarchy.read.all","Read all filtered hierarchy","Allow reading of all filtered hierarchy"
 "8762e452-5668-459a-b06a-b8f7c8469dd2","channelmessage.read.all","Read channel messages","Allows an application to read the messages in a channel"

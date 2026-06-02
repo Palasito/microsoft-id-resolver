@@ -463,6 +463,7 @@
 "f3a218b7-5c8f-460b-93af-56b072788c15","Microsoft Workplace Search Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "f36c30df-d241-4c14-a0ee-752c71e4d3da","IDS-PROD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "19947cfd-0303-466c-ac3c-fcc19a7a1570","Azure DNS","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"3e53edf8-185f-4fb1-b849-97faed43d817","Partner Accounts Graph","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "adb31c9c-be95-4772-83a3-f5dab278e3a6","Office Python Service MSA and AAD","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "6bf85cfa-ac8a-4be5-b5de-425a0d0dc016","Microsoft Entra AD Synchronization Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e0ccf59d-5a20-4a87-a122-f42842cdb86a","Microsoft Defender for Cloud Scanner Resource Provider","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

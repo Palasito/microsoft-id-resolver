@@ -713,5 +713,10 @@
     "id": "124577f8-48ed-456a-839f-13b419002e33",
     "displayName": "Tenant Governance Relationship Reader",
     "source": "Graph"
+  },
+  {
+    "id": "d35481f7-cda1-4fa2-8344-5a21f7f3724d",
+    "displayName": "Entra Customer Lockbox Approver",
+    "source": "Graph"
   }
 ]

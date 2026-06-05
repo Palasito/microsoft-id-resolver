@@ -528,6 +528,12 @@
     "source": "Graph"
   },
   {
+    "appId": "4eaceb75-fe6c-4953-b873-0fd565ecd334",
+    "displayName": "Request Approvals Write Platform",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "00000014-0000-0000-c000-000000000000",
     "displayName": "Microsoft.Azure.SyncFabric",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3428,6 +3434,12 @@
   {
     "appId": "e8ab36af-d4be-4833-a38b-4d6cf1cfd525",
     "displayName": "Microsoft Social Engagement",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "2d215f00-80d1-4f4b-a6c8-28080dfafc81",
+    "displayName": "Microsoft Authorization System Policy",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },

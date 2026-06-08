@@ -1467,6 +1467,42 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allow read and write access to Power Platform Dataflows public APIs using S2S app only token",
+    "DisplayName": "PowerPlatformDataflowApi.ReadWrite.All",
+    "Id": "8b009198-76cd-4d24-89d8-e12ac56fd300",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PowerPlatformDataflowApi.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Declare the client as well known",
+    "DisplayName": "EvaluatorApi.AccessAsWellKnownClient.All",
+    "Id": "03c0694c-a8f0-451e-a114-eaf90f6b178f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EvaluatorApi.AccessAsWellKnownClient.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Grants WellKnown application capabilities",
+    "DisplayName": "Dataflow.AccessAsWellKnownClient.All",
+    "Id": "51f5aba9-144c-498b-9fe1-0b26c046ec08",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Dataflow.AccessAsWellKnownClient.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Gives the ability to call the api evaluator route with an S2S token and User and Tenant headers for the actual user",
     "DisplayName": "EvaluatorApi.AccessAsUser.All",
     "Id": "6ee71d64-f037-41c8-a304-0da50cb763e3",

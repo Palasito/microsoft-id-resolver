@@ -1836,6 +1836,42 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "CRUD operations on Dataflow",
+    "AdminConsentDisplayName": "Dataflow.ReadWrite",
+    "Id": "b91bb452-4b7f-43ac-98b7-fb77c1bc0cd3",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "CRUD operations on Dataflow",
+    "UserConsentDisplayName": "Dataflow.ReadWrite",
+    "Value": "Dataflow.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Read operations on Dataflow",
+    "AdminConsentDisplayName": "Dataflow.Read",
+    "Id": "28ad3777-4e07-48f5-8ecb-324389487993",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Read operations on Dataflow",
+    "UserConsentDisplayName": "Dataflow.Read",
+    "Value": "Dataflow.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Evaluation (Refresh) of Dataflow",
+    "AdminConsentDisplayName": "Dataflow.Evaluate",
+    "Id": "355208ec-0e9f-4bf8-96a4-6d349d4823f5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Evaluation (Refresh) of Dataflow",
+    "UserConsentDisplayName": "Dataflow.Evaluate",
+    "Value": "Dataflow.Evaluate",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Use the ManagedProvider API for readonly operations",
     "AdminConsentDisplayName": "MashupProviderApi.Read",
     "Id": "baab12c3-28f7-4c88-934b-23ffcaad424a",
@@ -21645,6 +21681,42 @@
     "UserConsentDescription": "Allows the app to read email in your mailbox.",
     "UserConsentDisplayName": "Read your mail",
     "Value": "Mail.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Grants access to read and write tags in a team",
+    "AdminConsentDisplayName": "Read and write tags in a team",
+    "Id": "539dabd7-b5b6-4117-b164-d60cd15a8671",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Grants access to read and write tags in a team",
+    "UserConsentDisplayName": "Read and write tags in a team",
+    "Value": "TeamworkTag.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Grants access to read tags in a team",
+    "AdminConsentDisplayName": "Read tags in a team",
+    "Id": "57587d0b-8399-45be-b207-8050cec54575",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Grants access to read tags in a team",
+    "UserConsentDisplayName": "Read tags in a team",
+    "Value": "TeamworkTag.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Grants access to read all online meeting transcripts",
+    "AdminConsentDisplayName": "Read all online meeting transcripts",
+    "Id": "30b87d18-ebb1-45db-97f8-82ccb1f0190c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Grants access to read all online meeting transcripts",
+    "UserConsentDisplayName": "Read all online meeting transcripts",
+    "Value": "OnlineMeetingTranscript.Read.All",
     "AdditionalProperties": {}
   },
   {

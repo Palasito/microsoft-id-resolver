@@ -979,6 +979,7 @@
 "cd962daf-3f23-4927-9eb0-c5d96e0351b6","default","default","Allows the application to access Microsoft Dynamics 365 Apps Integration acting as users in the organization"
 "cbdf6ecb-0d7f-4ca3-a8b6-931c9846e9e0","access_as_user","access_as_user","Teams can access the user’s profile"
 "f43389c9-db90-4009-be93-f3251d41f11f","user_impersonation","Access Dynamics 365 Apps Integration as organization user","Allows the application to access Microsoft Dynamics 365 Apps Integration acting as users in the organization"
+"a13c3771-2c5a-49cf-9ada-2a95598033d8","Media.Read.All","Media.Read.All","Allows Teams services to read IC3 media services"
 "65ae35b8-a8ce-4413-baf3-5ac38862a1c4","Feedback.Write.All","Feedback.Write.All","Allows Teams services to write new feedback in IC3 Services"
 "7f2730c6-935f-4791-9fdc-de1610b4b3a3","Calling.ReadWrite.All","Calling.ReadWrite.All","Allows Teams services to access IC3 conversation services"
 "0fde58b1-7623-4494-b2dd-a6a3a6646003","Endpoint.ReadWrite.All","Endpoint.ReadWrite.All","Allows Teams services to access IC3 transport services"

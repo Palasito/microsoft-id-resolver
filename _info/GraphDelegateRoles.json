@@ -1812,18 +1812,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Read Access To MDLRest APIs",
-    "AdminConsentDisplayName": "MDLRest.Read",
-    "Id": "9b5904c8-49e7-4d21-81c0-118a2a9c7d81",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Read Write Access To MDLRest APIs",
-    "UserConsentDisplayName": "MDLRest.Read",
-    "Value": "MDLRest.Read",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Read Write Access To MDLRest APIs",
     "AdminConsentDisplayName": "MDLRest.ReadWrite",
     "Id": "bd79113c-40b8-4608-8c47-994bf0c2853d",
@@ -1833,6 +1821,18 @@
     "UserConsentDescription": "Read Write Access To MDLRest APIs",
     "UserConsentDisplayName": "MDLRest.ReadWrite",
     "Value": "MDLRest.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Read Access To MDLRest APIs",
+    "AdminConsentDisplayName": "MDLRest.Read",
+    "Id": "9b5904c8-49e7-4d21-81c0-118a2a9c7d81",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Read Write Access To MDLRest APIs",
+    "UserConsentDisplayName": "MDLRest.Read",
+    "Value": "MDLRest.Read",
     "AdditionalProperties": {}
   },
   {
@@ -8829,6 +8829,18 @@
     "UserConsentDescription": "Allows the app to read and update security actions, on your behalf.",
     "UserConsentDisplayName": "Read and update your organization's security actions",
     "Value": "SecurityActions.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create security alerts, on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Create security alerts",
+    "Id": "7417b8c6-a088-4c4c-99c7-bca9ab3eb9ba",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create security alerts that you have access to.",
+    "UserConsentDisplayName": "Create security alerts",
+    "Value": "SecurityAlert.Create.All",
     "AdditionalProperties": {}
   },
   {

@@ -1443,24 +1443,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Read Access To MDLRest APIs",
-    "DisplayName": "MDLRest.Read",
-    "Id": "9b5904c8-49e7-4d21-81c0-118a2a9c7d81",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MDLRest.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Read Write Access To MDLRest APIs",
     "DisplayName": "MDLRest.ReadWrite",
     "Id": "bd79113c-40b8-4608-8c47-994bf0c2853d",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "MDLRest.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read Access To MDLRest APIs",
+    "DisplayName": "MDLRest.Read",
+    "Id": "9b5904c8-49e7-4d21-81c0-118a2a9c7d81",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MDLRest.Read",
     "AdditionalProperties": {}
   },
   {
@@ -7737,6 +7737,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "SecurityActions.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create security alerts, without a signed-in user.",
+    "DisplayName": "Create security alerts",
+    "Id": "06870c4c-7370-4a2a-ad10-239a337af816",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityAlert.Create.All",
     "AdditionalProperties": {}
   },
   {

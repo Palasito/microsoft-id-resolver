@@ -1470,6 +1470,7 @@
 "ab111d9c-370c-4905-a23f-788795f510dc","Notes.Create","Create pages in OneNote notebooks","Allow the application to view the titles of OneNote notebooks and sections and create new pages on behalf of the signed-in user."
 "f1b8ecc9-3ae0-410c-b53b-23d0827c5210","MWaaSDevice.Read","Read MWaaS Details for the device","Allows the caller to determine if this device is a mwaas managed device."
 "f53da476-18e3-4152-8e01-aec403e6edc0","user_impersonation","Have full access to the Azure Key Vault service","Allow the application full access to the Azure Key Vault service on behalf of the signed-in user"
+"561fec17-2fca-4137-9017-13a131fd77e5","Flows.Install","Install and run accessible flows","Allow the application to set up (install) and run flows the signed-in user already has access to, on their behalf. Does not allow creating or modifying flow definitions."
 "27c61d54-eb42-4315-8793-6e5715a19746","Flows.Write.Plans","Allow applications to write plans","Allow applications to write plans"
 "0b575251-2c95-46df-bc75-c8c43e6b7116","Flows.Read.Plans","Allow the application read only permission for flow","Allow the application read only permission for flow"
 "e45c5562-459d-4d1b-8148-83eb1b6dcf83","Flows.Read.All","Allow the application to read flows","Allow the application to read flows"

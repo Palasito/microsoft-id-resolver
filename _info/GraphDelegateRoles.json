@@ -17652,6 +17652,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the application to set up (install) and run flows the signed-in user already has access to, on their behalf. Does not allow creating or modifying flow definitions.",
+    "AdminConsentDisplayName": "Install and run accessible flows",
+    "Id": "561fec17-2fca-4137-9017-13a131fd77e5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the app to set up and run flows you already have access to. Does not allow creating or modifying flows.",
+    "UserConsentDisplayName": "Install and run accessible flows",
+    "Value": "Flows.Install",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow applications to write plans",
     "AdminConsentDisplayName": "Allow applications to write plans",
     "Id": "27c61d54-eb42-4315-8793-6e5715a19746",

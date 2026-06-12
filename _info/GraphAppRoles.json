@@ -13068,6 +13068,30 @@
   },
   {
     "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "RW access to MMR service portal",
+    "DisplayName": "MMR_Service_Admin",
+    "Id": "bc1a0459-8b12-4ba2-88a2-aade67fe69fd",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MMR_Service_Admin",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Read access to MMR portal",
+    "DisplayName": "MMR_Reader",
+    "Id": "75bd814d-c974-4c07-bd19-27a2b510abbb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MMR_Reader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
       "Application",
       "User"
     ],

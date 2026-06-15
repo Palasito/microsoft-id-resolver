@@ -258,6 +258,7 @@
 "c066d759-24ae-40e7-a56f-027002b5d3e4","M365DataAtRestEncryption","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "24b2c2bc-4e48-4b69-9c88-33f4cd04c867","Planner Connector","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "167e2ded-f32d-49f5-8a10-308b921bc7ee","OCaaS Worker Services","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"2d4e7d66-4baf-4714-bf99-7e03dc377fdb","Workload Identity Control Plane","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "29f411f1-b2cf-4043-8ac8-2185d7316811","Azure Iot Hub Publisher App","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "75d4238e-b142-4d2d-aed9-232b830b8706","Viva Skills","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "8f41dc7c-542c-4bdd-8eb3-e60543f607ca","Microsoft Device Directory Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

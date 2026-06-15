@@ -1554,6 +1554,12 @@
     "source": "Graph"
   },
   {
+    "appId": "2d4e7d66-4baf-4714-bf99-7e03dc377fdb",
+    "displayName": "Workload Identity Control Plane",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "29f411f1-b2cf-4043-8ac8-2185d7316811",
     "displayName": "Azure Iot Hub Publisher App",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

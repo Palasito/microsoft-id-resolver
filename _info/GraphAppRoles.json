@@ -11194,6 +11194,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allow the application to provision OneDrive for Business drives for users in the tenant, without a signed-in user.",
+    "DisplayName": "Provision OneDrive for Business drives without a signed-in user.",
+    "Id": "7689db6e-2939-41b4-98b7-13c05a52bcd6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OneDrive.Provision.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Read, write and manage Cross-Tenant migration settings and tasks, without a signed-in user",
     "DisplayName": "Read, write and manage Cross-Tenant migration settings and tasks",
     "Id": "806d1b36-e37b-4f02-9c9e-a1269982b2aa",

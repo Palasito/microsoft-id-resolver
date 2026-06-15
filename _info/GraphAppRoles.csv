@@ -931,6 +931,7 @@
 "af8f2fa3-fc06-41b1-aed5-e2645bfe886f","ApiSecretRegistration.ReadUnredacted.All","Allows reading unredacted Teams App Api secret registrations","Allows reading unredacted Teams App Api secret registrations"
 "654b31ae-d941-4e22-8798-7add8fdf049f","Tenant.Read.All","View all content in tenant","The app can view all content in the tenant without a signed in user."
 "28379fa9-8596-4fd9-869e-cb60a93b5d84","Tenant.ReadWrite.All","Read and write all content in tenant","The app can create, edit, view, and delete all content in the tenant without a signed in user."
+"7689db6e-2939-41b4-98b7-13c05a52bcd6","OneDrive.Provision.All","Provision OneDrive for Business drives without a signed-in user.","Allow the application to provision OneDrive for Business drives for users in the tenant, without a signed-in user."
 "806d1b36-e37b-4f02-9c9e-a1269982b2aa","SharePointCrossTenantMigration.Manage.All","Read, write and manage Cross-Tenant migration settings and tasks","Read, write and manage Cross-Tenant migration settings and tasks, without a signed-in user"
 "8cfb5122-1118-41e2-b9f2-8ab21a06c030","SharePointCrossTenantMigration.Read.All","Read Cross-Tenant migration settings and tasks","Read Cross-Tenant migration settings and tasks, without a signed-in user"
 "dfe5a59c-77fe-436b-9a47-375a284cf302","Migration.ReadWrite.All","Read and write access to migration data on the SharePoint admin site","Allows the app to read and write migration data via the SharePoint admin site without a signed-in user."

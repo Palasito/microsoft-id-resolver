@@ -21631,7 +21631,7 @@
   },
   {
     "appId": "7ab7862c-4c57-491e-8a45-d52a7e023983",
-    "displayName": "App Service",
+    "displayName": "Copilot Studio",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -24535,7 +24535,7 @@
   },
   {
     "appId": "ecd93392-c922-4f48-9ddf-10741e4a9b65",
-    "displayName": "e-Invoicing Service service principal",
+    "displayName": "Dynamics 365 Electronic Invoicing service",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -24546,14 +24546,14 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "f9be0c49-aa22-4ec6-911a-c5da515226ff",
-    "displayName": "Dynamics 365 HR Virtual Table",
+    "appId": "6817703f-e5b3-4eec-b11f-ba6367f1b156",
+    "displayName": "Dayforce People Connector",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
-    "appId": "6817703f-e5b3-4eec-b11f-ba6367f1b156",
-    "displayName": "Dayforce People Connector",
+    "appId": "f9be0c49-aa22-4ec6-911a-c5da515226ff",
+    "displayName": "Dynamics 365 Human Resources",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -25904,6 +25904,30 @@
   {
     "appId": "fb60f99c-7a34-4190-8149-302f77469936",
     "displayName": "AAD Token Exchange Endpoint",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "8c1a9936-578e-4d13-9bd9-9afe53ef7de8",
+    "displayName": "Finance Agent",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "aebc6443-996d-45c2-90f0-388ff96faa56",
+    "displayName": "Visual Studio Code",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "b781f78d-32f2-432f-b1fa-265d8259f9be",
+    "displayName": "Teams channel group ID",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "6ab48b67-cd74-4ad4-81af-5932984589be",
+    "displayName": "Cowork client app ID",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },

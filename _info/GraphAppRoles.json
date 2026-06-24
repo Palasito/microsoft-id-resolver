@@ -14643,6 +14643,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Rem Policy Manager",
+    "DisplayName": "RemPolicyManager",
+    "Id": "03830c81-7471-499e-a514-e86f71829003",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RemPolicyManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Partner Details Manager",
     "DisplayName": "PartnerDetailsManager",
     "Id": "66b0d3be-66cc-465d-852a-87d76566ce29",

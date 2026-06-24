@@ -14079,6 +14079,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Read and write Teams team data for team lifecycle (OnTeamUpdated, OnTeamSoftDeleted, OnTeamSoftUndeleted).",
+    "DisplayName": "Read and write Teams team data",
+    "Id": "400ef46e-3c0a-45d4-bb3d-4eb2d94f832a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Team.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read and write Teams team member data for member lifecycle (onMembersRemoved, onOwnersRemoved).",
+    "DisplayName": "Read and write Teams team member data",
+    "Id": "eb12f503-edcc-4d03-93d7-3462546aeace",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamMember.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allow the application full access to the Skype Teams Service on behalf of the signed-in user",
     "DisplayName": "Have full access to the Skype Teams Service",
     "Id": "fd7bf697-168c-45be-b7ba-e94b3529deff",

@@ -1021,6 +1021,7 @@
 "5f1e8914-a52b-429f-9324-91b92b81adaf","user_impersonation","Access Cognitive Services API as organization users.","Allows the application to access the Cognitive Services API acting as users in the organization."
 "f910c36a-d6f0-4c9e-ad40-2c6ba3858769","access_microsoftstream_embed","Access Microsoft Stream Embed as a signed-in user","Microsoft Stream Embed is the embeded experience for the enterprise video service."
 "0f6f5391-5d5d-48a3-8e8e-0d8c20ce6695","Teams.AccessAsUser.All","Teams.AccessAsUser.All","Allows Teams services to access IC3 services"
+"e6b51422-0b88-40ba-8639-b7b0451665cb","Mcp.Tools.ReadWrite","Read and write MCP tools","Allows the app to read and write MCP tools on behalf of the user."
 "5f4c8442-eba3-4814-adca-42c6bb62590c","SupportAndTroubleshootOperations.All","Perform support operations for the user","Allows the app to perform support operations on behalf of the user"
 "8c87a858-814d-4cae-8545-98fb862b6c1e","ChatThread.ReadWrite","ChatThread.ReadWrite","This allows to do Read Write on Chat Thread"
 "cdedc077-0f6e-4cf8-ab81-44ba9d14983c","CopilotSettings.ReadWrite","Read user Copilot product configuration information","Allows the app to read Copilot product configuration information, on behalf of the signed-in user."

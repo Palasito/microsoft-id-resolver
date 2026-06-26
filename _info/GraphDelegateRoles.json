@@ -12264,6 +12264,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read and write MCP tools on behalf of the user.",
+    "AdminConsentDisplayName": "Read and write MCP tools",
+    "Id": "e6b51422-0b88-40ba-8639-b7b0451665cb",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read and write MCP tools on behalf of the user.",
+    "UserConsentDisplayName": "Read and write MCP tools",
+    "Value": "Mcp.Tools.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to perform support operations on behalf of the user",
     "AdminConsentDisplayName": "Perform support operations for the user",
     "Id": "5f4c8442-eba3-4814-adca-42c6bb62590c",

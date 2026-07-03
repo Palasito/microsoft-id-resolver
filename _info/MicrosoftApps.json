@@ -2976,6 +2976,12 @@
     "source": "Graph"
   },
   {
+    "appId": "89b757f8-1e01-4f41-8c72-75e191b11b8c",
+    "displayName": "Azure Context Cache RP Prod Identity",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "e8be65d6-d430-4289-a665-51bf2a194bda",
     "displayName": "Microsoft 365 App Catalog Services",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

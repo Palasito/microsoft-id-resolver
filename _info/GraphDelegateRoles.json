@@ -21504,6 +21504,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the application to read and modify profiler settings, trigger profiling sessions, upload symbols, and manage diagnostic data on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read and write Diagnostic Services data",
+    "Id": "ce194c4c-ad00-4826-8328-102bb21ec298",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the application to read and modify your profiler settings and diagnostic data",
+    "UserConsentDisplayName": "Read and modify your Diagnostic Services data",
+    "Value": "DataAccess.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application to read profiler traces, insights, and diagnostic data on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read Diagnostic Services data",
+    "Id": "ada81ce7-1959-4df2-81a5-cd710022e0c5",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the application to read your profiler traces, insights, and diagnostic data",
+    "UserConsentDisplayName": "Read your Diagnostic Services data",
+    "Value": "DataAccess.Read",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow the application to access Diagnostic Services on behalf of the signed-in user",
     "AdminConsentDisplayName": "Access Diagnostic Services",
     "Id": "384a9d29-7ed2-4fc4-b781-1aa48cb2b883",

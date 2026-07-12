@@ -718,10 +718,5 @@
     "id": "d35481f7-cda1-4fa2-8344-5a21f7f3724d",
     "displayName": "Entra Customer Lockbox Approver",
     "source": "Graph"
-  },
-  {
-    "id": "58f930cc-fcf4-4152-852c-1d7dbf502139",
-    "displayName": "Entra SOC Identity Responder",
-    "source": "Graph"
   }
 ]

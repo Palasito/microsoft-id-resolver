@@ -141,6 +141,7 @@
 "925d5331-83ad-4bb7-ac7c-a78de52131ef","CompliancePolicy-Internal.ReadWrite","CompliancePolicy-Internal.ReadWrite","CompliancePolicy-Internal.ReadWrite"
 "338446c9-b981-47d7-a96b-3e02921beace","UnifiedPolicy.Tenant.Read","UnifiedPolicy.Tenant.Read","UnifiedPolicy.Tenant.Read"
 "4d1c58d6-39af-4926-8475-e2c468f9578e","ReadWrite","Read/Write","Read/Write access to Teams Entitlement API"
+"ada14707-1a3c-4fc5-9bb8-aed4b2b95250","chronoscallback.write","Chronos Callback Write","Allows Chronos to invoke callback endpoints."
 "372686f0-6494-4ca7-a0b5-253958e807a8","DtasGroup.ReadWrite.All","Read and write all group information","Allows the app to read and update group information in your organization."
 "16beb6e1-c277-4b64-97fa-5c90295a5c84","basicuser","Basic user","Can only access the things made available to them by their organization."
 "cf498509-9a5c-4d83-aa26-2b70fcbd0e1c","basicpurchaser","Basic purchaser","Can buy products for inventory, assign and reclaim licenses."

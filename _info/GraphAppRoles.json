@@ -1707,6 +1707,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows Chronos to invoke callback endpoints.",
+    "DisplayName": "Chronos Callback Write",
+    "Id": "ada14707-1a3c-4fc5-9bb8-aed4b2b95250",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "chronoscallback.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows the app to read and update group information in your organization.",
     "DisplayName": "Read and write all group information",
     "Id": "372686f0-6494-4ca7-a0b5-253958e807a8",

@@ -11374,6 +11374,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to read the tenant-level settings of SharePoint and OneDrive, without a signed-in user.",
+    "DisplayName": "Read SharePoint and OneDrive tenant settings",
+    "Id": "e370eb8e-f9cc-499d-90cc-7da62103e4f3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointTenantSettings.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and change the tenant-level settings of SharePoint and OneDrive, without a signed-in user.",
+    "DisplayName": "Read and change SharePoint and OneDrive tenant settings",
+    "Id": "85bd96b3-dd7e-44d4-94f4-47fbb58e5718",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointTenantSettings.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allow the application to provision OneDrive for Business drives for users in the tenant, without a signed-in user.",
     "DisplayName": "Provision OneDrive for Business drives without a signed-in user.",
     "Id": "7689db6e-2939-41b4-98b7-13c05a52bcd6",

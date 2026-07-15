@@ -16752,6 +16752,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the application to read the tenant-level settings in SharePoint and OneDrive on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read SharePoint and OneDrive tenant settings",
+    "Id": "a9b72c67-36e4-4bef-b91f-dff5801f2270",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read the tenant-level settings in SharePoint and OneDrive on your behalf.",
+    "UserConsentDisplayName": "Read SharePoint and OneDrive tenant settings",
+    "Value": "SharePointTenantSettings.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to read and change the tenant-level settings of SharePoint and OneDrive on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and change SharePoint and OneDrive tenant settings",
+    "Id": "aef0f52b-5892-4590-ae2c-d3f7928bd577",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the application to read and change the tenant-level settings of SharePoint and OneDrive on your behalf.",
+    "UserConsentDisplayName": "Read and change SharePoint and OneDrive tenant settings",
+    "Value": "SharePointTenantSettings.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read site collection metadata using the SharePoint admin site, on behalf of the signed-in user.",
     "AdminConsentDisplayName": "Can view site collection metadata from the admin site",
     "Id": "ee5c91f0-be0b-463e-85c9-57f0514c3d29",

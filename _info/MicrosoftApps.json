@@ -11364,6 +11364,12 @@
     "source": "EntraDocs"
   },
   {
+    "appId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
+    "displayName": "Microsoft Planner",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
     "appId": "6c38fb68-7e30-4a45-a740-df9d67833571",
     "displayName": "Info Trieve",
     "appOwnerOrganizationId": "",
@@ -17316,12 +17322,6 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "b737dad2-2f6c-4c65-90e3-ca563267e8b9",
-    "displayName": "MICROSOFT PLANNE",
-    "appOwnerOrganizationId": "",
-    "source": "EntraDocs"
-  },
-  {
     "appId": "4c9efd0c-8de7-4c71-8295-9f5fdb0dd048",
     "displayName": "SHAREPOINTSTANDARD_1",
     "appOwnerOrganizationId": "",
@@ -21894,6 +21894,12 @@
     "source": "EntraDocs"
   },
   {
+    "appId": "4345a7b9-9a63-4910-a426-35363201d503",
+    "displayName": "O365 Suite UX",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
     "appId": "00b41c95-dab0-4487-9791-b9d2c32c80f2",
     "displayName": "Office 365 Management",
     "appOwnerOrganizationId": "",
@@ -22956,14 +22962,26 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "d384db22-4d50-ebde-2eac-5765cf1e2a44",
+    "appId": "20f0be98-9af9-986a-4b42-8eca4acb28e4",
     "displayName": "Excelsecu eSecu FIDO2 Fingerprint Security Key",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
-    "appId": "fbefdf68-fe86-0106-213e-4d5fa24cbe2e",
+    "appId": "d384db22-4d50-ebde-2eac-5765cf1e2a44",
+    "displayName": "Excelsecu eSecu FIDO2 Fingerprint Security Key (other)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "a3975549-b191-fd67-b8fb-017e2917fdb3",
     "displayName": "Excelsecu eSecu FIDO2 NFC Security Key",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "fbefdf68-fe86-0106-213e-4d5fa24cbe2e",
+    "displayName": "Excelsecu eSecu FIDO2 NFC Security Key (other)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -23172,8 +23190,14 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "ec31b4cc-2acc-4b8e-9c01-bade00ccbe26",
+    "appId": "4b3f8944-d4f2-4d21-bb19-764a986ec160",
     "displayName": "KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "ec31b4cc-2acc-4b8e-9c01-bade00ccbe26",
+    "displayName": "KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator (other)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -23292,26 +23316,50 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "f8a011f3-8c0a-4d15-8006-17111f9edc7d",
+    "appId": "b92c3f9a-c014-4056-887f-140a2501163b",
     "displayName": "Security Key by Yubico",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
-    "appId": "6d44ba9b-f6ec-2e49-b930-0c8fe920cb73",
+    "appId": "f8a011f3-8c0a-4d15-8006-17111f9edc7d",
+    "displayName": "Security Key by Yubico (additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "149a2021-8ef6-4133-96b8-81f8d5b7f1f5",
     "displayName": "Security Key by Yubico with NFC",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
-    "appId": "e77e3c64-05e3-428b-8824-0cbeb04b829d",
+    "appId": "6d44ba9b-f6ec-2e49-b930-0c8fe920cb73",
+    "displayName": "Security Key by Yubico with NFC (additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "a4e9fc6d-4cbe-4758-b8ba-37598bb5bbaa",
     "displayName": "Security Key NFC by Yubico",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
-    "appId": "47ab2fb4-66ac-4184-9ae1-86be814012d5",
+    "appId": "e77e3c64-05e3-428b-8824-0cbeb04b829d",
+    "displayName": "Security Key NFC by Yubico (additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "0bb43545-fd2c-4185-87dd-feb0b2916ace",
     "displayName": "Security Key NFC by Yubico - Enterprise Edition",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "47ab2fb4-66ac-4184-9ae1-86be814012d5",
+    "displayName": "Security Key NFC by Yubico - Enterprise Edition (additional)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -23442,20 +23490,50 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "ee882879-721c-4913-9775-3dfcce97072a",
+    "appId": "19083c3d-8383-4b18-bc03-8f1c9ab2fd1b",
     "displayName": "YubiKey 5 Series",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
-    "appId": "c5ef55ff-ad9a-4b9f-b580-adebafe026d0",
+    "appId": "cb69481e-8ff7-4039-93ec-0a2729a154a8",
+    "displayName": "YubiKey 5 Series (additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "ee882879-721c-4913-9775-3dfcce97072a",
+    "displayName": "YubiKey 5 Series (2nd additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "a02167b9-ae71-4ac7-9a07-06432ebb6f1c",
     "displayName": "YubiKey 5 Series with Lightning",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
-    "appId": "fa2b99dc-9e39-4257-8f92-4a30d23c4118",
+    "appId": "c5ef55ff-ad9a-4b9f-b580-adebafe026d0",
+    "displayName": "YubiKey 5 Series with Lightning (additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "2fc0579f-8113-47ea-b116-bb5a8db9202a",
     "displayName": "YubiKey 5 Series with NFC",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "a25342c0-3cdc-4414-8e46-f4807fca511c",
+    "displayName": "YubiKey 5 Series with NFC (additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "fa2b99dc-9e39-4257-8f92-4a30d23c4118",
+    "displayName": "YubiKey 5 Series with NFC (2nd additional)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -23472,8 +23550,14 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "90636e1f-ef82-43bf-bdcf-5255f139d12f",
+    "appId": "7d1351a6-e097-4852-b8bf-c9ac5c9ce4a3",
     "displayName": "YubiKey Bio Series - Multi-protocol Edition",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "90636e1f-ef82-43bf-bdcf-5255f139d12f",
+    "displayName": "YubiKey Bio Series - Multi-protocol Edition (additional)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -23899,7 +23983,7 @@
   },
   {
     "appId": "4dca1d4f-adcf-4dd2-a0a0-d2fa9d86b752",
-    "displayName": "O365 Suite UX",
+    "displayName": "O365 Suite UX (additional)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -23911,7 +23995,7 @@
   },
   {
     "appId": "915d9449-5b40-4b44-97ee-5080a1f3e759",
-    "displayName": "Office Delve",
+    "displayName": "Office Delve (additional)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -24217,13 +24301,13 @@
   },
   {
     "appId": "9ac8c0b3-2c30-497c-b4bc-cadfe9bd6eed",
-    "displayName": "Project Work Management",
+    "displayName": "Project Work Management (additional)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
   {
     "appId": "66375f6b-983f-4c2c-9701-d680650f588f",
-    "displayName": "Microsoft Planner",
+    "displayName": "Microsoft Planner (additional)",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -24626,6 +24710,12 @@
   {
     "appId": "b2b21198-48f9-4d13-b2a5-03969bff0fb8",
     "displayName": "Purview/sit-defn-malta-passport-number",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "ec830c63-65f4-45d0-9d8c-910dc8334b20",
+    "displayName": "Purview/sit-defn-malta-tax-identification-number",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },
@@ -25428,12 +25518,6 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "ec830c63-65f4-45d0-9d8c-910dc8334b20",
-    "displayName": "Purview/sit-defn-malta-tax-identification-number",
-    "appOwnerOrganizationId": "",
-    "source": "EntraDocs"
-  },
-  {
     "appId": "4f320d9b-4972-41ae-b337-88d499bb1ade",
     "displayName": "Purview/sit-defn-netherlands-value-added-tax-number",
     "appOwnerOrganizationId": "",
@@ -25934,6 +26018,54 @@
   {
     "appId": "6ab48b67-cd74-4ad4-81af-5932984589be",
     "displayName": "Cowork client app ID",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "2e5ecfc8-ea79-48bd-8140-c19324acb278",
+    "displayName": "PasswordResetServiceArlingtonCloudAppId",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "7adf2d9e-d7b5-4e71-bad8-713e6a183cf3",
+    "displayName": "ServiceTrustDocumentPageLinkUri",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "ea9ffc3e-8a23-4a7d-836d-234d7c7565c1",
+    "displayName": "FoundryMCPServer",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "fcdfa2de-b65b-4b54-9a1c-81c8a18282d9",
+    "displayName": "FoundryMCPServer (additional)",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "e8c77dc2-69b3-43f4-bc51-3213c9d915b4",
+    "displayName": "EnterpriseAppIDMCPServer",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "e563cff8-1af6-4e6f-a655-7571ca482e71",
+    "displayName": "OpenSpecsWindowsProtocolsMSWCCE",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "8b2071cd-015a-4025-8052-1c0dba2d3f64",
+    "displayName": "AzureAISearchSensitivityLabelMetaData",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "7347eb49-7a1a-43c5-8eac-a5cd1d1c7cf0",
+    "displayName": "AzureAISearchMicrosoftRightsMgmntService",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },

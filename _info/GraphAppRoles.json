@@ -13945,14 +13945,14 @@
   },
   {
     "AllowedMemberTypes": [
-      "User"
+      "Application"
     ],
-    "Description": "Microsoft Stream Administrator",
-    "DisplayName": "Microsoft Stream Administrator(s)",
-    "Id": "5baab4c9-4c69-47d2-a857-d3eb0d8c21e1",
+    "Description": "This allows stream S2S to download assets",
+    "DisplayName": "streams2s_assetdownload",
+    "Id": "5f067fb0-2728-4363-b56e-b0713c1b38ff",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "StreamAdmin",
+    "Value": "streams2s_assetdownload",
     "AdditionalProperties": {}
   },
   {
@@ -13969,14 +13969,14 @@
   },
   {
     "AllowedMemberTypes": [
-      "Application"
+      "User"
     ],
-    "Description": "This allows stream S2S to download assets",
-    "DisplayName": "streams2s_assetdownload",
-    "Id": "5f067fb0-2728-4363-b56e-b0713c1b38ff",
+    "Description": "Microsoft Stream Administrator",
+    "DisplayName": "Microsoft Stream Administrator(s)",
+    "Id": "5baab4c9-4c69-47d2-a857-d3eb0d8c21e1",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "streams2s_assetdownload",
+    "Value": "StreamAdmin",
     "AdditionalProperties": {}
   },
   {

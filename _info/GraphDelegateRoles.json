@@ -2148,6 +2148,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows access to all EntraXTAP APIs",
+    "AdminConsentDisplayName": "EntraXTAP.All",
+    "Id": "300da3a8-12a5-4d2e-a63a-43565cd8dfa8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Access EntraXTAP APIs on your behalf",
+    "UserConsentDisplayName": "EntraXTAP.All",
+    "Value": "EntraXTAP.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the application to access Dataverse MCP tools as organization users",
     "AdminConsentDisplayName": "Access Dataverse MCP tools as organization users",
     "Id": "a4c5bee6-25ff-4bb5-b926-b7eb8062ae7a",
@@ -18081,6 +18093,30 @@
     "UserConsentDescription": "Allow application full access to the Microsoft Teams Targeting Application on behalf of the signed-in user",
     "UserConsentDisplayName": "Have full access to the Microsoft Teams Targeting Application",
     "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "allow access to all of assist api",
+    "AdminConsentDisplayName": "Assist.All",
+    "Id": "7f4267a9-db7c-4f04-9302-63f5344c62c6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "allow access to assist api",
+    "UserConsentDisplayName": "Assist.All",
+    "Value": "Assist.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the user to access Microsoft 365 business assist APIs",
+    "AdminConsentDisplayName": "BusinessAssist.Access",
+    "Id": "f29546b5-6166-470f-9dba-6464f1e03f86",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the user to access Microsoft 365 business assist APIs",
+    "UserConsentDisplayName": "BusinessAssist.Access",
+    "Value": "BusinessAssist.Access",
     "AdditionalProperties": {}
   },
   {

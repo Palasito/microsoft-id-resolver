@@ -1695,6 +1695,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows access to all EntraXTAP APIs",
+    "DisplayName": "EntraXTAP.All",
+    "Id": "300da3a8-12a5-4d2e-a63a-43565cd8dfa8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EntraXTAP.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Read/Write access to Teams Entitlement API",
     "DisplayName": "Read/Write",
     "Id": "4d1c58d6-39af-4926-8475-e2c468f9578e",
@@ -12296,6 +12308,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "allow access to all of assist api",
+    "DisplayName": "Assist.All",
+    "Id": "7f4267a9-db7c-4f04-9302-63f5344c62c6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Assist.All",
     "AdditionalProperties": {}
   },
   {

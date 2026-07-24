@@ -42,6 +42,12 @@
     "source": "Graph"
   },
   {
+    "appId": "597cd9fe-6340-49a7-a0e3-8af00a7e1730",
+    "displayName": "Marketplace Rating and Reviews PROD",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "589ce44b-ca13-4384-89e2-dd4e642a4b37",
     "displayName": "AKS Deployment Safeguards",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -218,6 +224,12 @@
   {
     "appId": "98c8388a-4e86-424f-a176-d1288462816f",
     "displayName": "OfficeFeedProcessors",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "01385440-dd45-4043-a286-07dd496bdf7c",
+    "displayName": "Office 365 Outlook Connector",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -1010,6 +1022,12 @@
   {
     "appId": "6f0478d5-61a3-4897-a2f2-de09a5a90c7f",
     "displayName": "WindowsUpdate-Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "a0e1e353-1a3e-42cf-a8ea-3a9746eec58c",
+    "displayName": "Microsoft AppSource",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -2838,6 +2856,12 @@
     "source": "Graph"
   },
   {
+    "appId": "87df0fbf-e22d-4d7c-bc30-f59ca7460837",
+    "displayName": "Microsoft Solution Providers",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "e0ccf59d-5a20-4a87-a122-f42842cdb86a",
     "displayName": "Microsoft Defender for Cloud Scanner Resource Provider",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3510,6 +3534,12 @@
     "source": "Graph"
   },
   {
+    "appId": "d360971a-94de-4558-b764-dfd218a8f5ce",
+    "displayName": "Microsoft PrivateStore",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "0af06dc6-e4b5-4f28-818e-e78e62d137a5",
     "displayName": "Windows 365",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3926,6 +3956,12 @@
   {
     "appId": "a3dfc3c6-2c7d-4f42-aeec-b2877f9bce97",
     "displayName": "Microsoft Azure AD Identity Protection",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "a5ce81bb-67c7-4043-952a-22004782adb5",
+    "displayName": "Marketplace Catalog",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },

@@ -21132,18 +21132,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Read user labels and label policies.",
-    "AdminConsentDisplayName": "InformationProtectionPolicy.Read",
-    "Id": "e79e5e22-ae68-4744-b17f-95a009916d6e",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to read sensitivity labels and label policies on your behalf.",
-    "UserConsentDisplayName": "InformationProtectionPolicy.Read",
-    "Value": "InformationProtectionPolicy.Read",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Read all published labels and label policies for an organization on your behalf.",
     "AdminConsentDisplayName": "InformationProtectionPolicy.Read.All",
     "Id": "bf59e00b-be0a-4c3d-bf14-ce55d7146a41",
@@ -21153,6 +21141,18 @@
     "UserConsentDescription": "Allows an app to read published sensitivity labels and label policy settings for the entire organization or a specific user on your behalf.",
     "UserConsentDisplayName": "InformationProtectionPolicy.Read.All",
     "Value": "InformationProtectionPolicy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Read user labels and label policies.",
+    "AdminConsentDisplayName": "InformationProtectionPolicy.Read",
+    "Id": "e79e5e22-ae68-4744-b17f-95a009916d6e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read sensitivity labels and label policies on your behalf.",
+    "UserConsentDisplayName": "InformationProtectionPolicy.Read",
+    "Value": "InformationProtectionPolicy.Read",
     "AdditionalProperties": {}
   },
   {

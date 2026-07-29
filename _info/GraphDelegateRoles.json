@@ -13236,27 +13236,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Permission to call SecurityCompliance.RBAC write-able APIs",
-    "AdminConsentDisplayName": "SecurityCompliance.RBAC.Write",
-    "Id": "0fdc138f-104d-49e5-9b9c-21d99078cc35",
+    "AdminConsentDescription": "Permission to call SecurityCompliance.Partner.PAM Get APIs",
+    "AdminConsentDisplayName": "SecurityCompliance.Partner.PAM.Read",
+    "Id": "7e74464c-f542-4c0c-971f-e8cdea6d42ec",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Permission to call SecurityCompliance.RBAC write-able APIs",
-    "UserConsentDisplayName": "SecurityCompliance.RBAC.Write",
-    "Value": "SecurityCompliance.RBAC.Write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Permission to call SecurityCompliance.RBAC Get APIs",
-    "AdminConsentDisplayName": "SecurityCompliance.RBAC.Read",
-    "Id": "89097d12-d859-4132-ad3c-7686b425c915",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Permission to call SecurityCompliance.RBAC Get APIs",
-    "UserConsentDisplayName": "SecurityCompliance.RBAC.Read",
-    "Value": "SecurityCompliance.RBAC.Read",
+    "UserConsentDescription": "Permission to call SecurityCompliance.Partner.PAM Get APIs",
+    "UserConsentDisplayName": "SecurityCompliance.Partner.PAM.Read",
+    "Value": "SecurityCompliance.Partner.PAM.Read",
     "AdditionalProperties": {}
   },
   {
@@ -13272,15 +13260,27 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Permission to call SecurityCompliance.Partner.PAM Get APIs",
-    "AdminConsentDisplayName": "SecurityCompliance.Partner.PAM.Read",
-    "Id": "7e74464c-f542-4c0c-971f-e8cdea6d42ec",
+    "AdminConsentDescription": "Permission to call SecurityCompliance.RBAC Get APIs",
+    "AdminConsentDisplayName": "SecurityCompliance.RBAC.Read",
+    "Id": "89097d12-d859-4132-ad3c-7686b425c915",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Permission to call SecurityCompliance.Partner.PAM Get APIs",
-    "UserConsentDisplayName": "SecurityCompliance.Partner.PAM.Read",
-    "Value": "SecurityCompliance.Partner.PAM.Read",
+    "UserConsentDescription": "Permission to call SecurityCompliance.RBAC Get APIs",
+    "UserConsentDisplayName": "SecurityCompliance.RBAC.Read",
+    "Value": "SecurityCompliance.RBAC.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Permission to call SecurityCompliance.RBAC write-able APIs",
+    "AdminConsentDisplayName": "SecurityCompliance.RBAC.Write",
+    "Id": "0fdc138f-104d-49e5-9b9c-21d99078cc35",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Permission to call SecurityCompliance.RBAC write-able APIs",
+    "UserConsentDisplayName": "SecurityCompliance.RBAC.Write",
+    "Value": "SecurityCompliance.RBAC.Write",
     "AdditionalProperties": {}
   },
   {
@@ -17436,18 +17436,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Have access to read alchemy data (copilot)",
-    "AdminConsentDisplayName": "Access read alchemy data",
-    "Id": "06af25a8-88d6-410f-a7bb-f4145d14dff9",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Have read access to alchemy data (copilot)",
-    "UserConsentDisplayName": "Access read alchemy data",
-    "Value": "Alchemy.Copilot.ReadAll",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Have access to read alchemy data",
     "AdminConsentDisplayName": "Access read alchemy data",
     "Id": "38b77c04-6fc3-4040-b319-321b8db0501c",
@@ -17457,6 +17445,18 @@
     "UserConsentDescription": "Have read access to alchemy data",
     "UserConsentDisplayName": "Access read alchemy data",
     "Value": "Alchemy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Have access to read alchemy data (copilot)",
+    "AdminConsentDisplayName": "Access read alchemy data",
+    "Id": "06af25a8-88d6-410f-a7bb-f4145d14dff9",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Have read access to alchemy data (copilot)",
+    "UserConsentDisplayName": "Access read alchemy data",
+    "Value": "Alchemy.Copilot.ReadAll",
     "AdditionalProperties": {}
   },
   {

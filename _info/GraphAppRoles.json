@@ -11038,48 +11038,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Permission to call SecurityCompliance.RBAC Write-able APIs in OCE scenarios",
-    "DisplayName": "SecurityCompliance.RBAC.OCE.Write",
-    "Id": "87f88136-d120-40e4-b53a-c4a275d08025",
+    "Description": "Permission to call SecurityCompliance.RBAC Get APIs",
+    "DisplayName": "SecurityCompliance.RBAC.Read",
+    "Id": "e6f09bc4-a49b-4dc4-8923-c7e2cee4c01d",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "SecurityCompliance.RBAC.OCE.Write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Permission to call SecurityCompliance.RBAC Get APIs in OCE scenarios",
-    "DisplayName": "SecurityCompliance.RBAC.OCE.Read",
-    "Id": "f80a7637-92dd-4f51-84c1-75405ef871aa",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SecurityCompliance.RBAC.OCE.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Permission to call SecurityCompliance.Partner.PAM Write-able APIs",
-    "DisplayName": "SecurityCompliance.Partner.PAM.Write",
-    "Id": "9ee3c580-6006-4c03-b20f-5bc264cd59b9",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SecurityCompliance.Partner.PAM.Write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Permission to call SecurityCompliance.Partner.PAM Get APIs",
-    "DisplayName": "SecurityCompliance.Partner.PAM.Read",
-    "Id": "4e2f52a2-980a-4eae-be32-3127b7c5f4e8",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SecurityCompliance.Partner.PAM.Read",
+    "Value": "SecurityCompliance.RBAC.Read",
     "AdditionalProperties": {}
   },
   {
@@ -11098,12 +11062,48 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Permission to call SecurityCompliance.RBAC Get APIs",
-    "DisplayName": "SecurityCompliance.RBAC.Read",
-    "Id": "e6f09bc4-a49b-4dc4-8923-c7e2cee4c01d",
+    "Description": "Permission to call SecurityCompliance.Partner.PAM Get APIs",
+    "DisplayName": "SecurityCompliance.Partner.PAM.Read",
+    "Id": "4e2f52a2-980a-4eae-be32-3127b7c5f4e8",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "SecurityCompliance.RBAC.Read",
+    "Value": "SecurityCompliance.Partner.PAM.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Permission to call SecurityCompliance.Partner.PAM Write-able APIs",
+    "DisplayName": "SecurityCompliance.Partner.PAM.Write",
+    "Id": "9ee3c580-6006-4c03-b20f-5bc264cd59b9",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityCompliance.Partner.PAM.Write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Permission to call SecurityCompliance.RBAC Get APIs in OCE scenarios",
+    "DisplayName": "SecurityCompliance.RBAC.OCE.Read",
+    "Id": "f80a7637-92dd-4f51-84c1-75405ef871aa",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityCompliance.RBAC.OCE.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Permission to call SecurityCompliance.RBAC Write-able APIs in OCE scenarios",
+    "DisplayName": "SecurityCompliance.RBAC.OCE.Write",
+    "Id": "87f88136-d120-40e4-b53a-c4a275d08025",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SecurityCompliance.RBAC.OCE.Write",
     "AdditionalProperties": {}
   },
   {
@@ -11830,24 +11830,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Read access to Alchemy PL Intune data",
-    "DisplayName": "Read access to Alchemy PL Intune data",
-    "Id": "ce6129ca-e2fe-4201-9761-31c8e2752088",
+    "Description": "Read access to Alchemy PL Authenticator data",
+    "DisplayName": "Read access to Alchemy PL Authenticator data",
+    "Id": "3d79c929-50e8-47d2-b1b7-924e5a5a157c",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Alchemy.PowerLift.Intune.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read access to Alchemy PL Outlook Mac data",
-    "DisplayName": "Read access to Alchemy PL Outlook Mac data",
-    "Id": "06761e8b-0d27-430c-9d46-bfacea52f6a7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Alchemy.PowerLift.OutlookMac.Read",
+    "Value": "Alchemy.PowerLift.Authenticator.Read",
     "AdditionalProperties": {}
   },
   {
@@ -11866,12 +11854,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Read access to Alchemy PL Authenticator data",
-    "DisplayName": "Read access to Alchemy PL Authenticator data",
-    "Id": "3d79c929-50e8-47d2-b1b7-924e5a5a157c",
+    "Description": "Read access to Alchemy PL Outlook Mac data",
+    "DisplayName": "Read access to Alchemy PL Outlook Mac data",
+    "Id": "06761e8b-0d27-430c-9d46-bfacea52f6a7",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Alchemy.PowerLift.Authenticator.Read",
+    "Value": "Alchemy.PowerLift.OutlookMac.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read access to Alchemy PL Intune data",
+    "DisplayName": "Read access to Alchemy PL Intune data",
+    "Id": "ce6129ca-e2fe-4201-9761-31c8e2752088",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Alchemy.PowerLift.Intune.Read",
     "AdditionalProperties": {}
   },
   {
@@ -14823,168 +14823,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Rem Policy Manager",
-    "DisplayName": "RemPolicyManager",
-    "Id": "03830c81-7471-499e-a514-e86f71829003",
+    "Description": "FullTrust EA Partner Organizations Reader",
+    "DisplayName": "FullTrustEAPartnerOrganizationsReader",
+    "Id": "1224c7b4-5fd0-40e8-a122-2fb278e6d012",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "RemPolicyManager",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Partner Details Manager",
-    "DisplayName": "PartnerDetailsManager",
-    "Id": "66b0d3be-66cc-465d-852a-87d76566ce29",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PartnerDetailsManager",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Full Trust Project Reader",
-    "DisplayName": "FullTrustProjectReader",
-    "Id": "a010eb98-c8e4-40c5-afc7-87df9f063e89",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "FullTrustProjectReader",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Full Trust Billing Subscription Refund Manager",
-    "DisplayName": "FullTrustBillingSubscriptionRefundManager",
-    "Id": "501b1467-43a9-475e-9fbb-5e840ff5b597",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "FullTrustBillingSubscriptionRefundManager",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Address Customer Master Reader",
-    "DisplayName": "AddressCustomerMasterReader",
-    "Id": "1cbc9fa5-af3f-44ad-9455-35ef4dd212aa",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AddressCustomerMasterReader",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Customer Reader",
-    "DisplayName": "CustomerReader",
-    "Id": "a589c920-4000-431e-8a26-3c849e60d9e8",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomerReader",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Billing Period Reader",
-    "DisplayName": "BillingPeriodReader",
-    "Id": "8e62a787-fdef-400f-86a5-c8ba447b1e3a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "BillingPeriodReader",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Project Reader",
-    "DisplayName": "ProjectReader",
-    "Id": "88c2cc2d-c66c-4343-83ae-31fd6fd413b6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ProjectReader",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Refresh Manager",
-    "DisplayName": "RefreshManager",
-    "Id": "73ba0d8a-0f84-44f8-9857-fb364934f4db",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "RefreshManager",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Customer Offboarding Manager",
-    "DisplayName": "CustomerOffboardingManager",
-    "Id": "3c3a3b03-4791-4e89-8753-fa338df5564d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomerOffboardingManager",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Full Trust Internal Billing Account Reader",
-    "DisplayName": "FullTrustInternalBillingAccountReader",
-    "Id": "42f62651-2fce-49b0-8b8a-b2c36bdb2c28",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "FullTrustInternalBillingAccountReader",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Indirect Reseller Offboarding Manager",
-    "DisplayName": "IndirectResellerOffboardingManager",
-    "Id": "ddbd0f71-1ff8-4335-a4b5-420bab16e11e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "IndirectResellerOffboardingManager",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Partner Offboarding Manager",
-    "DisplayName": "PartnerOffboardingManager",
-    "Id": "54bff1ce-0f2d-4eb3-a2f0-49d67447a80e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PartnerOffboardingManager",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Manger of legacy APIs",
-    "DisplayName": "LegacyManager",
-    "Id": "b0096bea-94b4-42b2-990c-6eedd19f4f4a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "LegacyManager",
+    "Value": "FullTrustEAPartnerOrganizationsReader",
     "AdditionalProperties": {}
   },
   {
@@ -15003,12 +14847,168 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "FullTrust EA Partner Organizations Reader",
-    "DisplayName": "FullTrustEAPartnerOrganizationsReader",
-    "Id": "1224c7b4-5fd0-40e8-a122-2fb278e6d012",
+    "Description": "Manger of legacy APIs",
+    "DisplayName": "LegacyManager",
+    "Id": "b0096bea-94b4-42b2-990c-6eedd19f4f4a",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "FullTrustEAPartnerOrganizationsReader",
+    "Value": "LegacyManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Partner Offboarding Manager",
+    "DisplayName": "PartnerOffboardingManager",
+    "Id": "54bff1ce-0f2d-4eb3-a2f0-49d67447a80e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PartnerOffboardingManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Indirect Reseller Offboarding Manager",
+    "DisplayName": "IndirectResellerOffboardingManager",
+    "Id": "ddbd0f71-1ff8-4335-a4b5-420bab16e11e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IndirectResellerOffboardingManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Full Trust Internal Billing Account Reader",
+    "DisplayName": "FullTrustInternalBillingAccountReader",
+    "Id": "42f62651-2fce-49b0-8b8a-b2c36bdb2c28",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "FullTrustInternalBillingAccountReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Customer Offboarding Manager",
+    "DisplayName": "CustomerOffboardingManager",
+    "Id": "3c3a3b03-4791-4e89-8753-fa338df5564d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomerOffboardingManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Refresh Manager",
+    "DisplayName": "RefreshManager",
+    "Id": "73ba0d8a-0f84-44f8-9857-fb364934f4db",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RefreshManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Project Reader",
+    "DisplayName": "ProjectReader",
+    "Id": "88c2cc2d-c66c-4343-83ae-31fd6fd413b6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ProjectReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Billing Period Reader",
+    "DisplayName": "BillingPeriodReader",
+    "Id": "8e62a787-fdef-400f-86a5-c8ba447b1e3a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "BillingPeriodReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Customer Reader",
+    "DisplayName": "CustomerReader",
+    "Id": "a589c920-4000-431e-8a26-3c849e60d9e8",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomerReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Address Customer Master Reader",
+    "DisplayName": "AddressCustomerMasterReader",
+    "Id": "1cbc9fa5-af3f-44ad-9455-35ef4dd212aa",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AddressCustomerMasterReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Full Trust Billing Subscription Refund Manager",
+    "DisplayName": "FullTrustBillingSubscriptionRefundManager",
+    "Id": "501b1467-43a9-475e-9fbb-5e840ff5b597",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "FullTrustBillingSubscriptionRefundManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Full Trust Project Reader",
+    "DisplayName": "FullTrustProjectReader",
+    "Id": "a010eb98-c8e4-40c5-afc7-87df9f063e89",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "FullTrustProjectReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Partner Details Manager",
+    "DisplayName": "PartnerDetailsManager",
+    "Id": "66b0d3be-66cc-465d-852a-87d76566ce29",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PartnerDetailsManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Rem Policy Manager",
+    "DisplayName": "RemPolicyManager",
+    "Id": "03830c81-7471-499e-a514-e86f71829003",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RemPolicyManager",
     "AdditionalProperties": {}
   },
   {

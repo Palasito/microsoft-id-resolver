@@ -14,6 +14,7 @@
 "fbbb4b08-457d-479b-b90b-de1c068ffd03","LearningActivities.ReadWrite","Read and Write Learning Activities","Allows reading and writing of learning activities data."
 "a577a7fd-1007-45d9-89fc-49e2c0851d0a","ReadingAssignments.ReadWrite","ReadingAssignments.ReadWrite","Allows reading and writing of reading assignment data."
 "8040cfef-0635-4aa6-b099-9f40d6866bbb","invoke","Invoke Diagnostics","Invoke Diagnostics"
+"a8e1b7d1-244b-455f-8b7b-582fc2d2ae21","access_as_user","Access Recommended (IROC) as the signed-in user","Allow the app to access the Recommended (IROC) API on behalf of the signed-in user."
 "16ec01e3-879b-4b19-8f12-72876d83f9b0","ConnectorsAuth","Connector First Party app migration","ConnectorsAuth is a special empty delegated permission designed specially for the connectors First party app migration project"
 "47d9c114-7cc8-47c6-9e62-4c5955b05905","SPHome","SPHome","Access to SPHome api"
 "0eda57b1-cb5c-4bb4-bea6-804aae8cf097","user.default","user.default","The default access for the users to access Customer Consent APIs"

@@ -180,6 +180,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow the app to access the Recommended (IROC) API on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Access Recommended (IROC) as the signed-in user",
+    "Id": "a8e1b7d1-244b-455f-8b7b-582fc2d2ae21",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the app to access the Recommended (IROC) API on your behalf.",
+    "UserConsentDisplayName": "Access Recommended (IROC) as you",
+    "Value": "access_as_user",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "ConnectorsAuth is a special empty delegated permission designed specially for the connectors First party app migration project",
     "AdminConsentDisplayName": "Connector First Party app migration",
     "Id": "16ec01e3-879b-4b19-8f12-72876d83f9b0",

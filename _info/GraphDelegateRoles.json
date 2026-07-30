@@ -18156,39 +18156,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow\n  application full access to Targeting Service on behalf of the signed-in user",
-    "AdminConsentDisplayName": "Have full access to Targeting Service",
-    "Id": "9b6a9212-3123-4e1e-b9db-3e5c820b7670",
+    "AdminConsentDescription": "Allow the app to read all announcements messages for the requesting user.",
+    "AdminConsentDisplayName": "Read all announcements",
+    "Id": "f06d0c46-34d8-4358-9782-36a2e777c812",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allow application full access to Targeting Service on behalf\n  of the signed-in user. Created for CDT flow",
-    "UserConsentDisplayName": "Have full\n  access to Targeting Service",
-    "Value": "Targeting.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
-    "AdminConsentDisplayName": "Have full access to the Chat Service Aggregator",
-    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
-    "UserConsentDisplayName": "Have full access to the Chat Service Aggregator",
-    "Value": "user_impersonation",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow reading of all filtered hierarchy",
-    "AdminConsentDisplayName": "Read all filtered hierarchy",
-    "Id": "9125c627-3755-4ad3-8742-4d6b193c4fc2",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow reading of all filtered hierarchy",
-    "UserConsentDisplayName": "Read all filtered hierarchy",
-    "Value": "filteredhierarchy.read.all",
+    "UserConsentDescription": "Allows the app to read announcement messages for the current user.",
+    "UserConsentDisplayName": "Read all announcements",
+    "Value": "announcements.read.all",
     "AdditionalProperties": {}
   },
   {
@@ -18204,15 +18180,39 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the app to read all announcements messages for the requesting user.",
-    "AdminConsentDisplayName": "Read all announcements",
-    "Id": "f06d0c46-34d8-4358-9782-36a2e777c812",
+    "AdminConsentDescription": "Allow reading of all filtered hierarchy",
+    "AdminConsentDisplayName": "Read all filtered hierarchy",
+    "Id": "9125c627-3755-4ad3-8742-4d6b193c4fc2",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read announcement messages for the current user.",
-    "UserConsentDisplayName": "Read all announcements",
-    "Value": "announcements.read.all",
+    "UserConsentDescription": "Allow reading of all filtered hierarchy",
+    "UserConsentDisplayName": "Read all filtered hierarchy",
+    "Value": "filteredhierarchy.read.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Have full access to the Chat Service Aggregator",
+    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
+    "UserConsentDisplayName": "Have full access to the Chat Service Aggregator",
+    "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow\n  application full access to Targeting Service on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Have full access to Targeting Service",
+    "Id": "9b6a9212-3123-4e1e-b9db-3e5c820b7670",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow application full access to Targeting Service on behalf\n  of the signed-in user. Created for CDT flow",
+    "UserConsentDisplayName": "Have full\n  access to Targeting Service",
+    "Value": "Targeting.ReadWrite",
     "AdditionalProperties": {}
   },
   {

@@ -12326,108 +12326,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
-    "DisplayName": "Have full access to the Chat Service Aggregator",
-    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
+    "Description": "Allows read all on node access",
+    "DisplayName": "nodeaccess.read.all",
+    "Id": "811e23df-61a9-44db-9987-e37355ae33b1",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "user_impersonation",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow reading of all filtered hierarchy",
-    "DisplayName": "Read all filtered hierarchy",
-    "Id": "9125c627-3755-4ad3-8742-4d6b193c4fc2",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "filteredhierarchy.read.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an application to read the messages in a channel",
-    "DisplayName": "Read channel messages",
-    "Id": "8762e452-5668-459a-b06a-b8f7c8469dd2",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "channelmessage.read.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read or Write Access to Targeting Tag APIs",
-    "DisplayName": "teamworktag.readwrite.all",
-    "Id": "6ca54517-8a0c-421a-b622-4616966bdd75",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "teamworktag.readwrite.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Temp. scope for TGS APIs to consume Targeting APIs",
-    "DisplayName": "teamsettings.readwrite.all",
-    "Id": "182611cf-791c-4a5a-ad8a-73a350a8acfd",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "teamsettings.readwrite.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow reading of all tag members",
-    "DisplayName": "Read all tag members",
-    "Id": "95c0908c-6f05-4ffd-894c-ca317e39b023",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "tagmembers.read.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow reading all channel objects",
-    "DisplayName": "channel.read.all",
-    "Id": "5309cf8f-3921-43c0-9ca9-0f4805e77c6c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "channel.read.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows reading of all chats",
-    "DisplayName": "chat.read.all",
-    "Id": "4c3d78f3-c4de-458d-9394-22e459393232",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "chat.read.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Update scheduled tasks",
-    "DisplayName": "scheduledtags.readwrite.all",
-    "Id": "855fb32a-d020-4bb6-a6de-b4973e6fb72d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "scheduledtags.readwrite.all",
+    "Value": "nodeaccess.read.all",
     "AdditionalProperties": {}
   },
   {
@@ -12446,12 +12350,108 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows read all on node access",
-    "DisplayName": "nodeaccess.read.all",
-    "Id": "811e23df-61a9-44db-9987-e37355ae33b1",
+    "Description": "Update scheduled tasks",
+    "DisplayName": "scheduledtags.readwrite.all",
+    "Id": "855fb32a-d020-4bb6-a6de-b4973e6fb72d",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "nodeaccess.read.all",
+    "Value": "scheduledtags.readwrite.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows reading of all chats",
+    "DisplayName": "chat.read.all",
+    "Id": "4c3d78f3-c4de-458d-9394-22e459393232",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "chat.read.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow reading all channel objects",
+    "DisplayName": "channel.read.all",
+    "Id": "5309cf8f-3921-43c0-9ca9-0f4805e77c6c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "channel.read.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow reading of all tag members",
+    "DisplayName": "Read all tag members",
+    "Id": "95c0908c-6f05-4ffd-894c-ca317e39b023",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "tagmembers.read.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Temp. scope for TGS APIs to consume Targeting APIs",
+    "DisplayName": "teamsettings.readwrite.all",
+    "Id": "182611cf-791c-4a5a-ad8a-73a350a8acfd",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "teamsettings.readwrite.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read or Write Access to Targeting Tag APIs",
+    "DisplayName": "teamworktag.readwrite.all",
+    "Id": "6ca54517-8a0c-421a-b622-4616966bdd75",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "teamworktag.readwrite.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows an application to read the messages in a channel",
+    "DisplayName": "Read channel messages",
+    "Id": "8762e452-5668-459a-b06a-b8f7c8469dd2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "channelmessage.read.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow reading of all filtered hierarchy",
+    "DisplayName": "Read all filtered hierarchy",
+    "Id": "9125c627-3755-4ad3-8742-4d6b193c4fc2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "filteredhierarchy.read.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
+    "DisplayName": "Have full access to the Chat Service Aggregator",
+    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "user_impersonation",
     "AdditionalProperties": {}
   },
   {

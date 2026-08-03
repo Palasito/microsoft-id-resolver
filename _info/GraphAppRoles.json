@@ -12458,24 +12458,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Grants the ability to read your load test runs, test results, and APM artifacts.",
-    "DisplayName": "Load test (read)",
-    "Id": "e000c422-1bec-45ec-9d30-083f21df9d04",
-    "IsEnabled": false,
-    "Origin": "Application",
-    "Value": "vso.loadtest",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Grants the ability to create and update load test runs, and read metadata including test results and APM artifacts.",
     "DisplayName": "Load test (read and write)",
     "Id": "28d646b8-7efa-4ff7-9e39-dfb3a53b7fa6",
     "IsEnabled": false,
     "Origin": "Application",
     "Value": "vso.loadtest_write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Grants the ability to read your load test runs, test results, and APM artifacts.",
+    "DisplayName": "Load test (read)",
+    "Id": "e000c422-1bec-45ec-9d30-083f21df9d04",
+    "IsEnabled": false,
+    "Origin": "Application",
+    "Value": "vso.loadtest",
     "AdditionalProperties": {}
   },
   {

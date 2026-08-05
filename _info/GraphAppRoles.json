@@ -11746,36 +11746,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to get or read all service configuration and log data",
-    "DisplayName": "Read all service configuration and log data for the Azure Information Protection service.",
-    "Id": "e23bd57d-bfd5-4906-867f-89fb5ed8cd43",
+    "Description": "Create protected content on behalf of a user",
+    "DisplayName": "Create protected content on behalf of a user",
+    "Id": "d13f921c-7f21-4c08-bade-db9d048bd0da",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Application.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Create protected content",
-    "DisplayName": "Create protected content",
-    "Id": "006e763d-a822-41fc-8df5-8d3d7fe20022",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Content.Writer",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read all protected content for this tenant",
-    "DisplayName": "Read all protected content for this tenant",
-    "Id": "7347eb49-7a1a-43c5-8eac-a5cd1d1c7cf0",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Content.SuperUser",
+    "Value": "Content.DelegatedWriter",
     "AdditionalProperties": {}
   },
   {
@@ -11794,12 +11770,36 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Create protected content on behalf of a user",
-    "DisplayName": "Create protected content on behalf of a user",
-    "Id": "d13f921c-7f21-4c08-bade-db9d048bd0da",
+    "Description": "Read all protected content for this tenant",
+    "DisplayName": "Read all protected content for this tenant",
+    "Id": "7347eb49-7a1a-43c5-8eac-a5cd1d1c7cf0",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Content.DelegatedWriter",
+    "Value": "Content.SuperUser",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Create protected content",
+    "DisplayName": "Create protected content",
+    "Id": "006e763d-a822-41fc-8df5-8d3d7fe20022",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Content.Writer",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to get or read all service configuration and log data",
+    "DisplayName": "Read all service configuration and log data for the Azure Information Protection service.",
+    "Id": "e23bd57d-bfd5-4906-867f-89fb5ed8cd43",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Application.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -15117,6 +15117,18 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "MEC.API.Access",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Role to access Caldova Tent",
+    "DisplayName": "Caldova Tenant Users",
+    "Id": "9c8e1d62-d33d-47ea-8e1d-eba7670b7d01",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CaldovaTenantUsers",
     "AdditionalProperties": {}
   },
   {

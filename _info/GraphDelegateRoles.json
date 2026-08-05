@@ -21276,18 +21276,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "This scope allows user to read and write user policies.",
-    "AdminConsentDisplayName": "This scope allows user to read and write user policies.",
-    "Id": "857ba34d-369c-4a02-89ae-83e98336ec02",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "This scope allows user to read and write user policies.",
-    "UserConsentDisplayName": "This scope allows user to read and write user policies.",
-    "Value": "UserPolicies.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "This policy allows the user to read policies applicable",
     "AdminConsentDisplayName": "Read policies for the user",
     "Id": "7e204991-dcdd-4986-9ff0-d058192184d7",
@@ -21297,6 +21285,18 @@
     "UserConsentDescription": "This policy allows the user to read policies applicable",
     "UserConsentDisplayName": "Read policies for the user",
     "Value": "UserPolicies.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "This scope allows user to read and write user policies.",
+    "AdminConsentDisplayName": "This scope allows user to read and write user policies.",
+    "Id": "857ba34d-369c-4a02-89ae-83e98336ec02",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "This scope allows user to read and write user policies.",
+    "UserConsentDisplayName": "This scope allows user to read and write user policies.",
+    "Value": "UserPolicies.ReadWrite",
     "AdditionalProperties": {}
   },
   {

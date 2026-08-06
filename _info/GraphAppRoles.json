@@ -5871,8 +5871,8 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to backup, restore, and modify all mailbox items without a signed-in user.",
-    "DisplayName": "Allows the app to perform backup and restore for all mailbox items",
+    "Description": "Allows the app to export and import all the users' mailbox items, without signed-in user.",
+    "DisplayName": "Export and import all the users' mailbox items",
     "Id": "76577085-e73d-4f1d-b26a-85fb33892327",
     "IsEnabled": true,
     "Origin": "Application",
@@ -11386,24 +11386,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "The app can view all content in the tenant without a signed in user.",
-    "DisplayName": "View all content in tenant",
-    "Id": "654b31ae-d941-4e22-8798-7add8fdf049f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Tenant.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "The app can create, edit, view, and delete all content in the tenant without a signed in user.",
     "DisplayName": "Read and write all content in tenant",
     "Id": "28379fa9-8596-4fd9-869e-cb60a93b5d84",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Tenant.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "The app can view all content in the tenant without a signed in user.",
+    "DisplayName": "View all content in tenant",
+    "Id": "654b31ae-d941-4e22-8798-7add8fdf049f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Tenant.Read.All",
     "AdditionalProperties": {}
   },
   {

@@ -12034,24 +12034,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to view and modify the OneNote notes of other users in your organization, without a signed-in user.\r\nThe app cannot access notes under password-protected sections.",
-    "DisplayName": "View and modify notes for all users",
-    "Id": "10af711e-5051-4838-8ae7-9767c43d8a9c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Notes.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to view the OneNote notes of all users in your organization, without a signed-in user.\r\nThe app user cannot create new notes, modify existing notes, or view notes under password-protected sections.",
     "DisplayName": "View notes for all users",
     "Id": "27e50e9e-ca8b-4cc6-8dd0-4ba2d49d8228",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Notes.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to view and modify the OneNote notes of other users in your organization, without a signed-in user.\r\nThe app cannot access notes under password-protected sections.",
+    "DisplayName": "View and modify notes for all users",
+    "Id": "10af711e-5051-4838-8ae7-9767c43d8a9c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Notes.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -14187,12 +14187,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows the application to create Verifiable Credential issuance requests",
-    "DisplayName": "VerifiableCredential.Create.IssueRequest",
-    "Id": "0165bd66-5f36-41ef-abde-4e8fc0c91294",
+    "Description": "This allows the application to create Verifiable Credential issuance and presentation requests",
+    "DisplayName": "VerifiableCredential.Create.All",
+    "Id": "949ebb93-18f8-41b4-b677-c2bfea940027",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "VerifiableCredential.Create.IssueRequest",
+    "Value": "VerifiableCredential.Create.All",
     "AdditionalProperties": {}
   },
   {
@@ -14211,12 +14211,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows the application to create Verifiable Credential issuance and presentation requests",
-    "DisplayName": "VerifiableCredential.Create.All",
-    "Id": "949ebb93-18f8-41b4-b677-c2bfea940027",
+    "Description": "This allows the application to create Verifiable Credential issuance requests",
+    "DisplayName": "VerifiableCredential.Create.IssueRequest",
+    "Id": "0165bd66-5f36-41ef-abde-4e8fc0c91294",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "VerifiableCredential.Create.All",
+    "Value": "VerifiableCredential.Create.IssueRequest",
     "AdditionalProperties": {}
   },
   {
@@ -14391,36 +14391,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read and manage AllowSelfServicePurchase policy settings, which govern the availability of self-service purchases by non-admin members of your organization.",
-    "DisplayName": "Read and manage AllowSelfServicePurchase policy settings",
-    "Id": "78ff4d1f-611d-4a41-9989-698762b46a0e",
+    "Description": "Enables the client to read all Licensed Product information.",
+    "DisplayName": "LicensedProduct.Read.All",
+    "Id": "9a7146cc-f57d-4b51-83a1-4e2a1b31b749",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Policy.ReadWrite.AllowSelfServicePurchase",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read AllowSelfServicePurchase policy settings, which govern the availability of self-service purchases by non-admin members of your organization.",
-    "DisplayName": "Read AllowSelfServicePurchase policy settings",
-    "Id": "5803e913-b904-44a0-9928-864642a45960",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Policy.Read.AllowSelfServicePurchase",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to submit Fulfillment actions.",
-    "DisplayName": "LicenseManager.Fulfillment",
-    "Id": "cbbf6a32-6dcd-4f22-9be7-ffb128119fae",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "LicenseManager.Fulfillment",
+    "Value": "LicensedProduct.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -14439,12 +14415,48 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Enables the client to read all Licensed Product information.",
-    "DisplayName": "LicensedProduct.Read.All",
-    "Id": "9a7146cc-f57d-4b51-83a1-4e2a1b31b749",
+    "Description": "Allows the application to submit Fulfillment actions.",
+    "DisplayName": "LicenseManager.Fulfillment",
+    "Id": "cbbf6a32-6dcd-4f22-9be7-ffb128119fae",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "LicensedProduct.Read.All",
+    "Value": "LicenseManager.Fulfillment",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read AllowSelfServicePurchase policy settings, which govern the availability of self-service purchases by non-admin members of your organization.",
+    "DisplayName": "Read AllowSelfServicePurchase policy settings",
+    "Id": "5803e913-b904-44a0-9928-864642a45960",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.Read.AllowSelfServicePurchase",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and manage AllowSelfServicePurchase policy settings, which govern the availability of self-service purchases by non-admin members of your organization.",
+    "DisplayName": "Read and manage AllowSelfServicePurchase policy settings",
+    "Id": "78ff4d1f-611d-4a41-9989-698762b46a0e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.ReadWrite.AllowSelfServicePurchase",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Event.Send",
+    "DisplayName": "Event.Send",
+    "Id": "0998b94f-35aa-4d5d-8168-2428b8967840",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Event.Send",
     "AdditionalProperties": {}
   },
   {

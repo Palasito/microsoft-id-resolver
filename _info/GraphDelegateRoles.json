@@ -17796,51 +17796,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections; view all pages; modify all pages and create new pages on behalf of the signed-in user. It cannot access password protected sections.",
-    "AdminConsentDisplayName": "View and modify OneNote notebooks",
-    "Id": "7edff6c9-f308-4b8b-9a6d-847e041e880a",
+    "AdminConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections and create new pages on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Create pages in OneNote notebooks",
+    "Id": "ab111d9c-370c-4905-a23f-788795f510dc",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections; view all pages; modify all pages and create new pages on your behalf. It cannot access password protected sections.",
-    "UserConsentDisplayName": "View and modify OneNote notebooks",
-    "Value": "Notes.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow the application to view and modify the contents of all OneNote notebooks and sections that the signed-in user has access to. It cannot access password protected sections.",
-    "AdminConsentDisplayName": "View and modify OneNote notebooks in your organization",
-    "Id": "f554dcfe-c273-4d79-9354-4f18f8464b3e",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow the application to view and modify the contents of all OneNote notebooks and sections that you have access to. It cannot access password protected sections.",
-    "UserConsentDisplayName": "View and modify OneNote notebooks in your organization",
-    "Value": "Notes.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow the application to view the contents of all OneNote notebooks and sections that the signed-in user has access to. It cannot view password protected sections.",
-    "AdminConsentDisplayName": "View OneNote notebooks in your organization",
-    "Id": "93d1f902-06e8-4c6f-8894-1eab0283b521",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow the application to view the contents of all OneNote notebooks and sections that you have access to. It cannot view password protected sections.",
-    "UserConsentDisplayName": "View OneNote notebooks in your organization",
-    "Value": "Notes.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow the application to view the contents of OneNote notebooks and sections on behalf of the signed-in user. It cannot view password protected sections.",
-    "AdminConsentDisplayName": "View OneNote notebooks",
-    "Id": "47eb48ff-1c59-42e3-9634-b5c6e17a0a4b",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow the application to view the contents of OneNote notebooks and sections on your behalf. It cannot view password protected sections.",
-    "UserConsentDisplayName": "View OneNote notebooks",
-    "Value": "Notes.Read",
+    "UserConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections and create new pages on your behalf.",
+    "UserConsentDisplayName": "Create pages in OneNote notebooks",
+    "Value": "Notes.Create",
     "AdditionalProperties": {}
   },
   {
@@ -17856,15 +17820,51 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections and create new pages on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Create pages in OneNote notebooks",
-    "Id": "ab111d9c-370c-4905-a23f-788795f510dc",
+    "AdminConsentDescription": "Allow the application to view the contents of OneNote notebooks and sections on behalf of the signed-in user. It cannot view password protected sections.",
+    "AdminConsentDisplayName": "View OneNote notebooks",
+    "Id": "47eb48ff-1c59-42e3-9634-b5c6e17a0a4b",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections and create new pages on your behalf.",
-    "UserConsentDisplayName": "Create pages in OneNote notebooks",
-    "Value": "Notes.Create",
+    "UserConsentDescription": "Allow the application to view the contents of OneNote notebooks and sections on your behalf. It cannot view password protected sections.",
+    "UserConsentDisplayName": "View OneNote notebooks",
+    "Value": "Notes.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application to view the contents of all OneNote notebooks and sections that the signed-in user has access to. It cannot view password protected sections.",
+    "AdminConsentDisplayName": "View OneNote notebooks in your organization",
+    "Id": "93d1f902-06e8-4c6f-8894-1eab0283b521",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the application to view the contents of all OneNote notebooks and sections that you have access to. It cannot view password protected sections.",
+    "UserConsentDisplayName": "View OneNote notebooks in your organization",
+    "Value": "Notes.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application to view and modify the contents of all OneNote notebooks and sections that the signed-in user has access to. It cannot access password protected sections.",
+    "AdminConsentDisplayName": "View and modify OneNote notebooks in your organization",
+    "Id": "f554dcfe-c273-4d79-9354-4f18f8464b3e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the application to view and modify the contents of all OneNote notebooks and sections that you have access to. It cannot access password protected sections.",
+    "UserConsentDisplayName": "View and modify OneNote notebooks in your organization",
+    "Value": "Notes.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections; view all pages; modify all pages and create new pages on behalf of the signed-in user. It cannot access password protected sections.",
+    "AdminConsentDisplayName": "View and modify OneNote notebooks",
+    "Id": "7edff6c9-f308-4b8b-9a6d-847e041e880a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the application to view the titles of OneNote notebooks and sections; view all pages; modify all pages and create new pages on your behalf. It cannot access password protected sections.",
+    "UserConsentDisplayName": "View and modify OneNote notebooks",
+    "Value": "Notes.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -20340,39 +20340,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read users' titles",
-    "AdminConsentDisplayName": "Read all users' titles",
-    "Id": "ba1e554b-1732-4b16-8c3a-86842a084c1e",
+    "AdminConsentDescription": "Allows the app to create, read, update and delete users' titles",
+    "AdminConsentDisplayName": "Read and write all users' titles",
+    "Id": "ecb8a615-f488-4c95-9efe-cb0142fc07dd",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read users' titles",
-    "UserConsentDisplayName": "Title.ReadOnly.All",
-    "Value": "Title.ReadOnly.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to create, read, update and delete user's containers",
-    "AdminConsentDisplayName": "Read and write access to user's containers",
-    "Id": "b97d1339-2ca6-4eb0-b9f6-f1fa6f18ea8b",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to create, read, update and delete user's containers",
-    "UserConsentDisplayName": "Read and write access to user's containers",
-    "Value": "Container.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read auth config",
-    "AdminConsentDisplayName": "Read the users auth config",
-    "Id": "734615f4-28fc-48b5-888c-403acca88213",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read auth config",
-    "UserConsentDisplayName": "AuthConfig.Read",
-    "Value": "AuthConfig.Read",
+    "UserConsentDescription": "Allows the app to create, read, update and delete users' titles",
+    "UserConsentDisplayName": "Title.ReadWrite.All",
+    "Value": "Title.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -20388,15 +20364,39 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to create, read, update and delete users' titles",
-    "AdminConsentDisplayName": "Read and write all users' titles",
-    "Id": "ecb8a615-f488-4c95-9efe-cb0142fc07dd",
+    "AdminConsentDescription": "Allows the app to read auth config",
+    "AdminConsentDisplayName": "Read the users auth config",
+    "Id": "734615f4-28fc-48b5-888c-403acca88213",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to create, read, update and delete users' titles",
-    "UserConsentDisplayName": "Title.ReadWrite.All",
-    "Value": "Title.ReadWrite.All",
+    "UserConsentDescription": "Allows the app to read auth config",
+    "UserConsentDisplayName": "AuthConfig.Read",
+    "Value": "AuthConfig.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to create, read, update and delete user's containers",
+    "AdminConsentDisplayName": "Read and write access to user's containers",
+    "Id": "b97d1339-2ca6-4eb0-b9f6-f1fa6f18ea8b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create, read, update and delete user's containers",
+    "UserConsentDisplayName": "Read and write access to user's containers",
+    "Value": "Container.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read users' titles",
+    "AdminConsentDisplayName": "Read all users' titles",
+    "Id": "ba1e554b-1732-4b16-8c3a-86842a084c1e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read users' titles",
+    "UserConsentDisplayName": "Title.ReadOnly.All",
+    "Value": "Title.ReadOnly.All",
     "AdditionalProperties": {}
   },
   {
@@ -22968,18 +22968,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "This allows the application to create Verifiable Credential issuance requests",
-    "AdminConsentDisplayName": "VerifiableCredential.Create.IssueRequest",
-    "Id": "0165bd66-5f36-41ef-abde-4e8fc0c91294",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "This allows the application to create Verifiable Credential issuance requests",
-    "UserConsentDisplayName": "VerifiableCredential.Create.IssueRequest",
-    "Value": "VerifiableCredential.Create.IssueRequest",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows user to create Verifiable Credential issuance requests.",
     "AdminConsentDisplayName": "User Issuance",
     "Id": "b5aaa6fb-8c09-4929-877c-9147695b78b8",
@@ -22989,6 +22977,18 @@
     "UserConsentDescription": "Allow Verifiable Credentials User Token for Issuance",
     "UserConsentDisplayName": "Verifiable Credentials User Token Issuance",
     "Value": "VerifiableCredential.Create.IssueRequest.User",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "This allows the application to create Verifiable Credential issuance requests",
+    "AdminConsentDisplayName": "VerifiableCredential.Create.IssueRequest",
+    "Id": "0165bd66-5f36-41ef-abde-4e8fc0c91294",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "This allows the application to create Verifiable Credential issuance requests",
+    "UserConsentDisplayName": "VerifiableCredential.Create.IssueRequest",
+    "Value": "VerifiableCredential.Create.IssueRequest",
     "AdditionalProperties": {}
   },
   {

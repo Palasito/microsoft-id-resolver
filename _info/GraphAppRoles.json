@@ -11410,216 +11410,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read the tenant-level settings of SharePoint and OneDrive, without a signed-in user.",
-    "DisplayName": "Read SharePoint and OneDrive tenant settings",
-    "Id": "e370eb8e-f9cc-499d-90cc-7da62103e4f3",
+    "Description": "Allow the application to access a subset of site collections without a signed in user. The specific site collections and the permissions granted will be configured in SharePoint Online.",
+    "DisplayName": "Access selected site collections",
+    "Id": "20d37865-089c-4dee-8c41-6967602d4ac8",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "SharePointTenantSettings.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the application to read and change the tenant-level settings of SharePoint and OneDrive, without a signed-in user.",
-    "DisplayName": "Read and change SharePoint and OneDrive tenant settings",
-    "Id": "85bd96b3-dd7e-44d4-94f4-47fbb58e5718",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SharePointTenantSettings.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow the application to provision OneDrive for Business drives for users in the tenant, without a signed-in user.",
-    "DisplayName": "Provision OneDrive for Business drives without a signed-in user.",
-    "Id": "7689db6e-2939-41b4-98b7-13c05a52bcd6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "OneDrive.Provision.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read, write and manage Cross-Tenant migration settings and tasks, without a signed-in user",
-    "DisplayName": "Read, write and manage Cross-Tenant migration settings and tasks",
-    "Id": "806d1b36-e37b-4f02-9c9e-a1269982b2aa",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SharePointCrossTenantMigration.Manage.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read Cross-Tenant migration settings and tasks, without a signed-in user",
-    "DisplayName": "Read Cross-Tenant migration settings and tasks",
-    "Id": "8cfb5122-1118-41e2-b9f2-8ab21a06c030",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SharePointCrossTenantMigration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write migration data via the SharePoint admin site without a signed-in user.",
-    "DisplayName": "Read and write access to migration data on the SharePoint admin site",
-    "Id": "dfe5a59c-77fe-436b-9a47-375a284cf302",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Migration.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read migration data via the SharePoint admin site without a signed-in user.",
-    "DisplayName": "Read access to migration data on the SharePoint admin site",
-    "Id": "b7155856-e8b7-4ba1-bf43-8c9912353676",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Migration.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write tenant reports via the SharePoint admin site without a signed-in user.",
-    "DisplayName": "Read and write access to tenant report data on the SharePoint admin site",
-    "Id": "e512dd2e-d13a-4816-9202-d3ef0357c7b1",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TenantReports.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read tenant reports via the SharePoint admin site without a signed-in user.",
-    "DisplayName": "Read access to tenant report data on the SharePoint admin site",
-    "Id": "3cc23ca2-bb9d-42cd-9802-f792b98bac3b",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TenantReports.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write site collection metadata without a signed-in user.",
-    "DisplayName": "Read and write access to site collection metadata on the SharePoint admin site",
-    "Id": "6d004c19-cc42-41ea-8888-cce2fc5bd2c5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SitesMetadataAdmin.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read site collection metadata without a signed-in user.",
-    "DisplayName": "Read access to site collection metadata on the SharePoint admin site",
-    "Id": "1ee80186-f376-4677-b0be-fbad73a4a9ea",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SitesMetadataAdmin.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create, read, update, and delete documents and list items in all site collections without a signed in user.",
-    "DisplayName": "Read and write items in all site collections",
-    "Id": "fbcd29d2-fcca-4405-aded-518d457caae4",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Sites.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read documents and list items in all site collections without a signed in user.",
-    "DisplayName": "Read items in all site collections",
-    "Id": "d13f72ca-a275-4b96-b789-48ebcc4da984",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Sites.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to have full control of all site collections without a signed in user.",
-    "DisplayName": "Have full control of all site collections",
-    "Id": "678536fe-1083-478a-9c59-b99265e6b0d3",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Sites.FullControl.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read, create, update, and delete document libraries and lists in all site collections without a signed in user.",
-    "DisplayName": "Read and write items and lists in all site collections",
-    "Id": "9bff6588-13f2-4c48-bbf2-ddab62256b36",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Sites.Manage.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read enterprise managed metadata and to read basic site info without a signed in user.",
-    "DisplayName": "Read managed metadata",
-    "Id": "2a8d57a5-4090-4a41-bf1c-3c621d2ccad3",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TermStore.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to write enterprise managed metadata and to read basic site info without a signed in user.",
-    "DisplayName": "Read and write managed metadata",
-    "Id": "c8e3537c-ec53-43b9-bed3-b2bd3617ae97",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TermStore.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and update user profiles and to read basic site info without a signed in user.",
-    "DisplayName": "Read and write user profiles",
-    "Id": "741f803b-c850-494e-b5df-cde7c675a1ca",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User.ReadWrite.All",
+    "Value": "Sites.Selected",
     "AdditionalProperties": {}
   },
   {
@@ -11638,12 +11434,216 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allow the application to access a subset of site collections without a signed in user. The specific site collections and the permissions granted will be configured in SharePoint Online.",
-    "DisplayName": "Access selected site collections",
-    "Id": "20d37865-089c-4dee-8c41-6967602d4ac8",
+    "Description": "Allows the app to read and update user profiles and to read basic site info without a signed in user.",
+    "DisplayName": "Read and write user profiles",
+    "Id": "741f803b-c850-494e-b5df-cde7c675a1ca",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Sites.Selected",
+    "Value": "User.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to write enterprise managed metadata and to read basic site info without a signed in user.",
+    "DisplayName": "Read and write managed metadata",
+    "Id": "c8e3537c-ec53-43b9-bed3-b2bd3617ae97",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TermStore.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read enterprise managed metadata and to read basic site info without a signed in user.",
+    "DisplayName": "Read managed metadata",
+    "Id": "2a8d57a5-4090-4a41-bf1c-3c621d2ccad3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TermStore.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read, create, update, and delete document libraries and lists in all site collections without a signed in user.",
+    "DisplayName": "Read and write items and lists in all site collections",
+    "Id": "9bff6588-13f2-4c48-bbf2-ddab62256b36",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Sites.Manage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to have full control of all site collections without a signed in user.",
+    "DisplayName": "Have full control of all site collections",
+    "Id": "678536fe-1083-478a-9c59-b99265e6b0d3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Sites.FullControl.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read documents and list items in all site collections without a signed in user.",
+    "DisplayName": "Read items in all site collections",
+    "Id": "d13f72ca-a275-4b96-b789-48ebcc4da984",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Sites.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete documents and list items in all site collections without a signed in user.",
+    "DisplayName": "Read and write items in all site collections",
+    "Id": "fbcd29d2-fcca-4405-aded-518d457caae4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Sites.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read site collection metadata without a signed-in user.",
+    "DisplayName": "Read access to site collection metadata on the SharePoint admin site",
+    "Id": "1ee80186-f376-4677-b0be-fbad73a4a9ea",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SitesMetadataAdmin.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write site collection metadata without a signed-in user.",
+    "DisplayName": "Read and write access to site collection metadata on the SharePoint admin site",
+    "Id": "6d004c19-cc42-41ea-8888-cce2fc5bd2c5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SitesMetadataAdmin.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read tenant reports via the SharePoint admin site without a signed-in user.",
+    "DisplayName": "Read access to tenant report data on the SharePoint admin site",
+    "Id": "3cc23ca2-bb9d-42cd-9802-f792b98bac3b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantReports.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write tenant reports via the SharePoint admin site without a signed-in user.",
+    "DisplayName": "Read and write access to tenant report data on the SharePoint admin site",
+    "Id": "e512dd2e-d13a-4816-9202-d3ef0357c7b1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantReports.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read migration data via the SharePoint admin site without a signed-in user.",
+    "DisplayName": "Read access to migration data on the SharePoint admin site",
+    "Id": "b7155856-e8b7-4ba1-bf43-8c9912353676",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Migration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write migration data via the SharePoint admin site without a signed-in user.",
+    "DisplayName": "Read and write access to migration data on the SharePoint admin site",
+    "Id": "dfe5a59c-77fe-436b-9a47-375a284cf302",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Migration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read Cross-Tenant migration settings and tasks, without a signed-in user",
+    "DisplayName": "Read Cross-Tenant migration settings and tasks",
+    "Id": "8cfb5122-1118-41e2-b9f2-8ab21a06c030",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointCrossTenantMigration.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read, write and manage Cross-Tenant migration settings and tasks, without a signed-in user",
+    "DisplayName": "Read, write and manage Cross-Tenant migration settings and tasks",
+    "Id": "806d1b36-e37b-4f02-9c9e-a1269982b2aa",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointCrossTenantMigration.Manage.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the application to provision OneDrive for Business drives for users in the tenant, without a signed-in user.",
+    "DisplayName": "Provision OneDrive for Business drives without a signed-in user.",
+    "Id": "7689db6e-2939-41b4-98b7-13c05a52bcd6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OneDrive.Provision.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read and change the tenant-level settings of SharePoint and OneDrive, without a signed-in user.",
+    "DisplayName": "Read and change SharePoint and OneDrive tenant settings",
+    "Id": "85bd96b3-dd7e-44d4-94f4-47fbb58e5718",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointTenantSettings.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read the tenant-level settings of SharePoint and OneDrive, without a signed-in user.",
+    "DisplayName": "Read SharePoint and OneDrive tenant settings",
+    "Id": "e370eb8e-f9cc-499d-90cc-7da62103e4f3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SharePointTenantSettings.Read.All",
     "AdditionalProperties": {}
   },
   {

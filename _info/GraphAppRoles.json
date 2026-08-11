@@ -13455,6 +13455,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to write events to the Substrate Ingestion Service. Used for PubSub CDT token minting.",
+    "DisplayName": "SubstrateIngestion.Event.Write",
+    "Id": "2910d4aa-4fd3-4413-8fed-11bfd39bc139",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "SubstrateIngestion.Event.Write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Permission for internal Cortana applications",
     "DisplayName": "BingCortana-Internal.ReadWrite",
     "Id": "c9265686-1717-4d25-a640-1f46263a162c",

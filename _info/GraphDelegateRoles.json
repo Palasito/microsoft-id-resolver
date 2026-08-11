@@ -21612,15 +21612,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the application to read and modify profiler settings, trigger profiling sessions, upload symbols, and manage diagnostic data on behalf of the signed-in user",
-    "AdminConsentDisplayName": "Read and write Diagnostic Services data",
-    "Id": "ce194c4c-ad00-4826-8328-102bb21ec298",
-    "IsEnabled": true,
+    "AdminConsentDescription": "Allow the application to access Diagnostic Services on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Access Diagnostic Services",
+    "Id": "384a9d29-7ed2-4fc4-b781-1aa48cb2b883",
+    "IsEnabled": false,
     "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow the application to read and modify your profiler settings and diagnostic data",
-    "UserConsentDisplayName": "Read and modify your Diagnostic Services data",
-    "Value": "DataAccess.ReadWrite",
+    "Type": "User",
+    "UserConsentDescription": "Allow the application to access Diagnostic Services on your behalf",
+    "UserConsentDisplayName": "Access Diagnostic Services",
+    "Value": "user_impersonation",
     "AdditionalProperties": {}
   },
   {
@@ -21636,15 +21636,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the application to access Diagnostic Services on behalf of the signed-in user",
-    "AdminConsentDisplayName": "Access Diagnostic Services",
-    "Id": "384a9d29-7ed2-4fc4-b781-1aa48cb2b883",
+    "AdminConsentDescription": "Allow the application to read and modify profiler settings, trigger profiling sessions, upload symbols, and manage diagnostic data on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read and write Diagnostic Services data",
+    "Id": "ce194c4c-ad00-4826-8328-102bb21ec298",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow the application to access Diagnostic Services on your behalf",
-    "UserConsentDisplayName": "Access Diagnostic Services",
-    "Value": "user_impersonation",
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the application to read and modify your profiler settings and diagnostic data",
+    "UserConsentDisplayName": "Read and modify your Diagnostic Services data",
+    "Value": "DataAccess.ReadWrite",
     "AdditionalProperties": {}
   },
   {

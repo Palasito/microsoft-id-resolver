@@ -14367,12 +14367,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Grants an app access to execute diagnostics",
-    "DisplayName": "Diagnostic.Execute.All",
-    "Id": "a52c0b2d-afcf-4857-a222-1f5d6a79ccd9",
+    "Description": "Grants a user access to execute Copilot diagnostics.",
+    "DisplayName": "Diagnostic.Execute.Copilot",
+    "Id": "1023f883-54eb-4af8-807a-66522ba7993a",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Diagnostic.Execute.All",
+    "Value": "Diagnostic.Execute.Copilot",
     "AdditionalProperties": {}
   },
   {
@@ -14391,12 +14391,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Grants a user access to execute Copilot diagnostics.",
-    "DisplayName": "Diagnostic.Execute.Copilot",
-    "Id": "1023f883-54eb-4af8-807a-66522ba7993a",
+    "Description": "Grants an app access to execute diagnostics",
+    "DisplayName": "Diagnostic.Execute.All",
+    "Id": "a52c0b2d-afcf-4857-a222-1f5d6a79ccd9",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Diagnostic.Execute.Copilot",
+    "Value": "Diagnostic.Execute.All",
     "AdditionalProperties": {}
   },
   {

@@ -17268,39 +17268,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Grants access to execute diagnostics",
-    "AdminConsentDisplayName": "Diagnostic.Execute.All",
-    "Id": "2417f470-7490-419f-820a-144a3ba39e79",
+    "AdminConsentDescription": "Scope used by MAC and Security center",
+    "AdminConsentDisplayName": "user_impersonation",
+    "Id": "75a4e338-37d0-450b-928f-b9e546c8a03a",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Grants access to execute diagnostics",
-    "UserConsentDisplayName": "Diagnostic.Execute.All",
-    "Value": "Diagnostic.Execute.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Scope used by EAC",
-    "AdminConsentDisplayName": "M365AdminPortal.Settings.Read",
-    "Id": "89100101-60c5-46a6-8c41-85bde6f3a2f0",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Scope used by EAC",
-    "UserConsentDisplayName": "M365AdminPortal.Settings.Read",
-    "Value": "M365AdminPortal.Settings.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Scope used by SAC",
-    "AdminConsentDisplayName": "User.Read",
-    "Id": "f4dd0a95-1d33-479d-90f7-7ef86537471e",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Scope used by SAC",
-    "UserConsentDisplayName": "User.Read",
-    "Value": "User.Read",
+    "UserConsentDescription": "Scope used by MAC and Security center",
+    "UserConsentDisplayName": "user_impersonation",
+    "Value": "user_impersonation",
     "AdditionalProperties": {}
   },
   {
@@ -17316,15 +17292,39 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Scope used by MAC and Security center",
-    "AdminConsentDisplayName": "user_impersonation",
-    "Id": "75a4e338-37d0-450b-928f-b9e546c8a03a",
+    "AdminConsentDescription": "Scope used by SAC",
+    "AdminConsentDisplayName": "User.Read",
+    "Id": "f4dd0a95-1d33-479d-90f7-7ef86537471e",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Scope used by MAC and Security center",
-    "UserConsentDisplayName": "user_impersonation",
-    "Value": "user_impersonation",
+    "UserConsentDescription": "Scope used by SAC",
+    "UserConsentDisplayName": "User.Read",
+    "Value": "User.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Scope used by EAC",
+    "AdminConsentDisplayName": "M365AdminPortal.Settings.Read",
+    "Id": "89100101-60c5-46a6-8c41-85bde6f3a2f0",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Scope used by EAC",
+    "UserConsentDisplayName": "M365AdminPortal.Settings.Read",
+    "Value": "M365AdminPortal.Settings.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Grants access to execute diagnostics",
+    "AdminConsentDisplayName": "Diagnostic.Execute.All",
+    "Id": "2417f470-7490-419f-820a-144a3ba39e79",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Grants access to execute diagnostics",
+    "UserConsentDisplayName": "Diagnostic.Execute.All",
+    "Value": "Diagnostic.Execute.All",
     "AdditionalProperties": {}
   },
   {

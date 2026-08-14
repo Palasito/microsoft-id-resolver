@@ -2184,18 +2184,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the application to access Dataverse MCP tools as organization users",
-    "AdminConsentDisplayName": "Access Dataverse MCP tools as organization users",
-    "Id": "a4c5bee6-25ff-4bb5-b926-b7eb8062ae7a",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the application to access Dataverse MCP tools as you.",
-    "UserConsentDisplayName": "Access Dataverse MCP tools as you",
-    "Value": "mcp.tools",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the application to access Common Data Service acting as users in the organization.",
     "AdminConsentDisplayName": "Access Common Data Service as organization users",
     "Id": "78ce3f0f-a1ce-49c2-8cde-64b5c0896db4",
@@ -2205,6 +2193,18 @@
     "UserConsentDescription": "Allows the application to access Common Data Service as you.",
     "UserConsentDisplayName": "Access Common Data Service as you",
     "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the application to access Dataverse MCP tools as organization users",
+    "AdminConsentDisplayName": "Access Dataverse MCP tools as organization users",
+    "Id": "a4c5bee6-25ff-4bb5-b926-b7eb8062ae7a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the application to access Dataverse MCP tools as you.",
+    "UserConsentDisplayName": "Access Dataverse MCP tools as you",
+    "Value": "mcp.tools",
     "AdditionalProperties": {}
   },
   {

@@ -879,312 +879,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to manage a limited set of Exchange Online configuration objects without user interaction, for specific scenarios supported by the adminapi/v2.0 endpoint. To enable management actions an admin must also assign the appropriate Exchange RBAC roles directly to the app. This permission replaces the previous Exchange.ManageAsAppV2 permission.",
-    "DisplayName": "Manage Exchange Online Admin API as App",
-    "Id": "95930782-af91-4e2e-89b7-e34ce33a0450",
+    "Description": "Allows the application to read and write tenant-wide people settings without a signed-in user.",
+    "DisplayName": "Read and write all tenant-wide people settings",
+    "Id": "98ed40ef-611a-4479-bd35-eaa7863e946a",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Exchange.AdminAPI.ManageAsApp",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to manage a limited set of Exchange Online configuration objects without user interaction, for specific scenarios supported by the adminapi/v2.0 endpoint. To enable management actions an admin must also assign the appropriate Exchange RBAC roles directly to the app.",
-    "DisplayName": "Manage Exchange as application v2",
-    "Id": "ea3d980d-ebc7-4be4-8298-a167e5b8797c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Exchange.ManageAsAppV2",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to manage the organization's Exchange environment without any user interaction. This includes mailboxes, groups, and other configuration objects. To enable management actions, an admin must assign the appropriate roles directly to the app.",
-    "DisplayName": "Manage Exchange As Application",
-    "Id": "dc50a0fb-09a3-484d-be87-e023b12c6440",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Exchange.ManageAsApp",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read company places (conference rooms and room lists) for calendar events and other applications, without a signed-in user.",
-    "DisplayName": "Read all company places",
-    "Id": "4830e04b-48ac-4de5-bbd9-8aceb58e506b",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Place.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read events of all R without a signed-in user",
-    "DisplayName": "Read calendars in all mailboxes",
-    "Id": "2dfdc6dc-2fa7-4a2c-a922-dbd4f85d17be",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Calendars.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create, read, update, and delete events of all calendars without a signed-in user.",
-    "DisplayName": "Read and write calendars in all mailboxes",
-    "Id": "ef54d2bf-783f-4e0f-bca1-3210c0444d99",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Calendars.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create, read, update, and delete tasks in all mailboxes without a signed-in user.",
-    "DisplayName": "Read and write tasks in all mailboxes",
-    "Id": "2c6a42ca-0d4d-49ad-bc0e-21222c449a65",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Tasks.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read user tasks in all mailboxes without a signed-in user.",
-    "DisplayName": "Read user tasks in all mailboxes",
-    "Id": "c1b0de0a-1de9-455d-919f-eca451053141",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Tasks.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create, read, update, and delete user's mailbox settings without a signed-in user. Does not include permission to send mail.",
-    "DisplayName": "Read and write all user mailbox settings",
-    "Id": "f9156939-25cd-4ba8-abfe-7fabcf003749",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MailboxSettings.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create, read, update, and delete all contacts in all mailboxes without a signed-in user.",
-    "DisplayName": "Read and write contacts in all mailboxes",
-    "Id": "6918b873-d17a-4dc1-b314-35f528134491",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Contacts.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create, read, update, and delete mail in all mailboxes without a signed-in user. Does not include permission to send mail.",
-    "DisplayName": "Read and write mail in all mailboxes",
-    "Id": "e2a3a72e-5f79-4c64-b1b1-878b674786c9",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Mail.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read mail in all mailboxes without a signed-in user.",
-    "DisplayName": "Read mail in all mailboxes",
-    "Id": "810c84a8-4a9e-49e6-bf7d-12d183f40d01",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Mail.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read all contacts in all mailboxes without a signed-in user.",
-    "DisplayName": "Read contacts in all mailboxes",
-    "Id": "089fe4d0-434a-44c5-8827-41ba8a0b17f5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Contacts.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read events of all calendars without a signed-in user.",
-    "DisplayName": "Read calendars in all mailboxes",
-    "Id": "798ee544-9d2d-430c-a058-570e29e34338",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Calendars.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to send mail as any user without a signed-in user.",
-    "DisplayName": "Send mail as any user",
-    "Id": "b633e1c5-b582-4048-a93e-9f11b44c7e96",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Mail.Send",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to have full access via Exchange Web Services to all mailboxes without a signed-in user.",
-    "DisplayName": "Use Exchange Web Services with full access to all mailboxes",
-    "Id": "dc890d15-9560-4a4c-9b7f-a736ec74ec40",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "full_access_as_app",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read user's mailbox settings without a signed-in user. Does not include permission to send mail.",
-    "DisplayName": "Read all user mailbox settings",
-    "Id": "d45fa9f8-36e5-4cd2-b601-b063c7cf9ac2",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MailboxSettings.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read a basic set of profile properties of other users in your organization on behalf of the signed-in user. This includes display name, first and last name, email address and photo.",
-    "DisplayName": "Read all users' basic profiles",
-    "Id": "77e65b5a-ceae-48b3-9490-50a86a038a48",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User.ReadBasic.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the full set of profile properties, reports, and managers of other users in your organization, on behalf of the signed-in user.",
-    "DisplayName": "Read all users' full profiles",
-    "Id": "bf24470f-10c1-436d-8d53-7b997eb473be",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "User.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Application permission grants permission to move mailboxes between Office365 organizations",
-    "DisplayName": "Move mailboxes between organizations",
-    "Id": "f7264778-fba9-422d-8e9e-2675a2c4b513",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Mailbox.Migration",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed SKUs and tenant branding information.",
-    "DisplayName": "Organization.Read.All",
-    "Id": "15f260d6-f874-4366-8672-6b3658c5a09b",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Organization.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow application to access user’s mailbox via IMAP protocol",
-    "DisplayName": "IMAP.AccessAsApp",
-    "Id": "5e5addcd-3e8d-4e90-baf5-964efab2b20a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "IMAP.AccessAsApp",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow application to access user’s mailbox via POP protocol",
-    "DisplayName": "POP.AccessAsApp",
-    "Id": "cb842b43-da6e-4506-86fe-bb12199c656d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "POP.AccessAsApp",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read and write the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed SKUs and tenant branding information.",
-    "DisplayName": "Organization.ReadWrite.All",
-    "Id": "c976971c-a54d-4835-a240-2479e3dac74a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Organization.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Download all reports via the Office 365 reporting web service",
-    "DisplayName": "ReportingWebService.Read.All",
-    "Id": "b4d5a5c7-c085-487f-b922-ef0d6ebde6b1",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ReportingWebService.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to have send access to all mailboxes",
-    "DisplayName": "Application access for sending emails via SMTP AUTH",
-    "Id": "7146a1f0-8703-45b3-9eae-527a64c00995",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "SMTP.SendAsApp",
+    "Value": "PeopleSettings.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -1203,12 +903,312 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the application to read and write tenant-wide people settings without a signed-in user.",
-    "DisplayName": "Read and write all tenant-wide people settings",
-    "Id": "98ed40ef-611a-4479-bd35-eaa7863e946a",
+    "Description": "Allows the app to have send access to all mailboxes",
+    "DisplayName": "Application access for sending emails via SMTP AUTH",
+    "Id": "7146a1f0-8703-45b3-9eae-527a64c00995",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "PeopleSettings.ReadWrite.All",
+    "Value": "SMTP.SendAsApp",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Download all reports via the Office 365 reporting web service",
+    "DisplayName": "ReportingWebService.Read.All",
+    "Id": "b4d5a5c7-c085-487f-b922-ef0d6ebde6b1",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ReportingWebService.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read and write the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed SKUs and tenant branding information.",
+    "DisplayName": "Organization.ReadWrite.All",
+    "Id": "c976971c-a54d-4835-a240-2479e3dac74a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Organization.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow application to access user’s mailbox via POP protocol",
+    "DisplayName": "POP.AccessAsApp",
+    "Id": "cb842b43-da6e-4506-86fe-bb12199c656d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "POP.AccessAsApp",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow application to access user’s mailbox via IMAP protocol",
+    "DisplayName": "IMAP.AccessAsApp",
+    "Id": "5e5addcd-3e8d-4e90-baf5-964efab2b20a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IMAP.AccessAsApp",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the organization and related resources, on behalf of the signed-in user. Related resources include things like subscribed SKUs and tenant branding information.",
+    "DisplayName": "Organization.Read.All",
+    "Id": "15f260d6-f874-4366-8672-6b3658c5a09b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Organization.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Application permission grants permission to move mailboxes between Office365 organizations",
+    "DisplayName": "Move mailboxes between organizations",
+    "Id": "f7264778-fba9-422d-8e9e-2675a2c4b513",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Mailbox.Migration",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the full set of profile properties, reports, and managers of other users in your organization, on behalf of the signed-in user.",
+    "DisplayName": "Read all users' full profiles",
+    "Id": "bf24470f-10c1-436d-8d53-7b997eb473be",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "User.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read a basic set of profile properties of other users in your organization on behalf of the signed-in user. This includes display name, first and last name, email address and photo.",
+    "DisplayName": "Read all users' basic profiles",
+    "Id": "77e65b5a-ceae-48b3-9490-50a86a038a48",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "User.ReadBasic.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read user's mailbox settings without a signed-in user. Does not include permission to send mail.",
+    "DisplayName": "Read all user mailbox settings",
+    "Id": "d45fa9f8-36e5-4cd2-b601-b063c7cf9ac2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MailboxSettings.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to have full access via Exchange Web Services to all mailboxes without a signed-in user.",
+    "DisplayName": "Use Exchange Web Services with full access to all mailboxes",
+    "Id": "dc890d15-9560-4a4c-9b7f-a736ec74ec40",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "full_access_as_app",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to send mail as any user without a signed-in user.",
+    "DisplayName": "Send mail as any user",
+    "Id": "b633e1c5-b582-4048-a93e-9f11b44c7e96",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Mail.Send",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read events of all calendars without a signed-in user.",
+    "DisplayName": "Read calendars in all mailboxes",
+    "Id": "798ee544-9d2d-430c-a058-570e29e34338",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Calendars.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all contacts in all mailboxes without a signed-in user.",
+    "DisplayName": "Read contacts in all mailboxes",
+    "Id": "089fe4d0-434a-44c5-8827-41ba8a0b17f5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Contacts.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read mail in all mailboxes without a signed-in user.",
+    "DisplayName": "Read mail in all mailboxes",
+    "Id": "810c84a8-4a9e-49e6-bf7d-12d183f40d01",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Mail.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete mail in all mailboxes without a signed-in user. Does not include permission to send mail.",
+    "DisplayName": "Read and write mail in all mailboxes",
+    "Id": "e2a3a72e-5f79-4c64-b1b1-878b674786c9",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Mail.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete all contacts in all mailboxes without a signed-in user.",
+    "DisplayName": "Read and write contacts in all mailboxes",
+    "Id": "6918b873-d17a-4dc1-b314-35f528134491",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Contacts.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete user's mailbox settings without a signed-in user. Does not include permission to send mail.",
+    "DisplayName": "Read and write all user mailbox settings",
+    "Id": "f9156939-25cd-4ba8-abfe-7fabcf003749",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MailboxSettings.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read user tasks in all mailboxes without a signed-in user.",
+    "DisplayName": "Read user tasks in all mailboxes",
+    "Id": "c1b0de0a-1de9-455d-919f-eca451053141",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Tasks.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete tasks in all mailboxes without a signed-in user.",
+    "DisplayName": "Read and write tasks in all mailboxes",
+    "Id": "2c6a42ca-0d4d-49ad-bc0e-21222c449a65",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Tasks.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to create, read, update, and delete events of all calendars without a signed-in user.",
+    "DisplayName": "Read and write calendars in all mailboxes",
+    "Id": "ef54d2bf-783f-4e0f-bca1-3210c0444d99",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Calendars.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read events of all R without a signed-in user",
+    "DisplayName": "Read calendars in all mailboxes",
+    "Id": "2dfdc6dc-2fa7-4a2c-a922-dbd4f85d17be",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Calendars.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read company places (conference rooms and room lists) for calendar events and other applications, without a signed-in user.",
+    "DisplayName": "Read all company places",
+    "Id": "4830e04b-48ac-4de5-bbd9-8aceb58e506b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Place.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to manage the organization's Exchange environment without any user interaction. This includes mailboxes, groups, and other configuration objects. To enable management actions, an admin must assign the appropriate roles directly to the app.",
+    "DisplayName": "Manage Exchange As Application",
+    "Id": "dc50a0fb-09a3-484d-be87-e023b12c6440",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Exchange.ManageAsApp",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to manage a limited set of Exchange Online configuration objects without user interaction, for specific scenarios supported by the adminapi/v2.0 endpoint. To enable management actions an admin must also assign the appropriate Exchange RBAC roles directly to the app.",
+    "DisplayName": "Manage Exchange as application v2",
+    "Id": "ea3d980d-ebc7-4be4-8298-a167e5b8797c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Exchange.ManageAsAppV2",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to manage a limited set of Exchange Online configuration objects without user interaction, for specific scenarios supported by the adminapi/v2.0 endpoint. To enable management actions an admin must also assign the appropriate Exchange RBAC roles directly to the app. This permission replaces the previous Exchange.ManageAsAppV2 permission.",
+    "DisplayName": "Manage Exchange Online Admin API as App",
+    "Id": "95930782-af91-4e2e-89b7-e34ce33a0450",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Exchange.AdminAPI.ManageAsApp",
     "AdditionalProperties": {}
   },
   {

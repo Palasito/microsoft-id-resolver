@@ -12722,24 +12722,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Grants full access to the Business Central automation APIs. These APIs provide the capability to automate company setup.",
-    "DisplayName": "Full access to automation",
-    "Id": "d365bc00-a990-0000-00bc-160000000001",
+    "Description": "Grants full access to the Business Central Admin Center API. This API provides capability to execute administrative tasks for a Business Central tenant.",
+    "DisplayName": "Full access to Admin Center API",
+    "Id": "a20fe46f-4f63-4666-8e0e-9b882d90b837",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Automation.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Dynamics 365 is a business management solution that’s connecting people and processes like never before. From day one, it makes ordering, selling, invoicing, and reporting easier and faster.",
-    "DisplayName": "Access according to the application's permissions in Dynamics 365 Business Central",
-    "Id": "3983b928-ed40-4111-bbad-e7910cf234bd",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "app_access",
+    "Value": "AdminCenter.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -12758,12 +12746,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Grants full access to the Business Central Admin Center API. This API provides capability to execute administrative tasks for a Business Central tenant.",
-    "DisplayName": "Full access to Admin Center API",
-    "Id": "a20fe46f-4f63-4666-8e0e-9b882d90b837",
+    "Description": "Dynamics 365 is a business management solution that’s connecting people and processes like never before. From day one, it makes ordering, selling, invoicing, and reporting easier and faster.",
+    "DisplayName": "Access according to the application's permissions in Dynamics 365 Business Central",
+    "Id": "3983b928-ed40-4111-bbad-e7910cf234bd",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AdminCenter.ReadWrite.All",
+    "Value": "app_access",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Grants full access to the Business Central automation APIs. These APIs provide the capability to automate company setup.",
+    "DisplayName": "Full access to automation",
+    "Id": "d365bc00-a990-0000-00bc-160000000001",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Automation.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

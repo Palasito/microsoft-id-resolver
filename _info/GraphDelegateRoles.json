@@ -732,27 +732,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows Teams services to access IC3 presence services",
-    "AdminConsentDisplayName": "Presence.ReadWrite.All",
-    "Id": "82987c10-ac16-48d3-b669-d36aeb2dc107",
+    "AdminConsentDescription": "Allows Teams services to access IC3 services",
+    "AdminConsentDisplayName": "Teams.AccessAsUser.All",
+    "Id": "c7732f40-4b7c-448a-aa2b-2362e39c34f6",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows Teams services to access IC3 presence services",
-    "UserConsentDisplayName": "Presence.ReadWrite.All",
-    "Value": "Presence.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows Teams services to access IC3 media services",
-    "AdminConsentDisplayName": "Media.ReadWrite.All",
-    "Id": "67ba8dc6-51b8-40a0-8698-18e37c3af185",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows Teams services to access IC3 media services",
-    "UserConsentDisplayName": "Media.ReadWrite.All",
-    "Value": "Media.ReadWrite.All",
+    "UserConsentDescription": "Allow Teams services to access IC3 services",
+    "UserConsentDisplayName": "Allow Teams services to access IC3 services",
+    "Value": "Teams.AccessAsUser.All",
     "AdditionalProperties": {}
   },
   {
@@ -768,15 +756,27 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows Teams services to access IC3 services",
-    "AdminConsentDisplayName": "Teams.AccessAsUser.All",
-    "Id": "c7732f40-4b7c-448a-aa2b-2362e39c34f6",
+    "AdminConsentDescription": "Allows Teams services to access IC3 media services",
+    "AdminConsentDisplayName": "Media.ReadWrite.All",
+    "Id": "67ba8dc6-51b8-40a0-8698-18e37c3af185",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allow Teams services to access IC3 services",
-    "UserConsentDisplayName": "Allow Teams services to access IC3 services",
-    "Value": "Teams.AccessAsUser.All",
+    "UserConsentDescription": "Allows Teams services to access IC3 media services",
+    "UserConsentDisplayName": "Media.ReadWrite.All",
+    "Value": "Media.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows Teams services to access IC3 presence services",
+    "AdminConsentDisplayName": "Presence.ReadWrite.All",
+    "Id": "82987c10-ac16-48d3-b669-d36aeb2dc107",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows Teams services to access IC3 presence services",
+    "UserConsentDisplayName": "Presence.ReadWrite.All",
+    "Value": "Presence.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -19441,18 +19441,6 @@
   },
   {
     "AdminConsentDescription": "Dynamics 365 is a business management solution that’s connecting people and processes like never before. From day one, it makes ordering, selling, invoicing, and reporting easier and faster.",
-    "AdminConsentDisplayName": "Access Dynamics 365 Business Central as the signed-in user",
-    "Id": "2fb13c28-9d89-417f-9af2-ec3065bc16e6",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow the application full access to Dynamics 365 on your behalf",
-    "UserConsentDisplayName": "Have full access to Dynamics 365 Business Central",
-    "Value": "Financials.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Dynamics 365 is a business management solution that’s connecting people and processes like never before. From day one, it makes ordering, selling, invoicing, and reporting easier and faster.",
     "AdminConsentDisplayName": "Access as the signed-in user",
     "Id": "bce0976a-cb0b-473b-8800-84eda9f8e447",
     "IsEnabled": true,
@@ -19461,6 +19449,18 @@
     "UserConsentDescription": "Allow the application full access to Dynamics 365 on your behalf",
     "UserConsentDisplayName": "Have full access to Dynamics 365 Business Central",
     "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Dynamics 365 is a business management solution that’s connecting people and processes like never before. From day one, it makes ordering, selling, invoicing, and reporting easier and faster.",
+    "AdminConsentDisplayName": "Access Dynamics 365 Business Central as the signed-in user",
+    "Id": "2fb13c28-9d89-417f-9af2-ec3065bc16e6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the application full access to Dynamics 365 on your behalf",
+    "UserConsentDisplayName": "Have full access to Dynamics 365 Business Central",
+    "Value": "Financials.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

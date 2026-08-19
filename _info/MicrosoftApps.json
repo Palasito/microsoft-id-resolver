@@ -2280,6 +2280,12 @@
     "source": "Graph"
   },
   {
+    "appId": "f229df84-05da-4ca8-a893-6e514fca6157",
+    "displayName": "Teams Walkie Talkie Service",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "997dc448-eeab-4c93-8811-6b2c80196a16",
     "displayName": "CCM TAGS",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -3968,6 +3974,12 @@
   {
     "appId": "ef5d5c69-a5df-46bb-acaf-426f161a21a2",
     "displayName": "Managed Service Identity",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "86b4b4b4-db10-481c-876b-07447e7f204f",
+    "displayName": "Groups Service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -24252,12 +24264,6 @@
     "source": "EntraDocs"
   },
   {
-    "appId": "86b4b4b4-db10-481c-876b-07447e7f204f",
-    "displayName": "Speedway (Groups Service)",
-    "appOwnerOrganizationId": "",
-    "source": "EntraDocs"
-  },
-  {
     "appId": "d2ec8372-dfe3-4557-b7aa-6d898c240f3b",
     "displayName": "Office MRO Device Manager Service",
     "appOwnerOrganizationId": "",
@@ -24296,12 +24302,6 @@
   {
     "appId": "99f53064-85db-4f9f-ab36-118a009b8857",
     "displayName": "Augmentation Loop Test App",
-    "appOwnerOrganizationId": "",
-    "source": "EntraDocs"
-  },
-  {
-    "appId": "f229df84-05da-4ca8-a893-6e514fca6157",
-    "displayName": "Walkie Talkie App",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },

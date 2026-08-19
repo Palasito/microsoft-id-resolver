@@ -11828,6 +11828,42 @@
   },
   {
     "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Allows assigned users and groups to publish global communications.",
+    "DisplayName": "Communicator.GlobalPublisher",
+    "Id": "c42fe9ce-8f28-4021-8853-34ae72d29e23",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Communicator.GlobalPublisher",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Permission necessary for applications to talk to Walkie Talkie Service components",
+    "DisplayName": "WalkieTalkie.ServiceComponent.ReadWrite",
+    "Id": "a755c20b-0b4d-46a6-a622-0a23b9ec1760",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "WalkieTalkie.ServiceComponent.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read Call Usage Report of Walkie Talkie",
+    "DisplayName": "WalkieTalkie.Reports.CallUsage.Read",
+    "Id": "9bdad8a6-a72b-4d5c-b264-c8ff1dcd328f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "WalkieTalkie.Reports.CallUsage.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
       "Application"
     ],
     "Description": "Create protected content on behalf of a user",

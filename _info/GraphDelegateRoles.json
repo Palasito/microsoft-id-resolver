@@ -17340,6 +17340,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Initiate Walkie Talkie Sessions over Channels",
+    "AdminConsentDisplayName": "WalkieTalkie.Channels.ReadWrite",
+    "Id": "53c303fa-3d7f-48ff-a4ee-4b0425377ffc",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Initiate Walkie Talkie Sessions over Channels",
+    "UserConsentDisplayName": "WalkieTalkie.Channels.ReadWrite",
+    "Value": "WalkieTalkie.Channels.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow the application to use Azure Rights Management",
     "AdminConsentDisplayName": "Create and access protected content for users",
     "Id": "c9c9a04d-3b66-4ca8-a00c-fca953e2afd3",

@@ -23076,15 +23076,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows user to create Verifiable Credential issuance requests.",
-    "AdminConsentDisplayName": "User Issuance",
-    "Id": "b5aaa6fb-8c09-4929-877c-9147695b78b8",
-    "IsEnabled": false,
+    "AdminConsentDescription": "Allows the application to read and check MyAccount Verified ID eligibility on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read MyAccount Verified ID eligibility",
+    "Id": "438013ce-a6ed-4686-9a80-778b7d82e8ce",
+    "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allow Verifiable Credentials User Token for Issuance",
-    "UserConsentDisplayName": "Verifiable Credentials User Token Issuance",
-    "Value": "VerifiableCredential.Create.IssueRequest.User",
+    "UserConsentDescription": "Allows this application to read and check your MyAccount Verified ID eligibility.",
+    "UserConsentDisplayName": "Read MyAccount Verified ID eligibility",
+    "Value": "VerifiedId.MyAccountEligibility.Read",
     "AdditionalProperties": {}
   },
   {
@@ -23097,6 +23097,18 @@
     "UserConsentDescription": "This allows the application to create Verifiable Credential issuance requests",
     "UserConsentDisplayName": "VerifiableCredential.Create.IssueRequest",
     "Value": "VerifiableCredential.Create.IssueRequest",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows user to create Verifiable Credential issuance requests.",
+    "AdminConsentDisplayName": "User Issuance",
+    "Id": "b5aaa6fb-8c09-4929-877c-9147695b78b8",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow Verifiable Credentials User Token for Issuance",
+    "UserConsentDisplayName": "Verifiable Credentials User Token Issuance",
+    "Value": "VerifiableCredential.Create.IssueRequest.User",
     "AdditionalProperties": {}
   },
   {

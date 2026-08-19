@@ -14283,12 +14283,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows the application to create Verifiable Credential issuance and presentation requests",
-    "DisplayName": "VerifiableCredential.Create.All",
-    "Id": "949ebb93-18f8-41b4-b677-c2bfea940027",
+    "Description": "This allows the application to create Verifiable Credential issuance requests",
+    "DisplayName": "VerifiableCredential.Create.IssueRequest",
+    "Id": "0165bd66-5f36-41ef-abde-4e8fc0c91294",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "VerifiableCredential.Create.All",
+    "Value": "VerifiableCredential.Create.IssueRequest",
     "AdditionalProperties": {}
   },
   {
@@ -14307,12 +14307,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows the application to create Verifiable Credential issuance requests",
-    "DisplayName": "VerifiableCredential.Create.IssueRequest",
-    "Id": "0165bd66-5f36-41ef-abde-4e8fc0c91294",
+    "Description": "This allows the application to create Verifiable Credential issuance and presentation requests",
+    "DisplayName": "VerifiableCredential.Create.All",
+    "Id": "949ebb93-18f8-41b4-b677-c2bfea940027",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "VerifiableCredential.Create.IssueRequest",
+    "Value": "VerifiableCredential.Create.All",
     "AdditionalProperties": {}
   },
   {

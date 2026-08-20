@@ -876,6 +876,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the user access to AgentX APIs.",
+    "AdminConsentDisplayName": "Allows the user access to the AgentX APIs",
+    "Id": "698232ed-e9f5-492e-8e0e-5c34378767a7",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the user access to AgentX APIs",
+    "UserConsentDisplayName": "AgentX API Access",
+    "Value": "AgentX.Access",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "this allows to read and write tenant and user data",
     "AdminConsentDisplayName": "TenantUser.ReadWrite",
     "Id": "adc8f5c3-8d1a-4a2c-a663-86394f307a24",

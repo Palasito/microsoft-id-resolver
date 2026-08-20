@@ -72,6 +72,7 @@
 "69d6493a-7724-4df5-8488-0657fa98b121","Sites.ReadWrite.All","Read and write items in all site collections","Allows the app to edit or delete documents and list items in all site collections on behalf of the signed-in user."
 "fbda7f10-5896-4449-9380-cd38b9c7261f","Operations.Execute.All","Execute all operations of Work IQ Mail MCP connector","Grants access to execute all operations of Work IQ Mail MCP connector"
 "0d7005c0-855a-485a-9d5b-5676f80a4a04","Notifications.Write","Notifications.Write","To allow application to send notifications to Azure AD provisioning service"
+"698232ed-e9f5-492e-8e0e-5c34378767a7","AgentX.Access","Allows the user access to the AgentX APIs","Allows the user access to AgentX APIs."
 "adc8f5c3-8d1a-4a2c-a663-86394f307a24","TenantUser.ReadWrite","TenantUser.ReadWrite","this allows to read and write tenant and user data"
 "e1eeeffa-b5a5-4b80-ae8f-ccb93d4b75eb","PeopleSettings.Read.All","Read tenant-wide people settings","Allows the application to read tenant-wide people settings on behalf of the signed-in user."
 "5430838e-68e7-4b12-b353-06478ace39c3","PeopleSettings.ReadWrite.All","Read and write tenant-wide people settings","Allows the application to read and write tenant-wide people settings on behalf of the signed-in user."

@@ -13515,36 +13515,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows app to publish tasks to planner. Only operations pertaining to publish will be allowed. Examples of allowed operations within this role are task creation. ",
-    "DisplayName": "Publish Tasks into Planner",
-    "Id": "e83a13aa-744d-44ee-9a42-d6f5137d9d0a",
+    "Description": "Allows the app to read organization-wide Microsoft Planner settings, without a signed-in user.",
+    "DisplayName": "Read organization-wide Microsoft Planner settings",
+    "Id": "fc2a0408-0ddc-4173-80b9-15a933a5ff57",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Task.Publish.Create",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an app to recall tasks published by the app in planner. Only recall operations (delete task) will be allowed in this scope.",
-    "DisplayName": "Recall published tasks from Planner",
-    "Id": "0f6934a9-4e8f-4059-b2f4-a4a59d2c5407",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Task.Publish.Delete",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an app to update a published task in planner. Only task edit operations are allowed in this scope.",
-    "DisplayName": "Update a task that has been published in Planner",
-    "Id": "fdc2d224-c588-43f8-b0c0-8abf2b7abda7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Task.Publish.Update",
+    "Value": "OrgSettings-Planner.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -13563,12 +13539,36 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to read organization-wide Microsoft Planner settings, without a signed-in user.",
-    "DisplayName": "Read organization-wide Microsoft Planner settings",
-    "Id": "fc2a0408-0ddc-4173-80b9-15a933a5ff57",
+    "Description": "Allows an app to update a published task in planner. Only task edit operations are allowed in this scope.",
+    "DisplayName": "Update a task that has been published in Planner",
+    "Id": "fdc2d224-c588-43f8-b0c0-8abf2b7abda7",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "OrgSettings-Planner.Read.All",
+    "Value": "Task.Publish.Update",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows an app to recall tasks published by the app in planner. Only recall operations (delete task) will be allowed in this scope.",
+    "DisplayName": "Recall published tasks from Planner",
+    "Id": "0f6934a9-4e8f-4059-b2f4-a4a59d2c5407",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Task.Publish.Delete",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows app to publish tasks to planner. Only operations pertaining to publish will be allowed. Examples of allowed operations within this role are task creation. ",
+    "DisplayName": "Publish Tasks into Planner",
+    "Id": "e83a13aa-744d-44ee-9a42-d6f5137d9d0a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Task.Publish.Create",
     "AdditionalProperties": {}
   },
   {

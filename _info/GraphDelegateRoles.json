@@ -21336,39 +21336,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows an app to read shared user settings",
-    "AdminConsentDisplayName": "Read all user shared settings",
-    "Id": "2f3e68fd-e659-467c-9489-8ba89a9406af",
+    "AdminConsentDescription": "Allows the app to read organization-wide Microsoft Planner settings on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read organization-wide Microsoft Planner settings",
+    "Id": "36393f92-d362-4c50-8880-82c92586a155",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows an app to read shared user settings",
-    "UserConsentDisplayName": "Read all user shared settings",
-    "Value": "UserPreferences-Planner.Read.Shared",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows an app to read published user tasks",
-    "AdminConsentDisplayName": "Read user published tasks",
-    "Id": "8057a3f8-ac27-4195-984c-ee6efa721ef1",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows an app to read published user tasks",
-    "UserConsentDisplayName": "Read user published tasks",
-    "Value": "Tasks.Read.Published",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows an app to read, create, update and delete published user tasks",
-    "AdminConsentDisplayName": "Create, read, update and delete user published tasks",
-    "Id": "0c93847b-70f8-4a59-b353-a04ef5d88f75",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows an app to read, create, update and delete published user tasks",
-    "UserConsentDisplayName": "Create, read, update and delete user published tasks",
-    "Value": "Tasks.ReadWrite.Published",
+    "UserConsentDescription": "Allows the app to read organization-wide Microsoft Planner settings on your behalf.",
+    "UserConsentDisplayName": "Read organization-wide Microsoft Planner settings",
+    "Value": "OrgSettings-Planner.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -21384,15 +21360,39 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read organization-wide Microsoft Planner settings on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Read organization-wide Microsoft Planner settings",
-    "Id": "36393f92-d362-4c50-8880-82c92586a155",
+    "AdminConsentDescription": "Allows an app to read, create, update and delete published user tasks",
+    "AdminConsentDisplayName": "Create, read, update and delete user published tasks",
+    "Id": "0c93847b-70f8-4a59-b353-a04ef5d88f75",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows an app to read, create, update and delete published user tasks",
+    "UserConsentDisplayName": "Create, read, update and delete user published tasks",
+    "Value": "Tasks.ReadWrite.Published",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows an app to read published user tasks",
+    "AdminConsentDisplayName": "Read user published tasks",
+    "Id": "8057a3f8-ac27-4195-984c-ee6efa721ef1",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows an app to read published user tasks",
+    "UserConsentDisplayName": "Read user published tasks",
+    "Value": "Tasks.Read.Published",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows an app to read shared user settings",
+    "AdminConsentDisplayName": "Read all user shared settings",
+    "Id": "2f3e68fd-e659-467c-9489-8ba89a9406af",
     "IsEnabled": true,
     "Origin": null,
     "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read organization-wide Microsoft Planner settings on your behalf.",
-    "UserConsentDisplayName": "Read organization-wide Microsoft Planner settings",
-    "Value": "OrgSettings-Planner.Read.All",
+    "UserConsentDescription": "Allows an app to read shared user settings",
+    "UserConsentDisplayName": "Read all user shared settings",
+    "Value": "UserPreferences-Planner.Read.Shared",
     "AdditionalProperties": {}
   },
   {

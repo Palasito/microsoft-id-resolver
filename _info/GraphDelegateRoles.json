@@ -19908,18 +19908,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows admin users to perform administrative tasks for Office Python Service.",
-    "AdminConsentDisplayName": "Service.Administration",
-    "Id": "1290c14a-e39b-442e-b5f8-d01031c66fa2",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows admin users to perform administrative tasks for Office Python Service.",
-    "UserConsentDisplayName": "Service.Administration",
-    "Value": "Service.Administration",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows access to the Office Python Service.",
     "AdminConsentDisplayName": "Service.Functionality",
     "Id": "3c301e74-f6d4-4a7a-96a7-fc8bf3e03e42",
@@ -19929,6 +19917,18 @@
     "UserConsentDescription": "Allows access to the Office Python Service.",
     "UserConsentDisplayName": "Service.Functionality",
     "Value": "Service.Functionality",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows admin users to perform administrative tasks for Office Python Service.",
+    "AdminConsentDisplayName": "Service.Administration",
+    "Id": "1290c14a-e39b-442e-b5f8-d01031c66fa2",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows admin users to perform administrative tasks for Office Python Service.",
+    "UserConsentDisplayName": "Service.Administration",
+    "Value": "Service.Administration",
     "AdditionalProperties": {}
   },
   {
@@ -21297,6 +21297,18 @@
     "UserConsentDescription": "Grants access to execute all operations of SharePoint connector",
     "UserConsentDisplayName": "Execute all operations of SharePoint connector",
     "Value": "Operations.Execute.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the calling app to invoke Commerce Pricing APIs as the signed-in user.",
+    "AdminConsentDisplayName": "Access Commerce Pricing APIs on behalf of the signed-in user",
+    "Id": "a7558686-77a5-4d0c-8563-d803e81c784c",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to call Commerce Pricing APIs on your behalf.",
+    "UserConsentDisplayName": "Access Commerce Pricing APIs on your behalf",
+    "Value": "CommercePricingAPIs.Access",
     "AdditionalProperties": {}
   },
   {

@@ -822,6 +822,12 @@
     "source": "Graph"
   },
   {
+    "appId": "1387301c-59b7-4204-84b8-1b7559500626",
+    "displayName": "ptm-cp-prod",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "8cae6e77-e04e-42ce-b5cb-50d82bce26b1",
     "displayName": "Microsoft Policy Insights Provider Data Plane",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -1364,6 +1370,12 @@
   {
     "appId": "7d312290-28c8-473c-a0ed-8e53749b6d6d",
     "displayName": "Microsoft Cognitive Services",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "9bc4cc98-c5f0-4916-b2ef-b55848ef0f48",
+    "displayName": "ptm-prod",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },
@@ -2846,6 +2858,12 @@
   {
     "appId": "19947cfd-0303-466c-ac3c-fcc19a7a1570",
     "displayName": "Azure DNS",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "f77c2a8f-8a0a-4776-8e0a-bcb2549610ca",
+    "displayName": "RPSaaS Meta RP",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },

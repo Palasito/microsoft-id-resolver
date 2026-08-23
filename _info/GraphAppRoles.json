@@ -99,24 +99,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to run advanced hunting queries",
-    "DisplayName": "Run advanced hunting queries",
-    "Id": "7734e8e5-8dde-42fc-b5ae-6eafea078693",
+    "Description": "Allows the app to create or update any custom detection rule",
+    "DisplayName": "Read and write all custom detection rules",
+    "Id": "a7deff90-e2f5-4e4e-83a3-2c74e7002e28",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AdvancedHunting.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to create or update any incident",
-    "DisplayName": "Read and write all incidents",
-    "Id": "8d90f441-09cf-4fdc-ab45-e874fa3a28e8",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Incident.ReadWrite.All",
+    "Value": "CustomDetections.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -135,12 +123,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to create or update any custom detection rule",
-    "DisplayName": "Read and write all custom detection rules",
-    "Id": "a7deff90-e2f5-4e4e-83a3-2c74e7002e28",
+    "Description": "Allows the app to create or update any incident",
+    "DisplayName": "Read and write all incidents",
+    "Id": "8d90f441-09cf-4fdc-ab45-e874fa3a28e8",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "CustomDetections.ReadWrite.All",
+    "Value": "Incident.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to run advanced hunting queries",
+    "DisplayName": "Run advanced hunting queries",
+    "Id": "7734e8e5-8dde-42fc-b5ae-6eafea078693",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AdvancedHunting.Read.All",
     "AdditionalProperties": {}
   },
   {

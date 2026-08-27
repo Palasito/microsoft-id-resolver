@@ -39,12 +39,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Exchange.ManageAsApp",
-    "DisplayName": "Exchange.ManageAsApp",
-    "Id": "455e5cd2-84e8-4751-8344-5672145dfa17",
+    "Description": "ThreatSubmission.ReadWrite.All",
+    "DisplayName": "ThreatSubmission.ReadWrite.All",
+    "Id": "8f819283-077c-4c68-aa24-0ad706da26e0",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Exchange.ManageAsApp",
+    "Value": "ThreatSubmission.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -63,12 +63,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "ThreatSubmission.ReadWrite.All",
-    "DisplayName": "ThreatSubmission.ReadWrite.All",
-    "Id": "8f819283-077c-4c68-aa24-0ad706da26e0",
+    "Description": "Exchange.ManageAsApp",
+    "DisplayName": "Exchange.ManageAsApp",
+    "Id": "455e5cd2-84e8-4751-8344-5672145dfa17",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "ThreatSubmission.ReadWrite.All",
+    "Value": "Exchange.ManageAsApp",
     "AdditionalProperties": {}
   },
   {
@@ -231,552 +231,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "EopDataInsights.AccessAsApp",
-    "DisplayName": "EopDataInsights.AccessAsApp",
-    "Id": "cfbd1345-3cf0-408c-8c99-1491bde7ce52",
+    "Description": "PolicyStatusSummary-Internal.Write.All",
+    "DisplayName": "PolicyStatusSummary-Internal.Write.All",
+    "Id": "6c68db0a-4608-48d3-b0bf-4d0917b88bef",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "EopDataInsights.AccessAsApp",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "M365ContentExplorer.Read.All",
-    "DisplayName": "M365ContentExplorer.Read.All",
-    "Id": "26872368-3756-4995-a1d0-73cfa9d8f83a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "M365ContentExplorer.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "MessageTrace.Read.All",
-    "DisplayName": "MessageTrace.Read.All",
-    "Id": "06ab0d31-7112-476e-a479-66394bec63d6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MessageTrace.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "QuarantinedMessage.Read.All",
-    "DisplayName": "QuarantinedMessage.Read.All",
-    "Id": "3e4e080e-55db-4fa9-8d68-0d9199d4c792",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "QuarantinedMessage.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows the app to read AirAdminAction alerts",
-    "DisplayName": "AirAdminAction.tenant.read",
-    "Id": "cc02f7ae-3d9b-42c9-bc91-3424d92c5547",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AirAdminAction.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows apps to write the AirAdminAction alerts",
-    "DisplayName": "AirAdminAction.tenant.write",
-    "Id": "43f2aa58-36d7-421e-8628-fbe9b129bf76",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AirAdminAction.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "TenantLicenseStatus.Read.All",
-    "DisplayName": "TenantLicenseStatus.Read.All",
-    "Id": "27787a44-0423-4f0d-a417-1276c93397fb",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TenantLicenseStatus.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Relocation.ReadWrite.All",
-    "DisplayName": "Relocation.ReadWrite.All",
-    "Id": "092afc53-fa1b-44c3-9fdf-46fcd25a5d99",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Relocation.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "AzureActivityData.Read.All",
-    "DisplayName": "AzureActivityData.Read.All",
-    "Id": "926c05c5-5941-491b-973a-509c2a4a2542",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AzureActivityData.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "OcrBillingConfiguration-Internal.Write.All",
-    "DisplayName": "OcrBillingConfiguration-Internal.Write.All",
-    "Id": "a585dd3a-70b6-4ff4-a1b9-093b4214e7e4",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "OcrBillingConfiguration-Internal.Write.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "AuditProvisioningData.Tenant.Read",
-    "DisplayName": "AuditProvisioningData.Tenant.Read",
-    "Id": "9760b448-d4d4-478b-bebc-0ebe62c935c9",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AuditProvisioningData.Tenant.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Purview.DataAccess.All",
-    "DisplayName": "Purview.DataAccess.All",
-    "Id": "67a4e76f-5125-4b64-bcd6-b42a60d47dbe",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Purview.DataAccess.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Alert.Read.All",
-    "DisplayName": "Alert.Read.All",
-    "Id": "43e3dfa5-222e-4a48-8253-d36086c5558c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Alert.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "MtpMailboxRuleAction.tenant.write",
-    "DisplayName": "MtpMailboxRuleAction.tenant.write",
-    "Id": "5f124282-d2c3-47dd-87ff-106ba9aa079b",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MtpMailboxRuleAction.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "MtpMailboxRuleAction.tenant.read",
-    "DisplayName": "MtpMailboxRuleAction.tenant.read",
-    "Id": "ca69fdfa-5ba6-4c33-9eac-013653c2c3af",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MtpMailboxRuleAction.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "DataInsightsSubscription.tenant.write",
-    "DisplayName": "DataInsightsSubscription.tenant.write",
-    "Id": "182f95e9-8c6f-4c32-8de2-e1abc1fe6ea4",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "DataInsightsSubscription.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "DataInsightsSubscription.tenant.read",
-    "DisplayName": "DataInsightsSubscription.tenant.read",
-    "Id": "bfeb98e9-5067-42b0-a7df-9022b927a10e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "DataInsightsSubscription.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "compliancestatus.tenant.read",
-    "DisplayName": "compliancestatus.tenant.read",
-    "Id": "59c90462-e42e-4698-8a51-196ebd407166",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "compliancestatus.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "RecipientBatch.tenant.write",
-    "DisplayName": "RecipientBatch.tenant.write",
-    "Id": "39de55cd-e81d-4d2a-880d-3872c4fb992d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "RecipientBatch.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "DataInsightsUsersData.tenant.read",
-    "DisplayName": "DataInsightsUsersData.tenant.read",
-    "Id": "0eabd45c-e771-460d-a601-2d534e78a1be",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "DataInsightsUsersData.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "UsersAggregateByAttackSimulation.tenant.read",
-    "DisplayName": "UsersAggregateByAttackSimulation.tenant.read",
-    "Id": "e0ff780c-d4f4-4ef4-b0ad-b19863ca72a2",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UsersAggregateByAttackSimulation.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Recipient.tenant.read",
-    "DisplayName": "Recipient.tenant.read",
-    "Id": "81eac90b-5b5b-422f-8d2a-9bc2055c5453",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Recipient.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Recipient.tenant.write",
-    "DisplayName": "Recipient.tenant.write",
-    "Id": "7b67f132-5c43-45cb-8cc3-e78fd80d0776",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Recipient.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "AttackSimulationData.tenant.read",
-    "DisplayName": "AttackSimulationData.tenant.read",
-    "Id": "06c43929-37aa-4707-ae05-68d6d967953e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AttackSimulationData.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "TiRemediation.ReadWrite.All",
-    "DisplayName": "TiRemediation.ReadWrite.All",
-    "Id": "38b568f3-92e4-4c17-92b7-a49c28904247",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TiRemediation.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "TiRemediation.Read.All",
-    "DisplayName": "TiRemediation.Read.All",
-    "Id": "5c6799ba-41c0-49cc-9f2d-7486a52d52a0",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TiRemediation.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "RemediationEmailResult.ReadWrite.All",
-    "DisplayName": "RemediationEmailResult.ReadWrite.All",
-    "Id": "dac43cb8-9b13-43b1-bc17-e7eb8fe26717",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "RemediationEmailResult.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "RemediationEmailResult.Read.All",
-    "DisplayName": "RemediationEmailResult.Read.All",
-    "Id": "cae0e51f-af85-4f35-870d-9f024147648d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "RemediationEmailResult.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "activitydata.tenant.read",
-    "DisplayName": "activitydata.tenant.read",
-    "Id": "ba4ca83c-e834-4e66-bfe1-df738f63b557",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "activitydata.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "InsiderRiskData.Read.All",
-    "DisplayName": "InsiderRiskData.Read.All",
-    "Id": "57fee0bb-e97d-4e5c-a663-2b0c7ce0db37",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "InsiderRiskData.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "AggConsumptionBillingReport.Read.All",
-    "DisplayName": "AggConsumptionBillingReport.Read.All",
-    "Id": "f9d2daf6-8028-48d1-b4c1-b963f7ae7a73",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "AggConsumptionBillingReport.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "DynamicRiskPreventionTag.Tenant.Write",
-    "DisplayName": "DynamicRiskPreventionTag.Tenant.Write",
-    "Id": "15188c9e-7879-4e83-9d63-c728da8feb0d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "DynamicRiskPreventionTag.Tenant.Write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "DynamicRiskPreventionTag.Tenant.Read",
-    "DisplayName": "DynamicRiskPreventionTag.Tenant.Read",
-    "Id": "f63db487-96bf-49af-8a79-faa86287aee6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "DynamicRiskPreventionTag.Tenant.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "ThreatSubmission.ReadWrite.All",
-    "DisplayName": "ThreatSubmission.ReadWrite.All",
-    "Id": "944c8d5a-fdcd-4aac-af4d-3366942700d5",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "ThreatSubmission.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "CustomTag.Tenant.Read",
-    "DisplayName": "CustomTag.Tenant.Read",
-    "Id": "e0ba9b2a-a247-4d95-bca6-43211b61057f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomTag.Tenant.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "CustomTag.Tenant.Write",
-    "DisplayName": "CustomTag.Tenant.Write",
-    "Id": "92b5621e-0e43-46c9-b830-bc26b325a150",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomTag.Tenant.Write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "MessageTraceDetail.tenant.read",
-    "DisplayName": "MessageTraceDetail.tenant.read",
-    "Id": "85e837d7-9e4b-4bb2-9535-08bb51aa974a",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MessageTraceDetail.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows apps to write the OneCyberRelocationData",
-    "DisplayName": "OneCyberRelocationData.tenant.write",
-    "Id": "03f3ead7-60e6-4522-847b-8a67bb9c50df",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "OneCyberRelocationData.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows apps to read the OneCyberRelocationData",
-    "DisplayName": "OneCyberRelocationData.tenant.read",
-    "Id": "9b31c028-bb6a-4d1a-8295-4514d184c061",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "OneCyberRelocationData.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows apps to read the MtpAction",
-    "DisplayName": "MtpAction.tenant.read",
-    "Id": "86e9643d-f798-40d2-98bb-293a7daaa2d7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MtpAction.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows apps to write the MtpAction",
-    "DisplayName": "MtpAction.tenant.write",
-    "Id": "e6e79fef-f4ee-4f93-aec3-3f0001087066",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MtpAction.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows to change any Office 365 alerts belong to the tenant.",
-    "DisplayName": "alert.tenant.write",
-    "Id": "723c28f9-60b9-4cd4-8b04-6d344a3c4d84",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "alert.tenant.write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows to read tenant Office 365 alerts.",
-    "DisplayName": "alert.tenant.read",
-    "Id": "d91202fb-0f5f-4245-8148-dfe12af913e6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "alert.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow o365 applications to read MTP Status",
-    "DisplayName": "mtpstatus.tenant.read",
-    "Id": "74450f94-a5b1-4243-a991-9a688375883f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "mtpstatus.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This scope allows Apps to read tenant's MessageEventSummary data",
-    "DisplayName": "messageeventsummary.tenant.read",
-    "Id": "51aa070e-cc8b-45a9-8530-3fc96b0aa701",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "messageeventsummary.tenant.read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "this allows to read reducedrecipient",
-    "DisplayName": "reducedrecipient.read.all",
-    "Id": "24c052b7-e297-4369-b344-e4b62baa3fca",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "reducedrecipient.read.all",
+    "Value": "PolicyStatusSummary-Internal.Write.All",
     "AdditionalProperties": {}
   },
   {
@@ -795,12 +255,552 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "PolicyStatusSummary-Internal.Write.All",
-    "DisplayName": "PolicyStatusSummary-Internal.Write.All",
-    "Id": "6c68db0a-4608-48d3-b0bf-4d0917b88bef",
+    "Description": "this allows to read reducedrecipient",
+    "DisplayName": "reducedrecipient.read.all",
+    "Id": "24c052b7-e297-4369-b344-e4b62baa3fca",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "PolicyStatusSummary-Internal.Write.All",
+    "Value": "reducedrecipient.read.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This scope allows Apps to read tenant's MessageEventSummary data",
+    "DisplayName": "messageeventsummary.tenant.read",
+    "Id": "51aa070e-cc8b-45a9-8530-3fc96b0aa701",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "messageeventsummary.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow o365 applications to read MTP Status",
+    "DisplayName": "mtpstatus.tenant.read",
+    "Id": "74450f94-a5b1-4243-a991-9a688375883f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "mtpstatus.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows to read tenant Office 365 alerts.",
+    "DisplayName": "alert.tenant.read",
+    "Id": "d91202fb-0f5f-4245-8148-dfe12af913e6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "alert.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows to change any Office 365 alerts belong to the tenant.",
+    "DisplayName": "alert.tenant.write",
+    "Id": "723c28f9-60b9-4cd4-8b04-6d344a3c4d84",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "alert.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows apps to write the MtpAction",
+    "DisplayName": "MtpAction.tenant.write",
+    "Id": "e6e79fef-f4ee-4f93-aec3-3f0001087066",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MtpAction.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows apps to read the MtpAction",
+    "DisplayName": "MtpAction.tenant.read",
+    "Id": "86e9643d-f798-40d2-98bb-293a7daaa2d7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MtpAction.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows apps to read the OneCyberRelocationData",
+    "DisplayName": "OneCyberRelocationData.tenant.read",
+    "Id": "9b31c028-bb6a-4d1a-8295-4514d184c061",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OneCyberRelocationData.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows apps to write the OneCyberRelocationData",
+    "DisplayName": "OneCyberRelocationData.tenant.write",
+    "Id": "03f3ead7-60e6-4522-847b-8a67bb9c50df",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OneCyberRelocationData.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "MessageTraceDetail.tenant.read",
+    "DisplayName": "MessageTraceDetail.tenant.read",
+    "Id": "85e837d7-9e4b-4bb2-9535-08bb51aa974a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MessageTraceDetail.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "CustomTag.Tenant.Write",
+    "DisplayName": "CustomTag.Tenant.Write",
+    "Id": "92b5621e-0e43-46c9-b830-bc26b325a150",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomTag.Tenant.Write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "CustomTag.Tenant.Read",
+    "DisplayName": "CustomTag.Tenant.Read",
+    "Id": "e0ba9b2a-a247-4d95-bca6-43211b61057f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomTag.Tenant.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "ThreatSubmission.ReadWrite.All",
+    "DisplayName": "ThreatSubmission.ReadWrite.All",
+    "Id": "944c8d5a-fdcd-4aac-af4d-3366942700d5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "ThreatSubmission.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "DynamicRiskPreventionTag.Tenant.Read",
+    "DisplayName": "DynamicRiskPreventionTag.Tenant.Read",
+    "Id": "f63db487-96bf-49af-8a79-faa86287aee6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DynamicRiskPreventionTag.Tenant.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "DynamicRiskPreventionTag.Tenant.Write",
+    "DisplayName": "DynamicRiskPreventionTag.Tenant.Write",
+    "Id": "15188c9e-7879-4e83-9d63-c728da8feb0d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DynamicRiskPreventionTag.Tenant.Write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "AggConsumptionBillingReport.Read.All",
+    "DisplayName": "AggConsumptionBillingReport.Read.All",
+    "Id": "f9d2daf6-8028-48d1-b4c1-b963f7ae7a73",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AggConsumptionBillingReport.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "InsiderRiskData.Read.All",
+    "DisplayName": "InsiderRiskData.Read.All",
+    "Id": "57fee0bb-e97d-4e5c-a663-2b0c7ce0db37",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "InsiderRiskData.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "activitydata.tenant.read",
+    "DisplayName": "activitydata.tenant.read",
+    "Id": "ba4ca83c-e834-4e66-bfe1-df738f63b557",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "activitydata.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "RemediationEmailResult.Read.All",
+    "DisplayName": "RemediationEmailResult.Read.All",
+    "Id": "cae0e51f-af85-4f35-870d-9f024147648d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RemediationEmailResult.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "RemediationEmailResult.ReadWrite.All",
+    "DisplayName": "RemediationEmailResult.ReadWrite.All",
+    "Id": "dac43cb8-9b13-43b1-bc17-e7eb8fe26717",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RemediationEmailResult.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "TiRemediation.Read.All",
+    "DisplayName": "TiRemediation.Read.All",
+    "Id": "5c6799ba-41c0-49cc-9f2d-7486a52d52a0",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TiRemediation.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "TiRemediation.ReadWrite.All",
+    "DisplayName": "TiRemediation.ReadWrite.All",
+    "Id": "38b568f3-92e4-4c17-92b7-a49c28904247",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TiRemediation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "AttackSimulationData.tenant.read",
+    "DisplayName": "AttackSimulationData.tenant.read",
+    "Id": "06c43929-37aa-4707-ae05-68d6d967953e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AttackSimulationData.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Recipient.tenant.write",
+    "DisplayName": "Recipient.tenant.write",
+    "Id": "7b67f132-5c43-45cb-8cc3-e78fd80d0776",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Recipient.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Recipient.tenant.read",
+    "DisplayName": "Recipient.tenant.read",
+    "Id": "81eac90b-5b5b-422f-8d2a-9bc2055c5453",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Recipient.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "UsersAggregateByAttackSimulation.tenant.read",
+    "DisplayName": "UsersAggregateByAttackSimulation.tenant.read",
+    "Id": "e0ff780c-d4f4-4ef4-b0ad-b19863ca72a2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UsersAggregateByAttackSimulation.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "DataInsightsUsersData.tenant.read",
+    "DisplayName": "DataInsightsUsersData.tenant.read",
+    "Id": "0eabd45c-e771-460d-a601-2d534e78a1be",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DataInsightsUsersData.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "RecipientBatch.tenant.write",
+    "DisplayName": "RecipientBatch.tenant.write",
+    "Id": "39de55cd-e81d-4d2a-880d-3872c4fb992d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "RecipientBatch.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "compliancestatus.tenant.read",
+    "DisplayName": "compliancestatus.tenant.read",
+    "Id": "59c90462-e42e-4698-8a51-196ebd407166",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "compliancestatus.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "DataInsightsSubscription.tenant.read",
+    "DisplayName": "DataInsightsSubscription.tenant.read",
+    "Id": "bfeb98e9-5067-42b0-a7df-9022b927a10e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DataInsightsSubscription.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "DataInsightsSubscription.tenant.write",
+    "DisplayName": "DataInsightsSubscription.tenant.write",
+    "Id": "182f95e9-8c6f-4c32-8de2-e1abc1fe6ea4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "DataInsightsSubscription.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "MtpMailboxRuleAction.tenant.read",
+    "DisplayName": "MtpMailboxRuleAction.tenant.read",
+    "Id": "ca69fdfa-5ba6-4c33-9eac-013653c2c3af",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MtpMailboxRuleAction.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "MtpMailboxRuleAction.tenant.write",
+    "DisplayName": "MtpMailboxRuleAction.tenant.write",
+    "Id": "5f124282-d2c3-47dd-87ff-106ba9aa079b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MtpMailboxRuleAction.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Alert.Read.All",
+    "DisplayName": "Alert.Read.All",
+    "Id": "43e3dfa5-222e-4a48-8253-d36086c5558c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Alert.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Purview.DataAccess.All",
+    "DisplayName": "Purview.DataAccess.All",
+    "Id": "67a4e76f-5125-4b64-bcd6-b42a60d47dbe",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Purview.DataAccess.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "AuditProvisioningData.Tenant.Read",
+    "DisplayName": "AuditProvisioningData.Tenant.Read",
+    "Id": "9760b448-d4d4-478b-bebc-0ebe62c935c9",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AuditProvisioningData.Tenant.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "OcrBillingConfiguration-Internal.Write.All",
+    "DisplayName": "OcrBillingConfiguration-Internal.Write.All",
+    "Id": "a585dd3a-70b6-4ff4-a1b9-093b4214e7e4",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OcrBillingConfiguration-Internal.Write.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "AzureActivityData.Read.All",
+    "DisplayName": "AzureActivityData.Read.All",
+    "Id": "926c05c5-5941-491b-973a-509c2a4a2542",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AzureActivityData.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Relocation.ReadWrite.All",
+    "DisplayName": "Relocation.ReadWrite.All",
+    "Id": "092afc53-fa1b-44c3-9fdf-46fcd25a5d99",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Relocation.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "TenantLicenseStatus.Read.All",
+    "DisplayName": "TenantLicenseStatus.Read.All",
+    "Id": "27787a44-0423-4f0d-a417-1276c93397fb",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TenantLicenseStatus.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows apps to write the AirAdminAction alerts",
+    "DisplayName": "AirAdminAction.tenant.write",
+    "Id": "43f2aa58-36d7-421e-8628-fbe9b129bf76",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AirAdminAction.tenant.write",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows the app to read AirAdminAction alerts",
+    "DisplayName": "AirAdminAction.tenant.read",
+    "Id": "cc02f7ae-3d9b-42c9-bc91-3424d92c5547",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "AirAdminAction.tenant.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "QuarantinedMessage.Read.All",
+    "DisplayName": "QuarantinedMessage.Read.All",
+    "Id": "3e4e080e-55db-4fa9-8d68-0d9199d4c792",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "QuarantinedMessage.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "MessageTrace.Read.All",
+    "DisplayName": "MessageTrace.Read.All",
+    "Id": "06ab0d31-7112-476e-a479-66394bec63d6",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MessageTrace.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "M365ContentExplorer.Read.All",
+    "DisplayName": "M365ContentExplorer.Read.All",
+    "Id": "26872368-3756-4995-a1d0-73cfa9d8f83a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "M365ContentExplorer.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "EopDataInsights.AccessAsApp",
+    "DisplayName": "EopDataInsights.AccessAsApp",
+    "Id": "cfbd1345-3cf0-408c-8c99-1491bde7ce52",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EopDataInsights.AccessAsApp",
     "AdditionalProperties": {}
   },
   {
@@ -5145,6 +5145,30 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "HealthMonitoringAlertConfig.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read all identity diagnostics information, including symptoms, runs, statuses, and results for all users in the organization, without a signed-in user.",
+    "DisplayName": "Read all identity diagnostics",
+    "Id": "bb1e8ab4-fe40-4b26-82ec-65dfaf4d367b",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityDiagnostic.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to start identity diagnostic processes for all users in the organization, without a signed-in user.",
+    "DisplayName": "Start identity diagnostics for all users",
+    "Id": "2607bb8b-0a9b-4f53-9d2f-6f81b99ac145",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityDiagnostic.StartDiagnosis.All",
     "AdditionalProperties": {}
   },
   {

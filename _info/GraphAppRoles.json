@@ -12491,38 +12491,27 @@
   },
   {
     "AllowedMemberTypes": [
-      "Application"
+      "Application",
+      "User"
     ],
-    "Description": "OrganizationAnalytics.EssStream.Read.All",
-    "DisplayName": "OrganizationAnalytics.EssStream.Read.All",
-    "Id": "fcd57aa7-c2b4-4b41-aa8b-266b6c42e1a5",
+    "Description": "Allows read-write access to org-wide analytics e.g Custom Nudges ",
+    "DisplayName": "OrganizationAnalytics.ReadWrite",
+    "Id": "00a72033-22db-4037-9c68-f8b0d437bce4",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "OrganizationAnalytics.EssStream.Read.All",
+    "Value": "OrganizationAnalytics.ReadWrite",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows access to check whether a given user is currently in their quiet time window",
-    "DisplayName": "QuietTimeStatus.Read.All",
-    "Id": "97073fc4-341a-4124-94ec-ea70cff53f9f",
+    "Description": "AnalyticsConfig.Read",
+    "DisplayName": "AnalyticsConfig.Read",
+    "Id": "9dc0bf61-2c27-4f46-a5ad-84d524c9cba4",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "QuietTimeStatus.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows access to read and write Organization Settings.",
-    "DisplayName": "OrganizationSettings.ReadWrite",
-    "Id": "2bf589c4-d055-4872-a96d-15d99b610750",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "OrganizationSettings.ReadWrite",
+    "Value": "AnalyticsConfig.Read",
     "AdditionalProperties": {}
   },
   {
@@ -12541,25 +12530,36 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "AnalyticsConfig.Read",
-    "DisplayName": "AnalyticsConfig.Read",
-    "Id": "9dc0bf61-2c27-4f46-a5ad-84d524c9cba4",
+    "Description": "This allows access to read and write Organization Settings.",
+    "DisplayName": "OrganizationSettings.ReadWrite",
+    "Id": "2bf589c4-d055-4872-a96d-15d99b610750",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AnalyticsConfig.Read",
+    "Value": "OrganizationSettings.ReadWrite",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
-      "Application",
-      "User"
+      "Application"
     ],
-    "Description": "Allows read-write access to org-wide analytics e.g Custom Nudges ",
-    "DisplayName": "OrganizationAnalytics.ReadWrite",
-    "Id": "00a72033-22db-4037-9c68-f8b0d437bce4",
+    "Description": "This allows access to check whether a given user is currently in their quiet time window",
+    "DisplayName": "QuietTimeStatus.Read.All",
+    "Id": "97073fc4-341a-4124-94ec-ea70cff53f9f",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "OrganizationAnalytics.ReadWrite",
+    "Value": "QuietTimeStatus.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "OrganizationAnalytics.EssStream.Read.All",
+    "DisplayName": "OrganizationAnalytics.EssStream.Read.All",
+    "Id": "fcd57aa7-c2b4-4b41-aa8b-266b6c42e1a5",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "OrganizationAnalytics.EssStream.Read.All",
     "AdditionalProperties": {}
   },
   {

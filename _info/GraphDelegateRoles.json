@@ -18192,18 +18192,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "This allows access to read and write Organization Settings.",
-    "AdminConsentDisplayName": "OrganizationSettings.ReadWrite",
-    "Id": "67a10836-5c70-4e46-87b1-15b75194beed",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "This allows access to read and write Organization Settings.",
-    "UserConsentDisplayName": "OrganizationSettings.ReadWrite",
-    "Value": "OrganizationSettings.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "permission to read for praise elegibility",
     "AdminConsentDisplayName": "PraiseEligibility.Read",
     "Id": "dba71b3d-90a6-4853-be6c-cee31058795a",
@@ -18213,6 +18201,18 @@
     "UserConsentDescription": "permission to read for praise elegibility",
     "UserConsentDisplayName": "PraiseEligibility.Read",
     "Value": "PraiseEligibility.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "This allows access to read and write Organization Settings.",
+    "AdminConsentDisplayName": "OrganizationSettings.ReadWrite",
+    "Id": "67a10836-5c70-4e46-87b1-15b75194beed",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "This allows access to read and write Organization Settings.",
+    "UserConsentDisplayName": "OrganizationSettings.ReadWrite",
+    "Value": "OrganizationSettings.ReadWrite",
     "AdditionalProperties": {}
   },
   {

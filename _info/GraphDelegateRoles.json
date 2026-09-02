@@ -2112,15 +2112,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "User.Read",
-    "AdminConsentDisplayName": "User.Read",
-    "Id": "d5b659cc-4375-466d-9c53-348d569b471a",
+    "AdminConsentDescription": "UnifiedPolicy.User.Read",
+    "AdminConsentDisplayName": "UnifiedPolicy.User.Read",
+    "Id": "5320cf34-4df3-4e6b-9727-fa69d3e2dd76",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "User.Read",
-    "UserConsentDisplayName": "User.Read",
-    "Value": "User.Read",
+    "UserConsentDescription": "UnifiedPolicy.User.Read",
+    "UserConsentDisplayName": "UnifiedPolicy.User.Read",
+    "Value": "UnifiedPolicy.User.Read",
     "AdditionalProperties": {}
   },
   {
@@ -2136,15 +2136,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "UnifiedPolicy.User.Read",
-    "AdminConsentDisplayName": "UnifiedPolicy.User.Read",
-    "Id": "5320cf34-4df3-4e6b-9727-fa69d3e2dd76",
+    "AdminConsentDescription": "User.Read",
+    "AdminConsentDisplayName": "User.Read",
+    "Id": "d5b659cc-4375-466d-9c53-348d569b471a",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "UnifiedPolicy.User.Read",
-    "UserConsentDisplayName": "UnifiedPolicy.User.Read",
-    "Value": "UnifiedPolicy.User.Read",
+    "UserConsentDescription": "User.Read",
+    "UserConsentDisplayName": "User.Read",
+    "Value": "User.Read",
     "AdditionalProperties": {}
   },
   {
@@ -23268,27 +23268,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the application full access to the Skype Teams Service on behalf of the signed-in user",
-    "AdminConsentDisplayName": "Have full access to the Skype Teams Service",
-    "Id": "fd7bf697-168c-45be-b7ba-e94b3529deff",
+    "AdminConsentDescription": "Allows user to authorize with Teams",
+    "AdminConsentDisplayName": "Teams Authorization ReadWrite",
+    "Id": "60b1c89f-1cb7-4c03-886c-60986531eccf",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow the application full access to the Skype Teams Service on your behalf",
-    "UserConsentDisplayName": "Have full access to the Skype Teams Service",
-    "Value": "user_impersonation",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to read or write the region for all users in your organization",
-    "AdminConsentDisplayName": "Read or write user region",
-    "Id": "6f47731f-d307-453d-a5fb-72c9d98ab40d",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allows the app to read or write the region for all users in your organization",
-    "UserConsentDisplayName": "Read or write user region",
-    "Value": "Region.ReadWrite",
+    "Type": "User",
+    "UserConsentDescription": "Allows user to authorize with Teams",
+    "UserConsentDisplayName": "Teams Authorization ReadWrite",
+    "Value": "Authorization.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -23304,15 +23292,27 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows user to authorize with Teams",
-    "AdminConsentDisplayName": "Teams Authorization ReadWrite",
-    "Id": "60b1c89f-1cb7-4c03-886c-60986531eccf",
+    "AdminConsentDescription": "Allows the app to read or write the region for all users in your organization",
+    "AdminConsentDisplayName": "Read or write user region",
+    "Id": "6f47731f-d307-453d-a5fb-72c9d98ab40d",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows user to authorize with Teams",
-    "UserConsentDisplayName": "Teams Authorization ReadWrite",
-    "Value": "Authorization.ReadWrite",
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read or write the region for all users in your organization",
+    "UserConsentDisplayName": "Read or write user region",
+    "Value": "Region.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application full access to the Skype Teams Service on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Have full access to the Skype Teams Service",
+    "Id": "fd7bf697-168c-45be-b7ba-e94b3529deff",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow the application full access to the Skype Teams Service on your behalf",
+    "UserConsentDisplayName": "Have full access to the Skype Teams Service",
+    "Value": "user_impersonation",
     "AdditionalProperties": {}
   },
   {

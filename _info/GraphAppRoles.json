@@ -1671,12 +1671,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "User.Read.All",
-    "DisplayName": "User.Read.All",
-    "Id": "7b307ce5-1a3c-4a39-861b-ee5bf8a58941",
+    "Description": "UnifiedPolicy.Tenant.Read",
+    "DisplayName": "UnifiedPolicy.Tenant.Read",
+    "Id": "338446c9-b981-47d7-a96b-3e02921beace",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "User.Read.All",
+    "Value": "UnifiedPolicy.Tenant.Read",
     "AdditionalProperties": {}
   },
   {
@@ -1695,12 +1695,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "UnifiedPolicy.Tenant.Read",
-    "DisplayName": "UnifiedPolicy.Tenant.Read",
-    "Id": "338446c9-b981-47d7-a96b-3e02921beace",
+    "Description": "User.Read.All",
+    "DisplayName": "User.Read.All",
+    "Id": "7b307ce5-1a3c-4a39-861b-ee5bf8a58941",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "UnifiedPolicy.Tenant.Read",
+    "Value": "User.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -14583,72 +14583,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Read and write Teams team data for team lifecycle (OnTeamUpdated, OnTeamSoftDeleted, OnTeamSoftUndeleted).",
-    "DisplayName": "Read and write Teams team data",
-    "Id": "400ef46e-3c0a-45d4-bb3d-4eb2d94f832a",
+    "Description": "This allows reading user app assignments.",
+    "DisplayName": "Read user app assignment",
+    "Id": "4f217d7c-5ea7-4dde-a269-9025b80f2cd5",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Team.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Read and write Teams team member data for member lifecycle (onMembersRemoved, onOwnersRemoved).",
-    "DisplayName": "Read and write Teams team member data",
-    "Id": "eb12f503-edcc-4d03-93d7-3462546aeace",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "TeamMember.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow the application full access to the Skype Teams Service on behalf of the signed-in user",
-    "DisplayName": "Have full access to the Skype Teams Service",
-    "Id": "fd7bf697-168c-45be-b7ba-e94b3529deff",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "user_impersonation",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the user license details for all users in your organization.",
-    "DisplayName": "Read user license details",
-    "Id": "b8a8280c-fe24-4c24-8b5a-74e833c2c018",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "UserLicense.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read the region for all users in your organization.",
-    "DisplayName": "Read user region",
-    "Id": "0d9ce864-39e5-424f-8556-b68ce5dac482",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Region.Read.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows the app to read or write the region for all users in your organization.",
-    "DisplayName": "Read or write user region",
-    "Id": "3ed42bc3-d6ed-4cf4-9531-d521e361223e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Region.ReadWrite.All",
+    "Value": "AdminAppCatalog.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -14667,12 +14607,72 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows reading user app assignments.",
-    "DisplayName": "Read user app assignment",
-    "Id": "4f217d7c-5ea7-4dde-a269-9025b80f2cd5",
+    "Description": "Allows the app to read or write the region for all users in your organization.",
+    "DisplayName": "Read or write user region",
+    "Id": "3ed42bc3-d6ed-4cf4-9531-d521e361223e",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "AdminAppCatalog.Read.All",
+    "Value": "Region.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the region for all users in your organization.",
+    "DisplayName": "Read user region",
+    "Id": "0d9ce864-39e5-424f-8556-b68ce5dac482",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Region.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to read the user license details for all users in your organization.",
+    "DisplayName": "Read user license details",
+    "Id": "b8a8280c-fe24-4c24-8b5a-74e833c2c018",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "UserLicense.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow the application full access to the Skype Teams Service on behalf of the signed-in user",
+    "DisplayName": "Have full access to the Skype Teams Service",
+    "Id": "fd7bf697-168c-45be-b7ba-e94b3529deff",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read and write Teams team member data for member lifecycle (onMembersRemoved, onOwnersRemoved).",
+    "DisplayName": "Read and write Teams team member data",
+    "Id": "eb12f503-edcc-4d03-93d7-3462546aeace",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "TeamMember.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Read and write Teams team data for team lifecycle (OnTeamUpdated, OnTeamSoftDeleted, OnTeamSoftUndeleted).",
+    "DisplayName": "Read and write Teams team data",
+    "Id": "400ef46e-3c0a-45d4-bb3d-4eb2d94f832a",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Team.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

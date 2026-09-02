@@ -18312,18 +18312,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "allow access to all of assist api",
-    "AdminConsentDisplayName": "Assist.All",
-    "Id": "7f4267a9-db7c-4f04-9302-63f5344c62c6",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "allow access to assist api",
-    "UserConsentDisplayName": "Assist.All",
-    "Value": "Assist.All",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allow the user to access Microsoft 365 business assist APIs",
     "AdminConsentDisplayName": "BusinessAssist.Access",
     "Id": "f29546b5-6166-470f-9dba-6464f1e03f86",
@@ -18333,6 +18321,18 @@
     "UserConsentDescription": "Allow the user to access Microsoft 365 business assist APIs",
     "UserConsentDisplayName": "BusinessAssist.Access",
     "Value": "BusinessAssist.Access",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "allow access to all of assist api",
+    "AdminConsentDisplayName": "Assist.All",
+    "Id": "7f4267a9-db7c-4f04-9302-63f5344c62c6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "allow access to assist api",
+    "UserConsentDisplayName": "Assist.All",
+    "Value": "Assist.All",
     "AdditionalProperties": {}
   },
   {
@@ -22140,51 +22140,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read the signed-in files of the user and files shared with the user.",
-    "AdminConsentDisplayName": "Read user files and files shared with user",
-    "Id": "749d9cae-ceda-4718-bd22-1ae6830cbee6",
+    "AdminConsentDescription": "Allows the app to read email in user mailboxes.",
+    "AdminConsentDisplayName": "Read user mail",
+    "Id": "fdf2c210-c550-4378-b72d-0d94197f7bd3",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read your files and files shared with you.",
-    "UserConsentDisplayName": "Read your files and files shared with you",
-    "Value": "Files.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to search across the users office content. This content includes relevant people, documents, emails and skype messages.",
-    "AdminConsentDisplayName": "Search across the office content of the user",
-    "Id": "2aec0168-f9e2-4ce1-bb0f-1145f35f5a64",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to search across the users office content. This content includes your relevant people, documents, emails and skype messages.",
-    "UserConsentDisplayName": "Search across your office content",
-    "Value": "SubstrateSearch-Internal.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to search across sharepoint content. This is used for 3S unfurl route.",
-    "AdminConsentDisplayName": "Search across the users office content",
-    "Id": "2aec0168-f9e2-4ce1-bb0f-1145f35f5a60",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to search across sharepoint content. This is used for 3S unfurl route.",
-    "UserConsentDisplayName": "Search across sharepoint content",
-    "Value": "SubstrateSearchServiceFiles.ReadAll",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app to list QnA and to read their properties on behalf of the signed-in user. ",
-    "AdminConsentDisplayName": "Read all QnA",
-    "Id": "537ceb4f-32cd-4b8e-bab3-8303e950ccf0",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app to list QnA and to read their properties on your behalf. ",
-    "UserConsentDisplayName": "Read all QnA",
-    "Value": "QnA.Read.All",
+    "UserConsentDescription": "Allows the app to read email in your mailbox.",
+    "UserConsentDisplayName": "Read your mail",
+    "Value": "Mail.Read",
     "AdditionalProperties": {}
   },
   {
@@ -22200,15 +22164,51 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app to read email in user mailboxes.",
-    "AdminConsentDisplayName": "Read user mail",
-    "Id": "fdf2c210-c550-4378-b72d-0d94197f7bd3",
+    "AdminConsentDescription": "Allows the app to list QnA and to read their properties on behalf of the signed-in user. ",
+    "AdminConsentDisplayName": "Read all QnA",
+    "Id": "537ceb4f-32cd-4b8e-bab3-8303e950ccf0",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app to read email in your mailbox.",
-    "UserConsentDisplayName": "Read your mail",
-    "Value": "Mail.Read",
+    "UserConsentDescription": "Allows the app to list QnA and to read their properties on your behalf. ",
+    "UserConsentDisplayName": "Read all QnA",
+    "Value": "QnA.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to search across sharepoint content. This is used for 3S unfurl route.",
+    "AdminConsentDisplayName": "Search across the users office content",
+    "Id": "2aec0168-f9e2-4ce1-bb0f-1145f35f5a60",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to search across sharepoint content. This is used for 3S unfurl route.",
+    "UserConsentDisplayName": "Search across sharepoint content",
+    "Value": "SubstrateSearchServiceFiles.ReadAll",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to search across the users office content. This content includes relevant people, documents, emails and skype messages.",
+    "AdminConsentDisplayName": "Search across the office content of the user",
+    "Id": "2aec0168-f9e2-4ce1-bb0f-1145f35f5a64",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to search across the users office content. This content includes your relevant people, documents, emails and skype messages.",
+    "UserConsentDisplayName": "Search across your office content",
+    "Value": "SubstrateSearch-Internal.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read the signed-in files of the user and files shared with the user.",
+    "AdminConsentDisplayName": "Read user files and files shared with user",
+    "Id": "749d9cae-ceda-4718-bd22-1ae6830cbee6",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read your files and files shared with you.",
+    "UserConsentDisplayName": "Read your files and files shared with you",
+    "Value": "Files.Read",
     "AdditionalProperties": {}
   },
   {

@@ -3,12 +3,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to uninstall Microsoft Entra Connect Sync Agent and offboard SSPR for the tenant",
-    "DisplayName": "Read, write and manage Microsoft Entra Connect Sync Agent",
-    "Id": "69201c67-737b-4a20-8f16-e0c8c64e0b0e",
+    "Description": "Allows the app to refresh and recreate on-premises configuration for Microsoft self-service password reset.",
+    "DisplayName": "Read, write and manage self-service password reset writeback configuration",
+    "Id": "fc7e8088-95b5-453e-8bef-b17ecfec5ba3",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "PasswordWriteback.OffboardClient.All",
+    "Value": "PasswordWriteback.RefreshClient.All",
     "AdditionalProperties": {}
   },
   {
@@ -27,12 +27,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to refresh and recreate on-premises configuration for Microsoft self-service password reset.",
-    "DisplayName": "Read, write and manage self-service password reset writeback configuration",
-    "Id": "fc7e8088-95b5-453e-8bef-b17ecfec5ba3",
+    "Description": "Allows the app to uninstall Microsoft Entra Connect Sync Agent and offboard SSPR for the tenant",
+    "DisplayName": "Read, write and manage Microsoft Entra Connect Sync Agent",
+    "Id": "69201c67-737b-4a20-8f16-e0c8c64e0b0e",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "PasswordWriteback.RefreshClient.All",
+    "Value": "PasswordWriteback.OffboardClient.All",
     "AdditionalProperties": {}
   },
   {

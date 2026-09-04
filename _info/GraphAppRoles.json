@@ -11110,84 +11110,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows an application to read or write Customer Key Encryption Tenant Data",
-    "DisplayName": "Read or Write Customer Key Encryption Tenant Data",
-    "Id": "e85fa438-368f-4c1d-909a-5760a4e045ae",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomerKeyTenant-Internal.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This scope allows the holder to invoke customer onboarding scenarios",
-    "DisplayName": "CustomerKeyOnboarding-Internal.ReadWrite.All",
-    "Id": "837e1541-7f8b-4fcf-a215-12fe252cd3e2",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomerKeyOnboarding-Internal.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an application to Read or Write resource application registration data for any application",
-    "DisplayName": "Read or Write resource application registration data for any application",
-    "Id": "d747c012-3ada-46fa-9807-9c2534d06a14",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomerKeyRegistration-Internal.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an application to Read or Write resource application registration data for their application",
-    "DisplayName": "Read or Write resource application registration data for their application",
-    "Id": "6bbe32a7-dfd3-4ab5-877a-62b4caa98d4d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomerKeyRegistration.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an application to read or write Microsoft Managed Key Data",
-    "DisplayName": "Read or Write Microsoft Managed Key Data",
-    "Id": "ac23b270-1dc3-4ee4-bd56-d7eb945c2332",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MicrosoftManagedKey-Internal.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows application to Wrap or Unwrap data using CustomerKey Encryption Policy",
+    "Description": "Allows application to Wrap or Unwrap data using CustomerKey Encryption Policy.",
     "DisplayName": "Wrap or Unwrap data using CustomerKey Encryption Policy",
-    "Id": "42e29572-777c-48b4-bdaf-c63df6da65d3",
+    "Id": "f8a2c9d1-31d8-4a2e-900a-4105aaf50280",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "CustomerKeyPolicy.WrapUnwrap",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows an application to read Customer Key Encryption Tenant Data",
-    "DisplayName": "Read Customer Key Encryption Tenant Data",
-    "Id": "54f050d4-7d90-4abe-97bd-15325467480e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "CustomerKeyTenant.Read.All",
+    "Value": "CustomerKeyPolicy-Internal.WrapUnwrap.All",
     "AdditionalProperties": {}
   },
   {
@@ -11206,12 +11134,84 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows application to Wrap or Unwrap data using CustomerKey Encryption Policy.",
-    "DisplayName": "Wrap or Unwrap data using CustomerKey Encryption Policy",
-    "Id": "f8a2c9d1-31d8-4a2e-900a-4105aaf50280",
+    "Description": "Allows an application to read Customer Key Encryption Tenant Data",
+    "DisplayName": "Read Customer Key Encryption Tenant Data",
+    "Id": "54f050d4-7d90-4abe-97bd-15325467480e",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "CustomerKeyPolicy-Internal.WrapUnwrap.All",
+    "Value": "CustomerKeyTenant.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows application to Wrap or Unwrap data using CustomerKey Encryption Policy",
+    "DisplayName": "Wrap or Unwrap data using CustomerKey Encryption Policy",
+    "Id": "42e29572-777c-48b4-bdaf-c63df6da65d3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomerKeyPolicy.WrapUnwrap",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows an application to read or write Microsoft Managed Key Data",
+    "DisplayName": "Read or Write Microsoft Managed Key Data",
+    "Id": "ac23b270-1dc3-4ee4-bd56-d7eb945c2332",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MicrosoftManagedKey-Internal.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows an application to Read or Write resource application registration data for their application",
+    "DisplayName": "Read or Write resource application registration data for their application",
+    "Id": "6bbe32a7-dfd3-4ab5-877a-62b4caa98d4d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomerKeyRegistration.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows an application to Read or Write resource application registration data for any application",
+    "DisplayName": "Read or Write resource application registration data for any application",
+    "Id": "d747c012-3ada-46fa-9807-9c2534d06a14",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomerKeyRegistration-Internal.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This scope allows the holder to invoke customer onboarding scenarios",
+    "DisplayName": "CustomerKeyOnboarding-Internal.ReadWrite.All",
+    "Id": "837e1541-7f8b-4fcf-a215-12fe252cd3e2",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomerKeyOnboarding-Internal.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows an application to read or write Customer Key Encryption Tenant Data",
+    "DisplayName": "Read or Write Customer Key Encryption Tenant Data",
+    "Id": "e85fa438-368f-4c1d-909a-5760a4e045ae",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CustomerKeyTenant-Internal.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

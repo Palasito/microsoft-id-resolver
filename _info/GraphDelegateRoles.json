@@ -21540,18 +21540,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows Teams to call the bot web service as the current user",
-    "AdminConsentDisplayName": "Access the bot as the user",
-    "Id": "d31a9af4-7a93-45c0-9cc9-dc3c426e6651",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows Teams to call this bot as you",
-    "UserConsentDisplayName": "Access the bot as the user",
-    "Value": "access_as_user",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": " Allow this app to authorize against itself",
     "AdminConsentDisplayName": "self.all",
     "Id": "59bbb459-8323-4a47-ad49-fdf7e6dee0a6",
@@ -21561,6 +21549,18 @@
     "UserConsentDescription": " Allow this app to authorize against itself ",
     "UserConsentDisplayName": " Allow this app to authorize against itself",
     "Value": "self.all",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows Teams to call the bot web service as the current user",
+    "AdminConsentDisplayName": "Access the bot as the user",
+    "Id": "d31a9af4-7a93-45c0-9cc9-dc3c426e6651",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows Teams to call this bot as you",
+    "UserConsentDisplayName": "Access the bot as the user",
+    "Value": "access_as_user",
     "AdditionalProperties": {}
   },
   {

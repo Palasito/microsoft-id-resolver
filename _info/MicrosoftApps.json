@@ -26166,6 +26166,12 @@
     "source": "EntraDocs"
   },
   {
+    "appId": "1412d89f-b8a8-4111-b4fd-e82905cbd85d",
+    "displayName": "Microsoft.AzureStackHCI Provider",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
     "appId": "04436913-cf0d-4d2a-9cc6-2ffe7f1d3d1c",
     "displayName": "Windows Notification Service [Community Contributed]",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

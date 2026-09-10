@@ -180,6 +180,12 @@
     "source": "Graph"
   },
   {
+    "appId": "a80a6f8b-55ed-4040-941e-b47c0acb4d4e",
+    "displayName": "Azure Billing Benefits application",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "22d27567-b3f0-4dc2-9ec2-46ed368ba538",
     "displayName": "Reading Assignments",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
@@ -974,6 +980,12 @@
   {
     "appId": "55ebbb62-3b9c-49fd-9b87-9595226dd4ac",
     "displayName": "Microsoft Azure Legion ",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
+    "appId": "4200f961-ba28-4b7b-84f5-090d974ca00c",
+    "displayName": "Azure Billing Benefits application Prod",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
     "source": "Graph"
   },

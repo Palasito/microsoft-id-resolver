@@ -1624,6 +1624,7 @@
 "be203134-c456-436a-9be1-c6bd8a5046a4","vso.advsec_write","AdvancedSecurity (read and write)","Grants the ability to upload analyses in sarif"
 "de2740de-3092-4b70-afcd-df4a8a4ecacf","vso.pats","Pats (read)","Grants the ability to read Pats for a user"
 "15b69eb5-89f0-4f4d-8d0d-219397dab9c4","vso.pats_manage","Pats (read and manage)","Grants the ability to read and manage Pats for a user"
+"4f1e0c5f-7d24-4c8e-9a7b-3c2d1e0f5a61","McpTools.Execute","Execute Copilot connector MCP tools as the signed-in user","Allows the app to discover and execute Copilot connector MCP tools on behalf of the signed-in user."
 "565c16dd-b86f-4528-9d73-af8687391f02","ExternalItem.ReadWrite.All","ExternalItem.ReadWrite.All","Allows the app to read and write all external items on behalf of a signed-in user. The signed-in user must be an administrator."
 "13d477ed-f4cf-4cc0-9678-80517234742e","ExternalItem.ReadWrite.OwnedBy","ExternalItem.ReadWrite.OwnedBy","Allows the app to read and write external items on behalf of a signed-in user. The signed-in user must be an administrator. The app can only read external items of the connection that it is authorized to."
 "7dd8483d-ffd6-4c0c-a2be-88d3aea446d8","ExternalItem.Read.OwnedBy","ExternalItem.Read.OwnedBy","Allows the app to read external items on behalf of a signed-in user. The signed-in user must be an administrator. The app can only read items of the connection that it is authorized to."

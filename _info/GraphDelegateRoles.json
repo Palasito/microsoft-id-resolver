@@ -19428,6 +19428,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to discover and execute Copilot connector MCP tools on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Execute Copilot connector MCP tools as the signed-in user",
+    "Id": "4f1e0c5f-7d24-4c8e-9a7b-3c2d1e0f5a61",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to discover and execute Copilot connector MCP tools on your behalf.",
+    "UserConsentDisplayName": "Execute Copilot connector MCP tools on your behalf",
+    "Value": "McpTools.Execute",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read and write all external items on behalf of a signed-in user. The signed-in user must be an administrator.",
     "AdminConsentDisplayName": "ExternalItem.ReadWrite.All",
     "Id": "565c16dd-b86f-4528-9d73-af8687391f02",

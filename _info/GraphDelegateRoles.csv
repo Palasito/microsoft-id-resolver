@@ -1076,6 +1076,7 @@
 "ff60b1a1-5694-4b26-9c81-a5f4fabf51f5","FloorPlan.Read.All","Read all floor plans","Allows the app to list floor plans and to read their properties on behalf of the signed-in user. "
 "b74d6cc7-732d-424d-9f47-b08e1404f765","Building.Read.All","Read all buildings","Allows the app to list buildings and to read their properties on behalf of the signed-in user. "
 "c11daebe-235e-4429-ab4c-43569661ff2a","NewsFeed.Read","Read news feed","Allows the app to read news feeds and to read their properties on behalf of the signed-in user. "
+"ef86bb8e-23d9-40e0-9f7e-f5aad12db97b","ShieldingPlan.ReadWrite","Create and manage shielding plans","Allows the app to create and reject shielding plans that the signed-in user can manage."
 "ac84805c-5585-464e-8b56-032d142b4949","VirtualVisitAnalytics-Internal.Read","VirtualVisitAnalytics-Internal.Read","This allow application to get virtual visits analytics data on behalf of the signed in user"
 "cb8e40c2-6c4e-4c1a-9daa-de5fd3ea194c","TelehealthSettings-Internal.Read","TelehealthSettings-Internal.Read","This allows app to read telehealth settings on behalf of the signed-in user."
 "4e7ad296-9d44-4f6d-9a8e-07f7b7ef3dab","TelehealthSettings-Internal.ReadWrite","TelehealthSettings-Internal.ReadWrite","This allows app to read and write telehealth settings on behalf of the signed-in user."

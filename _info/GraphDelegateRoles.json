@@ -12924,6 +12924,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to create and reject shielding plans that the signed-in user can manage.",
+    "AdminConsentDisplayName": "Create and manage shielding plans",
+    "Id": "ef86bb8e-23d9-40e0-9f7e-f5aad12db97b",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to create and reject shielding plans that the signed-in user can manage.",
+    "UserConsentDisplayName": "Create and manage shielding plans",
+    "Value": "ShieldingPlan.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "This allow application to get virtual visits analytics data on behalf of the signed in user",
     "AdminConsentDisplayName": "VirtualVisitAnalytics-Internal.Read",
     "Id": "ac84805c-5585-464e-8b56-032d142b4949",

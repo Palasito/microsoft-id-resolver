@@ -21876,18 +21876,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "This allows a user to interact with the APIs necessary to submit and monitor analysis jobs",
-    "AdminConsentDisplayName": "Analysis.All",
-    "Id": "d533b86d-8f67-45f0-b8bb-c0cee8da0356",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "This allows a user to submit and monitor analysis jobs",
-    "UserConsentDisplayName": "Interact with analysis APIs",
-    "Value": "Analysis.All",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "This allows an application to interact with the APIs necessary to submit and monitor analysis jobs",
     "AdminConsentDisplayName": "Analysis.All",
     "Id": "640bd519-35de-4a25-994f-ae29551cc6d2",
@@ -21895,6 +21883,18 @@
     "Origin": null,
     "Type": "Admin",
     "UserConsentDescription": "This allows an application to submit and monitor analysis jobs",
+    "UserConsentDisplayName": "Interact with analysis APIs",
+    "Value": "Analysis.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "This allows a user to interact with the APIs necessary to submit and monitor analysis jobs",
+    "AdminConsentDisplayName": "Analysis.All",
+    "Id": "d533b86d-8f67-45f0-b8bb-c0cee8da0356",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "This allows a user to submit and monitor analysis jobs",
     "UserConsentDisplayName": "Interact with analysis APIs",
     "Value": "Analysis.All",
     "AdditionalProperties": {}

@@ -12224,14 +12224,14 @@
   },
   {
     "AllowedMemberTypes": [
-      "User"
+      "Application"
     ],
-    "Description": "Allows assigned users and groups to publish global communications.",
-    "DisplayName": "Communicator.GlobalPublisher",
-    "Id": "c42fe9ce-8f28-4021-8853-34ae72d29e23",
+    "Description": "Read Call Usage Report of Walkie Talkie",
+    "DisplayName": "WalkieTalkie.Reports.CallUsage.Read",
+    "Id": "9bdad8a6-a72b-4d5c-b264-c8ff1dcd328f",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Communicator.GlobalPublisher",
+    "Value": "WalkieTalkie.Reports.CallUsage.Read",
     "AdditionalProperties": {}
   },
   {
@@ -12248,14 +12248,14 @@
   },
   {
     "AllowedMemberTypes": [
-      "Application"
+      "User"
     ],
-    "Description": "Read Call Usage Report of Walkie Talkie",
-    "DisplayName": "WalkieTalkie.Reports.CallUsage.Read",
-    "Id": "9bdad8a6-a72b-4d5c-b264-c8ff1dcd328f",
+    "Description": "Allows assigned users and groups to publish global communications.",
+    "DisplayName": "Communicator.GlobalPublisher",
+    "Id": "c42fe9ce-8f28-4021-8853-34ae72d29e23",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "WalkieTalkie.Reports.CallUsage.Read",
+    "Value": "Communicator.GlobalPublisher",
     "AdditionalProperties": {}
   },
   {

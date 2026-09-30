@@ -22224,18 +22224,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "This allows read only access to O365 settings APIs",
-    "AdminConsentDisplayName": "ShellSettings.Read",
-    "Id": "ea5e0a19-34b8-483b-8986-194f47eeb4ec",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "This allows read only access to O365 settings APIs",
-    "UserConsentDisplayName": "Read O365 settings",
-    "Value": "shellsettings.read",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows the caller to query for information to render the Office365 navbar",
     "AdminConsentDisplayName": "ShellInfo.Read",
     "Id": "697b92ae-2cd0-4ace-8537-b65431001e9c",
@@ -22245,6 +22233,18 @@
     "UserConsentDescription": "Allows the caller to query for information to render the Office365 navbar",
     "UserConsentDisplayName": "ShellInfo.Read",
     "Value": "shellinfo.read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "This allows read only access to O365 settings APIs",
+    "AdminConsentDisplayName": "ShellSettings.Read",
+    "Id": "ea5e0a19-34b8-483b-8986-194f47eeb4ec",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "This allows read only access to O365 settings APIs",
+    "UserConsentDisplayName": "Read O365 settings",
+    "Value": "shellsettings.read",
     "AdditionalProperties": {}
   },
   {

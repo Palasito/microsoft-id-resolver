@@ -15123,6 +15123,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to CA policy information without a signed-in user.",
+    "DisplayName": "Read all CA policies",
+    "Id": "70be0778-0406-4e29-9a59-8202bee90e63",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Policy.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application to read risky agent information without a signed-in user.",
+    "DisplayName": "Read all risky agents information",
+    "Id": "0c28ca26-b7ba-4a45-bd58-48432e56f93c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "IdentityRiskyAgent.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Event.Send",
     "DisplayName": "Event.Send",
     "Id": "0998b94f-35aa-4d5d-8168-2428b8967840",

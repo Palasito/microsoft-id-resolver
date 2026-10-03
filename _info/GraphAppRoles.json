@@ -11566,6 +11566,42 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allows the application to send telemetry to Agent 365.",
+    "DisplayName": "Enable Agent 365 Telemetry",
+    "Id": "8f71190c-00c8-461d-a63b-f74abde9ba52",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Agent365.Observability.OtelWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the collector to send telemetry from multiple agents to Agent 365.",
+    "DisplayName": "Collector send to Agent 365",
+    "Id": "c4b66e49-3ff7-4134-a6e8-88a32dc0fe18",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Agent365.Observability.CollectorWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the application running on a device to send telemetry to Agent 365. For example, an application that is installed on desktop that captures telemetry for agents running locally on the machine.",
+    "DisplayName": "Enable Agent 365 Device Telemetry",
+    "Id": "d553d331-d5b0-4162-ad69-1a4a19187c45",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Agent365.Observability.DeviceCollectorWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows an application to read the organizational hierarchy",
     "DisplayName": "OrgHierarchy.Read.All",
     "Id": "75efb5bc-18a1-4e7b-8a66-000000000010",

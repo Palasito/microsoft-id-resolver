@@ -13620,6 +13620,42 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to access resources on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Access resources",
+    "Id": "41b63d5c-5971-4dfb-a5c2-e73464ef710d",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to access data on your behalf",
+    "UserConsentDisplayName": "Access resources",
+    "Value": "Agent365.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows agent to send telemetry to Agent 365.",
+    "AdminConsentDisplayName": "Enable Agent 365 Telemetry",
+    "Id": "98e4fa6c-c81d-4de9-ad9f-f9b99a265e05",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows agent to send telemetry to Agent 365.",
+    "UserConsentDisplayName": "Enable Agent 365 Telemetry",
+    "Value": "Agent365.Observability.OtelWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read resources on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Read resources",
+    "Id": "6de94f38-c77b-4777-9934-64014d093bb8",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app to read data on your behalf",
+    "UserConsentDisplayName": "Read resources",
+    "Value": "Agent365.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow clients to read topic suggestions and update their status",
     "AdminConsentDisplayName": "TopicSuggestion-Internal.ReadWrite",
     "Id": "e6d57537-d278-4cb8-9f1d-19e173bcf4eb",

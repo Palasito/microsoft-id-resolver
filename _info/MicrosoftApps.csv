@@ -290,6 +290,7 @@
 "0f698dd4-f011-4d23-a33e-b36416dcb1e6","OfficeClientService","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "55441455-2f54-42b5-bc99-93e21cd4ae28","Office Enterprise Protection Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "810dcf14-1858-4bf2-8134-4c369fa3235b","Azure AD Identity Governance - Entitlement Management","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"9b975845-388f-4429-889e-eab1ef63949c","Agent365Observability","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "441509e5-a165-4363-8ee7-bcf0b7d26739","DWEngineV2","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "e4ab13ed-33cb-41b4-9140-6e264582cf85","Azure SQL Database Backup To Azure Backup Vault","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "0947a342-ab4a-43be-93b3-b8243fc161e5","Azure Data Factory","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

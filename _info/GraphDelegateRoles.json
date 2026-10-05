@@ -22188,18 +22188,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the application to access Diagnostic Services on behalf of the signed-in user",
-    "AdminConsentDisplayName": "Access Diagnostic Services",
-    "Id": "384a9d29-7ed2-4fc4-b781-1aa48cb2b883",
-    "IsEnabled": false,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow the application to access Diagnostic Services on your behalf",
-    "UserConsentDisplayName": "Access Diagnostic Services",
-    "Value": "user_impersonation",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allow the application to read profiler traces, insights, and diagnostic data on behalf of the signed-in user",
     "AdminConsentDisplayName": "Read Diagnostic Services data",
     "Id": "ada81ce7-1959-4df2-81a5-cd710022e0c5",

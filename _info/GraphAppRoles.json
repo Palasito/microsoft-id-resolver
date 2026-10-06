@@ -14391,60 +14391,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows  the application to search authorities and contracts in the VerifiedID network",
-    "DisplayName": "VerifiableCredential.Network.Read",
-    "Id": "63f52f43-0b98-429c-b291-b2dba4a64504",
+    "Description": "This allows the application to perform read operations on contracts via Admin API",
+    "DisplayName": "VerifiableCredential.Contract.Read",
+    "Id": "24811a58-8ce0-4f09-a081-9ed0441ad3f2",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "VerifiableCredential.Network.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows the application to search credentials via Admin API",
-    "DisplayName": "VerifiableCredential.Credential.Search",
-    "Id": "933a4159-27ca-4486-b1be-dce09da38475",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "VerifiableCredential.Credential.Search",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows  the application to revoke credentials via Admin API",
-    "DisplayName": "VerifiableCredential.Credential.Revoke",
-    "Id": "c7656015-9c77-47f7-ae83-110ad70f1edc",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "VerifiableCredential.Credential.Revoke",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows the application to perform operations on contracts via Admin API",
-    "DisplayName": "VerifiableCredential.Contract.ReadWrite",
-    "Id": "077813bc-e516-4576-bafd-07bead19c0dc",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "VerifiableCredential.Contract.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "This allows the application to perform operations on authorities via Admin API",
-    "DisplayName": "VerifiableCredential.Authority.ReadWrite",
-    "Id": "4ceb7a90-1485-40b1-accf-83a647694c0f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "VerifiableCredential.Authority.ReadWrite",
+    "Value": "VerifiableCredential.Contract.Read",
     "AdditionalProperties": {}
   },
   {
@@ -14463,12 +14415,60 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "This allows the application to perform read operations on contracts via Admin API",
-    "DisplayName": "VerifiableCredential.Contract.Read",
-    "Id": "24811a58-8ce0-4f09-a081-9ed0441ad3f2",
+    "Description": "This allows the application to perform operations on authorities via Admin API",
+    "DisplayName": "VerifiableCredential.Authority.ReadWrite",
+    "Id": "4ceb7a90-1485-40b1-accf-83a647694c0f",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "VerifiableCredential.Contract.Read",
+    "Value": "VerifiableCredential.Authority.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows the application to perform operations on contracts via Admin API",
+    "DisplayName": "VerifiableCredential.Contract.ReadWrite",
+    "Id": "077813bc-e516-4576-bafd-07bead19c0dc",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "VerifiableCredential.Contract.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows  the application to revoke credentials via Admin API",
+    "DisplayName": "VerifiableCredential.Credential.Revoke",
+    "Id": "c7656015-9c77-47f7-ae83-110ad70f1edc",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "VerifiableCredential.Credential.Revoke",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows the application to search credentials via Admin API",
+    "DisplayName": "VerifiableCredential.Credential.Search",
+    "Id": "933a4159-27ca-4486-b1be-dce09da38475",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "VerifiableCredential.Credential.Search",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "This allows  the application to search authorities and contracts in the VerifiedID network",
+    "DisplayName": "VerifiableCredential.Network.Read",
+    "Id": "63f52f43-0b98-429c-b291-b2dba4a64504",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "VerifiableCredential.Network.Read",
     "AdditionalProperties": {}
   },
   {

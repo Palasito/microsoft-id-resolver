@@ -1662,7 +1662,7 @@
     "Description": "This allows other apps to call the callevents apis without a signed in user.",
     "DisplayName": "callevents.write",
     "Id": "48b480b5-d7d4-4d89-a415-ba49b989518d",
-    "IsEnabled": true,
+    "IsEnabled": false,
     "Origin": "Application",
     "Value": "callevents.write",
     "AdditionalProperties": {}

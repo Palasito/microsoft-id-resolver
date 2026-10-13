@@ -1755,12 +1755,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Can only access the things made available to them by their organization.",
-    "DisplayName": "Basic user",
-    "Id": "16beb6e1-c277-4b64-97fa-5c90295a5c84",
+    "Description": "A configured management tool can distribute app licenses that have been acquired in the Windows Store for Business Portal to users and devices within an organization.",
+    "DisplayName": "Management Tool",
+    "Id": "e4c00fbe-aea4-4c3b-b803-335d512be9d6",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "basicuser",
+    "Value": "bspmdm",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Has access to the device guard signing page, can sign policies and catalogs.",
+    "DisplayName": "Device Guard signer",
+    "Id": "4c7bcbe9-70eb-42d2-a8b1-a66d985811c3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "deviceguardsigner",
     "AdditionalProperties": {}
   },
   {
@@ -1768,11 +1780,11 @@
       "Application"
     ],
     "Description": "Can buy products for inventory, assign and reclaim licenses.",
-    "DisplayName": "Basic purchaser",
-    "Id": "cf498509-9a5c-4d83-aa26-2b70fcbd0e1c",
+    "DisplayName": "Purchaser",
+    "Id": "20220577-b1fd-4061-bfed-05a068857ffc",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "basicpurchaser",
+    "Value": "bsppurchaser",
     "AdditionalProperties": {}
   },
   {
@@ -1792,35 +1804,23 @@
       "Application"
     ],
     "Description": "Can buy products for inventory, assign and reclaim licenses.",
-    "DisplayName": "Purchaser",
-    "Id": "20220577-b1fd-4061-bfed-05a068857ffc",
+    "DisplayName": "Basic purchaser",
+    "Id": "cf498509-9a5c-4d83-aa26-2b70fcbd0e1c",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "bsppurchaser",
+    "Value": "basicpurchaser",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Has access to the device guard signing page, can sign policies and catalogs.",
-    "DisplayName": "Device Guard signer",
-    "Id": "4c7bcbe9-70eb-42d2-a8b1-a66d985811c3",
+    "Description": "Can only access the things made available to them by their organization.",
+    "DisplayName": "Basic user",
+    "Id": "16beb6e1-c277-4b64-97fa-5c90295a5c84",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "deviceguardsigner",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "A configured management tool can distribute app licenses that have been acquired in the Windows Store for Business Portal to users and devices within an organization.",
-    "DisplayName": "Management Tool",
-    "Id": "e4c00fbe-aea4-4c3b-b803-335d512be9d6",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "bspmdm",
+    "Value": "basicuser",
     "AdditionalProperties": {}
   },
   {

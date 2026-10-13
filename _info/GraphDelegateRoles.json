@@ -2340,18 +2340,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow the application to access Windows Store for Business on behalf of the signed-in user.",
-    "AdminConsentDisplayName": "Access Windows Store for Business",
-    "Id": "56cee9a4-2b49-4d48-a5c1-b26a2e48aada",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow the application to access Windows Store for Business on your behalf.",
-    "UserConsentDisplayName": "Access Windows Store for Business",
-    "Value": "user_impersonation",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allows user to view purchased products and subscriptions",
     "AdminConsentDisplayName": "Assets.Read",
     "Id": "30000000-aaaa-bbbb-cccc-100000000002",
@@ -2361,6 +2349,18 @@
     "UserConsentDescription": "Allows you to view purchased products and subscriptions",
     "UserConsentDisplayName": "View Purchases",
     "Value": "Assets.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow the application to access Windows Store for Business on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Access Windows Store for Business",
+    "Id": "56cee9a4-2b49-4d48-a5c1-b26a2e48aada",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allow the application to access Windows Store for Business on your behalf.",
+    "UserConsentDisplayName": "Access Windows Store for Business",
+    "Value": "user_impersonation",
     "AdditionalProperties": {}
   },
   {

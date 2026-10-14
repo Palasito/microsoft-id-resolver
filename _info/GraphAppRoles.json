@@ -15615,6 +15615,30 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Credit Hold Reader",
+    "DisplayName": "CreditHoldReader",
+    "Id": "cdc5cfa5-1605-4ff3-be98-cf14f5bb4627",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CreditHoldReader",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Credit Hold Manager",
+    "DisplayName": "CreditHoldManager",
+    "Id": "25703bb7-1f48-4648-9715-1693bd55c29e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "CreditHoldManager",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "FullTrust EA Partner Organizations Reader",
     "DisplayName": "FullTrustEAPartnerOrganizationsReader",
     "Id": "1224c7b4-5fd0-40e8-a122-2fb278e6d012",

@@ -20532,6 +20532,30 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows a preauthorized application to evaluate entitlements for consumption.",
+    "AdminConsentDisplayName": "Licensing.Evaluation.Read",
+    "Id": "2330eaa5-c444-4542-88ab-1787bbd617c9",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to evaluate entitlements for consumption on your behalf.",
+    "UserConsentDisplayName": "Licensing.Evaluation.Read",
+    "Value": "Licensing.Evaluation.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows a preauthorized application to read and update Licensing spend policies for Power Platform account provisioning.",
+    "AdminConsentDisplayName": "Licensing.SpendPolicy.ReadWrite",
+    "Id": "bc7585ca-3178-4f02-8f18-fe21cb28616a",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update Licensing spend policies on your behalf.",
+    "UserConsentDisplayName": "Licensing.SpendPolicy.ReadWrite",
+    "Value": "Licensing.SpendPolicy.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "ConnectorsAuth is a special empty delegated permission designed specially for the connectors First party app migration project",
     "AdminConsentDisplayName": "Connector First Party app migration",
     "Id": "cfca31e1-c5fa-444c-892d-bbe6dd35b539",

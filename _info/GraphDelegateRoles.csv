@@ -1716,6 +1716,8 @@
 "d603c21a-d512-4b5a-b552-c233ebbeaf2e","get_data_warehouse","Get data warehouse information from Microsoft Intune","Grants access to the Intune data warehouse API"
 "c39b1293-0279-419a-af35-634169af6fdc","user_impersonation","User impersonated access to the Microsoft Teams Bots","This will grant access to the Microsoft Teams Bots Services on behalf of the signed-in user."
 "a2ae160d-e79b-4d36-82eb-d00c436c99bb","Who.Read","Ask WhoBot questions on behalf of the signed-in user.","Allows the app to issue queries to WhoBot to get information about people in the user's organization based on info in AAD Directory, Exchange, etc."
+"2330eaa5-c444-4542-88ab-1787bbd617c9","Licensing.Evaluation.Read","Licensing.Evaluation.Read","Allows a preauthorized application to evaluate entitlements for consumption."
+"bc7585ca-3178-4f02-8f18-fe21cb28616a","Licensing.SpendPolicy.ReadWrite","Licensing.SpendPolicy.ReadWrite","Allows a preauthorized application to read and update Licensing spend policies for Power Platform account provisioning."
 "cfca31e1-c5fa-444c-892d-bbe6dd35b539","ConnectorsAuth","Connector First Party app migration","ConnectorsAuth is a special empty delegated permission designed specially for the connectors First party app migration project"
 "71be1273-d810-4937-9873-1d233e8a5736","UnboundAction.Perform.WithOrganization","Perform an unbound action in selected environment","Grants access to perform an unbound action in selected environment"
 "5f1d0a21-19c9-48f9-a5f0-90b037cfc9c2","UnboundAction.Perform","Perform an unbound action","Grants access to perform an unbound action"

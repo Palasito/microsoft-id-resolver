@@ -1573,11 +1573,11 @@
 "f29546b5-6166-470f-9dba-6464f1e03f86","BusinessAssist.Access","BusinessAssist.Access","Allow the user to access Microsoft 365 business assist APIs"
 "7f4267a9-db7c-4f04-9302-63f5344c62c6","Assist.All","Assist.All","allow access to all of assist api"
 "7a7538b8-224d-4242-a4d7-7efd9d90585b","Dynamics.Read.All","Read dynamics results","Allows the app to read dynamics results in Microsoft search in Bing results"
+"68c6d621-ef73-4169-82d9-8a3e930a2087","user_impersonation","Have full access to the Chat Service Aggregator","Allow application full access to the Chat service aggregator on behalf of the signed-in user"
 "64626988-0bf7-4404-9c5e-2e942162210c","Agent.Service.All","Have access to CSA Service","Allow application CSA Service behavior"
 "f06d0c46-34d8-4358-9782-36a2e777c812","announcements.read.all","Read all announcements","Allow the app to read all announcements messages for the requesting user."
 "8762e452-5668-459a-b06a-b8f7c8469dd2","channelmessage.read.all","Read channel messages","Allows an application to read the messages in a channel"
 "9125c627-3755-4ad3-8742-4d6b193c4fc2","filteredhierarchy.read.all","Read all filtered hierarchy","Allow reading of all filtered hierarchy"
-"68c6d621-ef73-4169-82d9-8a3e930a2087","user_impersonation","Have full access to the Chat Service Aggregator","Allow application full access to the Chat service aggregator on behalf of the signed-in user"
 "9b6a9212-3123-4e1e-b9db-3e5c820b7670","Targeting.ReadWrite","Have full access to Targeting Service","Allow
   application full access to Targeting Service on behalf of the signed-in user"
 "6c67f103-736c-44a0-9c09-6e72547c7d99","vso.securefiles_write","Secure Files (read, create)","Grants the ability to read and create secure files."

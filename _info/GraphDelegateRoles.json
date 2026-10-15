@@ -18828,6 +18828,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
+    "AdminConsentDisplayName": "Have full access to the Chat Service Aggregator",
+    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
+    "UserConsentDisplayName": "Have full access to the Chat Service Aggregator",
+    "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allow application CSA Service behavior",
     "AdminConsentDisplayName": "Have access to CSA Service",
     "Id": "64626988-0bf7-4404-9c5e-2e942162210c",
@@ -18873,18 +18885,6 @@
     "UserConsentDescription": "Allow reading of all filtered hierarchy",
     "UserConsentDisplayName": "Read all filtered hierarchy",
     "Value": "filteredhierarchy.read.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
-    "AdminConsentDisplayName": "Have full access to the Chat Service Aggregator",
-    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
-    "UserConsentDisplayName": "Have full access to the Chat Service Aggregator",
-    "Value": "user_impersonation",
     "AdditionalProperties": {}
   },
   {

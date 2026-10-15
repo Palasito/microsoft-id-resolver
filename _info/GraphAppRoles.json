@@ -13070,6 +13070,18 @@
     "AllowedMemberTypes": [
       "Application"
     ],
+    "Description": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
+    "DisplayName": "Have full access to the Chat Service Aggregator",
+    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "user_impersonation",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
     "Description": "Allows read all on node access",
     "DisplayName": "nodeaccess.read.all",
     "Id": "811e23df-61a9-44db-9987-e37355ae33b1",
@@ -13184,18 +13196,6 @@
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "filteredhierarchy.read.all",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow application full access to the Chat service aggregator on behalf of the signed-in user",
-    "DisplayName": "Have full access to the Chat Service Aggregator",
-    "Id": "68c6d621-ef73-4169-82d9-8a3e930a2087",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "user_impersonation",
     "AdditionalProperties": {}
   },
   {

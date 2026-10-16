@@ -602,6 +602,7 @@
 "4bfd5d66-9285-44a1-bb14-14953e8cdf5e","Audit GraphAPI Application","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "4c4f550b-42b2-4a16-93f9-fdb9e01bb6ed","Targeted Messaging Service","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "589d5083-6f11-4d30-a62a-a4b316a14abf","Azure Key Vault Managed HSM","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
+"56841561-dc28-442b-94a8-f8e4fd8b6fa4","CapacityPolicyAssignmentApp","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "703e2651-d3fc-48f5-942c-74274233dba8","Microsoft Dynamics ERP Microservices CDS","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "75861f5e-a448-49d7-9c99-6b59bc88c6dc","Modern Support Connector","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"
 "3734c1a4-2bed-4998-a37a-ff1a9e7bf019","Microsoft Azure Container Apps - Data Plane","f8cdef31-a31e-4b4a-93e4-5f571e91255a","Graph"

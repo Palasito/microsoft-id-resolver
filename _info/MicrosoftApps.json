@@ -3252,6 +3252,12 @@
     "source": "Graph"
   },
   {
+    "appId": "427ebe87-64e9-467b-9c5d-fc88b087e227",
+    "displayName": "Benefit Experiences",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "d00b5d58-cae5-42ad-ae0a-5a2e6f7ee6c9",
     "displayName": "Arc Token Service",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

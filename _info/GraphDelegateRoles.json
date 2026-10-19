@@ -12888,18 +12888,6 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow app to submit jobs to eDiscovery.",
-    "AdminConsentDisplayName": "eDiscovery.Jobs.Write",
-    "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
-    "IsEnabled": false,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow app to submit jobs to eDiscovery.",
-    "UserConsentDisplayName": "eDiscovery.Jobs.Write",
-    "Value": "eDiscovery.Jobs.Write",
-    "AdditionalProperties": {}
-  },
-  {
     "AdminConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
     "AdminConsentDisplayName": "eDiscovery.Jobs.Read",
     "Id": "0f062bc7-6f95-469a-810f-d846e6cbba44",
@@ -12909,6 +12897,18 @@
     "UserConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
     "UserConsentDisplayName": "eDiscovery.Jobs.Read",
     "Value": "eDiscovery.Jobs.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow app to submit jobs to eDiscovery.",
+    "AdminConsentDisplayName": "eDiscovery.Jobs.Write",
+    "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
+    "IsEnabled": false,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow app to submit jobs to eDiscovery.",
+    "UserConsentDisplayName": "eDiscovery.Jobs.Write",
+    "Value": "eDiscovery.Jobs.Write",
     "AdditionalProperties": {}
   },
   {

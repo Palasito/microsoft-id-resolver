@@ -14090,24 +14090,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allow app to submit jobs to eDiscovery.",
-    "DisplayName": "eDiscovery.Jobs.Write",
-    "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "eDiscovery.Jobs.Write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allow app to read properties of jobs submitted to eDiscovery.",
     "DisplayName": "eDiscovery.Jobs.Read",
     "Id": "0f062bc7-6f95-469a-810f-d846e6cbba44",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "eDiscovery.Jobs.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allow app to submit jobs to eDiscovery.",
+    "DisplayName": "eDiscovery.Jobs.Write",
+    "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "eDiscovery.Jobs.Write",
     "AdditionalProperties": {}
   },
   {

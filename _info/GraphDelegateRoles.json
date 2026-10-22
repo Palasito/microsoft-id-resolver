@@ -21132,27 +21132,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow app to submit jobs to eDiscovery.",
-    "AdminConsentDisplayName": "eDiscovery.Jobs.Write",
-    "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
+    "AdminConsentDescription": "Allow app to download the ediscovery exported data",
+    "AdminConsentDisplayName": "eDiscovery.Export.Download",
+    "Id": "df0d2e21-1705-4006-b158-1114609fdfbd",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow app to submit jobs to eDiscovery.",
-    "UserConsentDisplayName": "eDiscovery.Jobs.Write",
-    "Value": "eDiscovery.Jobs.Write",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
-    "AdminConsentDisplayName": "eDiscovery.Jobs.Read",
-    "Id": "0f062bc7-6f95-469a-810f-d846e6cbba44",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "Admin",
-    "UserConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
-    "UserConsentDisplayName": "eDiscovery.Jobs.Read",
-    "Value": "eDiscovery.Jobs.Read",
+    "Type": "User",
+    "UserConsentDescription": "Allow app to download the ediscovery exported data",
+    "UserConsentDisplayName": "eDiscovery.Export.Download",
+    "Value": "eDiscovery.Export.Download",
     "AdditionalProperties": {}
   },
   {
@@ -21168,15 +21156,27 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allow app to download the ediscovery exported data",
-    "AdminConsentDisplayName": "eDiscovery.Export.Download",
-    "Id": "df0d2e21-1705-4006-b158-1114609fdfbd",
+    "AdminConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
+    "AdminConsentDisplayName": "eDiscovery.Jobs.Read",
+    "Id": "0f062bc7-6f95-469a-810f-d846e6cbba44",
     "IsEnabled": true,
     "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allow app to download the ediscovery exported data",
-    "UserConsentDisplayName": "eDiscovery.Export.Download",
-    "Value": "eDiscovery.Export.Download",
+    "Type": "Admin",
+    "UserConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
+    "UserConsentDisplayName": "eDiscovery.Jobs.Read",
+    "Value": "eDiscovery.Jobs.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allow app to submit jobs to eDiscovery.",
+    "AdminConsentDisplayName": "eDiscovery.Jobs.Write",
+    "Id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allow app to submit jobs to eDiscovery.",
+    "UserConsentDisplayName": "eDiscovery.Jobs.Write",
+    "Value": "eDiscovery.Jobs.Write",
     "AdditionalProperties": {}
   },
   {

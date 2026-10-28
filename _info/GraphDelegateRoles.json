@@ -23940,27 +23940,15 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app user to view forms for the signed-in user.",
-    "AdminConsentDisplayName": "View user's forms",
-    "Id": "06b7d4cf-7757-4402-b310-dfc29621dc81",
+    "AdminConsentDescription": "Allows the app user to view forms responses for the signed-in user.",
+    "AdminConsentDisplayName": "View responses of user’s forms",
+    "Id": "67959cf5-ad1e-4b18-b9df-58fad1e7eb40",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app user to view forms for the signed-in user.",
-    "UserConsentDisplayName": "View user's forms",
-    "Value": "Forms.Read",
-    "AdditionalProperties": {}
-  },
-  {
-    "AdminConsentDescription": "Allows the app user to view and modify forms for the signed-in user.",
-    "AdminConsentDisplayName": "View and modify user's forms",
-    "Id": "2b46f208-3e71-4016-b165-71b4918b527b",
-    "IsEnabled": true,
-    "Origin": null,
-    "Type": "User",
-    "UserConsentDescription": "Allows the app user to view and modify forms for the signed-in user.",
-    "UserConsentDisplayName": "View and modify user's forms",
-    "Value": "Forms.ReadWrite",
+    "UserConsentDescription": "Allows the app user to view forms responses for the signed-in user.",
+    "UserConsentDisplayName": "View responses of user’s forms",
+    "Value": "Responses.Read.All",
     "AdditionalProperties": {}
   },
   {
@@ -23976,15 +23964,27 @@
     "AdditionalProperties": {}
   },
   {
-    "AdminConsentDescription": "Allows the app user to view forms responses for the signed-in user.",
-    "AdminConsentDisplayName": "View responses of user’s forms",
-    "Id": "67959cf5-ad1e-4b18-b9df-58fad1e7eb40",
+    "AdminConsentDescription": "Allows the app user to view and modify forms for the signed-in user.",
+    "AdminConsentDisplayName": "View and modify user's forms",
+    "Id": "2b46f208-3e71-4016-b165-71b4918b527b",
     "IsEnabled": true,
     "Origin": null,
     "Type": "User",
-    "UserConsentDescription": "Allows the app user to view forms responses for the signed-in user.",
-    "UserConsentDisplayName": "View responses of user’s forms",
-    "Value": "Responses.Read.All",
+    "UserConsentDescription": "Allows the app user to view and modify forms for the signed-in user.",
+    "UserConsentDisplayName": "View and modify user's forms",
+    "Value": "Forms.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app user to view forms for the signed-in user.",
+    "AdminConsentDisplayName": "View user's forms",
+    "Id": "06b7d4cf-7757-4402-b310-dfc29621dc81",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "User",
+    "UserConsentDescription": "Allows the app user to view forms for the signed-in user.",
+    "UserConsentDisplayName": "View user's forms",
+    "Value": "Forms.Read",
     "AdditionalProperties": {}
   },
   {

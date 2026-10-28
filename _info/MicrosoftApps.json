@@ -23736,6 +23736,12 @@
     "source": "EntraDocs"
   },
   {
+    "appId": "4f6144c0-a809-4c55-b3c8-7f9b7b15a1bf",
+    "displayName": "Partner Admin Reader",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
     "appId": "c15c22c0-9faf-424c-9b7e-bd91c06a240b",
     "displayName": "Account Owner",
     "appOwnerOrganizationId": "",
@@ -26210,6 +26216,48 @@
   {
     "appId": "61d6811f-7544-4e75-a1e6-1c59c0383311",
     "displayName": "Fabric Platform CMK",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "887c6b43-ba92-4adb-a82b-73670fc48dac",
+    "displayName": "Azure Durable task scheduler App ID",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "30b00405-3b4e-4003-933c-0d96ce47d670",
+    "displayName": "Davis Instruments WeatherLink FarmBeats Connector",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "1a5e141d-70dd-4594-8442-9fc46fa48686",
+    "displayName": "Avs Fleet Rp",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "92c174ac-8e41-4815-a1b7-d81b19ab03ce",
+    "displayName": "Discovery control-plane service App",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "6388acc4-795e-43a9-a320-33075c1eb83b",
+    "displayName": "Azure Orbital Microsoft Planetary Computer Pro",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "d828acde-4b48-47f5-a6e8-52460104a052",
+    "displayName": "Azure Automanage Account",
+    "appOwnerOrganizationId": "",
+    "source": "EntraDocs"
+  },
+  {
+    "appId": "f3c21649-0979-4721-ac85-b0216b2cf413",
+    "displayName": "Microsoft.Azure.CertificateRegistration",
     "appOwnerOrganizationId": "",
     "source": "EntraDocs"
   },

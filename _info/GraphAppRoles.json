@@ -15135,24 +15135,24 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Allows the app to view and modify forms.",
-    "DisplayName": "View and modify forms",
-    "Id": "4e4d02ed-7e38-4f9d-aa08-12b14a713f5e",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Forms.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
     "Description": "Allows the app to view forms",
     "DisplayName": "View forms",
     "Id": "5dadf886-6063-4169-a7a7-88a2a9f8f7cd",
     "IsEnabled": true,
     "Origin": "Application",
     "Value": "Forms.Read.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows the app to view and modify forms.",
+    "DisplayName": "View and modify forms",
+    "Id": "4e4d02ed-7e38-4f9d-aa08-12b14a713f5e",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Forms.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {

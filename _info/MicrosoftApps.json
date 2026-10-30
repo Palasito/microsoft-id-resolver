@@ -1464,6 +1464,12 @@
     "source": "Graph"
   },
   {
+    "appId": "5011132f-12d7-4327-bf50-7c522b0144dd",
+    "displayName": "MDA AppG DCS",
+    "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+    "source": "Graph"
+  },
+  {
     "appId": "60ca1954-583c-4d1f-86de-39d835f3e452",
     "displayName": "Radius Aad Syncer",
     "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",

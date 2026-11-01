@@ -97,7 +97,6 @@ jobs:
             echo "Updating repo"
             git config --global user.name 'Palasito'
             git config --global user.email 'chris.palavouzis@gmail.com'
-            git add _info/LicenseSkus.csv _info/LicenseSkus.json _info/LicenseServicePlans.csv _info/LicenseServicePlans.json
             git commit -am "Daily automation"
             git push
           else

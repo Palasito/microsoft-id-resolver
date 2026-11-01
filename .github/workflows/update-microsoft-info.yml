@@ -56,6 +56,39 @@ jobs:
             ./src/Export-MicrosoftApps.ps1
             ./src/Export-GraphPermissions.ps1
             ./src/Export-UTCMTypes.ps1        
+
+      # Partner Center only issues delegated (App+User) tokens, so a refresh token from an Admin Agent or
+      # Sales Agent user is redeemed here. Without it the script keeps the previously exported prices.
+      - name: Generate license data
+        shell: pwsh
+        env:
+          PARTNER_CENTER_TENANT_ID: ${{ vars.PARTNER_CENTER_TENANT_ID }}
+          PARTNER_CENTER_CLIENT_ID: ${{ vars.PARTNER_CENTER_CLIENT_ID }}
+          PARTNER_CENTER_CLIENT_SECRET: ${{ secrets.PARTNER_CENTER_CLIENT_SECRET }}
+          PARTNER_CENTER_REFRESH_TOKEN: ${{ secrets.PARTNER_CENTER_REFRESH_TOKEN }}
+        run: |
+          $exportParams = @{}
+
+          if ($env:PARTNER_CENTER_REFRESH_TOKEN) {
+            try {
+              $tokenResponse = Invoke-RestMethod -Method Post -Uri "https://login.microsoftonline.com/$($env:PARTNER_CENTER_TENANT_ID)/oauth2/v2.0/token" -Body @{
+                grant_type    = "refresh_token"
+                client_id     = $env:PARTNER_CENTER_CLIENT_ID
+                client_secret = $env:PARTNER_CENTER_CLIENT_SECRET
+                refresh_token = $env:PARTNER_CENTER_REFRESH_TOKEN
+                scope         = "https://api.partner.microsoft.com/user_impersonation offline_access"
+              }
+              $exportParams.PartnerCenterAccessToken = ConvertTo-SecureString $tokenResponse.access_token -AsPlainText -Force
+            }
+            catch {
+              Write-Output "::warning::Partner Center token redemption failed, prices were not refreshed. Renew PARTNER_CENTER_REFRESH_TOKEN."
+            }
+          }
+          else {
+            Write-Output "::warning::PARTNER_CENTER_REFRESH_TOKEN is not set, prices were not refreshed."
+          }
+
+          ./src/Export-LicenseSkus.ps1 @exportParams
         
       - name: Update repo
         run: |
@@ -64,6 +97,7 @@ jobs:
             echo "Updating repo"
             git config --global user.name 'Palasito'
             git config --global user.email 'chris.palavouzis@gmail.com'
+            git add _info/LicenseSkus.csv _info/LicenseSkus.json _info/LicenseServicePlans.csv _info/LicenseServicePlans.json
             git commit -am "Daily automation"
             git push
           else

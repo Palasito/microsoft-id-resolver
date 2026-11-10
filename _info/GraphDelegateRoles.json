@@ -20880,6 +20880,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows a preauthorized application to read write and update billing policies.",
+    "AdminConsentDisplayName": "Licensing.BillingPolicies.ReadWrite",
+    "Id": "95c7f493-173a-4265-8539-11553f0a1ca3",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read write and update billing policies.",
+    "UserConsentDisplayName": "Licensing.BillingPolicies.ReadWrite",
+    "Value": "Licensing.BillingPolicies.ReadWrite",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows a preauthorized application to evaluate entitlements for consumption.",
     "AdminConsentDisplayName": "Licensing.Evaluation.Read",
     "Id": "2330eaa5-c444-4542-88ab-1787bbd617c9",

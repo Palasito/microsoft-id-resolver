@@ -738,5 +738,10 @@
     "id": "58f930cc-fcf4-4152-852c-1d7dbf502139",
     "displayName": "Entra SOC Identity Responder",
     "source": "Graph"
+  },
+  {
+    "id": "ddc7372f-4ece-4e8d-8010-1b36d9992d23",
+    "displayName": "B2B Policy Administrator",
+    "source": "Graph"
   }
 ]

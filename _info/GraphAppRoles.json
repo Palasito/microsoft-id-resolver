@@ -13100,14 +13100,15 @@
   },
   {
     "AllowedMemberTypes": [
-      "Application"
+      "Application",
+      "User"
     ],
-    "Description": "Allows the application to manage synchronization of Windows Updates from Intune",
-    "DisplayName": "Intune Windows Updates Sync Management",
-    "Id": "d5760789-170d-4f8a-aafd-a03522e38f43",
+    "Description": "Allows full access to Microsoft Managed Desktop device enrollment content",
+    "DisplayName": "Microsoft Managed Desktop Device Enroller",
+    "Id": "318a1541-71b6-4e1e-ab46-874e6095cdfa",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "WindowsUpdates.IntuneSync.All",
+    "Value": "MmdDeviceEnroller.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -13115,36 +13116,24 @@
       "Application",
       "User"
     ],
-    "Description": "Allows read and write access to Microsoft Managed Desktop support tools",
-    "DisplayName": "Microsoft Managed Desktop Support Manager",
-    "Id": "50d736c0-5102-4a54-b3f6-95509aae4293",
+    "Description": "Allows access to MMD application tester content",
+    "DisplayName": "MMD Application Tester",
+    "Id": "1dcf702a-7efe-47e6-961f-68634c4a4ecd",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "MmdSupport.ReadWrite",
+    "Value": "MmdAppTester.ReadWrite",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Allows full access to Microsoft Managed Desktop security content",
-    "DisplayName": "Microsoft Managed Desktop Security Manager",
-    "Id": "cc7c4bbe-899d-4d36-931e-acd7450e2257",
+    "Description": "Allows full access to MMD support partner content",
+    "DisplayName": "MMD Support Partner",
+    "Id": "c6590ff6-a8c9-4a49-a7df-97e6a0bf8025",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "MmdSecurityManager.ReadWrite",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "User"
-    ],
-    "Description": "Allows read access to Microsoft Managed Desktop service content",
-    "DisplayName": "Microsoft Managed Desktop Service Reader",
-    "Id": "e2b1b7fd-b461-407c-acc6-4a2f357fc161",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "MmdServiceAdmin.Read",
+    "Value": "MmdSupportPartner.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -13163,12 +13152,24 @@
     "AllowedMemberTypes": [
       "User"
     ],
-    "Description": "Allows full access to MMD support partner content",
-    "DisplayName": "MMD Support Partner",
-    "Id": "c6590ff6-a8c9-4a49-a7df-97e6a0bf8025",
+    "Description": "Allows read access to Microsoft Managed Desktop service content",
+    "DisplayName": "Microsoft Managed Desktop Service Reader",
+    "Id": "e2b1b7fd-b461-407c-acc6-4a2f357fc161",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "MmdSupportPartner.ReadWrite",
+    "Value": "MmdServiceAdmin.Read",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "User"
+    ],
+    "Description": "Allows full access to Microsoft Managed Desktop security content",
+    "DisplayName": "Microsoft Managed Desktop Security Manager",
+    "Id": "cc7c4bbe-899d-4d36-931e-acd7450e2257",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "MmdSecurityManager.ReadWrite",
     "AdditionalProperties": {}
   },
   {
@@ -13176,25 +13177,24 @@
       "Application",
       "User"
     ],
-    "Description": "Allows access to MMD application tester content",
-    "DisplayName": "MMD Application Tester",
-    "Id": "1dcf702a-7efe-47e6-961f-68634c4a4ecd",
+    "Description": "Allows read and write access to Microsoft Managed Desktop support tools",
+    "DisplayName": "Microsoft Managed Desktop Support Manager",
+    "Id": "50d736c0-5102-4a54-b3f6-95509aae4293",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "MmdAppTester.ReadWrite",
+    "Value": "MmdSupport.ReadWrite",
     "AdditionalProperties": {}
   },
   {
     "AllowedMemberTypes": [
-      "Application",
-      "User"
+      "Application"
     ],
-    "Description": "Allows full access to Microsoft Managed Desktop device enrollment content",
-    "DisplayName": "Microsoft Managed Desktop Device Enroller",
-    "Id": "318a1541-71b6-4e1e-ab46-874e6095cdfa",
+    "Description": "Allows the application to manage synchronization of Windows Updates from Intune",
+    "DisplayName": "Intune Windows Updates Sync Management",
+    "Id": "d5760789-170d-4f8a-aafd-a03522e38f43",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "MmdDeviceEnroller.ReadWrite",
+    "Value": "WindowsUpdates.IntuneSync.All",
     "AdditionalProperties": {}
   },
   {

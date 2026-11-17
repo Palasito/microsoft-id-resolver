@@ -13560,6 +13560,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to execute shielding plans on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Execute shielding plans",
+    "Id": "f22fc288-3d6d-4548-9b7d-19732dfe95d3",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to execute shielding plans on your behalf.",
+    "UserConsentDisplayName": "Execute shielding plans",
+    "Value": "ShieldingPlan.Execute",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to create and reject shielding plans that the signed-in user can manage.",
     "AdminConsentDisplayName": "Create and manage shielding plans",
     "Id": "ef86bb8e-23d9-40e0-9f7e-f5aad12db97b",

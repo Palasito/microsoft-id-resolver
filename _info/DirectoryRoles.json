@@ -740,6 +740,11 @@
     "source": "Graph"
   },
   {
+    "id": "749877fd-c267-4b82-94fd-cc50a0e4bff4",
+    "displayName": "Organizational Data Source Reader",
+    "source": "Graph"
+  },
+  {
     "id": "ddc7372f-4ece-4e8d-8010-1b36d9992d23",
     "displayName": "B2B Policy Administrator",
     "source": "Graph"

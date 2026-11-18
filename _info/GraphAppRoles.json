@@ -1275,96 +1275,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Grants WellKnown application capabilities",
-    "DisplayName": "Dataflow.AccessAsWellKnownClient.All",
-    "Id": "51f5aba9-144c-498b-9fe1-0b26c046ec08",
+    "Description": "DataflowLoadToCds.ReadWrite.All (Internal)",
+    "DisplayName": "DataflowLoadToCds.ReadWrite.All",
+    "Id": "4f9439ec-3c94-45dc-9fa4-f18ff1e22bc9",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Dataflow.AccessAsWellKnownClient.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Grants the use of the AppOnlyTokenProvider",
-    "DisplayName": "Connections.AccessAppOnlyTokenProvider.All",
-    "Id": "95aeaba8-4a57-4e56-90a4-59d203050155",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Connections.AccessAppOnlyTokenProvider.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Declare the client as well known",
-    "DisplayName": "EvaluatorApi.AccessAsWellKnownClient.All",
-    "Id": "03c0694c-a8f0-451e-a114-eaf90f6b178f",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "EvaluatorApi.AccessAsWellKnownClient.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Evaluate M queries",
-    "DisplayName": "Mashup.Evaluate",
-    "Id": "3438898e-1b63-4276-bc81-84a61abeeb2c",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Mashup.Evaluate",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allows Dataverse read and write access to Power Platform Dataflows using S2S app only token",
-    "DisplayName": "PowerPlatformDataflowsDataverseApi.ReadWrite.All",
-    "Id": "2dbb57c8-3461-4859-9577-f871158be1c7",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PowerPlatformDataflowsDataverseApi.ReadWrite.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Testing.NoOp.All (Internal)",
-    "DisplayName": "Testing.NoOp.All",
-    "Id": "122be7f0-6f45-4d5d-8fe6-c92b9bae636d",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "Testing.NoOp.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Gives the ability to call the api evaluator route with an S2S token and User and Tenant headers for the actual user",
-    "DisplayName": "EvaluatorApi.AccessAsUser.All",
-    "Id": "6ee71d64-f037-41c8-a304-0da50cb763e3",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "EvaluatorApi.AccessAsUser.All",
-    "AdditionalProperties": {}
-  },
-  {
-    "AllowedMemberTypes": [
-      "Application"
-    ],
-    "Description": "Allow read and write access to Power Platform Dataflows public APIs using S2S app only token",
-    "DisplayName": "PowerPlatformDataflowApi.ReadWrite.All",
-    "Id": "8b009198-76cd-4d24-89d8-e12ac56fd300",
-    "IsEnabled": true,
-    "Origin": "Application",
-    "Value": "PowerPlatformDataflowApi.ReadWrite.All",
+    "Value": "DataflowLoadToCds.ReadWrite.All",
     "AdditionalProperties": {}
   },
   {
@@ -1383,12 +1299,96 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "DataflowLoadToCds.ReadWrite.All (Internal)",
-    "DisplayName": "DataflowLoadToCds.ReadWrite.All",
-    "Id": "4f9439ec-3c94-45dc-9fa4-f18ff1e22bc9",
+    "Description": "Allow read and write access to Power Platform Dataflows public APIs using S2S app only token",
+    "DisplayName": "PowerPlatformDataflowApi.ReadWrite.All",
+    "Id": "8b009198-76cd-4d24-89d8-e12ac56fd300",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "DataflowLoadToCds.ReadWrite.All",
+    "Value": "PowerPlatformDataflowApi.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Gives the ability to call the api evaluator route with an S2S token and User and Tenant headers for the actual user",
+    "DisplayName": "EvaluatorApi.AccessAsUser.All",
+    "Id": "6ee71d64-f037-41c8-a304-0da50cb763e3",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EvaluatorApi.AccessAsUser.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Testing.NoOp.All (Internal)",
+    "DisplayName": "Testing.NoOp.All",
+    "Id": "122be7f0-6f45-4d5d-8fe6-c92b9bae636d",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Testing.NoOp.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Allows Dataverse read and write access to Power Platform Dataflows using S2S app only token",
+    "DisplayName": "PowerPlatformDataflowsDataverseApi.ReadWrite.All",
+    "Id": "2dbb57c8-3461-4859-9577-f871158be1c7",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "PowerPlatformDataflowsDataverseApi.ReadWrite.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Evaluate M queries",
+    "DisplayName": "Mashup.Evaluate",
+    "Id": "3438898e-1b63-4276-bc81-84a61abeeb2c",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Mashup.Evaluate",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Declare the client as well known",
+    "DisplayName": "EvaluatorApi.AccessAsWellKnownClient.All",
+    "Id": "03c0694c-a8f0-451e-a114-eaf90f6b178f",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "EvaluatorApi.AccessAsWellKnownClient.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Grants the use of the AppOnlyTokenProvider",
+    "DisplayName": "Connections.AccessAppOnlyTokenProvider.All",
+    "Id": "95aeaba8-4a57-4e56-90a4-59d203050155",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Connections.AccessAppOnlyTokenProvider.All",
+    "AdditionalProperties": {}
+  },
+  {
+    "AllowedMemberTypes": [
+      "Application"
+    ],
+    "Description": "Grants WellKnown application capabilities",
+    "DisplayName": "Dataflow.AccessAsWellKnownClient.All",
+    "Id": "51f5aba9-144c-498b-9fe1-0b26c046ec08",
+    "IsEnabled": true,
+    "Origin": "Application",
+    "Value": "Dataflow.AccessAsWellKnownClient.All",
     "AdditionalProperties": {}
   },
   {

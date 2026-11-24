@@ -159,12 +159,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Delete Team for particular Team ID and Tenant ID",
-    "DisplayName": "Delete Team data",
-    "Id": "570282fd-fa5c-430d-a7fd-fc8dc98a9fda",
+    "Description": "Delete Users data with particular user ID, TenantID",
+    "DisplayName": "Delete User data",
+    "Id": "570282fd-fa5c-430d-a7fd-fc8dc98a9daf",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "Team.Delete.AADSyncApp",
+    "Value": "User.Delete.AADSyncApp",
     "AdditionalProperties": {}
   },
   {
@@ -183,12 +183,12 @@
     "AllowedMemberTypes": [
       "Application"
     ],
-    "Description": "Delete Users data with particular user ID, TenantID",
-    "DisplayName": "Delete User data",
-    "Id": "570282fd-fa5c-430d-a7fd-fc8dc98a9daf",
+    "Description": "Delete Team for particular Team ID and Tenant ID",
+    "DisplayName": "Delete Team data",
+    "Id": "570282fd-fa5c-430d-a7fd-fc8dc98a9fda",
     "IsEnabled": true,
     "Origin": "Application",
-    "Value": "User.Delete.AADSyncApp",
+    "Value": "Team.Delete.AADSyncApp",
     "AdditionalProperties": {}
   },
   {

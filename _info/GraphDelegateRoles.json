@@ -8208,6 +8208,18 @@
     "AdditionalProperties": {}
   },
   {
+    "AdminConsentDescription": "Allows the app to read your organization's feature toggle policy on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read your feature toggle policy",
+    "Id": "7507098b-7bae-49d4-9d50-5993a7ad2987",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read your organization's feature toggle policy on your behalf.",
+    "UserConsentDisplayName": "Read your feature toggle policy",
+    "Value": "Policy.Read.AuthFeatureToggle",
+    "AdditionalProperties": {}
+  },
+  {
     "AdminConsentDescription": "Allows the app to read the authentication method policies, on behalf of the signed-in user. ",
     "AdminConsentDisplayName": "Read authentication method policies",
     "Id": "a6ff13ac-1851-4993-8ca9-a671d70de2d5",
@@ -8337,6 +8349,18 @@
     "UserConsentDescription": "Allows the app to read and write your organization's application configuration policies on your behalf.  This includes policies such as activityBasedTimeoutPolicy, claimsMappingPolicy, homeRealmDiscoveryPolicy, tokenIssuancePolicy  and tokenLifetimePolicy.",
     "UserConsentDisplayName": "Read and write your organization's application configuration policies",
     "Value": "Policy.ReadWrite.ApplicationConfiguration",
+    "AdditionalProperties": {}
+  },
+  {
+    "AdminConsentDescription": "Allows the app to read and update your organization's feature toggle policy on behalf of the signed-in user.",
+    "AdminConsentDisplayName": "Read and write your feature toggle policy",
+    "Id": "c0b02b42-c585-4b44-af20-171be09a05a7",
+    "IsEnabled": true,
+    "Origin": null,
+    "Type": "Admin",
+    "UserConsentDescription": "Allows the app to read and update your organization's feature toggle policy on your behalf.",
+    "UserConsentDisplayName": "Read and write your feature toggle policy",
+    "Value": "Policy.ReadWrite.AuthFeatureToggle",
     "AdditionalProperties": {}
   },
   {
